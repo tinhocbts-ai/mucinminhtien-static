@@ -133,6 +133,33 @@ body.nav-open .nav-toggle span:nth-child(3) { transform: translateY(-7px) rotate
   100% { box-shadow: 0 0 0 0 rgba(255,122,48,0); }
 }
 
+/* Promo slider */
+.promo-slider { position: relative; overflow: hidden; }
+.slider-track { display: flex; transition: transform .6s ease; }
+.slide { min-width: 100%; padding: 56px 0; text-align: center; color: #fff; }
+.slide-inner { max-width: 640px; margin: 0 auto; }
+.slide-tag {
+  display: inline-block; background: rgba(255,255,255,.18); border: 1px solid rgba(255,255,255,.35);
+  padding: 6px 16px; border-radius: 999px; font-size: .8rem; font-weight: 700; letter-spacing: .03em;
+  text-transform: uppercase; margin-bottom: 14px;
+}
+.slide h2 { color: #fff; margin-bottom: 10px; }
+.slide p { color: rgba(255,255,255,.92); margin-bottom: 22px; }
+.slide-a { background: linear-gradient(120deg, var(--accent-dark), var(--accent)); }
+.slide-b { background: linear-gradient(120deg, var(--primary-dark), var(--primary)); }
+.slide-c { background: linear-gradient(120deg, #1c2733, #3a4b5c); }
+.slider-arrow {
+  position: absolute; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; border-radius: 50%;
+  border: none; background: rgba(255,255,255,.25); color: #fff; font-size: 1.1rem; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; transition: background .18s; z-index: 5;
+}
+.slider-arrow:hover { background: rgba(255,255,255,.45); }
+.slider-arrow.prev { left: 16px; }
+.slider-arrow.next { right: 16px; }
+.slider-dots { position: absolute; left: 0; right: 0; bottom: 14px; display: flex; justify-content: center; gap: 8px; z-index: 5; }
+.dot { width: 9px; height: 9px; border-radius: 50%; border: none; background: rgba(255,255,255,.45); cursor: pointer; padding: 0; }
+.dot.active { background: #fff; width: 22px; border-radius: 5px; }
+
 /* Hero */
 .hero {
   background: linear-gradient(135deg, var(--primary-dark), var(--primary) 70%);
@@ -249,4 +276,9 @@ table.price-table tr:hover td { background: var(--bg-soft); }
   section { padding: 44px 0; }
   .footer-inner { grid-template-columns: 1fr; gap: 26px; }
   .cta-banner { padding: 28px 20px; }
+  .slide { padding: 40px 0 46px; }
+  .slide-inner { padding: 0 36px; }
+  .slider-arrow { width: 34px; height: 34px; font-size: .9rem; }
+  .slider-arrow.prev { left: 6px; }
+  .slider-arrow.next { right: 6px; }
 }
