@@ -21,11 +21,15 @@ const sharp = require('sharp');
 const W = 1200, H = 675;
 const OUT_DIR = path.join(__dirname, '..', 'assets', 'img', 'hero');
 
-const [, , srcPath, titleRaw, outName, subRaw] = process.argv;
+const [, , srcPath, titleRaw, outName, subRaw, posRaw, blurRaw] = process.argv;
 if (!srcPath || !titleRaw || !outName) {
-  console.log('Cach dung: node tools/design-anh.js "<anh goc>" "<tieu de | dong 2>" <ten-file-ra> [chu phu]');
+  console.log('Cach dung: node tools/design-anh.js "<anh goc>" "<tieu de | dong 2>" <ten-file-ra> [chu phu] [vi tri crop] [blur=x,y,w,h]');
+  console.log('  vi tri crop: attention (mac dinh) | centre | top | bottom | left | right');
+  console.log('  blur=x,y,w,h: lam mo 1 vung (toa do tren khung 1200x675) — che sticker/thong tin la');
   process.exit(1);
 }
+const POS = { top: 'north', bottom: 'south', left: 'west', right: 'east' }[posRaw] || posRaw || 'attention';
+const BLUR = /^blur=/.test(blurRaw || '') ? blurRaw.slice(5).split(',').map(Number) : null;
 
 function esc(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -68,11 +72,16 @@ const overlay = `<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/s
   const fs = require('fs');
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const outPath = path.join(OUT_DIR, outName + '.webp');
-  const photo = await sharp(srcPath)
+  let photo = await sharp(srcPath)
     .rotate() // ton trong EXIF orientation anh chup dien thoai
-    .resize(W, H, { fit: 'cover', position: 'attention' })
+    .resize(W, H, { fit: 'cover', position: POS })
     .modulate({ brightness: 0.96, saturation: 1.05 })
     .toBuffer();
+  if (BLUR) {
+    const [bx, by, bw, bh] = BLUR;
+    const patch = await sharp(photo).extract({ left: bx, top: by, width: bw, height: bh }).blur(18).toBuffer();
+    photo = await sharp(photo).composite([{ input: patch, left: bx, top: by }]).toBuffer();
+  }
   const info = await sharp(photo)
     .composite([{ input: Buffer.from(overlay), top: 0, left: 0 }])
     .webp({ quality: 78 })
