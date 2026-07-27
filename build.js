@@ -104,6 +104,28 @@ function build() {
   // danh sach slug SP cho 404.html (redirect URL /product/<slug>/ cu)
   cfg.slugs404 = productData ? JSON.stringify(productData.products.map(p => p.slug)) : '[]';
 
+  // ---- Bang gia day du (data/bang-gia.json -> {{priceTables}} trong src/bang-gia) ----
+  const BANGGIA_FILE = path.join(ROOT, 'data', 'bang-gia.json');
+  if (fs.existsSync(BANGGIA_FILE)) {
+    const bg = JSON.parse(fs.readFileSync(BANGGIA_FILE, 'utf8'));
+    const byG = {};
+    for (const i of bg.items) (byG[i.group] = byG[i.group] || []).push(i);
+    const order = ['hop-muc', 'drum-trong', 'gat-muc', 'truc-tu', 'chip-seal', 'lo-say-lo-ep', 'muc-photo', 'giay-ruybang', 'linh-kien-fax', 'linh-kien-khac'];
+    let html = '';
+    for (const g of order) {
+      if (!byG[g]) continue;
+      html += '      <h3 class="bg-group" id="bg-' + g + '">' + bg.groups[g] + ' <span class="bg-count">(' + byG[g].length + ' mã)</span></h3>\n';
+      html += '      <div class="price-table-wrap"><table class="price-table bg-table"><thead><tr><th>Sản phẩm</th><th style="width:140px">Giá tham khảo</th></tr></thead><tbody>\n';
+      for (const i of byG[g]) {
+        const nm = i.page ? '<a href="../san-pham/' + i.page + '/">' + escAttr(i.name) + '</a>' : escAttr(i.name);
+        html += '<tr><td>' + nm + '</td><td class="price">' + formatPrice(i.price) + '</td></tr>\n';
+      }
+      html += '</tbody></table></div>\n';
+    }
+    cfg.priceTables = html;
+    cfg.priceCount = bg.items.length;
+  } else { cfg.priceTables = ''; cfg.priceCount = 0; }
+
   // ---- Phan 1: render cac trang src/ ----
   const templates = listTemplates(SRC);
   for (const rel of templates) {

@@ -1,0 +1,4696 @@
+{
+ "groups": {
+  "hop-muc": "Hộp mực & mực in máy in",
+  "muc-photo": "Mực & linh kiện máy photocopy",
+  "drum-trong": "Drum / Trống máy in",
+  "gat-muc": "Gạt mực",
+  "truc-tu": "Trục từ",
+  "chip-seal": "Chip & Seal",
+  "lo-say-lo-ep": "Lô sấy, lô ép & linh kiện sấy",
+  "giay-ruybang": "Giấy in & Ruy băng",
+  "linh-kien-fax": "Linh kiện máy fax",
+  "linh-kien-khac": "Linh kiện khác"
+ },
+ "items": [
+  {
+   "name": "10 cuộn Giấy in nhiệt khổ 80mm x 45 - nhiệt 80x45",
+   "price": 90000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "5 cây Drum trống in Mitsu 12A-FX9 (Nhật) - Mitsu 12A-FX9",
+   "price": 185000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "5 chai Mực nạp Premium dành cho máy in Caon,HP - Cannon,HP",
+   "price": 110000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bạc phíp 12A dùng cho máy Canon 2900 ( giá tính trên 1 cặp) - Bạc Phíp 12A",
+   "price": 25000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bánh xe 96A dùng cho máy in HP 2100 - Bánh xe HP 2100",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bánh xe lấy 280-282-283- E450-453-455-456-506 (combo 2 cái dày) - Bánh xe 282",
+   "price": 60000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bánh xe lấy giấy Epson 1390 / 1100 / 1900 / 2400 / 1400 / 1430 / L1300 / L1800 - BÁNH XE 1390",
+   "price": 95000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Bánh xe lấy giấy Epson R230 / T50 / T60 / L805 / L310 / L300 - BÁNH XE R210",
+   "price": 95000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Bánh xe lấy giấy sử dụng cho máy in Ricoh MP4000/5000/ MP4001/5001(1 bộ 3 cái) - 2938_111837833",
+   "price": 140000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Bánh xe lấy giấy,quả đào IR 2020-2016-2420-2116-1600-165-155 - Quả đào IR 2016",
+   "price": 250000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Bánh xe lấy giấy,quả đào IR 2270-2230-3030-4570-2520-2530-2525-2545 - Quả đào 2270",
+   "price": 250000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Bánh xe máy in HP 4200/4300/4700/P4014/4015/HP600/601/602/603/606/4250/4350 - Bánh xe máy in HP 4200 khay 2",
+   "price": 120000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bánh xe T e-Studio 550-650-810(1 cặp 1 dày 1 mỏng) - bánh xe 550",
+   "price": 50000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa 1320-2900-2035-400-401-2015-1200-05a-12a-136X - bao lụa 1200",
+   "price": 80000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa 48A dùng cho máy HP LaserJet Pro M15a/ M28a/ M28w - BAO LỤA 48A",
+   "price": 80000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa 55A dành cho máy in laser HP P3015 / P3016 (55A) ( loại tốt) - Bao lụa 55A",
+   "price": 240000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa 55A dành cho máy in laser HP P3015 / P3016 (55A) ( loại tốt) - Bao lụa 55A",
+   "price": 240000,
+   "group": "lo-say-lo-ep",
+   "page": "bao-lua-55a-danh-cho-may-in-laser-hp-p3015-p3016-55a-loai-tot"
+  },
+  {
+   "name": "Bao lụa 87A dùng cho máy in HP M501/506/507 - Bao lụa 87A",
+   "price": 199000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa Canon IR 2016-2020( CET) - bao lụa IR 2016",
+   "price": 280000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa Canon iR2535 / 2545 / 4025 / 4035 - iR2535",
+   "price": 820000,
+   "group": "lo-say-lo-ep",
+   "page": "bao-lua-canon-ir2535-2545-4025-4035"
+  },
+  {
+   "name": "Bao lụa CF410 dùng cho máy in màu HP M377/452/477 - bao lụa CF410",
+   "price": 199000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa dùng cho máy HP 5100-5200-5025-5035 - Bao lụa 5200",
+   "price": 200000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa dùng cho máy in HP 402D-226A - bao lụa 226",
+   "price": 80000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa dùng cho máy in HP M153 / M176 / M177 / 175 / 252 / 277 / 1025 - Bao lụa 1025",
+   "price": 180000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao Lụa HP M607/M608/M609/M631dn - Bao Lụa HP M607",
+   "price": 550000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa HP P3014- P3015 55A ( loại thường ) - Bao lụa 3014",
+   "price": 120000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa Laser Jet M712-706-IR 2002 - IR 2002",
+   "price": 280000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa LaserJet P1606N / 2035 / M401n RM1-6405 ( CET ) - BAO LỤA CET",
+   "price": 120000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa máy in màu CF400 HP M452 - Bao lụa CF400/410",
+   "price": 199000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa photo IR 2016 /2020 - Bao lụa photo IR 2016 /2020",
+   "price": 140000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa sấy dùng cho máy in HP Color CP1215/ 1515/ 1525/ CM1312/ 1415 - Bao lụa 1215",
+   "price": 160000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa sấy máy in HP LaserJet M4555MFP/ 600/ M601/ M602/ M603/ M604/ HP 4015 - Bao lụa thép 601",
+   "price": 390000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa sử dụng cho máy HP M435/M701/706 - Bao lụa 706",
+   "price": 250000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa sử dụng cho máy in Brother DCP-L5500 L5600 L5650 HL-5000 5100 5200 6200 L6250 L6300 L6400 5580 5585 5590 MFC - Bao lụa brother 5100",
+   "price": 250000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa sử dụng cho máy in Pro M102a-M130FN-M20DN-M227fnw-Pro M203DN-M227FDW 17A/30A - bao lụa 17A/30A",
+   "price": 80000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa, phim sấy cho máy P105/ M105/ P158/ M158/ P205/ M205 - Bao lụa xerox P105",
+   "price": 60000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bao lụa, Phim sấy iR2016/2018/2270/ 2520/ 2525 - Bao lụa iR2016",
+   "price": 280000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Băng mực Epson ERC 05-5 (5 cái) Mực In Cân Điện Tử - ERC 05",
+   "price": 175000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Băng mực ruy băng sử dụng cho Máy in kim Epson LQ590 (LQ-590) - A4 - 2937_116214716",
+   "price": 280000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Bầu lọc máy hút mực OMG - Bộ lọc máy hút mực",
+   "price": 400000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ 10 chíp 35A ,CA-NON 312, cho HP P1005,P1006, P1007, 1008, P1505, M1522, M1120 - Bộ 5 chíp 35A",
+   "price": 30000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bộ 2 con Chip HP CE390A 90A BLACK M4555MFP/M602N/M602DN/M602X/M603/M603N/M603DN/M603XH - Chip HP CE390A",
+   "price": 50000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Bộ 2 con Chip mực 55A dùng cho máy in HP LaserJet P3015 - Chíp 55A",
+   "price": 35000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Bộ 3 con Chíp (xanh, vàng, đỏ) mực máy in HP 1600/ 2600 - Chíp mực máy in HP 1600/ 2600",
+   "price": 25000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ 4 chai Mực Pigment Inktec Hàn Quốc (1 Lít) - MỰC DẦU",
+   "price": 990000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ 4 con chip CF350/51/52/53 dùng cho máy in HP M177FW/ M176N - chíp CF350",
+   "price": 80000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Bộ 4 con chip CF350/51/52/53 dùng cho máy in HP M177FW/ M176N - chíp CF350",
+   "price": 80000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Bộ 4 con Chíp Hộp Mực Laser Màu Canon 054BK/C/Y/M máy Can MF642cdw CRG-054(BK/Y/C/M) - 2938_44526093",
+   "price": 180000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ 4 con Chíp laser màu HP 202, CF 500a, 501a, 502a, 503a cho máy HP m244, 280, 281 - Chíp laser màu HP 202, CF 500a, 501a, 502a",
+   "price": 120000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bộ 5 Chíp 83A/ 337A cho máy HP M127NF/Canon 211/212/ M201(CF283X/CRG 337) - Bộ 5 Chíp 83A",
+   "price": 75000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bộ 5 chíp Hp 05a , 2035 , 2055 - Bộ 5 chíp Hp 05a, 2035, 2055",
+   "price": 74000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bộ 5 chíp Hp 85a, Canon 325, cho HP 1102w, 1132, 1212, m1212nf, p1102, Canon LBP 6000, 6030 - chíp 85A",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bộ bánh răng đảo mặt Canon 3300, bộ nhông đảo mặt Canon 3300 - Nhông đảo mặt 3300",
+   "price": 200000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bộ bánh xe lấy giấy Máy in laser Brother HL 2240 2250 2321 - Quả đào 2240",
+   "price": 90000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Bộ chíp (4 con BK/C/M/Y ) Canon Cartridge 331 dùng cho máy in Canon LBP7100Cn / LBP7110Cw /MF8210Cn / MF8280Cw - Chíp 331",
+   "price": 100000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ chíp (4 con BK/C/M/Y ) Canon Cartridge 331 dùng cho máy in Canon LBP7100Cn / LBP7110Cw /MF8210Cn / MF8280Cw - Chíp 331",
+   "price": 100000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ chíp 4 con Hộp Mực Samsung CTL 409 cho máy CLP-310/315/CLX-3170/3175 - chíp 409",
+   "price": 80000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ chip 4 con Samsung 407 CLT407 cho máy CLP 320 325 clp320 clp325 CLX 3180 3185 clx3185 - chíp Samsung 407",
+   "price": 80000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Bộ chip 4 màu Xerox DocuPrint CP305d/ CM305d/ CM305df - Bộ chip 4 màu Xerox DocuPrint CP305d/ CM305d/",
+   "price": 60000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Bộ chip CE740/741/742/743 - 307A BK/C/Y/M cho máy in HP Color LaserJet CP5220/ CP5225 ( 4 CON/ 1 BỘ) - Bộ chíp CE740/41/42/43",
+   "price": 199000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Bộ chíp hộp mực HP Pro M154A/ M180N/ M181F ( CF510/11/12/13 ) - CF510",
+   "price": 180000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ Chíp Hộp Mực Laser Màu HP CE 270A-271A-272A-273A (650A) - Chíp CE 270A-271A-272A-273A (650A)",
+   "price": 80000,
+   "group": "hop-muc",
+   "page": "bo-chip-hop-muc-laser-mau-hp-ce-270a-271a-272a-273a-650a"
+  },
+  {
+   "name": "Bộ Chip mực + chíp drum máy in Samsung M2625/2626/2675/2825/2875(116S) (2 con trên 1 bbộ) - Chíp 116S",
+   "price": 70000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Bộ Chíp Oki C301 - 321 bao gồm BK-C-Y-M- ( giá tính trên 1 bộ ) - Chíp Oki 321",
+   "price": 200000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bộ cò sấy To.shiba 350/352/353/358/450/452/453/458/E28/E35 (6 cái) - cò 350",
+   "price": 199000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bộ Cụm mực 411 + cụm drum máy Fax KX-FAD 412 cho máy Fax KX-MB2030, KX-MB2025, KX-MB2010 - CỤM MỰC 411+ CỤM DRUM 412",
+   "price": 850000,
+   "group": "linh-kien-fax",
+   "page": "bo-cum-muc-411-cum-drum-may-fax-kx-fad-412-cho-may-fax-kx-mb2030-kx-mb2025-kx-mb2010"
+  },
+  {
+   "name": "Bộ gồm Cụm drum+ hộp mực Xerox P115, M115b, M115fw, M115w - Bộ gồm Cụm drum+ hộp mực Xerox P115",
+   "price": 320000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Bộ Hộp mực + cụm drum 051A - dùng cho máy in LBP161/MF266/MF269 (có CHIP) - 051A",
+   "price": 360000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Bộ Hộp Mực + Cụm drum 30A / 32A cho máy In Laser - Pro M203DN - M227FDW - HP264 - có chíp - 30A / 32A",
+   "price": 270000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Bộ Hộp mực B022 + Cụm drum (khay trống + cụm từ ) máy in Brother 7535HL B2000d, B2080dw, B7715dw, DCP-B7535dw, DR B022 - DR TN B022",
+   "price": 385000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Bộ Mực in Canon 331 (M/BK/Y/C) - Dùng cho LBP-7110CW, LBP-7100CN, MF-8210CN ( 4 màu trên 1 bộ) - Bộ mực 331",
+   "price": 1400000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ Mực in Epson EcoTank L3110/L3150 (003BK/C/Y/M) (70ml/chai) giá tính trên 1 bộ - 2937_116590913",
+   "price": 119000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ Mực in Epson EcoTank L8050/L18050 (057BK/C/Y/M/LC/LM) (70ml/chai) - 2937_116590907",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": "bo-muc-in-epson-ecotank-l8050l18050-057bkcymlclm-70mlchai"
+  },
+  {
+   "name": "Bộ Mực in phun Art Paper UV Epson Ecotank BK/C/Y/M/LM/LC giá tính trên 1bộ 6 màu (70ml/bot) - 2937_118351612",
+   "price": 480000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ Mực laser màu cho máy Brother HL-3230CDN, 3270CDW, MFC-3770CDW, 3750CDW, 3551CDW,HL-L8260CDN/8360CDW/ MFC-L8690CDW - Mực màu Brother",
+   "price": 640000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ mực nạp + Chíp HP CF 56A Dùng cho máy in HP M436n- M436dn- M436nda - Bộ mực nạp + Chíp HP CF 256A",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ Mực nạp + chíp màu HP 119A dùng cho Máy in laser màu HP Color Laser 150NW ( giá tính trên 1 chai) - 119A",
+   "price": 110000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ Mực nạp laser màu HP M252/277/281/202(CF400,401,402,403/CF500.501,502,503) ( 4 chai / 1 bộ) - mực nạp CF400",
+   "price": 315000,
+   "group": "hop-muc",
+   "page": "bo-muc-nap-laser-mau-hp-m252277281202cf400-401-402-403cf500501-502-503-4-chai-1-bo"
+  },
+  {
+   "name": "Bộ Mực nạp laser màu Zhono HP 1025/1215/1515/1525/3525/Pro 200/ 176/ 177 (4 chai / 1 bộ) - Laser 1025",
+   "price": 275000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ Mực nạp laser màu Zhono Hp M252,M277,M477fdn,M452dn,M377dw,M154a,M180,M254DW,M280,Canon LBP611Cn,613Cdw(4 màu/1 bộ) ( CF400 ) - Mực nạp Zhono CF400",
+   "price": 275000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ Mực nước dùng cho máy in Canon G3800/G2800/G1800/G4800/G1810/G2810/G3810/G4810 (1bộ / 4màu) - mực nước G3800",
+   "price": 200000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ Mực nước Epson Inktec Hàn Quốc 1 lít sử dụng cho máy in phun Epson (6 màu / 1 bộ) - Mực nước EP ink 1lit",
+   "price": 990000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ mực nước Inktek dùng cho máy in phun Canon , HP ( 4 màu/1 bộ) - Mực nước canon",
+   "price": 660000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Bộ ngắt điện Themistor dùng cho máy Ricoh Aficio MP4000/5000/ MP4001/5001/ MP4002/5002 - Themistor MP4000",
+   "price": 250000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bộ ngắt điện Themistor E-Studio 280L/282/283/230 - Thermistor 282",
+   "price": 100000,
+   "group": "lo-say-lo-ep",
+   "page": "bo-ngat-dien-themistor-e-studio-280l282283230"
+  },
+  {
+   "name": "Bộ ngắt điện Themistor sấy To.shiba Studio e550, e650, e810 - Themistor 550",
+   "price": 270000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bộ ngắt điện Themistor To.shiba E-Studio 358/458/350/450/353/453 - themistor 358",
+   "price": 340000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bộ ngắt điện Thermistor 3560-2060 -1740-1660 - Thermistor 2060",
+   "price": 200000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bộ nhông trung gian máy in hp 1005 , 1006 , 3100 , 1102 - hp 1005 ( nhông thẳng ) - nhông trung gian 1005",
+   "price": 60000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Bộ tách giấy máy in HP M501/M506/M527/M577/M553/87A - 2938_117702986",
+   "price": 120000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Bộ thermistor dò nhiệt độ máy photo To.shiba 163/182/212/242/255/257/355/455/456/457/195/206L/256/306/357 - Thermistor 457",
+   "price": 335000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Bột từ dùng cho Ricoh Aficio MP3500 / 4500 / MP4000 / 5000 - Bột từ Aficio MP 3500",
+   "price": 750000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Bột Từ MX-312GV dùng cho Sharp MX-M260/264N/ Sharp AR-6020/6023/6031 - Bột Từ MX-312GV",
+   "price": 720000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Bột từ Type 21 Nhật RICOH Aficio 550 - 551 - 650 - 850 - Bột từ type 21",
+   "price": 600000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Bột từ Type 28 (Nhật) dùng cho Ricoh AF1018/2018/ MP-1500/1600/2000/2500 - Bột từ Type 28 (Nhật)",
+   "price": 400000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Cặp bạc lô ép 30a (Hp M227fdn, 227sdn, 203dw, 203dn) ( 1 cặp 2 cái ) - Bạc phíp 30A",
+   "price": 39000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Cặp bạc phíp 15A đỡ trục rulo HP 1000/1200/1150/1300/ - Canon LBP 1210 - Bạc phíp 15A",
+   "price": 30000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Cặp Bạc phíp 226A dùng cho máy HP M402 - Bạc phíp 226A",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Cặp Bạc Phíp 29X đỡ Rulo ép HP 5000/5100 - Phíp 29X",
+   "price": 50000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Cặp Bạc phíp 35A dùng cho máy in HP 1102, 1212, 1132, 1606, 1566, 1536, 1005, 1006 - bạc phíp 35A",
+   "price": 30000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Cặp bạc phíp 49A/53A dùng cho máy in Canon 3300 ,308 HP 1160, 1320 - Bạc phíp 49",
+   "price": 30000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Cặp Bạc phíp 55A dùng cho máy HP LaserJet P3015 (55A) - phíp 55A",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Cặp bạc phíp 64A (CC364A) dùng Cho máy in HP LaserJet P4014/ P4015/ P4515 - Bạc phíp 64A",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Cặp Bạc phíp 87A cho máy HP LaserJet Enterprise M506dn, M506n, M506x, M501dn, M501D, M501N, MFP 527DN, MFP 527F - Phíp 87A",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Cặp bạc phíp lô ép 17a (HP M102, 129, 130, 132, 133, 134) (1 cặp 2 cái) - Bạc phíp 17A",
+   "price": 39000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Cặp gạt (lớn,nhỏ) 11A/ 51A/ 55A sủ dụng cho máy HP 2400,2410,2420,2430, 3005 - Gạt 55A",
+   "price": 40000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp 107A dùng cho hộp mực may in HP 107W, 135W - chíp 107",
+   "price": 35000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp 17A sử dụng máy in HP M130A-M102W-M102A - Chíp 17A",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp 30A dùng cho máy in HP 203 - 203DW - 227 - Chíp 30A",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp 333 dùng cho máy CRG 333/CRG 533 - Chíp 333",
+   "price": 74000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp 337 - 337",
+   "price": 15000,
+   "group": "linh-kien-khac",
+   "page": "chip-337"
+  },
+  {
+   "name": "Chíp 44A , 48A HP Pro M15w-M15a-MFP M28w-M28a , M14 , M17 - Chíp 44A, 48A",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp 93A / CZ192A - HP Pro M435, M701, M706 - Chíp 93A",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp CB 540-541-542-543-1215 - chíp 1215",
+   "price": 15000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chip CB 540-541-542-543-1215 (4 con) - chip 1215 ( 4 con)",
+   "price": 60000,
+   "group": "chip-seal",
+   "page": "chip-cb-540-541-542-543-1215-4-con"
+  },
+  {
+   "name": "Chíp CE250/251/252/253 sử dụng cho máy in laser màu CP 3525/3525n/3525dn/Cm3530/3530fs(504A)7k giá tính trên 1 bộ 4 màu - 2938_115690112",
+   "price": 80000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp CF 210 -211-212-213(giá tính trên 1 bộ) - Chíp CF 210",
+   "price": 60000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp Drum 104 dùng cho máy in HP MFP 1200aw/1000aw(W1104A/104A) - chíp drum 104",
+   "price": 40000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Chíp drum 32A / CF232 sử dụng cho máy in Pro M203dn-203dw,MFP M227fdw-227adn-M206dn-M230sdn-M230fdw - Chíp CF 232A",
+   "price": 50000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Chip drum Bizhub C227/C287/C367 (TN323 BK) 120K - Chíp Drum TN-323",
+   "price": 60000,
+   "group": "chip-seal",
+   "page": "chip-drum-bizhub-c227c287c367-tn323-bk-120k"
+  },
+  {
+   "name": "Chip Drum dùng cho Xerox DocuCentre-V 2060/3060/3065 - Chíp drum 3060V",
+   "price": 60000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp Drum HP CP 1025/CP1025nw/ M175a/M175nw/M275/M275nw/MFP M177fW/ M176 Canon 7018c (314) (1 con) - Chíp drum 1025",
+   "price": 25000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Chip drum màu sử dụng cho máy in HP 150a/ 150nw/ 178nw/ 179fnw (119A) - 2938_116183868",
+   "price": 50000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp Hộp mực Hp 203A -Dành Cho Máy In HP LaserJet Pro M254dw (CF540/41/42/43) giá 1 bộ - Chíp CF 540",
+   "price": 180000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp HP 1005-1006-1505-35A - Chíp 35A",
+   "price": 10000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chip HP CE250/ 251/ 252/ 253 cho máy HP CP3525/CM3530 ( bộ) - Chip HP CE250/ 251/ 252/ 253",
+   "price": 80000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chip HP CF400 /401/402/403 (M252/M277) (201A) (Giá tính trên 1 con) - Chíp CF 400",
+   "price": 30000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp laser màu 045-sử dụng cho máy in 611- 613- 631- 645-633 giá tính trên 1 bộ - Chíp 045",
+   "price": 180000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp laser màu HP 202, CF 500a, 501a, 502a, 503a cho máy HP m244, 280, 281 - Chíp laser màu HP 202, CF 500a, 501a, 502a,",
+   "price": 120000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp laser màu HP 205a, CF 530a, 531a, 532a, 533a cho máy HP M180n, 181fw - Chíp laser màu HP 205a, CF 530a, 531a, 532a",
+   "price": 180000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp laser màu HP CB380A/81A/82A/83A cho máy in CP6012/6015N/6015DN/6015X - Chíp laser màu HP CB380A/81A/82A/83A",
+   "price": 180000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp máy in HP Enterprise M604DN/M605/M606 CF281A - Chíp máy in HP Enterprise M604DN/M605/M606 CF",
+   "price": 20000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp máy in laser màu 508A Black CF360-361-362-363 giá tính trên 1 bộ - Chíp CF360",
+   "price": 120000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp máy in Ricoh SP100 / SP101S / SP112 - Chíp",
+   "price": 25000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp máy in Ricoh SP200 / 200n / 202 / 203 / 204 - Chíp SP200",
+   "price": 25000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chip máy in Sam SCX-4824/ 4828, ML-2855/ 2853D - Chip máy in SCX-4824/ 4828, ML-2855/28583D",
+   "price": 30000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chip máy in Samsung ML-3050/3051 - Chip máy in Sam ML-3050/3051",
+   "price": 25000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp máy in Xerox Phaser 3140 / 3155 / 3160 - Chíp 3155",
+   "price": 40000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp máy in Xerox Phaser 3428 D / 3428 DN - chíp 3428",
+   "price": 20000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chip MLT 111L cho M2020/2021/2022/2070/2071 - Chip MLT 111L",
+   "price": 40000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp mực 052 sử dụng cho máy in LBP 214dw- MF426dw- MF424dw giá tính trên 1 con - chíp 052",
+   "price": 30000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp mực 119A cho Máy in laser màu HP Color Laser 150NW dùng mực HP 119A (BK/C/Y/M) giá tính trên 1 con - Chíp màu 119A",
+   "price": 45000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp mực 16A cho máy in HP LaserJet 5200/5200L/5200LX/5200N/5200DTN/5200T Canon LBP3500 - Chíp 16A",
+   "price": 50000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chip mực cho máy in Samsung ML-2150/2550/2151/2152 - Chip mực cho máy in Samsung ML-2150/2550/2151",
+   "price": 20000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp mực D101s dành cho máy in SamSung SCX 2161/ 3401/ SCX 3400/ML2160, ML2165W/ SCX3405FW - Chíp D101",
+   "price": 20000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp mực dùng cho máy Samsung 2850 - Chíp Samsung 2850",
+   "price": 20000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp mực máy in Epson T60-mã chíp 851 - Epson T60",
+   "price": 75000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp mực máy photo Xerox DocuCentre-IV 2060/3060/3065 - Chíp mực XR 2060 IV",
+   "price": 50000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Chíp Mực MLT 117L-SCX 4650-4655 - Chíp 117L",
+   "price": 50000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp Mực MLT-115L -M2620-2820-2670-2870 - Chíp 115L",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp mực Oki B 411 / 431 ( giá tính trên 1 con ) - Chíp oki 411",
+   "price": 30000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp mực Samsung MLT 111S -M2020-M2070 - Chíp mực D111s",
+   "price": 30000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp mực Xerox P 255 dn / M 255 d - Chíp P255",
+   "price": 25000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp MX 315 sử dụng cho máy in Sharp MX-M265N/M316N(MX315AT 27.5K) - 4127_115260508",
+   "price": 80000,
+   "group": "linh-kien-khac",
+   "page": "chip-mx-315-su-dung-cho-may-in-sharp-mx-m265nm316nmx315at-275k"
+  },
+  {
+   "name": "Chíp MX 561AT dùng cho máy Sharp MX-M3070/M4050/ M4070/M5050/M5070 - Chíp Sharp 561AT",
+   "price": 69000,
+   "group": "linh-kien-khac",
+   "page": "chip-mx-561at-dung-cho-may-sharp-mx-m3070m4050-m4070m5050m5070"
+  },
+  {
+   "name": "Chip MX-560AT - Dùng cho máy photo Sharp MX M464N/M564N - Chíp 560AT",
+   "price": 80000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp Oki C310-330-MC361-510-530-561-BK-C-Y-M-giá tính trên 1 bộ - Chíp Oki C310",
+   "price": 160000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chip reset hộp mực Samsung 1660 /1670 / 1665 / 1675 / 1860 / 1865 / 3200 / 3205 ( D104 ) - D104",
+   "price": 20000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chip Reset Mực cho Samsung 115 SL-M2620 SL-M2820 SL-M2670 SL-M2870 M2620 M2820 M2670 M2870 2620 2820 2670 2880 2830 - Chip Reset 115",
+   "price": 30000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp Ricoh SP310 DN Black Toner Cartridge for SP310DNW - Chíp SP310",
+   "price": 30000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Chíp sam sung SCX 1630-4500 - Chíp 1630",
+   "price": 20000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp SamSung 3050 - Chíp 3050",
+   "price": 20000,
+   "group": "linh-kien-khac",
+   "page": "chip-samsung-3050"
+  },
+  {
+   "name": "Chip Samsung CLP-300 - CLX-3160N - 6110 -2160 -2161 - EXP -B,C,M,Y - chíp CLP 300",
+   "price": 20000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp SamSung ML- 2250 / 2251 / 2252 / 2255 - chíp 2250",
+   "price": 20000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp Samsung MLT 209 SCX 4824fn / 4828fn - Chíp 209",
+   "price": 20000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chip SamSung MLT- D103 ( Samsung 2950, 2955, 4729) - Chip D103",
+   "price": 30000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp sharp 235AT dùng cho máy photo sharp AR-5618/AR-5620/AR-5623S/D/N - Chíp 235AT",
+   "price": 49000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Chíp Sharp MX 312AT dùng cho máy photo sharp AR 5726/5731-M260N/M310N - Chíp sharp 312AT",
+   "price": 70000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Chip Sharp MX 500AT-AR M362N-MX-363U-453U-455 CHISF500 - chíp sharp MX 500",
+   "price": 90000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp sử dụng cho máy in Bizhub 308e/368e/458e/558e/658e (TN326) - 2938_111837537",
+   "price": 49000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Chíp sử dụng cho máy in HP 108a/ MFP 136a/139pnw (W1110A/W1112A) - 2937_121223460",
+   "price": 35000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp sử dụng cho máy in HP Pro MFP M436NDA-M438nda-440nda ( Drum Unit) (CF257A) - chíp M438",
+   "price": 49000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Chíp sử dụng cho máy in M254dw/M254nw/M281fdn/M281fdw/M280nw(CF500/01/02/03) giá tính trên 1 bộ - Chíp CF 500",
+   "price": 180000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp To.shiba 2518 A / 3018A / 3018AG / 3518A / AG / 4518A / 5018 ( T- 5018W ) (110V/220V) - Chíp T - 5018W",
+   "price": 100000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp To.shiba T 2309 P / 2809 dùng cho To.shiba e-studio 2303A /2303AM /2803AM /2309A /2809A - Chíp 2309",
+   "price": 230000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Chip Toshiba T-1810 - Chíp Toshiba T-1810",
+   "price": 70000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Chíp Xerox CP105-205-215 giá tính trên 1 bộ 4 màu - Chíp CP 105",
+   "price": 120000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp Xerox CP115w/CP225w/CM115w/CM225fw - Chíp Xerox CP115w/CP225w/CM115w/CM225fw",
+   "price": 30000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Chíp Xerox DocuPrint C 3055 (giá tính trên 1 con) - Chíp Xerox 3055",
+   "price": 20000,
+   "group": "linh-kien-khac",
+   "page": "chip-xerox-docuprint-c-3055-gia-tinh-tren-1-con"
+  },
+  {
+   "name": "Cò sấy máy photo Sharp AR162/200/201/205/206/207/5316/5320/5618 (1 BỘ 4 CÁI ) - BỘ CÒ AR200",
+   "price": 150000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Cò sấy Minolta Bizhub 223 / 283 / 363 / 423 / 7828 / DI2510 / 3510 ( bộ 5 cái ) - Cò sấy Bizhub 282",
+   "price": 270000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Cò sấy tách giấy MP4000 dùng cho máy Ricoh MP4000/5000/ MP4001/4002 ( 7 cái) - Cò sấy MP4000",
+   "price": 360000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Cò sấy To.shiba E-STUDIO 520 / 550 / 600 - Cò sấy 550",
+   "price": 320000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Cò tách giấy rulo sấy Sharp AR235/350/450 (2 con) - Cò sấy AR235",
+   "price": 150000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Cò tách giấy rulo sấy To.shiba E-Studio 163/166/203/195/223/225/243/245 - Cò sấy 163",
+   "price": 190000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Cò tách giấy rulo sấy To.shiba E-Studio 230/280S/232/282/233/283 - Cò 280",
+   "price": 240000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Cò tách giấy rulo sấy To.shiba E-Studio 230/280S/232/282/233/283 - Cò sấy 230",
+   "price": 240000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Cò tách giấy Sharp AR160-161 - cò tách giấy AR 161",
+   "price": 100000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 10 cặp (10 cái) Ron từ 49A/53A/05A/80A/226A - Ron từ 05",
+   "price": 10000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 10 cặp (20 cái) Ron từ 12A / 15A - Ron từ 12",
+   "price": 10000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 10 cặp (20 cái) Ron từ 35A/78A/83A/85/337/36/88 - Ron từ 35",
+   "price": 10000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 10 cặp ron từ 16A ( bạc trục từ) - ron 16A",
+   "price": 50000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Combo 10 cây Trục cao su máy in Canon 2900-Trục sạc 12A/49A/53A/05A/80A ( Sạc zin 1 nước ) - trục Sạc 12A",
+   "price": 110000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 10 cuộn Giấy in nhiệt 80x60mm - Giấy in nhiệt 80x60mm",
+   "price": 50000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 10 Quả đào HP 05A/80A/2035-2055-05A-Tray 2 - Quả đào 05A",
+   "price": 200000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Combo 10 Ribbon/ Ruy băng Umax ERC-30/34/38/TMU 220 đen - ERC-38",
+   "price": 349000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 10 Ruột ruy băng Epson LQ300 / LQ310 / 500 / 800 / 680 - Ruột LQ300",
+   "price": 180000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 10 Trục sạc (cao su) HP 51A/11A/55A/64A/81A/90A - sạc 11A",
+   "price": 120000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Bao lụa 12A (Bao sấy) Sử dụng cho máy in laser HP 1200 / 1010 / 1020 / 1160 / 1320 / P2014 / P2015 - Bao lụa 12A",
+   "price": 99000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 cái Phôi hộp mực Brother 2385 ( phôi 1 nước ) - Phôi 2385",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 cái Ruy băng máy in kim Ep LQ 630/ 735K, băng mực máy in kim Ep LQ 735K, Ribbon Ep LQ 735K. Dùng cho các máy in kim Ep LQ-630, 630S, 610K, 615K, 630K, 635K, 730K, 735K, 80KF, 80KFII - Ruy băng Ep LQ 630",
+   "price": 140000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 cái Ruy băng Umax LQ 2090/ FX-2190 Printerk - LQ2090",
+   "price": 130000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Cặp Bạc phíp 92A dùng máy in HP 1100/1200/Canon 1210 - bạc phíp 92A",
+   "price": 59000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 cây Drum máy in HP Laser Color Laser CP 1215 / 1515 / 1518 (TQ) - 1215",
+   "price": 60000,
+   "group": "drum-trong",
+   "page": "combo-2-cay-drum-may-in-hp-laser-color-laser-cp-1215-1515-1518-tq"
+  },
+  {
+   "name": "Combo 2 câyTrống drum HP 508A Black (CF360A / 361 / 362 / 363) dùng cho máy in HP 553N/ HP 553DN/ HP552 - Trống drum HP 508A",
+   "price": 130000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 chai Mực đổ HP 107w nạp cho Hộp mực máy in HP 107a/ 107w/ 135a/ 135w - Mực nạp HP 107",
+   "price": 50000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 chai Mực đổ HP 107w nạp cho Hộp mực máy in HP 107a/ 107w/ 135a/ 135w(80g) - 107",
+   "price": 50000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 chai mực nạp Ricoh SP230(100g) - Combo 2 chai mực nạp Ricoh SP230(100g)",
+   "price": 70000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 chai Nước ngâm , nước rửa đầu phun 100ml - Nước ngâm",
+   "price": 90000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Chíp Drum Samsung MLT-116S - M2625-2626-2825-2826-2675 - Chíp Drum 116S",
+   "price": 60000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Chip mực CF 226A cho HP Pro400M402 - Chip mực CF226A",
+   "price": 30000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 chíp mực dùng cho máy pho.to sharp AR 5516-DN-5520-DN - AR 5516-020ST - CHÍP 020ST",
+   "price": 145000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Chip mực Samsung 1666/1866/1671 (D1043S) - Chíp 1666",
+   "price": 40000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Chíp reset hộp mực 79A(CF279A ) dùng cho máy in HP LaserJet PRO M12 / M12A, HP LaserJet PRO MFP M26A / M26NW - 79A",
+   "price": 50000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Chíp T-4590U/D TSB e-Studio 206L/256/ 306/356E/456E (Điện thế 110V/220V) - Combo 2 Chíp T-4590U/D",
+   "price": 50000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 con Chíp 119/319/719 cho Canon LBP 251, 252, 6300, 6400, 6500, 6650, 6670, 6680 - Chíp 319",
+   "price": 40000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 cuộn Mực in mã vạch 110mm*300m - Combo 2 cuộn mực in mã vạch 110mm*300m",
+   "price": 169000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Gói mực dùng cho máy pho.to To.shiba G7 ( TO.SHIBA 550-650-720-820 ) (1KG) - Mực G7",
+   "price": 389000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Hộp mực Brother TN - B020/B021/B022/B023 dùng cho máy in Brother B2000 , 2080DW , DCP 7520DW , 7535DW , 7715DW - B020 - Hộp mực Brother TN - B020/B021/B022/B023",
+   "price": 178000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Mỡ bôi trơn bao lụa ( loại thường ) - mỡ thường",
+   "price": 60000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Ruy băng mực ribbon OKI ML-1120 / 1190 - 1190",
+   "price": 120000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Ruy băng Ribbon PLQ 20 - PLQ 20",
+   "price": 199000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Trống ( Drum ) 55A - Combo 2 55A",
+   "price": 119000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Trống Drum HP CP 5525 / 5225 - Drum 5525",
+   "price": 240000,
+   "group": "drum-trong",
+   "page": "combo-2-trong-drum-hp-cp-5525-5225"
+  },
+  {
+   "name": "Combo 2 Trống drum máy in hp 107A - 107w - 135a - 135w - Drum 107A",
+   "price": 80000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Trống Drum Xerox P115-M115-CT351005 - Drum P115",
+   "price": 100000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Trống in drum 05A/80A/ HP 2035/2055/400 (TQ) - Drum 05A",
+   "price": 46000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 Trống in Drum HP 49A/53A (Drum Phấn) - Drum phấn 49A",
+   "price": 39000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Combo 2 TRỤC TỪ HP ( 12A ) 1010/1012/1015/1018/1020/3015/3050 – Canon 2900 - Trục từ 12A",
+   "price": 34000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Combo 3 Băng mực ribbon OKI ML 6300 - LQ 6300",
+   "price": 270000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 3 Chíp 81A dùng cho máy in HP Enterprise M604DN/M605/M606 CF281A - Chíp CF281A",
+   "price": 90000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 3 Drum trống mực in Mitsu 35A-1005-1006-1505 - Drum 35A mitsu",
+   "price": 111000,
+   "group": "drum-trong",
+   "page": "combo-3-drum-trong-muc-in-mitsu-35a-1005-1006-1505"
+  },
+  {
+   "name": "Combo 3 Trống drum 17A LaserJet Toner Cartridge (CF217A) sử dụng máy in HP M130A/ M102W/ M102A - Trống mực 17A",
+   "price": 99000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Combo 3 Trống Drum 226A cho hộp mực máy in HP LaserJet Pro M402dn-M402dw-M426(Phôi Chính Hãng)và Trống drum HP 151A (W1510A), Pro 4003dn, M4003dw, MFP 4102fdn, 4103fdw - Drum 226 ( dấu sắc)",
+   "price": 75000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "combo 4 Chíp mực Canon 046 (EP-046Bk/C/Y/M) MF730c/ LBP 650c/ 654CX/ 653cdw - Bộ 4 Chíp 046",
+   "price": 120000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 cây Gạt nhỏ 12A-49A-53A-05A-80A - Gạt 12A(N)",
+   "price": 40000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 cây Trục sạc 12A-05A-80A-49A-53A (Sạc zin 1 nước ) - Sạc 12A",
+   "price": 60000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 cây Trục sạc/ truc cao su/ trục lăn HP 12A/15A/49A/53A/05A/80A ( Sạc Trung Quốc ) - Sạc 12A Trung Quốc",
+   "price": 75000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "COMBO 5 cây Trục từ 35A-36A-85A-78A-83A-1005-1006-1505 - từ 35A",
+   "price": 80000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 chai mực nạp 2040-2140-2024-7220 - Brother 2040",
+   "price": 140000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 chai Mực nạp 35A -36-85-83-78-1005-1006-071 - 35A",
+   "price": 100000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 chai Mực nạp dùng cho máy in Samsung, Lexmark, Xerox - SamSung",
+   "price": 115000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 chai Mực Nạp HP 17A / 30A - Mực nạp 17A / 30A",
+   "price": 100000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 chai Mực nạp Ricoh SP100 - 200 - 310 - 3400 - 3401 - 320 - Mực nạp Ricoh SP100",
+   "price": 125000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 chai Mực nạp sử dụng cho máy in xerox M115w, cp115w, P225d, M225dw, M225z, M265z (80G) - xerox M115",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "combo 5 Chip U9A1 Đa Năng chip cho HP CB435A/CB436A/CE285A/CE278A/CE505A/CF280A/CE255A/CC364A - Chip U9A1 Đa Năng chip cho HP CB435A/CB436A",
+   "price": 75000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 con chíp 80A dùng cho máy in laser HP Pro 400 printer M401N, M401D, M401DN, M425DN - Chíp 80A",
+   "price": 74000,
+   "group": "linh-kien-khac",
+   "page": "combo-5-con-chip-80a-dung-cho-may-in-laser-hp-pro-400-printer-m401n-m401d-m401dn-m425d"
+  },
+  {
+   "name": "Combo 5 con Chíp reset hộp mực 052 / 226A , cho CA LBP 212DW, 214dw, 215dw, 421DW, MF426dw, 424dw, 429dw - chip 052",
+   "price": 75000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Drum 12A- FX9 HP1010- 1012- 1015-1018- 1020- 1022- 1022n- 1022nw-2900(TQ) - Drum 12A (TQ)",
+   "price": 85000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Drum 226A Theo phôi chính hãng (Drum ES ) và Trống drum HP 151A (W1510A), Pro 4003dn, M4003dw, MFP 4102fdn, 4103fdw - Drum 226ES",
+   "price": 150000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Drum trống mực in 35A-1005-1006-1505 - 1005-1006-1505",
+   "price": 85000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Gạt lớn HP 35A/85A/36A/78A/83A/79A CA 328/337 - Gạt lớn 35A",
+   "price": 40000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Gạt mực 17A -sử dụng máy in HP M130A- M102W- M102A - Combo 5 Gạt 17A",
+   "price": 98000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "combo 5 Gạt mực- gạt drum 49A-53A-15A-92A - gạt mực 49A",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Gạt nhỏ HP 35A/85A/36A/78A/83A/79A CA 328/337 - Gạt nhỏ 35A",
+   "price": 30000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 giấy chuyển nhiệt 80x75 - giấy chuyển nhiệt 80x75",
+   "price": 110000,
+   "group": "giay-ruybang",
+   "page": "combo-5-giay-chuyen-nhiet-80x75"
+  },
+  {
+   "name": "Combo 5 hộp Ribbon / ruy băng LQ300 ( UMAX ) - LQ300",
+   "price": 175000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Lò xo kéo dùng cho hộp mực 226A máy in HP Laser Jet pro M402n / M402d / M402dn / M402dw / M426 - Cartridge 226A - Lò xo 226A",
+   "price": 60000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Mực nạp dùng cho máy in Brother ( dùng cho tất cả các dòng máy in Brother ) - Brother 2240",
+   "price": 140000,
+   "group": "hop-muc",
+   "page": "combo-5-muc-nap-dung-cho-may-in-brother-dung-cho-tat-ca-cac-dong-may-in-brothe"
+  },
+  {
+   "name": "Combo 5 Ribbon ( ruy băng ) Umax LQ310 - LQ310",
+   "price": 185000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Ruy băng LQ 680 / 670 / 2500 / 2550 ( UMAX ) - LQ680",
+   "price": 225000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Ruy băng Umax LQ 2170/2070/2180/2080/2190 FX2170 - LQ 2070",
+   "price": 375000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Trục Sạc 17A / 30A / 32A / 19A HP Pro M102 / 102a / 102w / M130a / 130fn / 227fdn / 203dw - sạc 17A",
+   "price": 180000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Trục Sạc 226A / 402 - Combo 5 Sạc 226a",
+   "price": 175000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Trục sạc 35A-85A-83A-78A-36A - sạc 35A",
+   "price": 80000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Combo 5 Trục từ 17A / 30A / 32A / 19A HP Pro M102 / 102a / 102w / M130a / 130fn / 227fdn / 203dw - từ 17A",
+   "price": 175000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "combo 5 Trục từ 226A - từ 226A",
+   "price": 130000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Combo Lô ép + Bao lụa CF400 dùng cho máy in màu HP Color LaserJet Pro M252/M274/M277 printers (CF400A) - Lô ép + Bao lụa CF400",
+   "price": 395000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Combo Lô ép + Bao lụa CF410 dùng cho máy in màu HP M377/452/477 - Lô ép + bao lụa CF410",
+   "price": 489000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Combo Mực đổ +chíp HP 107w nạp cho Hộp mực máy in HP 107a/ 107w/ 135a/ 135w(80g) - 2937_121221642",
+   "price": 55000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Con lăn 05A / 80A ra giấy trên sấy HP 2035 2055 HP Pro 400 M401 M425 - con lăn 05A",
+   "price": 90000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Con lăn 49A ra giấy máy in Canon 3300 HP 2015 2014 1160 1320 - Con lăn 49A",
+   "price": 90000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Con lăn ra giấy sử dụng cho máy in HP P1007/P1008/M1213/M1136/M1216/P1102W/P1106/P1107/P1108/M126A - 2938_110908833",
+   "price": 90000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Cụm Drum 32A (Có chip) - HP Pro M203DN/DW, M227SDN/FDN/FDW - Canon LBP 160DN,161DN,162DW - Cụm drum CF232A",
+   "price": 190000,
+   "group": "chip-seal",
+   "page": "cum-drum-32a-co-chip-hp-pro-m203dndw-m227sdnfdnfdw-canon-lbp-160dn-161dn-162dw"
+  },
+  {
+   "name": "Cụm drum Brother DR 2385 dùng cho hộp mực Brother HL-L2320D/ 2321D/ 2340DW/ 2360DN/ 2361dn/ 2365DW/ 2366dw - cụm drum 2385",
+   "price": 170000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm Drum Brother DR-2125 (HL 2140/ TN 2130) - DR-2130",
+   "price": 250000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm drum Brother DR-820 Sử dụng cho máy in Brother 3448/5100/5200/5000/6200/6250/6300/6400/5900/6400/5700/5800 - DR 820",
+   "price": 330000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm drum DR 051 sử dụng cho máy in LBP 161dn-162dw-214dw-MF 426dw-MF424dw-264 - DR 051",
+   "price": 160000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm drum DR 1010-HL 1111-1201-1211-DCP1601 - DR 1010",
+   "price": 190000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm drum DR 2255-2250D-7360-2240D-2280-7860 - Cụm DR 2255",
+   "price": 250000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm Drum DR-3325 ( DR-720) dùng cho máy Brother HL-5440D/HL-5450DN/HL-5470DW/HL-6180DW/DCP-8155DN/MFC-8510DN/MFC-8910DW - DR 3355",
+   "price": 299000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm drum HP 57A-Cụm drum Máy in HP M438dn/M440n/M440dn/M440nda/M442dn/M443dn-Cartridge drum HP 57A - 2938_110909084",
+   "price": 1900000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm Drum HP CE314A - Cụm drum máy in CP 1025 / cp1020 /cp1028nw / Pro 100 Color MFP 175/M275 MFP/M177Fw/M176N ( CE314 ) - Cụm drum CE314",
+   "price": 330000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm drum máy in Brother DR B022 dùng máy Brother HL-B2000D, HL-B2080DW, DCP-B7535DW, MFC-B7715DW - DR B022",
+   "price": 299000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm Drum máy in Brother HL 2240D – DR 2255 - 2250D - 7360 - 2240 - 2280 - 7860 ( DR 420 ) - DR 2240",
+   "price": 190000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm drum máy in Fuji Xerox P 285dw / M285z / M185z (285) - DR XR285",
+   "price": 300000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm drum Ricoh SP230 cho máy in Ricoh Sp 230DNW, 230SFNW (DR SP230) - DR SP230",
+   "price": 250000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm drum Xerox P115, M115b, M115fw, M115w - Cụm drum Xerox P115",
+   "price": 220000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm drum Xerox P115w/M115w/M115fw(CT351005) - DR P115",
+   "price": 250000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm drum xerox P225 sử dụng cho máy in P225d, P225dw, M225dw, M225z, M265z laser trắng đen(CT351055) - DR 225",
+   "price": 220000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm Mực Và cụm drum Ricoh SP 230 Sử dụng cho máy in SP 230DNW-SP310SFNW - SP230",
+   "price": 400000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm trống Canon DR NPG-59 – Cho máy iR2002 / iR2004 / iR2004n / iR2006n - DR NPG 59",
+   "price": 1300000,
+   "group": "drum-trong",
+   "page": "cum-trong-canon-dr-npg-59-cho-may-ir2002-ir2004-ir2004n-ir2006n"
+  },
+  {
+   "name": "Cụm trống drum Brother HL-L3230cdn/DCP L3551CDW/MFC-L3710CW ( DR263) - 2937_118003644",
+   "price": 500000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm trống HP 104A (W1104A) dùng Cho máy HP Neverstop 1000a/ 1000w/ 1200a/ 1200w - Cụm drum 104",
+   "price": 910000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cụm trống(drum) HP 120A Original Laser Imaging Drum (W1120A) dùng cho máy in150a/150nw/178nw/179fnw - DR119",
+   "price": 650000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Cuộn lau dầu,cuộn quet dầu Sharp MX-M363U/453U/503 - 3293_116435185",
+   "price": 170000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Cuộn quét dầu , lau dầu Ricoh MP4000 / 4001 / 4002 / 5000 / 5001 / 5002 ( Cet ) - Quét dầu MP4000",
+   "price": 300000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Cuộn quét dầu E-Studio 550/650/810(16m) - Quét dầu 550",
+   "price": 150000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Dầu Sili.con dùng đê bôi trơn các chi tiết máy in và máy Pho.to (dung tích : 500ML) - dầu silicon",
+   "price": 149000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Drum - Trống HP 201A/452/252/254 (CF400A/CF410/CF500/CF510/CF540)combo 2 cây - Drum 252",
+   "price": 80000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum 119A dùng cho máy HP MFP M150a/ M178NW/ M179NW M (W2093A) - 2938_116817231",
+   "price": 300000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum 12A Mitsu sử dụng cho hộp mực Canon 2900/3000/HP 1010/1012/1018(3 cây) - Drum 12(M)",
+   "price": 111000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum 248A sử dụng cho máy in HP M15a-M16a-M28a-M28W-M29a - Drum 48",
+   "price": 50000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum 48A sử dụng cho máy in HP M15a / M16a / M28a / M28W / M29a/136X - 48A",
+   "price": 40000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum 64 sử dụng cho máy in P4014/4015/M604dn/605n - drum 64",
+   "price": 90000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum AR 160-161-162-163-164-200-201-202-205-206-207-232-5516-5520-5620-5618 - Drum Ar 160",
+   "price": 200000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum Brother DCP-B7535dw/ B022 - Drum B022",
+   "price": 60000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum Brother HL 2240-232D ( loại thường ) - Drum Brother HL 2240-232D ( loại thường )",
+   "price": 60000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum Brother HL- 5440 D, 5450DN, 5470DW, 6180DW, DCP-8110D, 8110DN, 8155DN, MFC-8510DN, 8910DW, 8950DW - Drum 5440",
+   "price": 60000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum Brother sử dụng cho máy in HL-B2000D- B2082DW- DCP-B7535DW - Drum 2000D",
+   "price": 70000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum CET Canon ir2525 - Drum (trống) Canon IR 2520/2525/2530/2535/2545 (NPG 50/51) - Drum 2525",
+   "price": 300000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum CF 237 sử dụng cho máy in M607, 608, 609, HP MFP630, 631, 632 - drum 237",
+   "price": 90000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum HP 270A (W1270A) chính hãng — Minh Tiến",
+   "price": 2350000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum ir 1018if-1023if-1022if - Drum ir 1022",
+   "price": 210000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum máy in hp 64A/ 81A/ 90A - Drum 64A",
+   "price": 60000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum máy in Samsung ML- 1710 / 1510 - Drum 1710",
+   "price": 50000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum máy Photo Ricoh Aficio MP3500/4500/ MP4000/5000/ MP4001/5001 - Drum máy Photo Ricoh Aficio MP3500/4500",
+   "price": 450000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum rời Brother 451CL sử dụng Cho máy in HL-L8260CDN/ MFC-L8690CDW - 2938_118439415",
+   "price": 120000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum Sharp MX-M363U-453U-503U - Drum 453U",
+   "price": 330000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum Studio 255-205L-206L-256-305-306-355-356-455-506-456-5018 (CET) - Drum 255",
+   "price": 250000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum sử dụng cho máy HP M15A-M28A - drum 48",
+   "price": 35000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum sử dụng cho máy in Brother HL 5340D-5240-TN 3250(Hand) - Trống drum 5340",
+   "price": 120000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum sử dụng cho máy in Brother HL 5340D-TN 3250 - Drum 5340",
+   "price": 70000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum sử dụng cho máy in Photo Ricoh Aficio MP3500/4500/ MP4000/5000/ MP4001/5001/5002(katun) - 4127_114908974",
+   "price": 650000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum sử dụng cho máy in Sam Sung ML 2950-2951-2955 - Drum 2950",
+   "price": 50000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum Trống IR2270/2870/3570/3530 (CET) - Drum IR 2270",
+   "price": 370000,
+   "group": "drum-trong",
+   "page": "drum-trong-ir2270287035703530-cet"
+  },
+  {
+   "name": "Drum trống mực in 05A ES 2055-2035 - Drum 05A ES",
+   "price": 30000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum trống mực in 05ES 2055-2035 - Drum 05ES",
+   "price": 30000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Drum trống rời fax Pana KX-FA 86E-KX-FLB852/802/812 - Drum trống rời fax Pana KX-FA 86E-KX-FLB852",
+   "price": 130000,
+   "group": "linh-kien-fax",
+   "page": ""
+  },
+  {
+   "name": "e-Studio 282 Drum Cleaning Blade - gạt drum 282",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt băng tải Bizhub C220/280/360/224/284/364/454/554/224e/284e/308(cet) - 2938_111355497",
+   "price": 120000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt Belt Ricoh Aficio MP 4000/4001/4002/5000/5001/5002/ AF1035/1045/2035/2035/2045/3035/3045 - Gạt Belt MP 4000/5000",
+   "price": 65000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt belt To.shiba E550/ 555/ 650/ 655/ 720/ 810/ 850 - Gạt belt 810-550-600-650-720",
+   "price": 60000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt Belt, gạt băng tải HP CP 5525 / M750 - Gạt belt 5525",
+   "price": 150000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt Belt. gạt băng tải HP CP 3525 / 3530 / M551 / M575 - gạt belt 3525",
+   "price": 90000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt Brother HL 5440 / 5450/ 5470/MFC 8710(TN 3350/750),HL L5100/L5700/L6200 (TN- 3448 ) - Gạt Brother HL 5440 / 3448",
+   "price": 25000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt Brother TN 1111-1201-1511-1601-1616-1811 - gạt 1111",
+   "price": 20000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt drum Bizhub C224/284/364/454/554/224e/284e/364e/454e/554e/C458/558/658 - 2938_111355888",
+   "price": 90000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt drum xerox DC V 2060/ 3060 /3065 - Gạt drum V 2060/ 3060 /3065",
+   "price": 95000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt dùng cho máy HP CF400 - Color M252 - 277 - CF 400/401/402/403 - GẠT CF400",
+   "price": 30000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt lớn máy in HP P4014/4015/4100 (LP168) 61A/64A - Gạt lớn máy in HP P4014/4015/4100 (LP168) 61A",
+   "price": 20000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt lớn Samsung ML1610(combo 5 cây) - gạt 1610",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt lớn+nhỏ 05A-80A-2055-2035-1 cặp - Gạt lớn+nhỏ",
+   "price": 16000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt lớn+nhỏ 12A-canon 2900-5 cặp - Gạt lớn+nhỏ 12A",
+   "price": 85000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt lớn+nhỏ 35A-85A-78A-83A-5cặp - Gạt lớn+gạt nhỏ 35A",
+   "price": 75000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt Máy Photo Ricoh MP 1015/1018/ 2554/3054/3554/3054SP/3554SP/MP 3055 CET - 1015",
+   "price": 70000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực ( gạt lớn ) dùng cho máy HP 107a, máy in M135a, M137fdn, M135w, M107w (W1107A)( dùng cho phôi CH ) - Gạt lớn 107A",
+   "price": 20000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực (lớn) dùng cho máy in HP MFP 1200aw/1000aw(W1104A/104A) - gạt mực 1103",
+   "price": 40000,
+   "group": "gat-muc",
+   "page": "gat-muc-lon-dung-cho-may-in-hp-mfp-1200aw1000aww1104a104a"
+  },
+  {
+   "name": "Gạt mực 282-450 - Gạt 282",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực Afico 2035 - gạt Afico 2035",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực Afico 2600-2000-1230D-2501-1015-2001 - Gạt 1230D",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực Brother TN B022, B020, HL B2080dw, B2000d, B7715dw, DCP-B7535dw (chỉ sử dụng cho phôi Trung Quốc) - Gạt B022",
+   "price": 25000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt Mực Canon 2002-IR 2002-2202-2004 - Gạt IR 2002",
+   "price": 55000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực Canon IR1600 / 2016 / 2018 / 2022 / 2318L / 2320L / 2420L / 2422L - Gạt IR 2016",
+   "price": 60000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực Canon ir2525-Canon IR 2520/2525/2530/2535/2545 (NPG 50/51) - Gạt ir 2525",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực dùng cho máy in Ricoh MP2014/2014D/2014AD - Gạt mực Ricoh MP2014",
+   "price": 85000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực dùng cho máy Minotal Bizhub 227/287/367 - Bizhub 287",
+   "price": 90000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực dùng cho máy Ricoh AF-1022/1027/2510/2550/2851/2852/3350/3053/3353/3351/3352 MP-2510/2550/2852 - Gạt 1022",
+   "price": 55000,
+   "group": "gat-muc",
+   "page": "gat-muc-dung-cho-may-ricoh-af-10221027251025502851285233503053335333513352-mp-251025502852"
+  },
+  {
+   "name": "Gạt mực dùng cho máy Ricoh AF-2015/2018/ MP-1500/1600/1800/1900/2000/2500/2850 - Gạt mực Ricoh AF-2015/2018/ MP-1500/1600/1800",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": "gat-muc-dung-cho-may-ricoh-af-20152018-mp-1500160018001900200025002850"
+  },
+  {
+   "name": "Gạt mực dùng cho máy Sharp AR-235/256/AR275/M208/ AR-M236/M237/M276/M277/ MX-M260/M264N/6023/6020/6026/6031/5726/5731/ MX 265N - GẠT SHARP 435",
+   "price": 70000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực gạt lớn sử dụng cho hộp mực 119A cho máy HP MFP M150a/ M178NW/ M179NW M (W2093A)(dùng cho phôi chính hãng) - 2938_115395637",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": "gat-muc-gat-lon-su-dung-cho-hop-muc-119a-cho-may-hp-mfp-m150a-m178nw-m179nw-m-w2093adung-cho-phoi-chinh-hang"
+  },
+  {
+   "name": "Gạt mực H.P sử dụng cho máy in Color 5520/5525/Canon LPB 9100C/9500C/9600c - 2938_113764190",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực Konica Minolta bizhub 180/181/210/211/ DI152/1811P/183/183F/195/215/250/350/225/226i - Gạt 250",
+   "price": 60000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực máy in Brother HL 2385 , 2300, 2320, 2340, 2361, 2365, 2380, MFC 2700, 2701, 2702, 2703, 2720, 2740 - gạt 2240",
+   "price": 25000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực RICOH AF 2015-2018-2020-MP1600l-2000L - Gạt Ricoh AF 2015",
+   "price": 45000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực Ricoh MP-4000/5000/ MP4002/5002 - Gạt mực Ricoh MP-4000/5000/ MP4002/5002",
+   "price": 55000,
+   "group": "gat-muc",
+   "page": "gat-muc-ricoh-mp-40005000-mp40025002"
+  },
+  {
+   "name": "Gạt mực Ricoh SP100 / 111 / 101 / 112 / 200 / 201 / 210 / 212 / 310 / 311 - Gạt SP100",
+   "price": 25000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực To.shiba 810-550-600-650-720 - Gạt 810",
+   "price": 55000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực To.shiba E550/ 555/ 650/ 655/ 720/ 810/ 850 - Gạt 550",
+   "price": 55000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực Toshi.ba E-163/166/203/230/255/256/ E-280/282/283/305/306/355/457/E-Studio 2006/2506/2007/2507/2309 - gạt drum 163",
+   "price": 60000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực Toshiba E35-45A E550-450 - Gạt Toshiba E 35",
+   "price": 45000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt mực Xerox S2110, S1810, S2011, S2010, S2420, S2520, S2220, S2320 - Gạt xerox S1810",
+   "price": 45000,
+   "group": "gat-muc",
+   "page": "gat-muc-xerox-s2110-s1810-s2011-s2010-s2420-s2520-s2220-s2320"
+  },
+  {
+   "name": "Gạt mực- gạt drum HP 05A-80A - Gạt mực 05",
+   "price": 8000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt nhỏ Canon EP65 dùng cho máy in Canon LBP - 2000 - Gạt EP 65",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt nhỏ HP 10A dùng cho máy HP 2300 / 2300d - Gạt nhỏ 10A",
+   "price": 20000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt thiếc Ep5700 - Gạt 5700",
+   "price": 50000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt từ Canon iR2016/2020/2002/2202 Canon iR2018/2022/2025/2030/2002/2004/2006 - 2938_117052999",
+   "price": 245000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Gạt từ IR 2016-2320-2420 - Gạt từ IR 2016",
+   "price": 650000,
+   "group": "gat-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực 056L dùng cho máy in Canon LBP MF543dw / MF542x / LBP325x ( không chíp) - Mực 056L",
+   "price": 299000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực 067 sử dụng cho máy Canon Color LBP 631Cw/633Cdw *MF 651Cw/655Cdw/657Cdw Không chip - 2937_117288241",
+   "price": 249000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực 069 BK,C,Y,M cho máy Canon LBP 673Cdw/674Cx* MF 752Cdw Không chip - 2937_117617318",
+   "price": 350000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực 145A/1450A/145/1450 sử dụng cho máy in HP MFP 3103dw/ 3003dw/ 3003dn/3103/3003 (có chíp) - 2937_121460767",
+   "price": 415000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực 1666 dùng cho máy Samsung ML-1660/1666/1661/1865w/1043S/1/1866/1671/SCX 3201 - Samsung 1666",
+   "price": 195000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp Mực 16A / 5200 / 3500 - Mực 16A",
+   "price": 530000,
+   "group": "hop-muc",
+   "page": "hop-muc-16a-5200-350"
+  },
+  {
+   "name": "Hộp Mực 226A/ 052 Dành Cho Máy In HP M402 - Canon LBP 212dw/ 214dw/ MF421dw/ MF424dw/ MF426dw/429dw - Mực 226A",
+   "price": 160000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp Mực 26A/ 052 Dành Cho Máy In HP M402 - Canon LBP 214 - Mực 052",
+   "price": 170000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực 48A cho máy in HP LaserJet Pro M15a, M28a, M28w , M14 , M17 - Hộp mực 48A",
+   "price": 148000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực 49A/53A dùng cho máy in Canon 3300/3360 HP 1160/1320/3390/3392/2015 - Mực 49A",
+   "price": 185000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực 59A dùng cho máy in HP M428Fd / M428Fdn CF259A ( không chíp) - Mực 59A",
+   "price": 178000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực 83A dùng cho máy in HP Laserjet pro MFP M125/201, MFP M127/M225 - RT 83A",
+   "price": 260000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực 87A (CF287A) dùng Cho máy in HP M501n/ M501dn/ M506n/ M506dn ( hộp trắng) - 87A",
+   "price": 290000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực Brother RT 2385 / 2325 HL 2321D, 2361DN, 2366DW, MFC 2701D, 2300D, 2340DW, 2360D/ 2520D - RT 2385",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực Brother RT HL 2140 (TN 2130) - TN 2130",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp Mực Brother TN 3428, 3448, 820, HL L5100dn, L6200dw, L6400dw, MFC L5700dn, L5900dw, L6900dw - TN 3448",
+   "price": 250000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực Brother TN-2380 chính hãng — Minh Tiến",
+   "price": 320000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực Canon 052 (CRG-052) chính hãng — Minh Tiến",
+   "price": 720000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực Canon 337 (CRG-337) chính hãng — Minh Tiến",
+   "price": 380000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực Canon CRG 057 dùng cho máy in Canon 223d, 226d, 228, 445, 449 (có chíp ) làm từ phôi hãng không có kéo seal - Mực 057 có chíp",
+   "price": 370000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực CF 530-531-532-533 sử dụng cho máy in M154a-M154nw-M180D-M181Fw giá tính trên 1 màu - CF 530",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp Mực D116S dùng cho máy Samsung ML-2825/2875/2675 ( MLT-D116S ) - Hộp mực 116S",
+   "price": 300000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp Mực dùng cho máy in Xerox P 225 / M225/P265/M265(CT203320) - Xerox P225",
+   "price": 125000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực dùng cho máy in Xerox P115 / M115 - Mực Xerox P115",
+   "price": 110000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực H-W1510A sử dụng cho máy in HP Laser Jet Pro 4003w/4003dw/4003dn/MFP4103fdw/4103fdn - 2937_113418724",
+   "price": 350000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực HP 107A (W1107A) chính hãng — Minh Tiến",
+   "price": 230000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực HP 128A dùng cho máy in HP CP1525 / CM1415 ( CE320 / CE321 / CE322 / CE323 ) giá tính trên 1 hộp - CE320",
+   "price": 400000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực HP 12A (Q2612A) chính hãng — Minh Tiến",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hôp mực HP 335A dùng cho máy in HP Pro MFP 438n/M440n/M440nda (W1335A) - HP 335A",
+   "price": 299000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực hp 336A ( W1336A ) – Hộp mực máy in hp M42625n / M42625d / M42625dn /M42623n / M42623d/ M42623dn (có chíp) - 2937_123917232",
+   "price": 298000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực HP 70A (Q7570A) dùng cho máy HP M5025/ M5035mfp - 70A",
+   "price": 600000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực HP 85A (CE285A) chính hãng — Minh Tiến",
+   "price": 180000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hôp mực in 119A dùng cho máy HP MFP M150a/M178NW/M179NW M (W2093A) ( giá tính trên 1 màu) - HP 119A",
+   "price": 220000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực In 136A / W1360A - Dùng Cho HP M211d/ M211dw/ M236dw,/M236sdw -2937_123927644",
+   "price": 215000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "HỘP MỰC IN BROTHER TN - 3250 DÙNG CHO MÁY IN BROTHER HL5340D, HL5340DN, MDC8880DN, 8085 - HỘP MỰC IN BROTHER TN - 3250",
+   "price": 350000,
+   "group": "hop-muc",
+   "page": "hop-muc-in-brother-tn-3250-dung-cho-may-in-brother-hl5340d-hl5340dn-mdc8880dn-8085"
+  },
+  {
+   "name": "Hộp Mực in Canon 047 - Hộp mực máy in canon 113w, 110, 112 - 047TQ",
+   "price": 170000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực in canon 071 sử dụng cho máy in Canon LBP 120 / 121dn / 122dw / MF270 - 2937_116648501",
+   "price": 195000,
+   "group": "hop-muc",
+   "page": "hop-muc-in-canon-071-su-dung-cho-may-in-canon-lbp-120-121dn-122dw-mf270"
+  },
+  {
+   "name": "Hộp Mực in Canon 331 (M/BK/Y/C) - Dùng cho LBP-7110CW, LBP-7100CN, MF-8210CN ( giá tính trên 1 màu ) - Mực 331",
+   "price": 380000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực in CF 276A / CRG 057 HP Pro M404dn/ M428dnw (ko chíp) - Hộp mực 76A",
+   "price": 170000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực in HP 16A (Q7516A) dùng cho máy in Hp 5200/ Canon 3500/3800/3810 - 16A",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực in HP 56A (CF256A) dùng Cho máy HP Pro M433a/ M436n/ M436dn/ M436nda - Hộp Mực 56A",
+   "price": 250000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp Mực In Laser 05A/80A dùng cho máy in Canon LBP 6300DN ,HP LaserJet P2035/ P2055d/ P2055x/ P2035n - Hộp mực 80A/05A",
+   "price": 160000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực in Laser Samsung 111S - Dùng cho máy Samsung M2020/ M2022/ M2070 - 111S",
+   "price": 210000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực in RT 35A dùng cho máy HP P1005 / HP P1006 Canon 3050 , Canon 3100 - Hộp mực 35A",
+   "price": 250000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực in RT 85A / HP 1102, M1132, M1212NF, Canon 325 - RT 85A",
+   "price": 250000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực in RT Canon LBP 6230/6320/78A (EP 326) - RT 78A",
+   "price": 250000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực in sử dụng cho máy in HP 147A Black (W1470A) - 2937_114361071",
+   "price": 1200000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực in TN-263 cho máy Brother HL-L3230cdn/DCP L3551CDW ( giá tính trên 1 màu) - TN-263",
+   "price": 250000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực màu CE310/ 311/ 312/ 313 (HP 1025/ canon 329) và CF350/351/352/353(HP M176n) giá tính trên 1 màu - HP 1025",
+   "price": 220000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực màu CE410-CC530/CE411-CC531/CE412-CC532/CE413-CC533 sử dụng cho máy in laser màu HP Pro 400/M451/CP 2025/EP318 giá tính trên 1 màu - 2937_116376175",
+   "price": 330000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực màu HP 215A (BK/C/Y/M) – Cho máy M155a/ M155nw/ M182n/ M183fw(mã mựcW2310/2311/2312/2313) - 2937_123780880",
+   "price": 550000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực màu HP Color Laser W2110(HP206) sử dụng cho máy in M255nw/ M255dw/ M283fdn/ M283fdw - 2937_113390323",
+   "price": 800000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực máy in Brother TN2385/ TN2325 - Hộp mực máy in Brother TN2385/ TN2325",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực máy in Hp 89A CF289A ( M507/ M528DN/ M528F/ M507X ) (hộp mực chưa có chíp) - 89A",
+   "price": 299000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực máy in HP CF281A sử dụng cho máy in M604DN-605-606 - Mực 81A",
+   "price": 440000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực photo.copy Xerox DC 156 / 186 / 1055 / 1085 ( Hàng chính hãng ) - Xerox 1055",
+   "price": 600000,
+   "group": "muc-photo",
+   "page": "hop-muc-photocopy-xerox-dc-156-186-1055-1085-hang-chinh-hang"
+  },
+  {
+   "name": "Hộp mực Ricoh SP230 cho máy in Ricoh Sp 230DNW, 230SFNW chỉ sử dụng cho cụm drum phôi Trung Quốc - Mực SP230",
+   "price": 130000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực RT 12A dùng cho Máy In Canon 2900 / 1020/1010/M1005 - HP 1010, 1015, 1012, 3015, 3020, 3030, 1020 - RT 12A",
+   "price": 220000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực RT 49A dùng cho máy in Canon 3300 HP 1160/ 1320/ 3390/ 3392 - RT 49A",
+   "price": 270000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp Mực RT 527 sử dụng cho máy in Canon 8610-8620-8630 - RT 527",
+   "price": 599000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực RT 53A dùng cho máy in HP Laserjet P2014 / 2015 / M2727 Canon LBP 3310 / 3370 - mực RT 53A",
+   "price": 270000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực RT CF210 / 211 / 212 / 213 cho máy màu HP LaserJet Pro 200 color M251nw/ M276nw - CF210",
+   "price": 350000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực RT CF283A HP LaserJet M125/ 125FW/ 125A/ 125nw/ M126/ M127/ M127FN/ M201/ M201DW/ M225MFP Canon 221D/151DW - Hộp mực RT 283A",
+   "price": 250000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực RT dùng cho máy in Brother TN 2220/2230/2240/2250/2260/2270/2280 - RT-2280",
+   "price": 180000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực TN 451 sử dụng cho máy in Brother HL-L8260CDN/ 8360CDW/ MFC-L8690CDW ( TN451BK/C/YM) - 2937_117671952",
+   "price": 330000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực Toner PANTUM TL-410H Dùng cho các dòng máy in P3300DN M7100DW (410) -2937_123917070",
+   "price": 220000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực W1003a sử dụng cho máy in HP Laser MFP 131a/MFP 133pn - 2937_123919403",
+   "price": 298000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Hộp mực Xerox S2110, S1810, S2011, S2010, S2420, S2520, S2220, S2320 - mực S1810",
+   "price": 155000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "HỘP QUANG MÁY IN Canon 3300-1320-1320N (hàng tháo máy) - HỘP QUANG MÁY IN CANON 3300-1320-1320N",
+   "price": 250000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Hộp scan , hộp quang Canon LBP 2900 / 12A - hộp Scan 2900",
+   "price": 300000,
+   "group": "linh-kien-khac",
+   "page": "hop-scan-hop-quang-canon-lbp-2900-12a"
+  },
+  {
+   "name": "Lá lúa Ricoh - Sharp - To shiba ( 5 cái ) - Lá lúa 1075",
+   "price": 145000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Lò xo kéo 12A - Canon 2900 ( 10cái ) - lò xo kéo",
+   "price": 30000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Lò xo MP4000 dùng cho máy Ricoh AF1035/1045/2035/2045/ MP4000/5000/3500/4500 ( 7 cái ) - Lò xo MP4000",
+   "price": 99000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Load giấy , tách giấy , miếng đệm máy in 226A / 402 (K1) - Load giấy 402(K1)",
+   "price": 50000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Load giấy 12A-1010-2900 , đệm tách giấy - Load giấy 12A",
+   "price": 35000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Load giấy 29X dùng cho máy HP 5000 / 5100 ( khay 2 ) - load giấy 29X",
+   "price": 50000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Load giấy 35A dùng cho máy in Hp 1005, 1006,1102,1212,Canon 6030, 6230 - Load giấy 35A",
+   "price": 35000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Load giấy 49A dùng cho máy in Canon 3300 HP LaserJet 1160, 1320, 3390, P2014, P2015, P2015D, P2015N, M2727 - Load giấy 49A",
+   "price": 35000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Load giấy HP P2035 / 2055 / M401 / 05A K2 - Load giấy 05k2",
+   "price": 40000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 1015 dùng cho máy photo Ricoh Aficio 1015/1018/2015/2018 - lô ép 1015",
+   "price": 290000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 1025 dùng cho máy HP Color CP1020/ CP1025/ CP1025nw - Lô ép 1025",
+   "price": 170000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 107 dùng cho hộp mực HP 107a, máy in M135a, M137fdn, M135w, M107w (W1107A) - Lô ép 107",
+   "price": 140000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 1102 - 85A - 78A - 83A - 79A Canon 6200 / 6230 ( màu cam ) - Lô ép 85A",
+   "price": 110000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 1102 - 85A - 78A - 83A - 79A Canon 6200 / 6230( MÀU ĐEN) - Lô ép 85A đen",
+   "price": 110000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 1666 sử dụng cho máy in Samsung ML 1660/1666/1671/ 1866/1670/1688,/SCX 3201/ 3200/3217/HP 150/178 - lô ép 1666",
+   "price": 140000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 17A sử dụng cho máy in M102-M130-M203-Pro M203DN-M227FDW - lô ép 17A",
+   "price": 139000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 2035-2055-05SE - Lô ép 05 SE",
+   "price": 130000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 355-356-455-456-506 - Lô ép 456",
+   "price": 510000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 35A dùng cho HP LaserJet P1005 / P1006 , Canon 3050 / 3100 - Lô ép 35A",
+   "price": 100000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 48A dùng cho máy HP LaserJet Pro M15a/ M28a/ M28w - lô ép 48A",
+   "price": 130000,
+   "group": "lo-say-lo-ep",
+   "page": "lo-ep-48a-dung-cho-may-hp-laserjet-pro-m15a-m28a-m28w"
+  },
+  {
+   "name": "Lô ép 55a sử dụng cho máy in P3015-P3016-M521mfp - Lô ép 55a",
+   "price": 160000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép 87A dùng cho máy in HP M501/ M 506/ M507 - Lô ép 87a",
+   "price": 220000,
+   "group": "lo-say-lo-ep",
+   "page": "lo-ep-87a-dung-cho-may-in-hp-m501-m-506-m507"
+  },
+  {
+   "name": "Lô ép Brother B022 HL-B2000/ B2080DW/ MFC 7715DW/ 7535DW /DCP 7500D, 7520D - Lô ép B022",
+   "price": 140000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Brother HL 5100 - 5700 - 6200 - Lô ép brother 5100",
+   "price": 300000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Brother HL-1111/ 1110/ 1201/ 1211/ DCP 1510/ 1511/ 1601/ MFC-1811 / TN 1010 - Lô ép 1111",
+   "price": 140000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Brother HL-2140/ 2150/ DCP-7040/ MFC-7340/ 7450/ 7840 (TN2130) - Lô ép 2140",
+   "price": 140000,
+   "group": "lo-say-lo-ep",
+   "page": "lo-ep-brother-hl-2140-2150-dcp-7040-mfc-7340-7450-7840-tn2130"
+  },
+  {
+   "name": "Lô ép Brother TN 2280 - Máy in Brother 2240/ 2250/ 2130/ 7360/ 2270/ 7470/ 7860/ 2840 - lô ép 2240",
+   "price": 120000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép CF400 dùng cho máy in màu HP Color LaserJet Pro M252/M274/M277 printers (CF400A) - Lô ép CF400",
+   "price": 199000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép CF410 dùng cho máy in màu HP M377/452/477 - lô ép CF410",
+   "price": 299000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép D101 sử dụng cho máy in SamSung ML- 2160 / 2161 / 2165 / 2168 , SCX-3400 / 3405 - Lô ép D101",
+   "price": 150000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép dùng cho Brother 2385, HL 2300, 2321, 2340, 2361, 2365, 2380, MFC 2700, 2701, 2703, 2720, 2740 - lô ép 2385",
+   "price": 120000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép dùng cho máy Ricoh Aficio 1022/1027/3025/3030/ MP2510/2550/3053/3353/2851 - Lô ép 1027",
+   "price": 295000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép dưới Ricoh AF MP 2554SP-3054SP-3554SP-4054SP-5054SP-6054SP - Lo ep 2554",
+   "price": 600000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép HP 1160 - 1320 - 49A - 3300 - lô ép 49A",
+   "price": 130000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép HP 226A/402A - Lô ép 226",
+   "price": 130000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép HP 402 - Lô ép 402",
+   "price": 130000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép HP 600 M601/602/603/M604/605/606 - Lô ép HP 600 M601/602/603/M604/605/606",
+   "price": 260000,
+   "group": "lo-say-lo-ep",
+   "page": "lo-ep-hp-600-m601602603m604605606"
+  },
+  {
+   "name": "Lô Ép M607 dùng cho máy in HP M607/M608/609 - Lô ép 608",
+   "price": 250000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô Ép M607 dùng cho máy in HP M607/M608/609 - Lô ép 608",
+   "price": 250000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép máy in HP 1100 CA L220 / 240 / 250 / 280 / 295 / 350 / 360 CA LBP 810 / 1120 - Lô ép 1100",
+   "price": 50000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Máy In HP LaserJet P4014 / P4015 / P4515 / 4014 ( 64A ) - 2938_116842039",
+   "price": 149000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép MP1500/1900/1600Le/2000Le/2500/2580/1800L2/2000L2/2001/2501/1015 cet - Lô ép 1015",
+   "price": 350000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Pana 473 / 472 / 2120 / 2130 / 2170 - lô ép 473",
+   "price": 70000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Pana MB 262-263-772-773-778-783-803 - Lô ép Pana 803",
+   "price": 80000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Pho.to To.shibaE-studio 2303/2309/2803/2809/2006/2306/2506/2007/2307/2507 - Lô ép 2303",
+   "price": 280000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép RICOH 4015-4615 - Lô ép Ricoh 4015",
+   "price": 230000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Ricoh Aficio MP301SP / 301SPF - Lô ép M301",
+   "price": 280000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Rulo Minolta Bizhub 162/ 163/ 210/ Di152/ 183/ 1811/215 - 2938_115324678",
+   "price": 330000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép SamSung 4824 / 2850 / Xerox 3210 - Lô sấy 2850",
+   "price": 150000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Sharp ARM 256L-316L-258-318 MX-M314N - Sharp 256L",
+   "price": 330000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép SP 200 dùng cho máy Ricoh SP200/SP210 - Lô ép SP200",
+   "price": 210000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép sử dụng cho máy HP M435/M701/706-cz93 - Lô ép CZ93",
+   "price": 200000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép sử dụng cho máy in Canon IR 2230-2270-2870-2520-2525-2530-3025-3225 - Lô ép 2520",
+   "price": 400000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Sử dụng cho máy in laser 15A HP 1000 / 1200 / 1150 / 1300 - Lô ép 15A",
+   "price": 80000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép T 550 sử dụng cho máy in T550/650/810/555/655/755 - Lô ép T550",
+   "price": 500000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép trên máy konica minolta bizhub 222/223/227/282/283/287/362/363/367/423/7728/7828 - Lô ép 283",
+   "price": 480000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô ép Xerox P225/M2255/P265/M265 (X-P225/M225/P265) - Lô ép P225",
+   "price": 120000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy 84A dùng cho máy Pana 84/89/83/88/76/78 - 84A",
+   "price": 49000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Bizhub Cet 2011 - 215 - 235 - 195 - Lô sấy 195",
+   "price": 230000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Brother B022 HL-B2000/ B2080DW/ MFC 7715DW/ 7535DW /DCP 7500D, 7520D - Lô sấy B022",
+   "price": 80000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Brother HL-1111/ 1110/ 1201/ 1211/ DCP 1510/ 1511/ 1601/ MFC-1811 - Lô sấy Brother 1111",
+   "price": 100000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Brother HL-2140/ 2150N/ 2170W/ DCP-7030/ 7040/ MFC-7340/ 7450/ 7840N - lô sấy 2140",
+   "price": 100000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy D101 sử dụng cho máy in Sam Sung ML-2160/ 2161/ 2165/ 2168, SCX-3400/ 3405 - 2938_44891777",
+   "price": 120000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy dùng cho máy Aficio 2051-2060-2075- MP5500-6500-7500-6000-7000-8000-6001-7001-8001-6002-9002 - MP7500/8000",
+   "price": 260000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô Sấy dùng cho máy Pho.to To.shiba e-STUDIO 255/305/355/455/357 - 355",
+   "price": 180000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy máy photo Ricoh MP2001/2001SP/2501/2501SP - Lô sấy MP2001",
+   "price": 200000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Minolta Bizhub 162/ 163/ 210/ Di 152/ 183/ 1811 - lô sấy Bizhub 163",
+   "price": 200000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Pana 2025-2030-2120-2130-2085-2170 - Lô sấy 2025",
+   "price": 60000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Pana 84/89 - Lô sấy 84",
+   "price": 60000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Pana MB 262-263-772-773-778-783-803 - Lô sấy 803",
+   "price": 90000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Ricoh 6655-6645-7650-1055-550-555-1060-7660-7670 - lô sấy 7650",
+   "price": 280000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Ricoh Aficio 1022/ 1027/ 2027/ 2032/ MP 2852/ MP 3351/ MP 3352 / MP 3353 - Lô sấy Ricoh 1022",
+   "price": 235000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Ricoh Aficio MP4000/ 4001/ 4002/ 5000/ 5001/ 5002 (CET) - Lô sấy Ricoh Aficio MP4000/5000 CET",
+   "price": 290000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Rulô trên Bizhub 164 / 184 / 7718 - LÔ SẤY BIZHUB 164",
+   "price": 250000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô Sấy Rulô trên Ricoh MP2014 / MP2014D / MP2014AD/2701/2700/2702 - LÔ SẤY MP2014",
+   "price": 210000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Sharp MX-M 283 N / 363 U/ 453 U/ 503 U - Lô sấy Sharp 283",
+   "price": 300000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy SP 200 dùng cho máy Ricoh SP200/SP210 - Lô sấy SP200",
+   "price": 210000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy SP 310 dùng cho hộp mực Ricoh SP310/3510 - Lô sấy SP310",
+   "price": 210000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy To.shiba E 550/650/655/600/720/8/855 - Lô sấy TSB 550",
+   "price": 270000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy trên máy konica minolta bizhub 222/223/227/282/283/287/362/363/367/423/7728/7828 - lô sấy 283",
+   "price": 250000,
+   "group": "lo-say-lo-ep",
+   "page": "lo-say-tren-may-konica-minolta-bizhub-22222322728228328736236336742377287828"
+  },
+  {
+   "name": "Lô sấy Trên Ricoh 1035-2035 - lô sấy Rioch 1035",
+   "price": 200000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy TSB 550-650-810-720(cet) - lô sấy T 550",
+   "price": 350000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Lô sấy Xerox P225/M2255/P265/M265 (X-P225/M225/P265) - Lô sấy Xerox P225",
+   "price": 80000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Mạch điều khiển Bo Formatter HP 2015 Sử dụng cho máy in HP Laserjet 2015 / 2015D ( Hàng mới )Bao test 3 ngày - Bo 2015",
+   "price": 500000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Máy hút bụi mực Atrix OMG SUPREME Plus - Máy hút mực",
+   "price": 6200000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mỡ bôi trơn bao lụa , film sấy, lô sấy, lô ép (mỡ tốt) - Mỡ xanh",
+   "price": 120000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Mỡ dùng để bôi trơn bao lụa , lô sấy, lô ép (mỡ zin) - mỡ zin",
+   "price": 120000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Mực 88A Sử dụng cho máy in P1007-1008-1106-1108-M1136MFP-1213NFMFN - Mực 88A",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực Bizhub MINOLTA TN 114 -116 - 117 - 118 - 119 - 211 - 217 - 414 ( 1kg ) - Mực Nạp Bizhub",
+   "price": 290000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực Cartridge MX- 237 / Sharp AR-6020 / 6023 / 6026 / 6031 ( 500G ) - Sharp 237",
+   "price": 380000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực CF 230A-không chíp - CF 230",
+   "price": 280000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực đổ , mực nạp laser màu Xerox C1110 / CP 115( giá tính trên 1 chai) - C1110",
+   "price": 120000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực đổ laser màu OKI - mực đổ màu Oki",
+   "price": 110000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực gói A0 - Ricoh Aficio W 240 / 470 / 480 / 2400 / 3600 / 2401 / 3601 / 5100 / 7140 ( 1kg ) - Mực Ricoh A0",
+   "price": 360000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực gói AF700 - 850 dùng cho máy photo Ricoh Aficio 1075/2075/ MP7500/8000 (1KG) - Ricoh",
+   "price": 240000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực gói dùng cho máy pho.to To.shiba G7 ( TO.SHIBA 550-650-720-820 )(1KG) - Gói G7",
+   "price": 199000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực gói đổ mực dùng cho máy photo Xerox 2060/3060/3065/236/4070/5070 (1 KG) - Mực xerox 2060",
+   "price": 299000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực gói Maxstar xanh dùng cho máy pho.to Ricoh AF1075/2060/2075/2085/MP5000/6000/7000/8000/5001/6001/7001/8001 - Mực gói Maxstars AF1075",
+   "price": 280000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực gói pho.to dùng cho máy Ricoh MP 1035/1045/3590/4590/4000/5000/4001/5001/5002/2851 ( 1KG) - Mực MP4000",
+   "price": 299000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực gói Ricoh Aficio 1022/1027/ MP3053/3353/MP 301 SPF /MP 2510SPI (1000g) - Ricoh 1022",
+   "price": 250000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực gói Ricoh G7 MP4000 / 4001 / 4002 / MP3054 / 4054 / 5054 / 3055 / 4055 / 5055 ( 500G) - Mực kg G7",
+   "price": 190000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực gói Ricoh MP2554 / 3054 / 3554 / 4054/ 5054 / 6054 ( gói trắng ) - Mực 3054",
+   "price": 299000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực gói Ricoh MP3554S/MP2554/3054/3554/4054/5054/6054/2014S/6518 (1KG) - Mực 3554",
+   "price": 380000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực gói TASKalfa 3212i/TASKalfa 4012i - Mực gói TASKalfa 3212i/TASKalfa 4012i",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực gói Titi To.shiba sử dụng cho máy in DP 5570 - 6570 - 8070 E-Studio 45 - 85 - 65 hàng Nhật - Titi",
+   "price": 260000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực gói TN-323 cho máy Bizhub 227/287/367 (1 kg) - Mực gói TN-323",
+   "price": 310000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực gói TN-325/326/515/Bizhub 308/368/308e/368e/458/558 - Mực gói TN-325",
+   "price": 399000,
+   "group": "muc-photo",
+   "page": "muc-goi-tn-325326515bizhub-308368308e368e458558"
+  },
+  {
+   "name": "Mực hộp laser HP 107A Black (W1107A) - Dùng cho Máy in HP 107a/ 107w/ 135a/ 135w (có chip) - Mực 107",
+   "price": 200000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Mực hộp laser HP 107A Black (W1107A) - Dùng cho Máy in HP 107a/ 107w/ 135a/ 135w (không chíp) - HP107",
+   "price": 190000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực hộp máy in laser Canon 319 - Dùng cho Máy Canon LBP 6650DN, LBP 6680x , LBP 6300DN , MF 5870DN, MF5980Dw, MF6180w, LBP 252DW, LBP 251DW - Mực hộp máy in laser Canon 319",
+   "price": 270000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Mực hộp máy in laser HP CF248A - Dùng cho máy in HP Pro M15A, M15W, M28A, M28W, M16, M29 - Mực hộp máy in laser HP CF248A",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực hộp máy in phun Epson R 1900 ( giá tính trên 1 màu) - Mực hộp máy in phun Epson R1900",
+   "price": 380000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in Art Paper UV Epson Ecotank BK/C/Y/M/LM/LC giá tính trên 1 màu (70ml/bot) - 2937_118351619",
+   "price": 85000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in CF287A - Mực CF 287",
+   "price": 400000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in CF500/501/502/503 cho máy in M254dw/280/M281 và mực 054 cho Canon LBP621Cw/ 623Cdw/ MF641Cw/ 643Cdw - CF500",
+   "price": 220000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in Epson 003 chính hãng — 4 màu CMYK — Minh Tiến",
+   "price": 490000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in HP 136A LaserJet Toner Cartridge (W1360A) dùng cho máy in HP M211d / M211dw / M236dw / M236sdw ( không chíp ) - Mực 136A",
+   "price": 210000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in HP 136A LaserJet Toner Cartridge (W1360A) dùng cho máy in HP M211d / M211dw / M236dw / M236sdw/M207-M212 ,M209 ( có chíp ) - Mực 136A có chíp",
+   "price": 299000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực In HP 305 CE 410-411-412-413 sử dụng cho máy in HP Color LaserJet Pro M375nw, Pro M451dn, Pro M451dw, Pro M451nw, Pro M475dn - Mực CE 410",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in HP P4014/P4015/M601/M602/600/M601/M602/M603/M4555 (CE390A/CC364A) - Hộp mực 90A",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực In Laser 12A-1010-1012-1018 có lỗ đổ mực - Mực laser 12A",
+   "price": 118000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực In Laser 12A-1010-1012-1018 có lỗ đổ mực - Mực laser 12A",
+   "price": 118000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực In Laser 17A-Pro M102-M130-M130FN có chíp - Mực laser 17A",
+   "price": 120000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực In Laser 78A-P1560-1606 CA -328-326 - Mực laser 78A",
+   "price": 119000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực In Laser 83A - 337A - Pro MFP M127Fn - Mực laser 83A",
+   "price": 119000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực In Laser 85A-35A cho máy Canon 6030, 6030W, HP 1102, 1102W, 1132MFP, 1212MFP - Mực laser 85",
+   "price": 119000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in Laser Brother TN 2025 - Dùng cho Brother HL-20xx/ DCP-7010/ MFC-7220/ 7420/ 7820N/ FAX-2820/ 2920 - Mực in Laser Brother TN 2025",
+   "price": 300000,
+   "group": "linh-kien-fax",
+   "page": ""
+  },
+  {
+   "name": "Mực in Laser đen trắng HP 55A (CE255A) - Dùng cho máy HP P3015/ 3010 - 55A",
+   "price": 330000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in laser màu 201A Black CF400A - CF 400",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in laser màu 201A Cyan CF401A - CF 401",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in laser màu 201A Magenta CF403A - CF 403",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in laser màu 305A Black CE410-411-412-413 giá tính trên 1 màu - CE 410",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in laser màu 508A Black CF360-361-362-363 giá tính trên 1 màu - CF 360",
+   "price": 900000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in laser màu CF400/01/02/03 cho máy in Hp M252dw/ MFP M227dw và Canon 045 cho máy in LBP 611Cn/613Cdw - mực hộp 252",
+   "price": 220000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in Laser Toner 2240 sử dụng cho máy in TN 450-2220-2225-2250-2275-2280,TN 2260 (brother HL 2130/2240/7360/7060) - 2240",
+   "price": 120000,
+   "group": "hop-muc",
+   "page": "muc-in-laser-toner-2240-su-dung-cho-may-in-tn-450-2220-2225-2250-2275-2280-tn-2260-brother-hl-2130224073607060"
+  },
+  {
+   "name": "Mực In Laser Toner 30A / 051 - Pro M203DN - M227FDW - có chíp - 30A",
+   "price": 120000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in Laser Toner Brother TN 1010-1020-1035-1040 - TN-1010",
+   "price": 115000,
+   "group": "hop-muc",
+   "page": "muc-in-laser-toner-brother-tn-1010-1020-1035-1040"
+  },
+  {
+   "name": "Mực in Laser Toner CF 287 sử dụng cho máy in M501-M506-M527 - CF 287",
+   "price": 360000,
+   "group": "hop-muc",
+   "page": "muc-in-laser-toner-cf-287-su-dung-cho-may-in-m501-m506-m527"
+  },
+  {
+   "name": "Mực in Laser Toner CZ 92A - 93A sử dụng cho máy Jet Pro M435nw-M701n-M701a-M706n - CZ92A",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in photocopy Sharp 420g - Sharp 420g",
+   "price": 150000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực in phun chuyển nhiệt 100ml (giá tính trên 1chai ) - mực nước chuyển nhiệt",
+   "price": 80000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in phun dầu Epson (100ml)giá tính trên 1 chai - mực dầu",
+   "price": 65000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực In RT 53A HP 2014-2015-Minh Tiến - HP 2014-2015",
+   "price": 250000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực In RT CA 328-326 - Mực 328-326",
+   "price": 250000,
+   "group": "hop-muc",
+   "page": "muc-in-rt-ca-328-32"
+  },
+  {
+   "name": "Mực in RT- 337 Dùng cho Máy Canon MF211, 211D, 212w,215,217W,226dn,229dw, 221D,151dw, 244dw, MF232W, MF235, MF237W - RT-337",
+   "price": 250000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in samsung ML 2850-2851ND - ML 2850",
+   "price": 550000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in Toner 052 – Dùng cho máy LBP 214dw- MF426dw- MF424dw - 052A",
+   "price": 200000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực In Toner Laser 1000a-1000w-1200a-1200w-H-W1103 - W1103",
+   "price": 119000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực in Xerox P255D - P255",
+   "price": 220000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực laser HP RT 76A - CF276A - Dùng cho máy in HP M404N/ M404dn/ M404dw, MFP M428fdw / M428fdn ( có chíp ) - Mực RT 76A có chíp",
+   "price": 400000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực laser màu cho máy Brother HL-3230CDN, 3270CDW, MFC-3770CDW, 3750CDW, 3551CDW,HL-L8260CDN/8360CDW/ MFC-L8690CDW - Mực màu Bro",
+   "price": 160000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực màu RT CF 510-511-512-513 sử dụng cho máy in M154a-M154nw-M180n-M181fw-204a giá tính trên 1 màu - CF 510",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực máy in laser HP 206A Black (W2110A) - Dùng cho máy in HP Color LaserJet Pro M255/M282/M283 - 2937_111353487",
+   "price": 460000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực MP2014-2014AD-2014H -2702-180G - MP2014",
+   "price": 120000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nạp + chíp HP 335A dùng cho máy in HP Pro MFP 438n/M440n/M440nda (W1335A) - Mực nạp HP 335",
+   "price": 150000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực Nạp 56A dùng cho Hộp mực CF256A máy in Hp M433a/ M436N/ M436DN - CF256",
+   "price": 90000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nạp Epson 2010 dùng cho máy M2010D-M2010DN - Epson M2010D",
+   "price": 80000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nạp HP 80g giá tính trên 1 màu - Mực nạp HP 80g",
+   "price": 120000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nạp laser màu HP 1215 / 1025 Canon 5050 giá tính trên 1 chai/màu - Mực nạp 1215",
+   "price": 65000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nạp laser màu HP M252-277-281-202-CF400-401-402-403-CF500-501-502-503 giá tính trên 1 chai - Mực nạp CF400",
+   "price": 80000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nạp laser màu zhono HP 252-452 -045-611-613-631-633 gía tính trên 1 chai ( CF400 ) - Mực nạp zhono",
+   "price": 70000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nạp màu HP 119A dùng cho Máy in laser Color Laser 150NW, Samsung ( giá tính trên 1 chai) - Mực nạp 119A",
+   "price": 77000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nạp Mực nạp Pana 85-88A-411-472-473 cho các dòng máy KX-MB KX-MB 2120- 2130- 2170 -2025-2030-1900-2010 - Pana 85",
+   "price": 40000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nạp Pana 83E (KX-FL512, FL612, FL542, FLM652-662-672-KXFLB752&amp;KX-FLB756) - Mực nạp Pana 83E",
+   "price": 40000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nạp Ricoh C250 giá tính trên 1 chai - Mực C250",
+   "price": 115000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nạp Sharp AR160/161/ 200/202/205 (610G) - Sharp 610g",
+   "price": 220000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực NPG 73 / Canon iR ADVANCE 4525i/4535/ 4545i/4551(1600g) - NPG 73",
+   "price": 820000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực nước Brother 100ml cho máy BT5000/5001/5009/D60BK/61BK/6000 -T220/T226/T300/T310/T420W/T500 giá tính trên bộ 4 màu - 2937_120607347",
+   "price": 120000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nước dùng cho máy in Canon G3800/G2800/G1800/G4800/G1810/G2810/G3810/G4810 ( giá tính trên 1 màu) - mực G3800",
+   "price": 50000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nước dùng cho máy in phun Epson (1 lít) giá tính trên 1 chai - Ep1lít",
+   "price": 115000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nước Epson Inktec Hàn Quốc 1 lít sử dụng cho máy in phun Epson giá tính trên 1 chai - mực nước 1000ml",
+   "price": 169000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nước HP, Canon dành cho máy in phun HP, Canon (100ml) (giá tính trên 1 chai) - Mực in phun 100ml",
+   "price": 20000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nước in phun L800- L1800 - L805-L850-70ml chỉ có màu đen - Mực 673",
+   "price": 300000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nước in phun sử dụng cho máy CA và HP (giá tính trên 1 màu) chai đục - mực Canon",
+   "price": 160000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực nước Inktek dùng cho máy in phun Canon , HP ( giá tính trên 1 chai / 1 lít) - Mực nước Canon",
+   "price": 169000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực ống Ricoh 1230D dùng cho máy Aficio 2015 / 2018 / MP 1600 / 1800 / 2000 - Ricoh 1230D",
+   "price": 99000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực ống Ricoh MP 2501S/ MP 2001 - mực 2501D",
+   "price": 180000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực Phocopy T4530D-220V - T4530D",
+   "price": 300000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực Phocopy T4530U-110V - T4530",
+   "price": 300000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực Photo Canon NPG-51 dùng cho IR 2525 / 2525 / 2530 - NPG 51",
+   "price": 169000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực Photo Ricoh Maxstar(0.9kg) 551/1060/2060/2075/MP 4000/MP 5000/6001/7001/8001/9001/6520 - Maxstar đỏ",
+   "price": 320000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực Photocopy Canon NPG 28 - NPG 28",
+   "price": 130000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực Photocopy Canon NPG 32-Chính Hãng - NPG 32 chính hãng",
+   "price": 750000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực Photocopy Canon NPG 50 - NPG 50",
+   "price": 190000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực Photocopy Canon NPG 54 - NPG 54",
+   "price": 820000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực Photocopy Canon NPG 59 sử dụng cho máy in IR2002, IR2004, IR2004N, IR2006,IR2425 - NPG 59",
+   "price": 139000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực Pigment UV Inktec Hàn Quốc 1 Lít ( giá tính trên 1 chai) - Mực dầu 1 lít",
+   "price": 250000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực Ricoh bao bạc 1kg - Mực Ricoh kg",
+   "price": 240000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực Ricoh MP2014 - 2014AD - 2014H - 2014 - 2702- Cet (390G) - Mực MP2014-390g",
+   "price": 430000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực T-4590D sử dụng cho máy E-Studio 256-306-356-450-220V - T-4590D",
+   "price": 230000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực T2309P-S-E-Studio 2309A-2303AM-2809A - Mực T2309",
+   "price": 390000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực TK479K/ FS-6025 MFP/6030MFP/6525MFP (480g) - TK 479K",
+   "price": 500000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Mực TN 325 /TN326/515/516 Minotal Bizhub 308/368/308e/368e (500g) có chíp - Mực TN326/515 Minotal Bizhub 308/368/308e/368",
+   "price": 550000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực TN-116/117/118/119 Bizhub 183/184 /195/215/206 (CET) - TN116 CET",
+   "price": 320000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Mực To.shiba T 5018 P / U / C / E, Dùng cho To.shiba e Studio 2518A / 3018A / 3518A / 4518A / 5018A - Mực T5018U",
+   "price": 600000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Nhông lô ép , nhông sấy HP LaserJet 5200/ 5200n/ 5200tn/ 5200L, Canon 3500 / 706 ( 16A ) ( giá tính trên 1 cái) - Nhông lô ép 16A",
+   "price": 80000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông lô ép / nhông sấy HP 1005/1006/1007/1008/35A (nhông thẳng) - Nhông sấy 35A",
+   "price": 50000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông lô ép HP 1102/1006/85A (nhông xéo) - Nhông lô ép 1102",
+   "price": 50000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông lô ép HP LaserJet P2035/ P2055 05A (giá tính trên 1 cái) - Nhông lô ép 05A",
+   "price": 50000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông lô ép máy in Canon 2900-1010-1020-12A - Nhông lô ép 2900",
+   "price": 50000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông quả đào HP1005/1006 - Nhông quả đào HP1005/1006",
+   "price": 50000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông sấy HP 4014-4015 - nhông HP 4014",
+   "price": 100000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông trung gian 51A máy in HP P3005 3005 3005N 3005DN - nhông HP 3005",
+   "price": 100000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông trung gian 706-5025-5035 - Nhông 706",
+   "price": 200000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông trung gian HP 1010 - 1020 - Canon 2900 12A - Nhông sấy 1010",
+   "price": 80000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông trung gian HP 600-601-602-603-604 - nhông HP 600",
+   "price": 200000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông Trung Gian Sấy HP 5200 / 16A ( Bộ 3 cái) - Nhông trung gian 16A",
+   "price": 99000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông truyền sấy , nhôngTrung Gian Hp 1522 P1505 1536 1566 1606 ( NHÔNG XÉO ) - Nhông Trung Gian 1606",
+   "price": 80000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nhông truyền sấy / nhông trung gian máy in HP1160 / 1320 / 2014 / 2015 / 3300 / 2035 / 2055 / 05 (49A) - Nhông truyền sấy 49A",
+   "price": 40000,
+   "group": "lo-say-lo-ep",
+   "page": "nhong-truyen-say-nhong-trung-gian-may-in-hp1160-1320-2014-2015-3300-2035-2055-05-49"
+  },
+  {
+   "name": "Nhông truyền sấy / trung gian máy in HP 401/Pro 400 - Nhông truyền sấy 401",
+   "price": 50000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Nước ngâm , Nước rửa đầu phun ( 1Lít ) - Nước rửa 1l",
+   "price": 195000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Nước ngâm , nước rửa đầu phun 100ml - Nước rửa 100ml",
+   "price": 49000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Ống mực cartridge Ricoh MP3554/MP2554SP/3054SP/3554/4054S - Ống 3554",
+   "price": 499000,
+   "group": "hop-muc",
+   "page": "ong-muc-cartridge-ricoh-mp3554mp2554sp3054sp35544054s"
+  },
+  {
+   "name": "Ống Mực dùng cho máy Ricoh 2501 ( CET ) - 2501 cet",
+   "price": 200000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Ống mực KONICA MINOLTA TN 114 Di 152 / 183 - TN 114",
+   "price": 129000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Ống mực MP3554/MP2554SP/3054SP/3554/4054S (700g) - 2937_119200754",
+   "price": 439000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Ống mực NPG-59 Dùng cho Máy photo Canon IR2002/ IR2202/IR2425 (400G) - NPG-59",
+   "price": 180000,
+   "group": "muc-photo",
+   "page": "ong-muc-npg-59-dung-cho-ma-y-photo-canon-ir2002-ir2202ir2425-400g"
+  },
+  {
+   "name": "Ống mực photo Ricoh MP 2500 - 2580 - Ống MP 2500",
+   "price": 150000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Ống mực Ricoh Aficio MP 301 SP / 301SPF (200g) - Ống mực Ricoh Aficio MP 301SP",
+   "price": 149000,
+   "group": "muc-photo",
+   "page": "ong-muc-ricoh-aficio-mp-301-sp-301spf-200g"
+  },
+  {
+   "name": "Ống Mực TN-225/226 / Bizhub 206i/266i/306i (263g) - TN-225",
+   "price": 260000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "PANTUM TL-412R laser printer toner (For P3010D/3010DW/3012D/M6702DW/6708D) -2937_123927440",
+   "price": 240000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Quả đào 17A-30A sử dụng cho máy in Pro M102-M130-M130FN-Pro M203DN-M227FDW - Quả đào 17A/30A",
+   "price": 25000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Quả đào 49A HP 1160-1320-P2014-P2015-2100-2200-Canon 3300 - Quả đào 49A",
+   "price": 30000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Quả đào 78A HP P1505-1606-M1522NF-1536-6230-MF 235/ MF 212/ HP 151 - Quả đào 78A",
+   "price": 25000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Quả đào bánh xe cuốn giấy HP 12A/1020/Canon 2900/4350 - HP 1020",
+   "price": 25000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào bánh xe lấy giấy 05A dùng cho máy HP 2035/2055/400/401 (Khay 1) - Quả đào 05A/80A",
+   "price": 30000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào bánh xe lấy giấy HP 05A/80A/2035/2055/400/401 (Khay 2) - quà đào 05A khay 2",
+   "price": 30000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào dùng cho máy in HP M 607 / M 608 - Quả đào M 607",
+   "price": 250000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Quả đào kéo giấy 29X HP 5000/5100 khay 2 - Quả đào 5000(k2)",
+   "price": 50000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào kéo giấy HP Laser P3015 khay 1 ( 55A ) - Quả đào 55A K1",
+   "price": 50000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào kéo giấy HP Laser P3015 khay 2 ( 55A ) - Quả đào P3015(k2)",
+   "price": 50000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào kéo giấy máy in HP M252N/M277/M452/M377/M477/M154(CF400/CF 500/CF410) - Trục cuốn giấy 252",
+   "price": 175000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào kéo giấy Samsung ML-1510, 1710, SCX-4200-4300 - 2938_44821249",
+   "price": 40000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào lấy giấy HP 5200/3500/3900/16A khay 1 - Quả đào lấy giấy HP 5200/3500/3900/16A khay 1 - Quả đào 16A khay 1",
+   "price": 40000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào lấy giấy HP 5200/3500/3900/16A khay 2 - Quả đào lấy giấy HP 5200/3500/3900/16A khay 2",
+   "price": 50000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào M506/M501/M501N/M501DN/M506DN/M527D/M527 Khay 1 - Quả đào M506 K1",
+   "price": 50000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Quả đào M506/M501/M501N/M501DN/M506DN/M527D/M527 Khay 2 - Quả đào M506 K2",
+   "price": 100000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Quả đào sử dụng cho máy in HP 201-337-HP225dw - Quả đào 337",
+   "price": 30000,
+   "group": "lo-say-lo-ep",
+   "page": "qua-dao-su-dung-cho-may-in-hp-201-337-hp225dw"
+  },
+  {
+   "name": "Quả đào tách giấy 35A/85A/36A HP P1005/1102 - Quả đào 35A/85A/36A",
+   "price": 25000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào-bánh xe lấy giấy 16A HP 5200-canon 3500 -khay 2 - Quả đào 3500",
+   "price": 50000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào, bánh xe cuốn giấy 226A M402/ M403/ M426/ M501/ M506/ M527 khay 1 - quả đào 402 k1",
+   "price": 50000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quả đào, bánh xe lấy giấy sử dụng cho máy HP M435/M701/706 (khay 2) - Quả đào 706 (KHAY 2)",
+   "price": 50000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Quét Dầu / Cuộn lau dầu Ricoh 1075,2075,2060,6000,7000,6500,7500,7001- MP 7500 - MP1075",
+   "price": 130000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Quét dầu MP 4000-4002-5000-5002 - quét dầu MP 5000",
+   "price": 150000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Ribbon ruy băng mực CZ IR-91B ( 1 day 5 cai) - CZ IR-91B",
+   "price": 190000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Ru lô ép máy in HP CP1215 - Ru lô ép máy in HP CP1215",
+   "price": 160000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Ru Lô sấy dùng cho máy photo Ricoh Aficio MP 301 SP/301SPF - Lô sấy 301",
+   "price": 150000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Ru Lô sấy dùng cho máy photo Ricoh Aficio MP 301 SP/301SPF - Lô sấy 301",
+   "price": 150000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulo ép ( lô ép ) Ricoh Aficio MP4000 / 4001 / 4002 / 5000 / 5001 / 5002 - Lô ép MP4000",
+   "price": 380000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulo ép 12A HP R1010-1020-Canon 2900 - Lô ép 12A",
+   "price": 100000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulo ép Canon iR2535/2545/4025/4035 - Lô ép iR2535/2545/4025/4035",
+   "price": 480000,
+   "group": "lo-say-lo-ep",
+   "page": "rulo-ep-canon-ir2535254540254035"
+  },
+  {
+   "name": "Rulo ép dùng cho máy Pho.to Sharp ARM 256 L/316L/258/318/6023 - Lô ép 256",
+   "price": 350000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulo ép HP R2055-2035-05a - lô ép 05a",
+   "price": 130000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulo ép HP R2055-2035-05a - Rulo ép HP R2055-2035-05a",
+   "price": 120000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulo lô ép 56A dùng cho máy HP MFP436n / M436dna - 56A",
+   "price": 320000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulo Lô Ép Máy Pho.to To.shiba E-studio 355 356 455 456 457 356 506 507 - Lô ép 355",
+   "price": 370000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulo lô sấy 56A dùng cho máy HP MFP436n / M436dna - Lô sấy 56A",
+   "price": 299000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulo lô Sấy To.shiba e-STUDIO 163/165/166/167/ E203/205/206/207/237 - Lô sấy 163",
+   "price": 190000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "RULO SẤY BROTHER HL 2321-2361-2366-MFC 2701 - Lô sấy Brother HL 2321",
+   "price": 90000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulo Sấy dùng cho máy Ricoh Aficio 1015/1018/2015/2018/ MP 2000/ MP2001/2001SP/2501/2501SP - Lô sấy MP2000",
+   "price": 200000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulo sấy Sharp AR M256 L/316L/276/258/318/MX M310/M260/5618/5620/5623/6031 - 2938_116252994",
+   "price": 360000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulô sấy E-Studio 2006/2306/2506/ 2007/ 2507/ 2309A - Rulô sấy E-Studio 2006",
+   "price": 260000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Rulô trên ( rulo sấy ) Sharp AR200 / 201 / 205 / 160 / 5623 - Lô sấy AR 160",
+   "price": 199000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Ruy băng mực Epson ERC-09-22(5 cái) - ERC 09",
+   "price": 175000,
+   "group": "giay-ruybang",
+   "page": ""
+  },
+  {
+   "name": "Seal 05A-80A-49A-53A-10 cái - Seal 05A",
+   "price": 35000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Seal 12A-10 Cái - Seal 12A",
+   "price": 35000,
+   "group": "chip-seal",
+   "page": ""
+  },
+  {
+   "name": "Seal 35A-10cái - Seal 35A",
+   "price": 35000,
+   "group": "chip-seal",
+   "page": "seal-35a-10ca"
+  },
+  {
+   "name": "Set 2 Mực ống Photocopy NPG 15 chính hãng - NPG 15 chính hãng",
+   "price": 100000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Tấm thép đầu kim dùng cho máy Epson LQ 310 / LQ350 - tấm thép",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Toshiba e-Studio 453 Upper Fuser Picker Finger OEM - cò Toshiba 453",
+   "price": 180000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Trống AF550 RICOH Aficio 550-551-650-850-7500 - Ricoh 7500",
+   "price": 700000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum 16A dùng cho hộp mực máy in HP 5200/5035/M435/M701/M706 , Canon LBP-3500/6780X/8100/8780X/8870 - Drum 16A",
+   "price": 60000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum 16A dùng cho máy in HP 5200, 5035, M435, M701, M706 , Canon 3500, 6780X, 8100, 8780, 8870 (Mitsu) - Drum 16M",
+   "price": 120000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum 56A- Dùng cho máy in HP M436n- M436dn-M436nda (CF 256A) - Drum 56A",
+   "price": 120000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum Brother HL 2240/2130/2280 (Hàn Quốc) - Brother 2240H",
+   "price": 85000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum cet 115/7118/ DI152/183/ Bizhub 163/180/181/211/215/164/225/226i - Drum DI152",
+   "price": 250000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum dành cho máy in hp nerverstop 1000w/ 1200aw - drum1000",
+   "price": 70000,
+   "group": "drum-trong",
+   "page": "trong-drum-danh-cho-may-in-hp-nerverstop-1000w-1200aw"
+  },
+  {
+   "name": "Trống drum dùng cho hộp mực Xerox P225/M225/P265/M265 P225 - Drum XR 225",
+   "price": 60000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum dùng cho máy in Brother HL-3140/3150/L 3230cdn/ HL 3551/TN 263 - Drum HL-3140",
+   "price": 88000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum dùng cho máy in Samsung ML1630/1666/1660/ SCX-3200/3201/ D104( dùng cho phôi CH ) - Drum 1666",
+   "price": 35000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum dùng cho máy pho.to To.shiba E-Studio 205/255/355/455 - DRUM 205",
+   "price": 180000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum HP 201A / 452 / 252 / 254 ( CF400 /CF410/CF500/CF510/CF540)(Mitsu) - Trống drum Mitsu CF400",
+   "price": 80000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum HP LaserJet Color CP 1020 / CP 1025 / CP1025nw - Drum 1025",
+   "price": 70000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum máy in Bizhub 222 / 282 / 362 / 223 / 283 / 363 / 423 - Trống drum máy in Bizhub 222/282/362/223/283/",
+   "price": 200000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum máy in E-Studio 2006//2506/2007/2507/2309(ES-TO 2007) - Drum 2506",
+   "price": 180000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum Máy Photo Ricoh MP 2554/3054/3554/3054SP/3554SP/MP 3055/5054( CET ) - Drum Ricoh 3554",
+   "price": 360000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum máy photo Sharp AR M236/237/276/277/AR235/275/208/MX M256/258/6023/5625/MX264/5726/5731/MX 265N - ar235",
+   "price": 250000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum máy photo Sharp ARM 256 / 258 / 316 / 318 - Trống drum Sharp 235",
+   "price": 220000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum máy Photo.copy To.shiba e 282 / 283 / 163 (CET) - Drum 282 (CET)",
+   "price": 230000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum MX 500 dùng cho máy photo Sharp MX-M283N/363U/ 453U/503U - Sharp MX500",
+   "price": 300000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum MX 500 dùng cho máy photo Sharp MX-M283N/363U/ 453U/503U (loại tốt) - Drum MX500",
+   "price": 450000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum Pana 1500 / 1520 /1530 / 410 - Drum pana 1500",
+   "price": 100000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum Pana 473 / 2120 / 2130 / 2170 - drum 473",
+   "price": 140000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum Pana 802, Drum KX-FA 86 (DR-86) - Drum pana 86",
+   "price": 99000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum Ricoh Aficio 1015/1018/2018/2020/1022/1027/2015/MP2000/3353/3352/2553/3351/2851 (Cet) - DRUM Ricoh 1015",
+   "price": 250000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum Ricoh MP 2554 SP/ 3054 SP/ 3554 SP /5054( drum ES) - 2554",
+   "price": 250000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum Ricoh SP 230DNW, 230SFNW - Trống drum Ricoh SP 230DNW, 230SFNW",
+   "price": 60000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum TN-323/ Bizhub 227/287/367 - Drum 227",
+   "price": 499000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống Drum To.shiba 550 - 650 - 720 - 810 - Drum T550",
+   "price": 570000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum xerox DC IV 2060/ 3060 /3065 - Trống drum xerox DC IV 2060",
+   "price": 190000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống drum xerox DC V 2060/ 3060 /3065 - Trống drum xerox DC V 2060/ 3060 /3065",
+   "price": 250000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống máy photocopy Canon npg28 - trống mực NPG 28",
+   "price": 150000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trống mực drum Brother 2385-2361-2701 - drum 2385",
+   "price": 60000,
+   "group": "drum-trong",
+   "page": ""
+  },
+  {
+   "name": "Trục quay quả đào 49A dùng cho máy in HP Laserjet 1160/ 1320/ 3390/ 3392/ Canon LBP 3300/ 3360 - Trục quay 49A",
+   "price": 49000,
+   "group": "lo-say-lo-ep",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc 3471-3470 - sạc 3470",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Trục Sạc dùng cho hộp mực HP 107A , máy in M135a, M137fdn, M135w, M107w (W1107A)( dùng cho phôi CH ) - Sạc 107A",
+   "price": 40000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc dùng cho hộp mực màu CF400/401/402/403 - CF500/501/502/503 HP MFP277/M274N/ M252 - Sạc CF400/CF500",
+   "price": 50000,
+   "group": "hop-muc",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc dùng cho máy in HP MFP 1200aw/1000aw(W1104A/104A) - 2938_69838305",
+   "price": 60000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc dùng cho máy photo Canon IR 1018/2022/2024 - trục sạc ir 1018",
+   "price": 50000,
+   "group": "muc-photo",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc HP 29X-16A-5200-IR 2016/2006 - Sạc 16A",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc HP LaserJet Color CP- 1215 / 1025 / 1518 / CF237 - Sạc 1025",
+   "price": 50000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc Samsung ML1660/1661/1665/1666/1670/1671/1675/1676/1861/1866/1867 (D104S, D1043S)( dùng cho phôi CH ) - trục sạc 1666",
+   "price": 40000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc Samsung ML1660/1661/1665/1666/1670/1671/1675/1676/1861/1866/1867 (D104S, D1043S)( dùng cho phôi CH ) - trục sạc 1666",
+   "price": 40000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc sử dụng cho máy Sámung ML 2160 - 2161 - 2162 - 2165 - D101 - Sạc D101",
+   "price": 30000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc Xerox DC 236/286/2005/2007/3007 - Trục sạc Xerox 236",
+   "price": 170000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc Xerox DC S 2110 / V 2060 / 3060 / 3065 / IV C2260 / C2263 / C2265 - SẠC 2060V",
+   "price": 330000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc, trục cao su CF 237A dùng cho máy in HP M608x / M608dn / M608n / M609dn - Trục sạc, trục cao su CF 237A",
+   "price": 280000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Trục sạc, từ Brother TN 3448 / 5440 cho máy HL-5100DN/6400DW/ MFC-L5700DN/5900DW - Từ Brother 3448",
+   "price": 60000,
+   "group": "linh-kien-khac",
+   "page": ""
+  },
+  {
+   "name": "Trục từ 15A/92A dùng cho máy in HP 1200(15A). - Từ 15A/ 92A",
+   "price": 20000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Trục từ 49A-53A-1320-1160-3300-5cái - trục từ 49A",
+   "price": 100000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Trục từ Brother 2250 - 2240 - 2270 - 7360 - Trục từ 2240",
+   "price": 50000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "trục từ Brother TN 1010 - Từ TN 1010",
+   "price": 50000,
+   "group": "truc-tu",
+   "page": "truc-tu-brother-tn-1010"
+  },
+  {
+   "name": "Trục từ dùng cho hộp mực HP 107A , máy in M135a, M137fdn, M135w, M107w (W1107A)( dùng cho phôi CH ) - Từ 107A",
+   "price": 45000,
+   "group": "truc-tu",
+   "page": "truc-tu-dung-cho-hop-muc-hp-107a-may-in-m135a-m137fdn-m135w-m107w-w1107a-dung-cho-phoi-ch"
+  },
+  {
+   "name": "Trục từ dùng cho hộp mực màu CF400/401/402/403 - CF500/501/502/503 HP MFP277/M274N/ M252 - Từ CF400",
+   "price": 90000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Trục từ dùng cho máy in HP MFP 1200aw/1000aw(W1104A/104A) - Từ 1103",
+   "price": 70000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Trục từ hôp mực CF 237A dùng cho máy in HP M608x / M608dn / M608n / M609dn - Từ 237",
+   "price": 90000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Trục từ HP 2035 - Pr400 - 05A - 280A - 5cái - từ 05A",
+   "price": 100000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "TRỤC TỪ HP 5200-16A - từ 16A",
+   "price": 90000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Trục từ Pana 473 KX-MB 2120, 2130, 2170 - Trục từ Pana 473 KX-MB 2120, 2130, 2170",
+   "price": 150000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Trục từ sử dụng cho hộp mực 119A cho máy HP MFP M150a/ M178NW/ M179NW M (W2093A)(dùng cho phôi chính hãng) - 2938_115400865",
+   "price": 50000,
+   "group": "truc-tu",
+   "page": ""
+  },
+  {
+   "name": "Trục từ sử dụng cho hộp mực máy in HP 51/55A/11A - 2938_120800634",
+   "price": 50000,
+   "group": "truc-tu",
+   "page": "truc-tu-su-dung-cho-hop-muc-may-in-hp-5155a11a"
+  },
+  {
+   "name": "Trục từ-trục sạc dùng cho máy in Brother 2385-2361-2321D-2701D - Từ 2385",
+   "price": 50000,
+   "group": "truc-tu",
+   "page": ""
+  }
+ ]
+}

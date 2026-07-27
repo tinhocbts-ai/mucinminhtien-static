@@ -2,8 +2,8 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-<title>Bảng giá hộp mực, drum, linh kiện máy in — Mực In Minh Tiến</title>
-<meta name="description" content="Bảng giá tham khảo hộp mực HP, Canon, Brother, Epson, drum và linh kiện máy in tại Mực In Minh Tiến. Gọi {{hotlineDisplay}} để được báo giá chính xác theo thời điểm.">
+<title>Bảng giá mực in, hộp mực, drum & linh kiện máy in đầy đủ {{priceCount}} mã — Mực In Minh Tiến</title>
+<meta name="description" content="Bảng giá đầy đủ {{priceCount}} mã: hộp mực HP, Canon, Brother, Epson, drum, gạt mực, trục từ, chip, lô sấy, mực máy photocopy… có ô tìm kiếm nhanh. Giá cập nhật, gọi {{hotlineDisplay}} để chốt giá theo số lượng.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://mucinminhtien.com/bang-gia/">
@@ -98,6 +98,39 @@
           </table>
         </div>
       </div>
+
+      <div class="section-head" style="margin:56px auto 22px" id="bang-gia-full">
+        <span class="eyebrow">Danh sách đầy đủ</span>
+        <h2>Bảng giá đầy đủ {{priceCount}} mã sản phẩm</h2>
+        <p>Gõ mã mực, tên máy in hoặc loại linh kiện để lọc nhanh (vd: <em>12A</em>, <em>2900</em>, <em>drum</em>, <em>ricoh</em>). Giá tham khảo cho khách lẻ, chưa gồm công nạp tận nơi — xem thêm <a href="../nap-muc-may-in-tan-noi-tphcm/">giá dịch vụ nạp mực tận nơi</a>.</p>
+      </div>
+
+      <input type="search" class="price-filter" id="priceFilter" placeholder="🔍 Tìm mã mực, tên máy, linh kiện…" aria-label="Tìm trong bảng giá">
+      <p class="bg-empty" id="bgEmpty">Không tìm thấy mã phù hợp — gọi {{hotlineDisplay}} để được tra cứu nhanh.</p>
+
+{{priceTables}}
+
+      <script>
+      /* Loc bang gia: khong dau, an nhom rong */
+      (function(){
+        var inp=document.getElementById('priceFilter');
+        if(!inp)return;
+        function norm(s){return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d');}
+        var rows=[].slice.call(document.querySelectorAll('.bg-table tbody tr'));
+        rows.forEach(function(r){r.dataset.q=norm(r.textContent);});
+        var groups=[].slice.call(document.querySelectorAll('.bg-group'));
+        inp.addEventListener('input',function(){
+          var q=norm(inp.value.trim()), shown=0;
+          rows.forEach(function(r){var ok=!q||r.dataset.q.indexOf(q)>-1;r.style.display=ok?'':'none';if(ok)shown++;});
+          groups.forEach(function(h){
+            var wrap=h.nextElementSibling;
+            var any=wrap&&wrap.querySelector('tbody tr:not([style*="none"])');
+            h.style.display=any?'':'none';if(wrap)wrap.style.display=any?'':'none';
+          });
+          document.getElementById('bgEmpty').style.display=shown?'none':'block';
+        });
+      })();
+      </script>
 
       <div class="section-head" style="margin:56px auto 22px">
         <span class="eyebrow">Câu hỏi thường gặp</span>
