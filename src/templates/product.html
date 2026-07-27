@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>{{p.name}} — Giá {{p.priceFmt}} | Mực In Minh Tiến</title>
+<meta name="description" content="{{p.metaDesc}}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mucinminhtien.com/san-pham/{{p.slug}}/">
+<meta property="og:type" content="product">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Mực in Minh Tiến">
+<meta property="og:title" content="{{p.name}} — Mực In Minh Tiến">
+<meta property="og:description" content="{{p.metaDesc}}">
+<meta property="og:url" content="https://mucinminhtien.com/san-pham/{{p.slug}}/">
+<meta property="og:image" content="https://mucinminhtien.com/{{p.image}}">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{p.name}}",
+  "image": "https://mucinminhtien.com/{{p.image}}",
+  "description": "{{p.metaDesc}}",
+  "brand": { "@type": "Brand", "name": "Mực in Minh Tiến" },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://mucinminhtien.com/san-pham/{{p.slug}}/",
+    "priceCurrency": "VND",
+    "price": "{{p.price}}",
+    "availability": "https://schema.org/InStock",
+    "seller": { "@type": "Organization", "name": "Mực in Minh Tiến" }
+  }
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
+<div id="site-header"></div>
+
+<main id="main-content">
+  <div class="container">
+    <p class="breadcrumb"><a href="../../index.html">Trang chủ</a> / <a href="../">Sản phẩm</a> / {{p.shortName}}</p>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="product-detail">
+        <div class="product-detail-img">
+          <img src="../../{{p.image}}" alt="{{p.name}}" width="{{p.w}}" height="{{p.h}}" fetchpriority="high">
+        </div>
+        <div class="product-detail-info">
+          <span class="post-tag">{{p.groupName}}</span>
+          <h1 style="margin:12px 0 10px; font-size:clamp(1.4rem,3vw,1.9rem)">{{p.name}}</h1>
+          <p class="product-price">{{p.priceFmt}}</p>
+          <p class="product-stock">✔ Còn hàng — giao nhanh nội thành TP.HCM</p>
+          <p>{{p.excerpt}}</p>
+          <div class="btn-row" style="margin-top:18px">
+            <a href="tel:{{hotlineTel}}" class="btn btn-primary">📞 Gọi đặt hàng {{hotlineDisplay}}</a>
+            <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn btn-outline">💬 Hỏi giá qua Zalo</a>
+          </div>
+          <div class="callout" style="margin-top:22px">
+            <strong>Lưu ý:</strong> giá có thể thay đổi theo thời điểm và số lượng. Gọi hoặc nhắn Zalo kèm model máy in để được báo giá chính xác và tư vấn đúng mã hàng tương thích.
+          </div>
+        </div>
+      </div>
+
+      <div class="section-head" style="margin:52px auto 24px">
+        <span class="eyebrow">Có thể bạn cần</span>
+        <h2>Sản phẩm cùng nhóm</h2>
+      </div>
+      <div class="grid grid-3">
+{{p.related}}
+      </div>
+
+      <div class="cta-banner" style="margin-top:44px">
+        <h2>Không chắc mã này hợp với máy in của bạn?</h2>
+        <p>Nhắn Zalo {{hotlineDisplay}} kèm model máy in (vd: HP M107a, Canon 2900) — chúng tôi kiểm tra tương thích và báo giá trong ít phút.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="tel:{{hotlineTel}}" class="btn btn-outline">📞 Gọi ngay</a>
+          <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--accent-dark)">💬 Chat Zalo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="../../assets/js/include.js"></script>
+</body>
+</html>

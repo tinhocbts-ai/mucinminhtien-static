@@ -14,6 +14,11 @@ Website được **build ra HTML tĩnh** để tối ưu SEO (Google/Zalo/Bing �
 |-------------|--------------|-----------|
 | SĐT, Zalo, email, địa chỉ (dùng nhiều nơi) | **`site.config.json`** | chạy `node build.js` |
 | Nội dung / bố cục 1 trang | file trong **`src/`** | chạy `node build.js` |
+| Thêm/sửa/xoá sản phẩm (tên, giá, nhóm) | **`data/products.json`** | chạy `node build.js` — tự sinh trang chi tiết + danh sách + sitemap |
+| Giao diện trang chi tiết sản phẩm | `src/templates/product.html` | chạy `node build.js` |
+
+Ảnh sản phẩm: WebP đã nén (~6KB/ảnh) trong `assets/img/products/<slug>.webp`.
+Ảnh mới PHẢI nén trước khi đưa vào (WebP, tối đa 640px, < 30KB). Font tự host trong `assets/fonts/`.
 
 > ⚠️ **KHÔNG sửa trực tiếp các file `.html` ở thư mục gốc** (index.html, bang-gia/index.html, partials/…).
 > Chúng là **file tự sinh** — mỗi lần chạy `node build.js` sẽ bị ghi đè.

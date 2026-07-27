@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Cách cài đặt máy in vào máy tính Windows: USB, WiFi và mạng LAN (2026)</title>
+<meta name="description" content="Hướng dẫn cách cài đặt máy in vào máy tính Windows 10/11 từng bước: cài driver, kết nối USB, thêm máy in WiFi, share máy in qua mạng LAN và cách xử lý khi máy tính không nhận máy in.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mucinminhtien.com/huong-dan/cach-cai-dat-may-in/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Mực in Minh Tiến">
+<meta property="og:title" content="Cách cài đặt máy in vào máy tính Windows: USB, WiFi và mạng LAN">
+<meta property="og:description" content="Cài driver, thêm máy in USB/WiFi, share máy in qua mạng LAN trên Windows 10/11 — hướng dẫn từng bước.">
+<meta property="og:url" content="https://mucinminhtien.com/huong-dan/cach-cai-dat-may-in/">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Cách cài đặt máy in vào máy tính Windows: USB, WiFi và mạng LAN",
+  "description": "Hướng dẫn cài driver và thêm máy in trên Windows 10/11 theo ba cách kết nối USB, WiFi, mạng LAN.",
+  "author": { "@type": "Organization", "name": "Mực in Minh Tiến" },
+  "publisher": { "@type": "Organization", "name": "Mực in Minh Tiến" },
+  "datePublished": "2026-07-27",
+  "dateModified": "2026-07-27",
+  "mainEntityOfPage": "https://mucinminhtien.com/huong-dan/cach-cai-dat-may-in/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Cài máy in có cần đĩa driver không?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Không cần. Hầu hết máy in hiện nay chỉ cần tải driver từ trang chủ hãng (HP, Canon, Brother, Epson) theo đúng model và phiên bản Windows. Nhiều dòng mới còn được Windows 10/11 tự nhận driver khi cắm USB mà không phải cài gì thêm." }
+    },
+    {
+      "@type": "Question",
+      "name": "Vì sao máy tính không nhận máy in qua USB?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Thường do một trong bốn nguyên nhân: dây USB lỏng hoặc hỏng, chưa cài driver đúng model, dịch vụ Print Spooler của Windows bị treo, hoặc cổng USB trên máy tính lỗi. Thử đổi dây, đổi cổng, khởi động lại Print Spooler rồi cài lại driver theo thứ tự." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
+<div id="site-header"></div>
+
+<main id="main-content">
+  <div class="container">
+    <p class="breadcrumb"><a href="../../index.html">Trang chủ</a> / <a href="../">Hướng dẫn</a> / Cách cài đặt máy in</p>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="prose">
+        <span class="post-tag">Cài đặt</span>
+        <h1 style="margin:12px 0 6px">Cách cài đặt máy in vào máy tính Windows: USB, WiFi và mạng LAN</h1>
+        <p class="post-meta">Cập nhật: 27/07/2026 · Áp dụng cho Windows 10 và Windows 11</p>
+
+        <p style="margin-top:18px">Mua máy in mới, hoặc chuyển máy in cũ sang máy tính khác — việc đầu tiên luôn là cài đặt cho máy tính "nhìn thấy" máy in. Bài này gom cả <strong>ba cách kết nối phổ biến</strong> (USB, WiFi, chia sẻ qua mạng LAN) thành các bước ngắn gọn, kèm phần xử lý lỗi máy tính không nhận máy in ở cuối bài.</p>
+
+        <figure>
+          <svg viewBox="0 0 720 260" role="img" aria-label="Ba cách kết nối máy in với máy tính: USB trực tiếp, WiFi qua router, chia sẻ qua máy chủ trong mạng LAN">
+            <title>3 cách kết nối máy in với máy tính</title>
+            <rect width="720" height="260" fill="#f5f8fc"/>
+            <g font-family="Arial">
+              <!-- USB -->
+              <rect x="25" y="30" width="210" height="190" rx="14" fill="#fff" stroke="#e3e9f0"/>
+              <text x="130" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b5fae">1. USB trực tiếp</text>
+              <text x="70" y="120" text-anchor="middle" font-size="30">💻</text>
+              <line x1="95" y1="115" x2="165" y2="115" stroke="#0b5fae" stroke-width="3"/>
+              <text x="190" y="120" text-anchor="middle" font-size="30">🖨️</text>
+              <text x="130" y="165" text-anchor="middle" font-size="11" fill="#56626e">Cắm dây là dùng —</text>
+              <text x="130" y="181" text-anchor="middle" font-size="11" fill="#56626e">ổn định nhất, 1 máy tính</text>
+              <!-- WiFi -->
+              <rect x="255" y="30" width="210" height="190" rx="14" fill="#fff" stroke="#e3e9f0"/>
+              <text x="360" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b5fae">2. WiFi qua router</text>
+              <text x="300" y="120" text-anchor="middle" font-size="30">💻</text>
+              <text x="360" y="105" text-anchor="middle" font-size="24">📶</text>
+              <text x="420" y="120" text-anchor="middle" font-size="30">🖨️</text>
+              <path d="M318 112 q20 -22 32 -10" stroke="#9aa7b5" stroke-width="2" fill="none" stroke-dasharray="4 3"/>
+              <path d="M372 102 q20 8 30 12" stroke="#9aa7b5" stroke-width="2" fill="none" stroke-dasharray="4 3"/>
+              <text x="360" y="165" text-anchor="middle" font-size="11" fill="#56626e">Không cần dây — nhiều</text>
+              <text x="360" y="181" text-anchor="middle" font-size="11" fill="#56626e">thiết bị in chung, có cả điện thoại</text>
+              <!-- LAN share -->
+              <rect x="485" y="30" width="210" height="190" rx="14" fill="#fff" stroke="#e3e9f0"/>
+              <text x="590" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b5fae">3. Share mạng LAN</text>
+              <text x="530" y="105" text-anchor="middle" font-size="24">💻</text>
+              <text x="590" y="105" text-anchor="middle" font-size="24">💻</text>
+              <text x="650" y="105" text-anchor="middle" font-size="24">💻</text>
+              <line x1="530" y1="118" x2="590" y2="140" stroke="#9aa7b5" stroke-width="1.5"/>
+              <line x1="590" y1="115" x2="590" y2="140" stroke="#9aa7b5" stroke-width="1.5"/>
+              <line x1="650" y1="118" x2="590" y2="140" stroke="#9aa7b5" stroke-width="1.5"/>
+              <text x="590" y="168" text-anchor="middle" font-size="24">🖨️</text>
+              <text x="590" y="197" text-anchor="middle" font-size="11" fill="#56626e">Máy in cắm 1 máy chủ, cả phòng in chung</text>
+            </g>
+          </svg>
+          <figcaption>Hình 1 — Ba cách đưa máy in vào hệ thống: chọn theo số người cần in chung.</figcaption>
+        </figure>
+
+        <h2>Bước chuẩn bị chung: cài driver đúng model</h2>
+        <ol>
+          <li>Xem <strong>tên model chính xác</strong> trên tem máy (vd: Canon LBP 2900, HP LaserJet M107a, Brother HL-L2321D).</li>
+          <li>Vào trang hỗ trợ chính hãng (hp.com, canon.com.vn, brother.com.vn, epson.com.vn) → mục <em>Support / Drivers</em> → nhập model.</li>
+          <li>Chọn đúng <strong>phiên bản Windows</strong> (10/11, 64-bit) rồi tải bản <em>Full Driver</em>.</li>
+          <li>Chạy file cài, <strong>chưa cắm máy in vội</strong> — trình cài sẽ báo khi nào cần cắm.</li>
+        </ol>
+        <div class="callout">
+          <strong>Mẹo:</strong> luôn tải driver từ trang chủ hãng, tránh các trang "tải driver nhanh" trung gian — vừa dễ sai bản vừa dễ kèm phần mềm rác.
+        </div>
+
+        <h2>Cách 1 — Cài máy in qua USB (đơn giản nhất)</h2>
+        <ol>
+          <li>Cài driver như trên, cắm dây USB khi trình cài yêu cầu, bật máy in.</li>
+          <li>Windows nhận thiết bị → mở <strong>Settings → Bluetooth &amp; devices → Printers &amp; scanners</strong> kiểm tra máy in đã xuất hiện.</li>
+          <li>Bấm vào máy in → <strong>Set as default</strong> để đặt làm mặc định.</li>
+          <li>In trang test: chọn máy in → <strong>Print test page</strong>. Ra giấy là xong.</li>
+        </ol>
+
+        <h2>Cách 2 — Cài máy in WiFi</h2>
+        <ol>
+          <li>Kết nối máy in vào WiFi: dòng có màn hình thì vào <em>Menu → Network → WiFi Setup</em> chọn mạng và nhập mật khẩu; dòng không màn hình dùng nút <strong>WPS</strong> (bấm WPS trên router rồi bấm nút WiFi trên máy in trong 2 phút).</li>
+          <li>Trên máy tính (cùng mạng WiFi): <strong>Settings → Printers &amp; scanners → Add device</strong> — Windows sẽ tự tìm thấy máy in trong mạng.</li>
+          <li>Nếu không tự thấy, cài driver đầy đủ của hãng và chọn kiểu kết nối <em>Wireless</em> trong trình cài.</li>
+          <li>In thử từ máy tính; điện thoại có thể in qua ứng dụng của hãng (Canon PRINT, HP Smart, Epson Smart Panel).</li>
+        </ol>
+
+        <h2>Cách 3 — Share máy in qua mạng LAN (văn phòng)</h2>
+        <p>Dùng khi máy in chỉ có cổng USB nhưng cả phòng cần in chung: cắm máy in vào một máy tính "chủ", các máy khác in nhờ qua mạng nội bộ.</p>
+        <ol>
+          <li><strong>Trên máy chủ:</strong> cài máy in như Cách 1 → Control Panel → Devices and Printers → chuột phải máy in → <strong>Printer properties → tab Sharing → Share this printer</strong>, đặt tên share dễ nhớ.</li>
+          <li>Vẫn trên máy chủ: Settings → Network → bật <strong>Network discovery</strong> và <strong>File and printer sharing</strong> cho mạng Private.</li>
+          <li><strong>Trên máy khác:</strong> mở File Explorer, gõ <code>\\TEN-MAY-CHU</code> (hoặc IP, vd <code>\\192.168.1.10</code>) → thấy máy in share → chuột phải → <strong>Connect</strong>. Driver tự đổ về, in thử là xong.</li>
+        </ol>
+        <div class="callout warn">
+          <strong>Lưu ý:</strong> máy chủ phải bật thì các máy khác mới in được. Văn phòng in nhiều nên cân nhắc mua máy in có sẵn cổng LAN/WiFi để bỏ phụ thuộc máy chủ — cần tư vấn chọn máy phù hợp có thể gọi {{hotlineDisplay}}.
+        </div>
+
+        <h2>Máy tính không nhận máy in — xử lý nhanh</h2>
+        <ul>
+          <li><strong>Đổi dây / đổi cổng USB:</strong> dây USB in ấn hỏng ngầm rất phổ biến, nhất là dây dài trên 3m.</li>
+          <li><strong>Khởi động lại Print Spooler:</strong> bấm <em>Windows + R</em> → gõ <code>services.msc</code> → tìm <strong>Print Spooler</strong> → Restart. Lỗi "máy in không in được dù đã kết nối" đa số hết sau bước này.</li>
+          <li><strong>Xoá driver cũ cài lại:</strong> Settings → Printers → Remove máy in cũ → cài lại driver mới tải từ hãng.</li>
+          <li><strong>Máy in chung mạng không thấy nhau:</strong> kiểm tra 2 máy có cùng dải mạng không (cùng WiFi/switch), và Network discovery đã bật chưa.</li>
+        </ul>
+        <p>Nếu máy in nhận lệnh nhưng bản in ra <em>bị sọc, mờ hoặc trắng trang</em> — đó là vấn đề của hộp mực chứ không phải cài đặt. Xem tiếp bài <a href="../may-in-bi-soc-den-doc/">máy in bị sọc đen dọc</a> hoặc kiểm tra <a href="../../nap-muc-may-in-tan-noi-tphcm/">lượng mực còn lại và nạp mực tận nơi</a>.</p>
+
+        <h2>Câu hỏi thường gặp</h2>
+      </div>
+
+      <div class="faq" style="margin-top:10px">
+        <details>
+          <summary>Cài máy in có cần đĩa driver không?</summary>
+          <div>Không. Tải driver theo model từ trang chủ hãng là đủ; nhiều dòng mới Windows 10/11 tự nhận khi cắm USB. Đĩa kèm máy thường còn là bản driver cũ.</div>
+        </details>
+        <details>
+          <summary>Vì sao máy tính không nhận máy in qua USB?</summary>
+          <div>Bốn nguyên nhân hay gặp: dây USB lỏng/hỏng, driver sai model, dịch vụ Print Spooler treo, cổng USB lỗi. Xử lý theo thứ tự: đổi dây → đổi cổng → restart Print Spooler → cài lại driver.</div>
+        </details>
+        <details>
+          <summary>Một máy in dùng chung cho nhiều máy tính được không?</summary>
+          <div>Được, theo 2 cách: máy in có WiFi/LAN thì mọi thiết bị cùng mạng in trực tiếp; máy in chỉ có USB thì share qua một máy tính chủ như hướng dẫn Cách 3 trong bài.</div>
+        </details>
+      </div>
+
+      <div class="prose" style="margin-top:34px">
+        <h2 style="margin-top:0">Bài viết liên quan</h2>
+        <ul>
+          <li><a href="../may-in-bi-soc-den-doc/">Máy in bị sọc đen dọc: 5 nguyên nhân và cách khắc phục</a></li>
+          <li><a href="../may-in-epson-bao-loi-2-den-do/">Máy in Epson báo lỗi 2 đèn đỏ nhấp nháy: cách xử lý</a></li>
+          <li><a href="../cach-reset-may-in-brother/">Cách reset máy in Brother báo hết mực và reset drum</a></li>
+        </ul>
+      </div>
+
+      <div class="cta-banner" style="margin-top:36px">
+        <h2>Cần cài đặt máy in, share mạng cho cả văn phòng?</h2>
+        <p>Gọi hoặc nhắn Zalo {{hotlineDisplay}} — kỹ thuật viên hỗ trợ cài đặt tận nơi khi bảo trì, nạp mực định kỳ tại TP.HCM.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="tel:{{hotlineTel}}" class="btn btn-outline">📞 Gọi ngay</a>
+          <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--accent-dark)">💬 Chat Zalo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="../../assets/js/include.js"></script>
+</body>
+</html>

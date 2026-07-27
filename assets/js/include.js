@@ -4,18 +4,22 @@
    (bang-gia/, gioi-thieu/, lien-he/, san-pham/, dich-vu/), wires up the
    mobile hamburger menu, and runs the homepage promo slider. */
 (function () {
-  var NESTED_PAGES = ['bang-gia', 'gioi-thieu', 'lien-he', 'san-pham', 'dich-vu'];
+  var NESTED_PAGES = ['bang-gia', 'gioi-thieu', 'lien-he', 'san-pham', 'dich-vu', 'nap-muc-may-in-tan-noi-tphcm', 'huong-dan'];
 
+  /* Tra ve so cap thu muc tinh tu goc site (0 = trang chu).
+     Ho tro ca bai viet nam sau 1 cap (vd /huong-dan/ten-bai/ -> depth 2)
+     va truong hop host trong sub-path (GitHub Pages /ten-repo/...). */
   function computeDepth() {
     var parts = window.location.pathname.split('/').filter(Boolean);
-    if (!parts.length) return 0;
-    var last = parts[parts.length - 1];
-    if (NESTED_PAGES.indexOf(last) !== -1) return 1;
-    if (last === 'index.html' && parts.length >= 2 && NESTED_PAGES.indexOf(parts[parts.length - 2]) !== -1) return 1;
+    if (parts.length && parts[parts.length - 1] === 'index.html') parts.pop();
+    for (var i = parts.length - 1; i >= 0; i--) {
+      if (NESTED_PAGES.indexOf(parts[i]) !== -1) return parts.length - i;
+    }
     return 0;
   }
 
-  var prefix = computeDepth() === 1 ? '../' : '';
+  var depth = computeDepth();
+  var prefix = new Array(depth + 1).join('../');
 
   function applyPrefix(root) {
     root.querySelectorAll('[data-href]').forEach(function (el) {
@@ -25,9 +29,10 @@
 
   function currentKey() {
     var parts = window.location.pathname.split('/').filter(Boolean);
-    var last = parts[parts.length - 1] || 'index.html';
-    if (NESTED_PAGES.indexOf(last) !== -1) return last + '/';
-    if (last === 'index.html' && parts.length >= 2 && NESTED_PAGES.indexOf(parts[parts.length - 2]) !== -1) return parts[parts.length - 2] + '/';
+    if (parts.length && parts[parts.length - 1] === 'index.html') parts.pop();
+    for (var i = parts.length - 1; i >= 0; i--) {
+      if (NESTED_PAGES.indexOf(parts[i]) !== -1) return parts[i] + '/';
+    }
     return 'index.html';
   }
 
