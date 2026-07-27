@@ -1,0 +1,24 @@
+{
+  "name": "minhtiengithub",
+  "version": "1.0.0",
+  "description": "Website HTML tĩnh chuẩn SEO cho **Mực In Minh Tiến** — host trên GitHub Pages.",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinhocbts-ai/mucinminhtien-static.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tinhocbts-ai/mucinminhtien-static/issues"
+  },
+  "homepage": "https://github.com/tinhocbts-ai/mucinminhtien-static#readme",
+  "dependencies": {
+    "sharp": "^0.35.3"
+  }
+}

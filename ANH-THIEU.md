@@ -1,5 +1,18 @@
 # ẢNH THIẾU — Danh sách ảnh thật cần bổ sung
 
+> ## ⭐ KHO ẢNH THẬT CÓ SẴN (ưu tiên dùng trước khi tạo ảnh AI)
+> `D:\AUTOMATION\projects\tinhocnamphong\hình kỹ thuật\` — 98 ảnh kỹ thuật viên chụp thật
+> (sửa máy in, tháo cụm sấy, drum, bàn kỹ thuật…). Ảnh đã dùng trên web khác nên
+> **KHÔNG dùng thô** — phải chạy qua công cụ thiết kế để thành ảnh riêng của Minh Tiến:
+>
+> ```
+> node tools/design-anh.js "<đường dẫn ảnh>" "Tiêu đề|dòng 2|dòng 3" <ten-file> "chữ phụ"
+> ```
+>
+> → Ra `assets/img/hero/<ten-file>.webp` 1200×675 (~50KB): ảnh thật + panel xanh thương hiệu
+> + tiêu đề chữ to + gạch cam. Dùng làm ảnh đầu bài viết + `og:image` + schema `image`.
+> Mỗi dòng tiêu đề ≤ ~26 ký tự. Ảnh HEIC không đọc được — chỉ dùng file .jpg.
+
 > File này liệt kê các ảnh thật cần tạo/chụp để thay thế hoặc bổ sung cho minh họa SVG.
 > Mỗi mục có sẵn: **đường dẫn file đích** (đặt đúng tên này rồi báo Claude chèn vào bài),
 > **mô tả**, và **prompt tạo ảnh AI** (tiếng Anh, dùng cho Midjourney/DALL·E/Ideogram...).
