@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Máy in không in được, báo Offline: 7 bước khắc phục trên Windows</title>
+<meta name="description" content="Máy in không in được dù đã kết nối, báo Offline hoặc không nhận lệnh in? 7 bước xử lý theo thứ tự: hàng đợi in, Print Spooler, chế độ Use Printer Offline, máy in mặc định, kết nối mạng và driver — kèm mẹo tìm đúng bệnh nhanh.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mucinminhtien.com/huong-dan/may-in-khong-in-duoc/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Mực in Minh Tiến">
+<meta property="og:title" content="Máy in không in được, báo Offline: 7 bước khắc phục">
+<meta property="og:description" content="7 bước xử lý máy in không nhận lệnh, báo Offline trên Windows 10/11 — làm theo thứ tự là ra bệnh.">
+<meta property="og:url" content="https://mucinminhtien.com/huong-dan/may-in-khong-in-duoc/">
+<meta property="og:image" content="https://mucinminhtien.com/assets/img/hero/may-in-khong-in-duoc.webp">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Máy in không in được, báo Offline: 7 bước khắc phục trên Windows",
+  "description": "7 bước xử lý máy in không nhận lệnh in hoặc báo Offline trên Windows 10/11 theo thứ tự từ dễ đến khó.",
+  "image": "https://mucinminhtien.com/assets/img/hero/may-in-khong-in-duoc.webp",
+  "author": { "@type": "Organization", "name": "Mực in Minh Tiến" },
+  "publisher": { "@type": "Organization", "name": "Mực in Minh Tiến" },
+  "datePublished": "2026-07-27",
+  "dateModified": "2026-07-27",
+  "mainEntityOfPage": "https://mucinminhtien.com/huong-dan/may-in-khong-in-duoc/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Máy in báo Offline nghĩa là gì?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Windows không liên lạc được với máy in tại thời điểm đó: máy in tắt nguồn, dây USB/mạng đứt kết nối, máy in đổi địa chỉ IP, hoặc Windows đang bật nhầm chế độ Use Printer Offline. Kiểm tra nguồn và dây trước, sau đó tắt chế độ Use Printer Offline trong hàng đợi in." }
+    },
+    {
+      "@type": "Question",
+      "name": "Vì sao máy in nhận lệnh nhưng không in ra giấy?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Thường do một lệnh in cũ bị kẹt chặn cả hàng đợi. Mở hàng đợi in xóa hết lệnh (Cancel All), khởi động lại dịch vụ Print Spooler rồi in lại. Nếu vẫn không ra giấy, kiểm tra máy in có đang báo lỗi trên đèn/màn hình (hết giấy, kẹt giấy, hết mực) không." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
+<div id="site-header"></div>
+
+<main id="main-content">
+  <div class="container">
+    <p class="breadcrumb"><a href="../../index.html">Trang chủ</a> / <a href="../">Hướng dẫn</a> / Máy in không in được</p>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="prose">
+        <span class="post-tag">Sửa lỗi</span>
+        <h1 style="margin:12px 0 6px">Máy in không in được, báo Offline: 7 bước khắc phục</h1>
+        <p class="post-meta">Cập nhật: 27/07/2026 · Áp dụng cho Windows 10/11, mọi hãng máy in</p>
+
+        <figure style="margin-top:20px">
+          <img src="../../assets/img/hero/may-in-khong-in-duoc.webp" alt="Máy in không in được báo Offline — kiểm tra kết nối máy tính và máy in" width="1200" height="675" fetchpriority="high" style="border-radius:var(--radius-sm)">
+        </figure>
+
+        <p style="margin-top:18px">Bấm in, máy tính báo "đã gửi" nhưng máy in <strong>im re</strong> — hoặc tên máy in hiện chữ <strong>Offline</strong> xám ngắt. Lỗi này 90% nằm ở phần mềm/kết nối chứ không phải máy hỏng. Làm đúng thứ tự 7 bước sau, đa số trường hợp khỏi ngay từ bước 3-4.</p>
+
+        <h2>Bước 1 — Kiểm tra "phần thô": nguồn, dây, giấy, đèn báo</h2>
+        <ul>
+          <li>Máy in <strong>đang bật nguồn</strong>, đèn sáng ổn định (không nháy lỗi)?</li>
+          <li>Dây USB cắm chắc 2 đầu — <em>đổi cổng USB khác</em> trên máy tính; dây mạng/WiFi còn kết nối?</li>
+          <li>Còn giấy trong khay, nắp máy đóng khít, không kẹt giấy, mực chưa cạn?</li>
+        </ul>
+        <p>Đèn máy in đang nháy lỗi thì xử lý lỗi đó trước (kẹt giấy, hết mực…) — máy đang lỗi sẽ không nhận thêm lệnh nào.</p>
+
+        <h2>Bước 2 — Chọn đúng máy in mặc định</h2>
+        <p>Rất hay gặp ở máy tính từng cài nhiều máy in: lệnh gửi vào máy in "ảo" (Microsoft Print to PDF, máy in cũ đã gỡ). Settings → Bluetooth &amp; devices → Printers &amp; scanners → chọn đúng máy in đang dùng → <strong>Set as default</strong>. Tắt luôn tùy chọn <em>"Let Windows manage my default printer"</em> để Windows khỏi tự đổi.</p>
+
+        <h2>Bước 3 — Xóa hàng đợi in bị kẹt</h2>
+        <ol>
+          <li>Bấm vào máy in → <strong>Open print queue</strong>.</li>
+          <li>Menu Printer → <strong>Cancel All Documents</strong> — một lệnh cũ lỗi có thể chặn cả hàng dài phía sau.</li>
+        </ol>
+
+        <h2>Bước 4 — Tắt chế độ "Use Printer Offline"</h2>
+        <p>Trong cửa sổ hàng đợi in, mở menu <strong>Printer</strong>: nếu dòng <strong>Use Printer Offline</strong> đang có dấu tick — bỏ tick. Đây chính là thủ phạm của thông báo "Printer Offline" trong rất nhiều ca, đôi khi Windows tự bật sau một lần in thất bại.</p>
+
+        <h2>Bước 5 — Khởi động lại Print Spooler</h2>
+        <ol>
+          <li><strong>Windows + R</strong> → gõ <code>services.msc</code> → Enter.</li>
+          <li>Tìm <strong>Print Spooler</strong> → chuột phải → <strong>Restart</strong>.</li>
+          <li>In thử lại. Spooler treo là bệnh kinh niên của Windows — bước này cứu được phần lớn ca "gửi lệnh mà không in".</li>
+        </ol>
+
+        <h2>Bước 6 — Máy in mạng/WiFi: kiểm tra IP</h2>
+        <p>Máy in WiFi sau khi <em>đổi router hoặc mất điện</em> thường nhận IP mới, trong khi Windows vẫn gửi lệnh về IP cũ → Offline vĩnh viễn. In trang cấu hình mạng từ máy in (giữ nút WiFi/Go vài giây tùy dòng) để xem IP hiện tại, rồi gỡ máy in ra thêm lại theo IP mới — hoặc đơn giản nhất: chạy lại trình cài driver của hãng, nó tự tìm máy. Chi tiết xem bài <a href="../cach-cai-dat-may-in/">cách cài đặt máy in USB, WiFi, mạng LAN</a>.</p>
+
+        <h2>Bước 7 — Gỡ và cài lại driver</h2>
+        <ol>
+          <li>Settings → Printers &amp; scanners → chọn máy in → <strong>Remove</strong>.</li>
+          <li>Tải driver mới nhất đúng model từ trang chủ hãng, cài lại từ đầu.</li>
+          <li>Với máy HP hay bị treo lệnh lặp lại, xem thêm bài <a href="../cach-reset-may-in-hp/">cách reset máy in HP</a>.</li>
+        </ol>
+
+        <div class="callout warn">
+          <strong>Sau 7 bước vẫn không in được?</strong> Khả năng lỗi phần cứng: dây USB đứt ngầm, cổng USB máy in hỏng, hoặc bo mạch (formatter) có vấn đề — nhất là khi máy tính hoàn toàn không phát hiện thiết bị dù đổi dây lẫn cổng. Lúc này cần thợ đo kiểm trực tiếp.
+        </div>
+
+        <h2>Câu hỏi thường gặp</h2>
+      </div>
+
+      <div class="faq" style="margin-top:10px">
+        <details>
+          <summary>Máy in báo Offline nghĩa là gì?</summary>
+          <div>Windows không liên lạc được với máy in: máy tắt nguồn, dây lỏng, đổi IP, hoặc đang bật nhầm chế độ Use Printer Offline. Kiểm tra nguồn/dây trước rồi bỏ tick Use Printer Offline theo bước 4.</div>
+        </details>
+        <details>
+          <summary>Máy in nhận lệnh nhưng không ra giấy?</summary>
+          <div>Thường do lệnh in cũ kẹt trong hàng đợi — Cancel All rồi restart Print Spooler (bước 3 + 5). Kiểm tra thêm đèn báo lỗi trên máy in.</div>
+        </details>
+        <details>
+          <summary>Máy in dùng chung mạng LAN bị Offline ở một máy tính?</summary>
+          <div>Máy tính "chủ" (cắm máy in) đang tắt, hoặc Network discovery bị tắt sau bản cập nhật Windows. Bật máy chủ và kiểm tra File and printer sharing ở cả hai máy.</div>
+        </details>
+      </div>
+
+      <div class="prose" style="margin-top:34px">
+        <h2 style="margin-top:0">Bài viết liên quan</h2>
+        <ul>
+          <li><a href="../cach-cai-dat-may-in/">Cách cài đặt máy in vào máy tính: USB, WiFi, mạng LAN</a></li>
+          <li><a href="../cach-reset-may-in-hp/">Cách reset máy in HP và lỗi chấm than HP 107a</a></li>
+          <li><a href="../cach-in-2-mat/">Cách in 2 mặt trên máy in Canon, HP, Brother, Epson</a></li>
+        </ul>
+      </div>
+
+      <div class="cta-banner" style="margin-top:36px">
+        <h2>Máy in vẫn đình công? Để kỹ thuật viên xử lý</h2>
+        <p>Gọi hoặc nhắn Zalo {{hotlineDisplay}} — kiểm tra tận nơi tại TP.HCM, xử lý phần mềm lẫn phần cứng, báo giá trước.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="tel:{{hotlineTel}}" class="btn btn-outline">📞 Gọi ngay</a>
+          <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn" style="background:#fff;color:var(--accent-dark)">💬 Chat Zalo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="../../assets/js/include.js"></script>
+</body>
+</html>
