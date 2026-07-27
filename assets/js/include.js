@@ -5,7 +5,8 @@
     <div id="site-footer"></div>
   This script fetches partials/header.html and partials/footer.html
   (paths are root-relative so it works from any page) and injects them.
-  It also marks the current nav link with aria-current="page" for SEO/UX.
+  It also marks the current nav link with aria-current="page" and wires up
+  the mobile hamburger menu toggle for small screens.
 */
 (function () {
     function include(selector, url, afterInsert) {
@@ -34,6 +35,25 @@
                            a.setAttribute("aria-current", "page");
                  }
          });
+
+      // Mobile hamburger menu toggle
+      var toggle = container.querySelector("#navToggle");
+         var nav = container.querySelector("#mainNav");
+         if (toggle && nav) {
+                 toggle.addEventListener("click", function () {
+                           var isOpen = nav.classList.toggle("is-open");
+                           toggle.classList.toggle("is-open", isOpen);
+                           toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+                 });
+                 // Close the menu after a nav link is tapped (mobile UX)
+           nav.querySelectorAll("a").forEach(function (a) {
+                     a.addEventListener("click", function () {
+                                 nav.classList.remove("is-open");
+                                 toggle.classList.remove("is-open");
+                                 toggle.setAttribute("aria-expanded", "false");
+                     });
+           });
+         }
    }
 
    document.addEventListener("DOMContentLoaded", function () {
