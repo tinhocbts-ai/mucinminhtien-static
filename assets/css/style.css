@@ -355,6 +355,8 @@ table.price-table tr:hover td { background: var(--bg-soft); }
 .post-tag { display: inline-block; font-size: .74rem; font-weight: 700; text-transform: uppercase; letter-spacing: .4px; color: var(--primary); background: var(--primary-light); border-radius: 20px; padding: 3px 10px; }
 
 /* Trang san pham */
+.grid > * { min-width: 0; } /* chan ten SP dai lam banh track grid */
+.product-card h3, .product-card h3 a { overflow-wrap: anywhere; }
 .product-detail { display: grid; grid-template-columns: minmax(280px, 420px) 1fr; gap: 40px; align-items: start; }
 .product-detail-img img {
   width: 100%; height: auto; border: 1px solid var(--border); border-radius: var(--radius);
@@ -365,7 +367,8 @@ table.price-table tr:hover td { background: var(--bg-soft); }
 .product-card { display: flex; flex-direction: column; }
 .product-card .p-img { position: relative; padding: 10px 10px 0; }
 .product-card .p-img img {
-  width: 100%; height: 190px; object-fit: contain; background: #fff; border-radius: var(--radius-sm);
+  width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain;
+  background: #fff; border-radius: var(--radius-sm);
 }
 .product-card h3 { font-size: .98rem; line-height: 1.45; margin: 10px 0 6px; flex: 1; }
 .product-card h3 a { color: var(--ink); }
