@@ -1,0 +1,13 @@
+{
+  "_help": "File thong tin dung chung cho ca website. Sua o day roi chay 'node build.js' la moi trang tu cap nhat. KHONG sua truc tiep cac file .html o thu muc goc (chung la file tu sinh).",
+
+  "hotlineDisplay": "0915 510 203",
+  "hotlineTel": "0915510203",
+  "hotlineIntl": "+84915510203",
+
+  "email": "tinhocbts@gmail.com",
+
+  "addressFull": "77 Bắc Hải, Phường Diên Hồng, Quận 10 cũ, TP. Hồ Chí Minh",
+  "addressShort": "77 Bắc Hải, Phường Diên Hồng, TP.HCM",
+  "addressStreet": "77 Bắc Hải, Phường Diên Hồng"
+}
