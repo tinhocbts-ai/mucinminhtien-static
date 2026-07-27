@@ -262,3 +262,167 @@ section h2 {
     margin: 16px 0;
 }
 .breadcrumb a { color: var(--color-muted); }
+
+
+/* ============================================================
+   Mobile navigation + floating CTA (added for mobile-friendly pass)
+   ============================================================ */
+
+.hotline-btn-desktop { display: inline-block; }
+.hotline-btn-mobile { display: none; }
+
+.nav-toggle {
+     display: none;
+     flex-direction: column;
+     justify-content: center;
+     gap: 5px;
+     width: 40px;
+     height: 36px;
+     background: transparent;
+     border: none;
+     cursor: pointer;
+     padding: 0;
+}
+.nav-toggle span {
+     display: block;
+     width: 100%;
+     height: 2px;
+     background: #fff;
+     border-radius: 2px;
+     transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.nav-toggle.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle.is-open span:nth-child(2) { opacity: 0; }
+.nav-toggle.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 780px) {
+     .nav-toggle { display: flex; }
+
+  .main-nav {
+         position: fixed;
+         top: 64px;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         background: var(--color-dark);
+         transform: translateX(100%);
+         transition: transform 0.25s ease;
+         overflow-y: auto;
+         padding: 10px 20px 90px;
+  }
+     .main-nav.is-open { transform: translateX(0); }
+
+  .main-nav ul {
+         flex-direction: column;
+         gap: 0;
+  }
+     .main-nav ul li {
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+     }
+     .main-nav ul li a {
+            display: block;
+            padding: 14px 4px;
+     }
+
+  .hotline-btn-desktop { display: none; }
+     .hotline-btn-mobile {
+            display: block;
+            text-align: center;
+            margin: 18px 4px 0;
+     }
+}
+
+/* Sticky bottom CTA bar - mobile only */
+.mobile-cta-bar {
+     display: none;
+     position: fixed;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     z-index: 200;
+     gap: 1px;
+     background: var(--color-border);
+}
+.mobile-cta {
+     flex: 1;
+     text-align: center;
+     padding: 13px 8px;
+     font-weight: 700;
+     color: #fff !important;
+     text-decoration: none !important;
+     font-size: 0.95rem;
+}
+.mobile-cta.call { background: var(--color-accent); }
+.mobile-cta.zalo { background: #0068ff; }
+
+@media (max-width: 780px) {
+     .mobile-cta-bar { display: flex; }
+     body { padding-bottom: 54px; }
+}
+
+/* Floating call / zalo buttons - desktop + mobile (above sticky bar) */
+.float-cta {
+     position: fixed;
+     right: 18px;
+     bottom: 78px;
+     z-index: 200;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     gap: 10px;
+}
+@media (min-width: 781px) {
+     .float-cta { bottom: 24px; }
+}
+.float-btn {
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     min-width: 52px;
+     height: 52px;
+     padding: 0 14px;
+     border-radius: 999px;
+     color: #fff !important;
+     text-decoration: none !important;
+     font-weight: 700;
+     box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+}
+.float-zalo { background: #0068ff; }
+.float-call { background: var(--color-accent); font-size: 1.3rem; }
+
+/* Service area / process step cards used on Dich vu page */
+.steps {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     gap: 18px;
+}
+.steps li {
+     border: 1px solid var(--color-border);
+     border-radius: var(--radius);
+     padding: 18px;
+     background: #fff;
+}
+.steps li .step-num {
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     background: var(--color-accent);
+     color: #fff;
+     font-weight: 700;
+     margin-bottom: 10px;
+}
+
+.tag-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.tag-list li {
+     background: var(--color-bg-alt);
+     border: 1px solid var(--color-border);
+     border-radius: 999px;
+     padding: 6px 14px;
+     font-size: 0.9rem;
+}
