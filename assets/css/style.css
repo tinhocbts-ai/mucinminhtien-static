@@ -134,7 +134,7 @@ body.nav-open .nav-toggle span:nth-child(3) { transform: translateY(-7px) rotate
 }
 
 /* Promo slider */
-.promo-slider { position: relative; overflow: hidden; }
+.promo-slider { position: relative; overflow: hidden; padding: 0; }
 .slider-track { display: flex; transition: transform .6s ease; }
 .slide { min-width: 100%; padding: 56px 0; text-align: center; color: #fff; }
 .slide-inner { max-width: 640px; margin: 0 auto; }
@@ -156,8 +156,8 @@ body.nav-open .nav-toggle span:nth-child(3) { transform: translateY(-7px) rotate
 .slider-arrow:hover { background: rgba(255,255,255,.45); }
 .slider-arrow.prev { left: 16px; }
 .slider-arrow.next { right: 16px; }
-.slider-dots { position: absolute; left: 0; right: 0; bottom: 14px; display: flex; justify-content: center; gap: 8px; z-index: 5; }
-.dot { width: 9px; height: 9px; border-radius: 50%; border: none; background: rgba(255,255,255,.45); cursor: pointer; padding: 0; }
+.slider-dots { position: absolute; left: 0; right: 0; bottom: 14px; display: flex; justify-content: center; gap: 8px; z-index: 5; margin: 0; padding: 0; }
+.dot { width: 9px; height: 9px; border-radius: 50%; border: none; background: rgba(255,255,255,.55); cursor: pointer; padding: 0; }
 .dot.active { background: #fff; width: 22px; border-radius: 5px; }
 
 /* Hero */
