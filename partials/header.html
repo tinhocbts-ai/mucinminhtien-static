@@ -5,14 +5,33 @@
       <span class="logo-mark">MT</span>
       <span>Mực in Minh Tiến</span>
     </a>
-    <nav class="main-nav" aria-label="Menu chính">
+
+    <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Mở menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav" aria-label="Menu chính">
       <ul>
         <li><a href="/">Trang chủ</a></li>
+        <li><a href="/san-pham.html">Sản phẩm</a></li>
         <li><a href="/bang-gia.html">Bảng giá</a></li>
+        <li><a href="/dich-vu.html">Dịch vụ</a></li>
         <li><a href="/gioi-thieu.html">Giới thiệu</a></li>
         <li><a href="/lien-he.html">Liên hệ</a></li>
       </ul>
+      <a href="tel:0915510203" class="hotline-btn hotline-btn-mobile">📞 Gọi 0915 510 203</a>
     </nav>
-    <a href="tel:0915510203" class="hotline-btn">📞 0915 510 203</a>
+
+    <a href="tel:0915510203" class="hotline-btn hotline-btn-desktop">📞 0915 510 203</a>
   </div>
 </header>
+
+<div class="mobile-cta-bar" aria-label="Liên hệ nhanh">
+  <a href="tel:0915510203" class="mobile-cta call">📞 Gọi ngay</a>
+  <a href="https://zalo.me/0915510203" class="mobile-cta zalo" target="_blank" rel="noopener">💬 Chat Zalo</a>
+</div>
+
+<div class="float-cta" aria-label="Liên hệ nhanh nổi">
+  <a href="https://zalo.me/0915510203" class="float-btn float-zalo" target="_blank" rel="noopener" title="Chat Zalo">Zalo</a>
+  <a href="tel:0915510203" class="float-btn float-call" title="Gọi điện">📞</a>
+</div>
