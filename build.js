@@ -101,6 +101,8 @@ function build() {
   } else {
     cfg.productGroups = '';
   }
+  // danh sach slug SP cho 404.html (redirect URL /product/<slug>/ cu)
+  cfg.slugs404 = productData ? JSON.stringify(productData.products.map(p => p.slug)) : '[]';
 
   // ---- Phan 1: render cac trang src/ ----
   const templates = listTemplates(SRC);
@@ -145,9 +147,9 @@ function build() {
     console.log('  ✓ ' + productData.products.length + ' trang san pham (san-pham/<slug>/)');
   }
 
-  // ---- Phan 4: sitemap.xml ----
+  // ---- Phan 4: sitemap.xml (khong gom partials, 404, trang redirect) ----
   const urls = pagesBuilt
-    .filter(rel => !rel.startsWith('partials/'))
+    .filter(rel => !rel.startsWith('partials/') && rel !== '404.html')
     .map(rel => rel.replace(/index\.html$/, ''))
     .map(rel => SITE_URL + '/' + rel)
     .sort();
@@ -158,6 +160,33 @@ function build() {
     '\n</urlset>\n';
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), xml, 'utf8');
   console.log('  ✓ sitemap.xml (' + urls.length + ' URL)');
+
+  // ---- Phan 5: trang redirect URL cu WordPress -> URL moi (data/redirects.json) ----
+  // GitHub Pages khong co 301 server-side. Trang stub voi meta refresh 0s + canonical
+  // duoc Google xu ly nhu redirect vinh vien. KHONG dua vao sitemap.
+  const REDIRECTS_FILE = path.join(ROOT, 'data', 'redirects.json');
+  if (fs.existsSync(REDIRECTS_FILE)) {
+    const redirects = JSON.parse(fs.readFileSync(REDIRECTS_FILE, 'utf8'));
+    let n = 0;
+    for (const [from, to] of Object.entries(redirects)) {
+      const rel = from.replace(/^\//, '').replace(/\/$/, '');
+      if (!rel) continue;
+      const depth = rel.split('/').length;
+      const relTarget = new Array(depth + 1).join('../') + to.replace(/^\//, '');
+      const stub = '<!DOCTYPE html>\n<html lang="vi">\n<head>\n<meta charset="UTF-8">\n' +
+        '<title>Đang chuyển hướng…</title>\n' +
+        '<link rel="canonical" href="' + SITE_URL + to + '">\n' +
+        '<meta name="robots" content="noindex">\n' +
+        '<meta http-equiv="refresh" content="0; url=' + relTarget + '">\n' +
+        '<script>location.replace("' + relTarget + '");</script>\n' +
+        '</head>\n<body>\n<p>Trang này đã chuyển về địa chỉ mới: <a href="' + relTarget + '">' + SITE_URL + to + '</a></p>\n</body>\n</html>\n';
+      const outPath = path.join(ROOT, rel, 'index.html');
+      fs.mkdirSync(path.dirname(outPath), { recursive: true });
+      fs.writeFileSync(outPath, stub, 'utf8');
+      n++;
+    }
+    console.log('  ✓ ' + n + ' trang redirect (URL cu -> URL moi, ngoai sitemap)');
+  }
 
   console.log('\nXong. ' + pagesBuilt.length + ' trang. Kiểm tra rồi commit & push để cập nhật GitHub Pages.');
 }
