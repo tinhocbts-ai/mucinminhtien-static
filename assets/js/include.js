@@ -4,7 +4,9 @@
     <div id="site-header"></div>
     <div id="site-footer"></div>
   This script fetches partials/header.html and partials/footer.html
-  (paths are root-relative so it works from any page) and injects them.
+  using paths RELATIVE to the current page, so the site works both at
+  the domain root and under a GitHub Pages project sub-path
+  (e.g. https://user.github.io/repo/) without any changes.
   It also marks the current nav link with aria-current="page" and wires up
   the mobile hamburger menu toggle for small screens.
 */
@@ -27,10 +29,10 @@
     }
 
    function markActiveNav(container) {
-         var current = window.location.pathname.replace(/\/index\.html$/, "/");
+         var current = window.location.pathname.split("/").pop() || "index.html";
          var links = container.querySelectorAll("nav a[href]");
          links.forEach(function (a) {
-                 var href = a.getAttribute("href").replace(/\/index\.html$/, "/");
+                 var href = a.getAttribute("href");
                  if (href === current) {
                            a.setAttribute("aria-current", "page");
                  }
@@ -57,7 +59,7 @@
    }
 
    document.addEventListener("DOMContentLoaded", function () {
-         include("#site-header", "/partials/header.html", markActiveNav);
-         include("#site-footer", "/partials/footer.html");
+         include("#site-header", "partials/header.html", markActiveNav);
+         include("#site-footer", "partials/footer.html");
    });
 })();
