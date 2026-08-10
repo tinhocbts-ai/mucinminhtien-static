@@ -63,8 +63,18 @@ function huongDanLoi(e) {
     console.error('  Vào GSC → property mucinminhtien.com → Cài đặt → Người dùng và quyền');
     console.error('  → Thêm: hungthinhservicesacc@n8nhungthinh-492502.iam.gserviceaccount.com\n');
   } else if (/has not been used|disabled|API/i.test(msg)) {
-    console.error('  Có vẻ chưa bật Search Console API trong Google Cloud:');
-    console.error('  https://console.cloud.google.com/apis/library/searchconsole.googleapis.com\n');
+    /* Lỗi của Google có kèm project NUMBER — dùng số đó chắc ăn hơn project ID,
+       vì Cloud Console hay tự nhảy sang project mặc định khi ID không khớp. */
+    const soProject = (msg.match(/project (\d+)/) || [])[1];
+    console.error('  Chưa bật Search Console API trong Google Cloud.');
+    if (soProject) {
+      console.error('  Mở đúng link này (gắn cứng project số ' + soProject + ', không nhảy đi đâu được):\n');
+      console.error('  https://console.developers.google.com/apis/api/searchconsole.googleapis.com/overview?project=' + soProject + '\n');
+      console.error('  Kiểm tra góc trên hiện đúng tên project rồi bấm ENABLE.');
+      console.error('  Bật xong đợi 1–2 phút cho lan truyền rồi chạy lại.\n');
+    } else {
+      console.error('  https://console.cloud.google.com/apis/library/searchconsole.googleapis.com\n');
+    }
   }
   process.exit(1);
 }
