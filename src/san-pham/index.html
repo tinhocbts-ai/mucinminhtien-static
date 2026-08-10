@@ -28,6 +28,53 @@
     <div class="container">
       <div class="section-head" style="margin-bottom:28px">
         <h1>Sản phẩm hộp mực, drum &amp; linh kiện máy in</h1>
+        <p class="price-note" style="max-width:820px;margin:14px auto 0">Chưa biết máy mình dùng mã nào? <a href="../tra-hop-muc/">Tra hộp mực theo model máy in</a> để tìm đúng mã trong vài giây.</p>
+        <!--TOC-->
+
+        <input type="search" class="price-filter" id="productFilter"
+               placeholder="🔍 Lọc nhanh: gõ tên máy, mã mực hoặc loại linh kiện…"
+               aria-label="Lọc danh sách sản phẩm" aria-describedby="pfCount">
+        <p class="lookup-count" id="pfCount" role="status" aria-live="polite"></p>
+        <p class="lookup-empty" id="pfEmpty" style="display:none">
+          Không có sản phẩm nào khớp. Kho còn nhiều mã chưa lên trang chi tiết —
+          thử <a href="../tra-hop-muc/">tra trong toàn bộ bảng giá</a>
+          hoặc nhắn Zalo {{hotlineDisplay}} kèm model máy.
+        </p>
+<script>
+      /* Loc danh sach san pham ngay tren trinh duyet — cung co che voi o tim
+         cua /bang-gia/, khong goi mang, khong phu thuoc thu vien ngoai. */
+      function initProductFilter(){
+        var inp=document.getElementById('productFilter');
+        if(!inp)return;
+        function norm(s){return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d');}
+        var cards=[].slice.call(document.querySelectorAll('.product-card'));
+        cards.forEach(function(c){c.dataset.q=norm(c.textContent);});
+        var heads=[].slice.call(document.querySelectorAll('main h2[id]'));
+        var count=document.getElementById('pfCount');
+        var empty=document.getElementById('pfEmpty');
+        function apply(){
+          var q=norm(inp.value.trim()), shown=0;
+          cards.forEach(function(c){
+            var ok=!q||c.dataset.q.indexOf(q)>-1;
+            c.style.display=ok?'':'none'; if(ok)shown++;
+          });
+          heads.forEach(function(h){
+            var grid=h.nextElementSibling;
+            if(!grid||!grid.classList.contains('grid'))return;
+            var any=[].slice.call(grid.querySelectorAll('.product-card')).some(function(c){return c.style.display!=='none';});
+            h.style.display=any?'':'none'; grid.style.display=any?'':'none';
+          });
+          count.textContent=q?('Hiển thị '+shown+'/'+cards.length+' sản phẩm'):'';
+          empty.style.display=(q&&!shown)?'block':'none';
+        }
+        var t=null;
+        inp.addEventListener('input',function(){clearTimeout(t);t=setTimeout(apply,120);});
+      }
+      /* Script này nằm TRƯỚC danh sách sản phẩm trong DOM, nên phải chờ trang
+         dựng xong mới quét thẻ — nếu chạy ngay sẽ bắt được 0 sản phẩm. */
+      if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initProductFilter);
+      else initProductFilter();
+</script>
         <p>Các sản phẩm tiêu biểu đang bán chạy tại cửa hàng — hộp mực, drum, gạt, trục từ, chip và linh kiện máy in, máy photocopy, máy fax. Giá hiển thị là giá tham khảo cho khách lẻ tại TP.HCM.</p>
       </div>
 
@@ -38,7 +85,7 @@
       </div>
 
       <div class="cta-banner" style="margin-top:32px">
-        <h2>Cần tư vấn sản phẩm phù hợp?</h2>
+        <h2 class="no-toc">Cần tư vấn sản phẩm phù hợp?</h2>
         <p>Đội ngũ Mực In Minh Tiến hỗ trợ tra cứu mã hộp mực theo model máy in của bạn.</p>
         <div class="btn-row" style="justify-content:center">
           <a href="tel:{{hotlineTel}}" class="btn btn-outline">📞 Gọi ngay</a>

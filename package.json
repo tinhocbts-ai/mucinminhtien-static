@@ -1,10 +1,18 @@
 {
   "name": "minhtiengithub",
   "version": "1.0.0",
-  "description": "Website HTML tĩnh chuẩn SEO cho **Mực In Minh Tiến** — host trên GitHub Pages.",
+  "description": "Website HTML tinh chuan SEO cho Muc In Minh Tien - host tren GitHub Pages. Xem PROJECT.md.",
   "main": "build.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js",
+    "check": "node scripts/check-seo.js",
+    "check:summary": "node scripts/check-seo.js --summary",
+    "check:ci": "node scripts/check-seo.js --fail",
+    "meta": "node scripts/apply-meta.js",
+    "images": "node tools/make-brand-images.js",
+    "all": "node scripts/apply-meta.js && node build.js && node scripts/check-seo.js --summary",
+    "publish": "node build.js && node scripts/check-seo.js --summary",
+    "anh": "node tools/tao-anh-bai.js && node scripts/chen-anh-bai.js --write && node build.js"
   },
   "repository": {
     "type": "git",

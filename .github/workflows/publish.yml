@@ -1,0 +1,46 @@
+name: Đăng bài theo lịch
+
+# Chạy 01:00 UTC = 08:00 giờ Việt Nam mỗi ngày.
+# build.js so ngày theo múi giờ Asia/Ho_Chi_Minh, nên bài gắn
+# <!--PUBLISH 2026-08-15--> sẽ lên đúng sáng 15/08 giờ VN.
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:        # cho phép bấm chạy tay trong tab Actions
+
+permissions:
+  contents: write           # cần quyền ghi để commit lại HTML vừa build
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # build.js chỉ dùng fs/path của Node, không cần cài dependency nào.
+      # (sharp trong package.json chỉ phục vụ tool xử lý ảnh chạy ở máy.)
+      - name: Build site
+        run: node build.js
+
+      - name: Kiểm tra SEO
+        run: node scripts/check-seo.js --summary
+
+      - name: Commit nếu có bài tới ngày đăng
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Không có bài nào tới ngày đăng hôm nay — không commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Tự đăng bài theo lịch $(TZ=Asia/Ho_Chi_Minh date +%d/%m/%Y)"
+          git push

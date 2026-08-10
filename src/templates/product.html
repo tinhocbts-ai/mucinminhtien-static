@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-<title>{{p.name}} — Giá {{p.priceFmt}} | Mực In Minh Tiến</title>
+<title>{{p.titleTag}}</title>
 <meta name="description" content="{{p.metaDesc}}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
@@ -22,14 +22,20 @@
   "name": "{{p.name}}",
   "image": "https://mucinminhtien.com/{{p.image}}",
   "description": "{{p.metaDesc}}",
-  "brand": { "@type": "Brand", "name": "Mực in Minh Tiến" },
+  "sku": "{{p.sku}}",
+  "brand": { "@type": "Brand", "name": "{{p.brand}}" },
+  "category": "{{p.groupName}}",
+  "itemCondition": "https://schema.org/NewCondition",
   "offers": {
     "@type": "Offer",
     "url": "https://mucinminhtien.com/san-pham/{{p.slug}}/",
     "priceCurrency": "VND",
     "price": "{{p.price}}",
+    "priceValidUntil": "{{priceValidUntil}}",
     "availability": "https://schema.org/InStock",
-    "seller": { "@type": "Organization", "name": "Mực in Minh Tiến" }
+    "itemCondition": "https://schema.org/NewCondition",
+    "areaServed": { "@type": "City", "name": "Thành phố Hồ Chí Minh" },
+    "seller": { "@id": "https://mucinminhtien.com/#localbusiness" }
   }
 }
 </script>
@@ -55,6 +61,7 @@
           <p class="product-price">{{p.priceFmt}}</p>
           <p class="product-stock">✔ Còn hàng — giao nhanh nội thành TP.HCM</p>
           <p>{{p.excerpt}}</p>
+          <p class="p-fullname"><strong>Tên đầy đủ / model tương thích:</strong> {{p.fullName}}</p>
           <div class="btn-row" style="margin-top:18px">
             <a href="tel:{{hotlineTel}}" class="btn btn-primary">📞 Gọi đặt hàng {{hotlineDisplay}}</a>
             <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn btn-outline">💬 Hỏi giá qua Zalo</a>
@@ -73,8 +80,18 @@
 {{p.related}}
       </div>
 
+      <div class="prose" style="max-width:820px;margin:44px auto 0">
+        <h2 class="no-toc">Mua kèm hoặc tham khảo thêm</h2>
+        <ul>
+          <li>Xem <a href="../../bang-gia/">bảng giá đầy đủ {{priceCount}} mã hộp mực &amp; linh kiện</a> để so sánh trước khi đặt.</li>
+          <li>Cần thay tại chỗ? Xem <a href="../../dich-vu/">dịch vụ sửa máy in tận nơi TP.HCM</a>.</li>
+          <li>Máy đang lỗi mà chưa rõ nguyên nhân? Đọc <a href="../../huong-dan/">hướng dẫn tự xử lý lỗi máy in</a> trước khi thay linh kiện.</li>
+          <li>Chỉ cần đổ mực, chưa cần thay hộp? Xem <a href="../../nap-muc-may-in-tan-noi-tphcm/">nạp mực máy in tận nơi</a>.</li>
+        </ul>
+      </div>
+
       <div class="cta-banner" style="margin-top:44px">
-        <h2>Không chắc mã này hợp với máy in của bạn?</h2>
+        <h2 class="no-toc">Không chắc mã này hợp với máy in của bạn?</h2>
         <p>Nhắn Zalo {{hotlineDisplay}} kèm model máy in (vd: HP M107a, Canon 2900) — chúng tôi kiểm tra tương thích và báo giá trong ít phút.</p>
         <div class="btn-row" style="justify-content:center">
           <a href="tel:{{hotlineTel}}" class="btn btn-outline">📞 Gọi ngay</a>

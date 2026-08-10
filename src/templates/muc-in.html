@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>{{m.title}}</title>
+<meta name="description" content="{{m.desc}}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mucinminhtien.com/muc-in/{{m.slug}}/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Mực in Minh Tiến">
+<meta property="og:title" content="{{m.ogTitle}}">
+<meta property="og:description" content="{{m.ogDesc}}">
+<meta property="og:url" content="https://mucinminhtien.com/muc-in/{{m.slug}}/">
+<meta property="og:image" content="https://mucinminhtien.com/assets/img/hero/{{m.slug}}.webp">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Hộp mực {{m.code}}",
+  "alternateName": {{m.altNamesJson}},
+  "description": "{{m.desc}}",
+  "sku": "{{m.slug}}",
+  "brand": { "@type": "Brand", "name": "{{m.brand}}" },
+  "category": "Hộp mực & mực in máy in",
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://mucinminhtien.com/muc-in/{{m.slug}}/",
+    "priceCurrency": "VND",
+    "lowPrice": "{{m.priceMin}}",
+    "highPrice": "{{m.priceMax}}",
+    "offerCount": "{{m.partCount}}",
+    "availability": "https://schema.org/InStock",
+    "seller": { "@id": "https://mucinminhtien.com/#localbusiness" }
+  }
+}
+</script>
+{{m.faqSchema}}
+</head>
+<body>
+<a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
+<div id="site-header"></div>
+
+<main id="main-content">
+  <div class="container">
+    <p class="breadcrumb"><a href="../../index.html">Trang chủ</a> / <a href="../">Mực in</a> / {{m.code}}</p>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="prose">
+        <span class="post-tag">{{m.tag}}</span>
+        <h1 style="margin:12px 0 6px">{{m.h1}}</h1>
+        <p class="post-meta">Cập nhật: {{m.updated}} · Mã tương đương: {{m.altNamesText}}</p>
+
+        <figure>
+          <img src="../../assets/img/hero/{{m.slug}}.webp" alt="Hộp mực {{m.code}} dùng cho máy in nào và giá bao nhiêu"
+               width="1200" height="675" fetchpriority="high" style="border-radius:var(--radius-sm)">
+        </figure>
+
+        <p><strong>{{m.answer}}</strong></p>
+
+        <!--TOC-->
+
+        <h2>Hộp mực {{m.code}} dùng cho máy in nào</h2>
+        {{m.machineHtml}}
+
+        <h2>Giá hộp mực {{m.code}} và linh kiện đi kèm</h2>
+        <p>Bảng dưới là <strong>hàng đang có tại kho {{addressShort}}</strong>, giá tham khảo cho khách lẻ. Đây là giá thật trong bảng giá công khai, không phải giá quảng cáo.</p>
+        {{m.partsTable}}
+        <p class="price-note">Không thấy mã cần tìm? Dùng <a href="../../tra-hop-muc/?q={{m.query}}">công cụ tra cứu theo model máy</a> hoặc xem <a href="../../bang-gia/">bảng giá đầy đủ {{priceCount}} mã</a>.</p>
+
+        {{m.sectionsHtml}}
+
+        <h2>Nên mua hộp mực mới hay nạp lại {{m.code}}</h2>
+        {{m.refillHtml}}
+
+        <figure>
+          <img src="../../assets/img/info/{{m.slug}}.webp" alt="Tóm tắt thông tin hộp mực {{m.code}}: máy dùng được, giá và cách chọn"
+               width="1000" height="600" loading="lazy" decoding="async" style="border-radius:var(--radius-sm)">
+          <figcaption>Tóm tắt nhanh nội dung trang. Lưu ảnh này để đối chiếu khi đi mua mực.</figcaption>
+        </figure>
+
+        <h2>Câu hỏi thường gặp về hộp mực {{m.code}}</h2>
+      </div>
+      <div class="faq">
+{{m.faqHtml}}
+      </div>
+
+      <div class="prose" style="margin-top:34px">
+        <h2 class="no-toc">Bài viết liên quan</h2>
+        <ul>
+{{m.relatedHtml}}
+          <li><a href="../../tra-hop-muc/">Tra hộp mực và linh kiện theo model máy in</a></li>
+          <li><a href="../../nap-muc-may-in-tan-noi-tphcm/">Nạp mực máy in tận nơi TP.HCM từ 80.000đ</a></li>
+        </ul>
+      </div>
+
+      <div class="cta-banner" style="margin-top:40px">
+        <h2 class="no-toc">Cần hộp mực {{m.code}} giao trong ngày?</h2>
+        <p>Gọi hoặc nhắn Zalo {{hotlineDisplay}} kèm model máy in — chúng tôi kiểm tra tương thích, báo giá và giao nhanh nội thành TP.HCM.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="tel:{{hotlineTel}}" class="btn btn-outline">Gọi {{hotlineDisplay}}</a>
+          <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn btn-outline">Nhắn Zalo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="../../assets/js/include.js"></script>
+</body>
+</html>

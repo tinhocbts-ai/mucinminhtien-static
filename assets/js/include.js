@@ -1,31 +1,12 @@
 /* assets/js/include.js
-   Fetches shared header/footer partials, rewrites their internal links so the
-   site works correctly both at the domain root and one folder deep
-   (bang-gia/, gioi-thieu/, lien-he/, san-pham/, dich-vu/), wires up the
-   mobile hamburger menu, and runs the homepage promo slider. */
+   Header và footer ĐÃ được nhúng sẵn vào từng trang lúc build (build.js → injectShell),
+   nên file này không còn fetch() partial nữa — Googlebot thấy toàn bộ menu ngay trong
+   HTML thô, không phải chờ render JavaScript.
+
+   Việc còn lại của file này: đánh dấu mục menu đang mở, mở/đóng menu mobile,
+   và chạy slider khuyến mãi ở trang chủ. */
 (function () {
   var NESTED_PAGES = ['bang-gia', 'gioi-thieu', 'lien-he', 'san-pham', 'dich-vu', 'nap-muc-may-in-tan-noi-tphcm', 'huong-dan'];
-
-  /* Tra ve so cap thu muc tinh tu goc site (0 = trang chu).
-     Ho tro ca bai viet nam sau 1 cap (vd /huong-dan/ten-bai/ -> depth 2)
-     va truong hop host trong sub-path (GitHub Pages /ten-repo/...). */
-  function computeDepth() {
-    var parts = window.location.pathname.split('/').filter(Boolean);
-    if (parts.length && parts[parts.length - 1] === 'index.html') parts.pop();
-    for (var i = parts.length - 1; i >= 0; i--) {
-      if (NESTED_PAGES.indexOf(parts[i]) !== -1) return parts.length - i;
-    }
-    return 0;
-  }
-
-  var depth = computeDepth();
-  var prefix = new Array(depth + 1).join('../');
-
-  function applyPrefix(root) {
-    root.querySelectorAll('[data-href]').forEach(function (el) {
-      el.setAttribute('href', prefix + el.getAttribute('data-href'));
-    });
-  }
 
   function currentKey() {
     var parts = window.location.pathname.split('/').filter(Boolean);
@@ -36,9 +17,9 @@
     return 'index.html';
   }
 
-  function markActive(root) {
+  function markActive() {
     var key = currentKey();
-    root.querySelectorAll('.main-nav a[data-href]').forEach(function (a) {
+    document.querySelectorAll('.main-nav a[data-href], .site-footer a[data-href]').forEach(function (a) {
       if (a.getAttribute('data-href') === key) {
         a.classList.add('active');
         a.setAttribute('aria-current', 'page');
@@ -100,27 +81,12 @@
     startAuto();
   }
 
-  function include(id, file, cb) {
-    fetch(prefix + file)
-      .then(function (r) { return r.text(); })
-      .then(function (html) {
-        var el = document.getElementById(id);
-        if (!el) return;
-        el.innerHTML = html;
-        applyPrefix(el);
-        if (cb) cb(el);
-      })
-      .catch(function (e) { console.error('include() failed for', file, e); });
+  function init() {
+    markActive();
+    setupMobileNav();
+    setupPromoSlider();
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    include('site-header', 'partials/header.html', function (el) {
-      markActive(el);
-      setupMobileNav();
-    });
-    include('site-footer', 'partials/footer.html', function (el) {
-      markActive(el);
-    });
-    setupPromoSlider();
-  });
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
 })();

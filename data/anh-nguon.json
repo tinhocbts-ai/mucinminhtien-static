@@ -1,0 +1,49 @@
+{
+  "_help": "Gán ảnh máy in THẬT (kho ảnh dự án Chợ Tốt) cho từng bài. Chạy: node tools/tao-anh-bai.js --force. Bài không có trong danh sách này sẽ dùng thẻ tiêu đề thiết kế (không có ảnh máy).",
+  "_kho": "D:/AUTOMATION/projects/chotot/chotot-images",
+  "_quyTac": "Mỗi bài một MODEL MÁY khác nhau khi kho có đủ. Tool tự chọn file chưa dùng ở bài nào khác, ưu tiên ảnh nét (file nặng nhất) — không bao giờ lặp lại cùng một tấm.",
+  "map": {
+    "cach-cai-dat-may-in": "hp-1005",
+    "cach-chon-muc-in": "hp-1102",
+    "cach-in-2-mat": "brother-2520d",
+    "cach-reset-may-in-brother": "brother-2361dn",
+    "cach-reset-may-in-hp": "hp-107w",
+    "canon-2900-khong-nhan-hop-muc": "canon-2900",
+    "loi-drum-end-soon-brother": "brother-2366dw",
+    "may-in-bi-soc-den-doc": "hp-m12a",
+    "may-in-epson-bao-loi-2-den-do": "epson-l3150",
+    "may-in-khong-in-duoc": "canon-223dw",
+    "phan-biet-muc-in-chinh-hang": "hp-135w",
+    "tran-bo-dem-muc-thai-epson": "epson-l3150",
+    "ve-sinh-dau-phun-epson": "epson-l3150",
+    "hp-107a-in-mo-nhat-chu": "hp-107a",
+    "canon-2900-keo-nhieu-to-giay": "canon-2900",
+    "hop-muc-85a": "canon-6030",
+    "hop-muc-107a": "hp-laser-107w",
+    "hop-muc-cf226a": "hp-laser-jetpro-m402dne",
+    "hop-muc-canon-337": "canon-249dw",
+    "hop-muc-12a": "canon-2900"
+  },
+  "_khongGan": {
+    "loi-5b00-canon": "Lỗi 5B00 là lỗi máy in PHUN. Kho chỉ có Canon laser — dùng ảnh laser cho bài về máy phun là sai sự thật. Giữ thẻ thiết kế cho tới khi chụp được máy phun Canon (G1010/G2010/iX6770).",
+    "hop-muc-35a": "Kho khong co may HP P1005/P1006 hay Canon 3050 — khong gan anh may khac ma.",
+    "hop-muc-49a": "Kho khong co may HP 1160/1320 hay Canon LBP3300.",
+    "hop-muc-16a": "Kho khong co may A3 HP LaserJet 5200."
+  },
+  "_modelConTrong": [
+    "apos-200",
+    "brother-1211w",
+    "brother-2520d",
+    "brother-2701d",
+    "brother-2701dw",
+    "brother-b2100d",
+    "canon-249dw",
+    "canon-6030",
+    "canon-lbp-6700",
+    "epson-t82",
+    "hp-1102",
+    "hp-laser-107w",
+    "hp-laser-jetpro-m402dne",
+    "hp-neverstop-1000w"
+  ]
+}

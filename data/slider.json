@@ -1,0 +1,34 @@
+{
+  "_help": "Slider khuyến mãi ở trang chủ. Sửa file này rồi chạy 'node build.js' — KHÔNG sửa trực tiếp src/index.html. Thêm/bớt slide tuỳ ý, chấm tròn điều hướng tự sinh theo số slide. Tránh ghi tháng cụ thể (vd 'Ưu đãi tháng 7') vì nội dung sẽ hết hạn mà không ai nhớ sửa — dùng mốc không gắn thời gian, hoặc nhớ cập nhật đầu mỗi tháng.",
+
+  "slides": [
+    {
+      "tag": "Ưu đãi mua nhiều",
+      "heading": "Giảm đến 15% hộp mực chính hãng",
+      "text": "Áp dụng cho hộp mực HP, Canon, Brother, Epson khi mua từ 2 hộp trở lên. Giao hàng trong ngày tại TP.HCM.",
+      "ctaText": "Xem bảng giá",
+      "ctaHref": "bang-gia/"
+    },
+    {
+      "tag": "Dịch vụ tận nơi",
+      "heading": "Bơm mực, sửa máy in tại nhà trong ngày",
+      "text": "Kỹ thuật viên có mặt trong 30–60 phút ở khu vực trung tâm, báo giá minh bạch trước khi thực hiện, không phát sinh chi phí.",
+      "ctaText": "Nạp mực tận nơi",
+      "ctaHref": "nap-muc-may-in-tan-noi-tphcm/"
+    },
+    {
+      "tag": "Tra cứu nhanh",
+      "heading": "Không nhớ máy mình dùng mã mực nào?",
+      "text": "Gõ tên model máy in, biết ngay mã hộp mực, drum, chip tương thích và giá tham khảo trong kho.",
+      "ctaText": "Tra hộp mực theo model",
+      "ctaHref": "tra-hop-muc/"
+    },
+    {
+      "tag": "Khách hàng doanh nghiệp",
+      "heading": "Hợp đồng bảo trì máy in dài hạn",
+      "text": "Ưu tiên xử lý, giá vật tư cố định cho văn phòng, đại lý, trường học ký hợp đồng theo tháng hoặc quý.",
+      "ctaText": "Liên hệ tư vấn",
+      "ctaHref": "lien-he/"
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 {
   "_help": "File thong tin dung chung cho ca website. Sua o day roi chay 'node build.js' la moi trang tu cap nhat. KHONG sua truc tiep cac file .html o thu muc goc (chung la file tu sinh).",
 
+  "brandName": "Mực In Minh Tiến",
+  "siteUrl": "https://mucinminhtien.com",
+
   "hotlineDisplay": "0915 510 203",
   "hotlineTel": "0915510203",
   "hotlineIntl": "+84915510203",
@@ -9,5 +12,31 @@
 
   "addressFull": "77 Bắc Hải, Phường Diên Hồng, Quận 10 cũ, TP. Hồ Chí Minh",
   "addressShort": "77 Bắc Hải, Phường Diên Hồng, TP.HCM",
-  "addressStreet": "77 Bắc Hải, Phường Diên Hồng"
+  "addressStreet": "77 Bắc Hải, Phường Diên Hồng",
+  "addressLocality": "Phường Diên Hồng",
+  "addressRegion": "TP. Hồ Chí Minh",
+  "postalCode": "700000",
+
+  "_geoNote": "TOA DO CAN XAC MINH: mo Google Maps -> tim '77 Bac Hai, Quan 10' -> chuot phai vao dung diem -> copy lat,lng vao 2 dong duoi. Sai toa do lam giam do tin cay Local Pack.",
+  "geoLat": "10.7787",
+  "geoLng": "106.6612",
+
+  "priceRange": "50.000đ - 2.000.000đ",
+  "openingHours": "Mo-Fr 08:00-18:00, Sa 08:00-17:00",
+
+  "_sameAsNote": "Dien link Google Business Profile / Facebook / Zalo OA that. De trong thi khong xuat ra schema.",
+  "sameAsFacebook": "",
+  "sameAsGoogleMaps": "",
+
+  "ogDefault": "/assets/img/og-default.jpg",
+  "logoPath": "/assets/img/logo.png",
+
+  "_trackingNote": "Dien vao roi chay 'node build.js' la ma tracking tu duoc chen vao TAT CA cac trang. De trong thi khong chen gi (khong lam cham trang). Lay o dau: ga4Id -> analytics.google.com > Admin > Data streams > Measurement ID (dang G-XXXXXXX). gscVerification -> search.google.com/search-console > Add property > URL prefix > HTML tag > copy phan content=\"...\". bingVerification -> bing.com/webmasters (co the Import truc tiep tu GSC, nhanh hon).",
+  "ga4Id": "",
+  "gscVerification": "",
+  "bingVerification": "",
+
+  "_formNote": "Form lien he can 1 endpoint mien phi. Nhanh nhat: vao web3forms.com > nhap email > nhan Access Key qua mail > dan vao day. De trong thi trang /lien-he/ chi hien nut Goi va Zalo nhu cu.",
+  "contactFormEndpoint": "https://api.web3forms.com/submit",
+  "contactFormKey": ""
 }

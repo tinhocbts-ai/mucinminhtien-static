@@ -453,3 +453,105 @@ table.price-table tr:hover td { background: var(--bg-soft); }
   .slider-arrow.prev { left: 6px; }
   .slider-arrow.next { right: 6px; }
 }
+
+/* ── Mục lục tự sinh (build.js injectToc → đặt <!--TOC--> trong src/) ───────── */
+.toc {
+  max-width: 820px; margin: 26px auto 0; padding: 20px 24px;
+  background: var(--bg-soft); border: 1px solid var(--border);
+  border-left: 4px solid var(--accent); border-radius: var(--radius-sm);
+}
+.toc-title {
+  font-weight: 700; font-size: .95rem; color: var(--ink);
+  text-transform: uppercase; letter-spacing: .04em; margin-bottom: 10px;
+}
+.toc ol { margin: 0; padding-left: 20px; }
+.toc li { margin: 6px 0; line-height: 1.5; }
+.toc a { color: var(--primary-dark); text-decoration: none; font-size: .95rem; }
+.toc a:hover { text-decoration: underline; color: var(--accent-dark); }
+
+/* ── Khối NAP cuối trang — thông tin phải TRÙNG KHỚP Google Business Profile ── */
+.nap-block {
+  max-width: 820px; margin: 0 auto; padding: 26px 28px;
+  background: #fff; border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow-sm);
+}
+.nap-block h2 { font-size: 1.25rem; margin-bottom: 14px; }
+.nap-block p { margin-bottom: 8px; color: var(--ink-soft); }
+.nap-block p:last-child { margin-bottom: 0; }
+.nap-block a { color: var(--primary); font-weight: 600; }
+
+/* Số thứ tự trong .icon-badge (khối lợi thế cạnh tranh) */
+.card .icon-badge { font-weight: 800; }
+
+/* ── Công cụ tra hộp mực theo model (/tra-hop-muc/) ────────────────────────── */
+.lookup-box {
+  max-width: 900px; margin: 0 auto; padding: 26px 28px;
+  background: #fff; border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow-md);
+}
+.lookup-label {
+  display: block; font-weight: 700; font-size: .9rem; color: var(--ink);
+  margin-bottom: 8px; text-transform: uppercase; letter-spacing: .04em;
+}
+.lookup-input {
+  width: 100%; padding: 15px 18px; font-family: var(--font); font-size: 1.05rem;
+  color: var(--ink); background: var(--bg-soft);
+  border: 2px solid var(--border); border-radius: var(--radius-sm);
+  transition: border-color .16s ease, background .16s ease;
+}
+.lookup-input:focus {
+  outline: none; background: #fff; border-color: var(--primary);
+  box-shadow: 0 0 0 4px var(--primary-light);
+}
+.lookup-chips { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 14px; }
+.lookup-hint { font-size: .85rem; color: var(--ink-soft); margin-right: 2px; }
+.lookup-chip {
+  font-family: var(--font); font-size: .85rem; font-weight: 600; color: var(--primary-dark);
+  background: var(--primary-light); border: 1px solid transparent;
+  padding: 7px 14px; border-radius: 999px; cursor: pointer;
+  transition: background .16s ease, border-color .16s ease;
+}
+.lookup-chip:hover { background: #fff; border-color: var(--primary); }
+.lookup-count { margin: 18px 0 10px; font-size: .9rem; font-weight: 600; color: var(--ink-soft); }
+.lookup-empty {
+  margin-top: 18px; padding: 18px 20px; background: var(--primary-light);
+  border-left: 4px solid var(--accent); border-radius: var(--radius-sm);
+}
+.lookup-empty p { margin-bottom: 6px; }
+.lookup-empty p:last-child { margin-bottom: 0; }
+#lookupResult .price-table-wrap { margin-top: 4px; max-height: 560px; overflow-y: auto; }
+
+/* Dòng "tên đầy đủ / model tương thích" trên trang sản phẩm */
+.p-fullname { font-size: .88rem; color: var(--ink-soft); line-height: 1.6; margin-top: 10px; }
+
+@media (max-width: 640px) {
+  .lookup-box { padding: 20px 16px; }
+  .lookup-input { font-size: 1rem; padding: 13px 15px; }
+}
+
+/* Heading giữ đúng thứ bậc ngữ nghĩa (H2) nhưng cỡ chữ như tiêu đề thẻ card */
+.card-title, .panel-title { font-size: 1.12rem; line-height: 1.4; margin-bottom: 8px; }
+.hero-panel .panel-title { color: inherit; }
+
+/* Nav 8 mục ở cỡ chữ mặc định cần ~1.260px, trong khi .container chỉ tối đa
+   1.180px — nên menu wrap xuống 2 dòng ở MỌI bề ngang desktop, không riêng
+   khoảng 1150–1250px. Thu gọn khoảng cách và cỡ chữ cho toàn dải desktop.
+   Giữ nguyên dòng mô tả dưới logo vì đã đủ chỗ sau khi thu gọn. */
+@media (min-width: 981px) {
+  .main-nav ul { gap: 14px; }
+  .main-nav a { font-size: .88rem; }
+  .hotline-btn-desktop { padding: 9px 14px; font-size: .86rem; }
+}
+
+/* Dải desktop hẹp (981–1259px): .container chưa đạt bề rộng tối đa 1180px nên
+   chỗ vẫn thiếu — bỏ dòng mô tả
+   dưới logo, đây là thứ hy sinh rẻ nhất so với việc menu tụt xuống 2 dòng. */
+@media (min-width: 981px) and (max-width: 1259px) {
+  .header-inner { gap: 12px; }
+  .main-nav ul { gap: 6px; }
+  .main-nav a { font-size: .8rem; }
+  .main-nav ul li a { padding-left: 2px; padding-right: 2px; }
+  .hotline-btn-desktop { padding: 7px 10px; font-size: .78rem; }
+  .logo-text small { display: none; }
+  .logo-icon { width: 34px; height: 34px; }
+}

@@ -1,0 +1,360 @@
+{
+  "_help": "Nội dung trang mã mực (/muc-in/<slug>/). Sửa file này rồi chạy 'node build.js'. Bảng linh kiện và giá KHÔNG khai báo ở đây — build tự lấy từ data/bang-gia.json theo matchKeys, nên giá luôn khớp bảng giá thật, không bao giờ lệch.",
+
+  "codes": [
+    {
+      "slug": "hop-muc-12a",
+      "code": "12A",
+      "brand": "HP",
+      "tag": "Hộp mực HP",
+      "query": "12a",
+      "matchKeys": ["12a", "q2612"],
+      "altNames": ["Q2612A", "Canon EP-303", "Canon FX-9", "Cartridge 703"],
+      "h1": "Hộp mực 12A (Q2612A): dùng cho máy nào, giá bao nhiêu",
+      "title": "Hộp Mực 12A Q2612A: Dùng Cho Máy Nào, Giá Bao Nhiêu",
+      "desc": "Hộp mực 12A (Q2612A) dùng cho HP 1010, 1020, M1005 và Canon 2900, 3000. In khoảng 2.000 trang. Xem bảng giá hộp mực và linh kiện thật tại kho TP.HCM.",
+      "ogTitle": "Hộp mực 12A (Q2612A) dùng cho máy nào, giá bao nhiêu",
+      "ogDesc": "Danh sách máy dùng được 12A, giá hộp mực và linh kiện thật trong kho, nên mua mới hay nạp lại.",
+      "answer": "Hộp mực 12A (mã HP Q2612A) dùng cho HP LaserJet 1010, 1012, 1015, 1018, 1020, 1022, 3050, M1005 và các máy Canon LBP 2900, 3000 dưới tên EP-303. Một hộp đầy in được khoảng 2.000 trang văn bản.",
+      "yieldPages": "2.000",
+      "machines": [
+        { "brand": "HP LaserJet", "models": "1010, 1012, 1015, 1018, 1020, 1020 Plus, 1022, 1022n, 1022nw", "note": "Dòng máy in đen trắng để bàn, phổ biến nhất tại Việt Nam" },
+        { "brand": "HP LaserJet đa năng", "models": "3015, 3020, 3030, 3050, 3052, 3055, M1005 MFP", "note": "Máy in kèm scan/copy" },
+        { "brand": "Canon LBP", "models": "2900, 2900B, 3000", "note": "Canon gọi là EP-303, cùng phôi với 12A nên dùng chéo được" },
+        { "brand": "Canon MF", "models": "4010, 4120, 4150, 4270, 4350d, 4370dn", "note": "Canon gọi là FX-9 hoặc Cartridge 703" }
+      ],
+      "sections": [
+        {
+          "h2": "Vì sao 12A là mã mực bán chạy nhất Việt Nam",
+          "html": "<p>Hai dòng máy dùng mã này — HP 1020 và Canon 2900 — là máy in văn phòng bán chạy nhất Việt Nam suốt hơn mười năm. Máy bền, ít hỏng vặt, linh kiện rẻ và có sẵn khắp nơi, nên tới giờ vẫn còn hàng chục nghìn máy đang chạy hằng ngày ở các văn phòng, tiệm photocopy và hộ gia đình.</p><p>Hệ quả là thị trường 12A rất phong phú: có hộp mực chính hãng, hộp mực tương thích của nhiều nhà sản xuất, hộp mực đã qua nạp lại, và đầy đủ linh kiện rời để thay từng bộ phận. Đây là mã hiếm hoi mà bạn gần như không bao giờ phải mua nguyên hộp mới nếu chỉ hỏng một chi tiết.</p>"
+        },
+        {
+          "h2": "Cấu tạo hộp mực 12A và bộ phận hay hỏng nhất",
+          "html": "<p>Hộp mực 12A gồm sáu bộ phận chính, và mỗi bộ phận có tuổi thọ khác nhau — đây là lý do bản in xuống chất lượng theo những kiểu rất khác nhau:</p><ol><li><strong>Trống từ (drum)</strong> — bộ phận đắt và quan trọng nhất. Xước drum gây sọc đen dọc lặp lại đều đặn trên trang.</li><li><strong>Gạt mực (wiper blade)</strong> — mòn hoặc mẻ thì mực không được gạt sạch, gây lem mực ở mép trang.</li><li><strong>Trục từ (magnetic roller)</strong> — mòn sau 3–4 lần nạp, bản in nhạt dần dù hộp còn đầy mực.</li><li><strong>Trục cao su (PCR)</strong> — chai cứng gây bóng chữ, in ra có vệt mờ lặp lại.</li><li><strong>Bạc phíp và lò xo</strong> — mòn gây kêu và lệch trục.</li><li><strong>Seal và ron từ</strong> — hở gây rơi mực vào lòng máy.</li></ol><p>Nhìn bản in đoán được bộ phận nào hỏng: xem chi tiết ở bài <a href=\"../../huong-dan/may-in-bi-soc-den-doc/\">máy in bị sọc đen dọc</a>.</p>"
+        }
+      ],
+      "refill": "<p>Với 12A, <strong>nạp lại gần như luôn là phương án kinh tế hơn</strong>, vì linh kiện rời của mã này rẻ và có sẵn. Chi phí nạp mực tận nơi từ 80.000đ, trong khi hộp mực mới đắt hơn nhiều lần.</p><p>Nên nạp lại khi: vỏ hộp còn kín, drum chưa xước, gạt mực chưa mẻ, bản in trước khi hết mực vẫn sắc nét.</p><p>Nên thay linh kiện hoặc hộp mới khi: bản in có sọc đen dọc lặp lại (drum), lem mực ở mép (gạt), nhạt loang lổ dù vừa nạp (trục từ), hoặc vỏ hộp đã nứt làm rơi mực vào máy. Trường hợp này thay riêng bộ phận hỏng vẫn rẻ hơn mua nguyên hộp.</p>",
+      "faqs": [
+        { "q": "Hộp mực 12A và Canon 2900 có phải là một không?", "a": "Về phôi thì giống nhau nên dùng chéo được. HP gọi là 12A hoặc Q2612A, Canon gọi cùng loại phôi đó là EP-303 cho LBP 2900 và 3000. Khi mua bạn chỉ cần nói model máy in, người bán sẽ đưa đúng loại. Lưu ý mực bột bên trong hai bên có thể khác nhau đôi chút nên bản in có thể hơi khác về độ đậm." },
+        { "q": "Hộp mực 12A in được bao nhiêu trang?", "a": "Khoảng 2.000 trang văn bản ở độ phủ 5 phần trăm, tức là trang chữ thông thường. Nếu bạn in tài liệu nhiều bảng biểu, hình ảnh hoặc mảng đen lớn, số trang thực tế giảm xuống còn khoảng một nửa. In ảnh thì còn ít hơn nữa." },
+        { "q": "Máy HP 1020 dùng được hộp mực của Canon 2900 không?", "a": "Được, vì hai mã dùng chung phôi. Nhiều tiệm ở Việt Nam vẫn bán chung một loại cho cả hai máy. Tuy nhiên nếu hộp mực có gắn chip hoặc là hàng chính hãng có khoá vùng, nên nói rõ model máy khi mua để tránh trường hợp máy không nhận." },
+        { "q": "Nạp mực 12A giá bao nhiêu?", "a": "Nạp mực tận nơi tại TP.HCM cho hộp 12A thường từ 80.000đ đến 150.000đ tùy loại mực bột và có thay linh kiện kèm hay không. Kỹ thuật viên kiểm tra hộp mực trước, báo giá rồi mới làm, không phát sinh." },
+        { "q": "Vì sao hộp mực 12A mới nạp đã in mờ?", "a": "Ba nguyên nhân thường gặp: trục từ đã mòn nên không hút đủ mực, mực bột không đúng loại hoặc kém chất lượng, hoặc drum đã hết tuổi thọ. Trục từ và drum đều thay riêng được với chi phí thấp, không cần thay cả hộp." }
+      ],
+      "related": [
+        { "href": "../../model/canon-2900-keo-nhieu-to-giay/", "text": "Canon 2900 kéo nhiều tờ giấy cùng lúc: cách xử lý" },
+        { "href": "../../huong-dan/canon-2900-khong-nhan-hop-muc/", "text": "Canon 2900 không nhận hộp mực: 5 cách xử lý tại chỗ" },
+        { "href": "../../huong-dan/may-in-bi-soc-den-doc/", "text": "Máy in bị sọc đen dọc: 5 nguyên nhân và cách khắc phục" }
+      ]
+    },
+
+    {
+      "slug": "hop-muc-35a",
+      "code": "35A",
+      "brand": "HP",
+      "tag": "Hộp mực HP",
+      "query": "35a",
+      "matchKeys": ["35a", "cb435"],
+      "altNames": ["CB435A", "Canon Cartridge 312"],
+      "h1": "Hộp mực 35A (CB435A): dùng cho máy nào, giá bao nhiêu",
+      "title": "Hộp Mực 35A CB435A: Dùng Cho Máy Nào, Giá Bao Nhiêu",
+      "desc": "Hộp mực 35A (CB435A) dùng cho HP LaserJet P1005, P1006 và Canon 3050, 3150. In khoảng 1.500 trang. Xem bảng giá hộp mực và linh kiện thật tại kho TP.HCM.",
+      "ogTitle": "Hộp mực 35A (CB435A) dùng cho máy nào, giá bao nhiêu",
+      "ogDesc": "Máy nào dùng được 35A, phân biệt với 36A và 85A, giá linh kiện thật trong kho.",
+      "answer": "Hộp mực 35A (mã HP CB435A) dùng cho HP LaserJet P1005 và P1006, tương đương Canon Cartridge 312 cho LBP 3050, 3100, 3150. Một hộp đầy in được khoảng 1.500 trang văn bản.",
+      "yieldPages": "1.500",
+      "machines": [
+        { "brand": "HP LaserJet", "models": "P1005, P1006", "note": "Máy in đen trắng nhỏ gọn cho bàn làm việc cá nhân" },
+        { "brand": "Canon LBP", "models": "3050, 3100, 3150, 3018, 3010", "note": "Canon gọi là Cartridge 312, cùng phôi với 35A" }
+      ],
+      "sections": [
+        {
+          "h2": "Phân biệt 35A với 36A và 85A — ba mã rất dễ nhầm",
+          "html": "<p>Đây là nhầm lẫn phổ biến nhất khi mua mực. Ba mã 35A, 36A và 85A dùng <strong>chung một kiểu phôi</strong>, nhìn bằng mắt gần như giống hệt nhau, nhưng lắp sai máy thì máy không nhận hoặc bản in lỗi.</p><table class=\"price-table\"><thead><tr><th>Mã</th><th>Mã HP</th><th>Máy dùng</th><th>Số trang</th></tr></thead><tbody><tr><td>35A</td><td>CB435A</td><td>P1005, P1006</td><td>~1.500</td></tr><tr><td>36A</td><td>CB436A</td><td>P1505, M1120, M1522</td><td>~2.000</td></tr><tr><td>85A</td><td>CE285A</td><td>P1102, M1132, M1212</td><td>~1.600</td></tr></tbody></table><p>Vì cùng phôi nên <strong>linh kiện rời như gạt mực, trục từ, bạc phíp thường dùng chung được</strong> cho cả ba mã. Đó là lý do trong bảng giá bên dưới bạn sẽ thấy nhiều linh kiện ghi kèm cả 35A/85A/36A.</p>"
+        },
+        {
+          "h2": "Dấu hiệu hộp mực 35A sắp hết và cần thay gì",
+          "html": "<p>Máy dùng 35A không có màn hình báo phần trăm mực, nên phải nhìn bản in mà đoán:</p><ul><li><strong>Nhạt dần từ một bên sang</strong> — mực đang cạn và dồn lệch. Lắc ngang hộp mực 5–6 lần dùng thêm được vài chục trang.</li><li><strong>Nhạt đều toàn trang, lắc không ăn thua</strong> — trục từ đã yếu, thay trục từ là hết.</li><li><strong>Sọc đen dọc lặp lại đúng khoảng cách</strong> — drum xước, phải thay drum.</li><li><strong>Lem mực dọc mép trang</strong> — gạt mực mòn hoặc mẻ.</li></ul><p>Với dòng P1005 và P1006, máy đã cũ nên bạn nên kiểm tra thêm <a href=\"../../huong-dan/may-in-bi-soc-den-doc/\">các nguyên nhân gây sọc</a> trước khi quyết định thay hộp mực mới.</p>"
+        }
+      ],
+      "refill": "<p>35A là mã <strong>rất đáng nạp lại</strong>: linh kiện rời có sẵn và rẻ, phôi bền, thợ nào cũng làm được. Kho hiện có đủ gạt mực, trục từ, drum, chip và seal cho mã này.</p><p>Nạp lại khi vỏ hộp còn kín và bản in trước đó vẫn sắc. Thay linh kiện khi bản in bắt đầu có sọc hoặc lem. Chỉ nên mua hộp mới khi vỏ đã nứt hoặc hộp đã nạp quá nhiều lần và mỗi lần chỉ dùng được vài trăm trang.</p><p>Một lưu ý riêng cho P1005 và P1006: đây là máy đã ngừng sản xuất từ lâu. Nếu máy còn chạy tốt thì cứ nạp mực dùng tiếp, nhưng đừng đầu tư hộp mực chính hãng đắt tiền cho máy sắp hết vòng đời.</p>",
+      "faqs": [
+        { "q": "Hộp mực 35A có dùng được cho máy HP P1102 không?", "a": "Không. P1102 dùng mã 85A (CE285A). Hai mã tuy cùng kiểu phôi nhưng khác chip và khác kích thước lắp, cắm nhầm máy sẽ không nhận hoặc kẹt. Nếu không nhớ máy mình dùng mã nào, tra nhanh bằng công cụ tra hộp mực theo model." },
+        { "q": "35A và Canon 312 có thay thế cho nhau được không?", "a": "Được, hai mã dùng chung phôi và cùng dung lượng. HP gọi là CB435A cho P1005, P1006; Canon gọi là Cartridge 312 cho LBP 3050, 3100, 3150. Nhiều cửa hàng ở Việt Nam bán chung một loại cho cả hai dòng máy." },
+        { "q": "Hộp mực 35A in được bao nhiêu trang?", "a": "Khoảng 1.500 trang văn bản ở độ phủ 5 phần trăm. Đây là mã dung lượng thấp, thấp hơn 12A và 26A khá nhiều, nên nếu văn phòng in nhiều thì chi phí trên mỗi trang sẽ cao hơn so với các dòng máy dùng hộp mực lớn." },
+        { "q": "Vì sao máy P1005 in vài trang lại phải lắc hộp mực?", "a": "Đó là dấu hiệu mực đã gần cạn và đang dồn về một phía trong hộp. Lắc chỉ là biện pháp cấp cứu, dùng thêm được vài chục trang. Lắc nhiều còn làm mực bám lệch và mòn trục nhanh hơn, nên khi phải lắc thường xuyên thì nên nạp mực luôn." }
+      ],
+      "related": [
+        { "href": "../../huong-dan/may-in-bi-soc-den-doc/", "text": "Máy in bị sọc đen dọc: 5 nguyên nhân và cách khắc phục" },
+        { "href": "../../huong-dan/cach-chon-muc-in/", "text": "Cách chọn mực in đúng máy, bền máy và tiết kiệm" },
+        { "href": "../../huong-dan/phan-biet-muc-in-chinh-hang/", "text": "Phân biệt mực in chính hãng và mực trôi nổi" }
+      ]
+    },
+
+    {
+      "slug": "hop-muc-85a",
+      "code": "85A",
+      "brand": "HP",
+      "tag": "Hộp mực HP",
+      "query": "85a",
+      "matchKeys": ["85a", "ce285"],
+      "altNames": ["CE285A", "Canon Cartridge 325"],
+      "h1": "Hộp mực 85A (CE285A): dùng cho máy nào, giá bao nhiêu",
+      "title": "Hộp Mực 85A CE285A: Dùng Cho Máy Nào, Giá Bao Nhiêu",
+      "desc": "Hộp mực 85A (CE285A) dùng cho HP P1102, M1132, M1212 và Canon LBP6000, MF3010. In khoảng 1.600 trang. Bảng giá hộp mực và linh kiện thật tại TP.HCM.",
+      "ogTitle": "Hộp mực 85A (CE285A) dùng cho máy nào, giá bao nhiêu",
+      "ogDesc": "Máy nào dùng được 85A, quan hệ với Canon 325, giá linh kiện thật trong kho.",
+      "answer": "Hộp mực 85A (mã HP CE285A) dùng cho HP LaserJet P1102, P1102w, M1132, M1212nf và các máy Canon LBP 6000, 6018, MF3010 dưới tên Cartridge 325. Một hộp đầy in được khoảng 1.600 trang.",
+      "yieldPages": "1.600",
+      "machines": [
+        { "brand": "HP LaserJet", "models": "P1102, P1102w, P1109", "note": "Dòng máy in nhỏ gọn rất phổ biến ở văn phòng nhỏ" },
+        { "brand": "HP LaserJet đa năng", "models": "M1132, M1212nf, M1214nfh, M1217nfw", "note": "Máy in kèm scan, copy và fax" },
+        { "brand": "Canon LBP", "models": "6000, 6018, 6020, 6030, 6030w", "note": "Canon gọi là Cartridge 325 hoặc 725 tùy thị trường" },
+        { "brand": "Canon MF", "models": "3010", "note": "Máy đa năng nhỏ dùng chung mã 325" }
+      ],
+      "sections": [
+        {
+          "h2": "85A, Canon 325 và Canon 725 — cùng một thứ, khác tên",
+          "html": "<p>Đây là nhóm mã gây nhầm lẫn nhiều nhất khi khách mua hàng online. Cùng một loại hộp mực nhưng được đặt ba tên khác nhau tùy hãng và tùy thị trường:</p><ul><li><strong>HP 85A / CE285A</strong> — cho máy HP dòng P1102 và M1132.</li><li><strong>Canon Cartridge 325</strong> — cho Canon LBP 6000, 6018, MF3010, bán chính thức ở châu Á.</li><li><strong>Canon Cartridge 725</strong> — cùng loại, tên dùng ở thị trường châu Âu.</li></ul><p>Ba mã này lắp lẫn được cho nhau về mặt cơ khí. Điểm cần lưu ý là <strong>chip</strong>: hộp chính hãng có chip khai báo đúng model, nếu lắp chéo hãng máy có thể báo lỗi nhận diện dù vẫn in được. Khi mua, cứ nói tên máy in thay vì đọc mã mực là chắc ăn nhất.</p>"
+        },
+        {
+          "h2": "P1102 và M1132 — hai máy cùng mã mực nhưng hỏng khác nhau",
+          "html": "<p>Dù dùng chung hộp mực, hai dòng máy này có bệnh đặc trưng riêng, và biết trước sẽ đỡ mua nhầm linh kiện:</p><p><strong>HP P1102</strong> hay gặp kẹt giấy và kéo nhiều tờ do quả đào chai — đây là máy in nhẹ, khay giấy hở nên bụi vào nhiều. Bản in mờ ở dòng này thường do trục từ chứ ít khi do drum.</p><p><strong>HP M1132</strong> nặng hơn, có bộ scan phía trên, hay gặp lỗi cụm sấy sau vài năm sử dụng — bản in nhòe, chạm tay là ra mực. Lúc đó phải thay lô sấy chứ không phải thay hộp mực.</p><p>Nếu máy bạn đang kẹt giấy liên tục, xem thêm <a href=\"../../model/canon-2900-keo-nhieu-to-giay/\">cách xử lý máy kéo nhiều tờ giấy</a> — nguyên lý và bộ phận cần thay giống nhau ở hầu hết máy in laser để bàn.</p>"
+        }
+      ],
+      "refill": "<p>85A nạp lại tốt và rẻ. Do dùng chung phôi với 35A và 36A, linh kiện rời rất sẵn: gạt mực, trục từ, chip, seal đều có trong kho.</p><p><strong>Điểm cần chú ý riêng của mã này là chip.</strong> Hộp mực 85A chính hãng có chip đếm số trang. Nạp đầy mực mà không xử lý chip thì máy vẫn báo hết mực và dừng in. Vì vậy khi nạp mực cho 85A, luôn hỏi thợ có thay chip kèm hay không — chi phí chip không cao nhưng bỏ qua thì công nạp thành vô ích.</p><p>Nên thay hộp mới khi vỏ đã nứt, drum xước gây sọc, hoặc hộp đã nạp trên bốn lần và mỗi lần chỉ dùng được vài trăm trang.</p>",
+      "faqs": [
+        { "q": "Hộp mực 85A và Canon 325 có giống nhau không?", "a": "Giống nhau về phôi và lắp lẫn được. HP gọi là 85A hoặc CE285A, Canon gọi cùng loại đó là Cartridge 325 cho LBP 6000, 6018 và MF3010. Khác biệt duy nhất đáng kể là chip khai báo model, nên khi mua bạn nên nói tên máy in thay vì chỉ đọc mã mực." },
+        { "q": "Máy P1102 báo hết mực nhưng hộp còn mực thì làm sao?", "a": "Nguyên nhân gần như luôn là chip đã đếm đủ số trang định mức rồi tự khóa, không liên quan tới lượng mực còn lại. Cách xử lý là thay chip mới đúng mã, chi phí thấp hơn nhiều so với thay cả hộp mực. Sau khi thay chip, máy nhận lại và in tiếp bình thường." },
+        { "q": "Hộp mực 85A in được bao nhiêu trang?", "a": "Khoảng 1.600 trang văn bản ở độ phủ 5 phần trăm. Với văn phòng in khoảng 300 trang mỗi tháng thì một hộp dùng được hơn năm tháng. In nhiều bảng biểu hoặc mảng đen lớn thì số trang thực tế giảm khoảng một nửa." },
+        { "q": "Nạp mực 85A có cần thay chip không?", "a": "Có, nếu hộp mực đang dùng là hàng chính hãng còn chip gốc. Chip đã đếm hết định mức sẽ khóa và máy báo hết mực dù mực đầy. Với hộp mực tương thích, nhiều loại dùng chip có thể reset hoặc không gắn chip, lúc đó không cần thay. Nói rõ loại hộp đang dùng khi gọi thợ để được báo giá đúng." }
+      ],
+      "related": [
+        { "href": "../../model/hp-107a-in-mo-nhat-chu/", "text": "HP 107a in mờ, nhạt chữ: 6 nguyên nhân và cách xử lý" },
+        { "href": "../../huong-dan/cach-reset-may-in-hp/", "text": "Cách reset máy in HP và xử lý lỗi chấm than" },
+        { "href": "../../huong-dan/cach-chon-muc-in/", "text": "Cách chọn mực in đúng máy, bền máy và tiết kiệm" }
+      ]
+    },
+
+    {
+      "slug": "hop-muc-107a",
+      "code": "107A",
+      "brand": "HP",
+      "tag": "Hộp mực HP",
+      "query": "107a",
+      "matchKeys": ["107a", "1107a", "107w"],
+      "altNames": ["W1107A", "HP Laser 107"],
+      "h1": "Hộp mực 107A (W1107A): dùng cho máy nào, giá bao nhiêu",
+      "title": "Hộp Mực 107A W1107A: Dùng Cho Máy Nào, Giá Bao Nhiêu",
+      "desc": "Hộp mực 107A (W1107A) dùng cho HP Laser 107a, 107w, 135a, 135w, 137fnw. In khoảng 1.000 trang, có chip đếm. Bảng giá hộp mực và linh kiện thật tại TP.HCM.",
+      "ogTitle": "Hộp mực 107A (W1107A) dùng cho máy nào, giá bao nhiêu",
+      "ogDesc": "Máy nào dùng 107A, chuyện chip W1107A sau khi nạp mực, giá linh kiện thật trong kho.",
+      "answer": "Hộp mực 107A (mã HP W1107A) dùng cho HP Laser 107a, 107w, 135a, 135w, 135ag và 137fnw. Một hộp đầy in được khoảng 1.000 trang. Đây là mã có chip đếm số trang, nạp mực xong phải xử lý chip.",
+      "yieldPages": "1.000",
+      "machines": [
+        { "brand": "HP Laser", "models": "107a, 107w, 107r", "note": "Máy in đen trắng đơn năng, bản w có Wi-Fi" },
+        { "brand": "HP Laser MFP", "models": "135a, 135w, 135ag, 135r", "note": "Máy in kèm scan và copy" },
+        { "brand": "HP Laser MFP", "models": "137fnw, 137fwg", "note": "Bản đầy đủ có thêm fax và mạng LAN" }
+      ],
+      "sections": [
+        {
+          "h2": "Điểm khác biệt lớn nhất của 107A: chip đếm số trang",
+          "html": "<p>Khác với các mã đời cũ như 12A hay 35A, hộp mực 107A <strong>có chip đếm số trang gắn ở đầu hộp</strong>. Chip này không đo lượng mực còn lại — nó chỉ đếm số trang đã in. Khi đủ định mức, chip khóa và máy báo hết mực, kể cả khi trong hộp vẫn còn mực.</p><p>Đây là lý do rất nhiều khách gọi tới hỏi: vừa nạp đầy mực xong mà máy vẫn báo hết. Nguyên nhân không phải thợ nạp thiếu, mà là chip chưa được xử lý.</p><p><strong>Hai cách xử lý:</strong></p><ol><li><strong>Thay chip mới</strong> — cách phổ biến và chắc chắn nhất. Chip rời cho 107A có sẵn, chi phí thấp, tháo lắp nhanh.</li><li><strong>Dùng hộp mực tương thích không chip hoặc chip vĩnh viễn</strong> — một số dòng máy đời đầu chấp nhận, nhưng bản firmware mới của HP có thể từ chối.</li></ol><p>Chi tiết cách đọc đèn báo và xử lý khi máy khóa nằm ở bài <a href=\"../../huong-dan/cach-reset-may-in-hp/\">cách reset máy in HP và lỗi chấm than 107a, 107w</a>.</p>"
+        },
+        {
+          "h2": "Dòng 107 và 135 in mờ — bệnh đặc trưng",
+          "html": "<p>Dòng HP Laser 107 và 135 là máy giá rẻ, thiết kế gọn, nên trục từ và drum có tuổi thọ ngắn hơn các dòng LaserJet đời cũ. Biểu hiện thường gặp nhất sau khoảng hai đến ba lần nạp mực là bản in nhạt dần dù hộp còn đầy.</p><p>Trước khi kết luận phải thay hộp mực, hãy loại trừ theo thứ tự: kiểm tra chế độ EconoMode trong driver, lắc hộp mực in thử, rồi mới nhìn tới trục từ và drum. Toàn bộ quy trình chẩn đoán có ở bài <a href=\"../../model/hp-107a-in-mo-nhat-chu/\">HP 107a in mờ, nhạt chữ: 6 nguyên nhân và cách xử lý</a>.</p>"
+        }
+      ],
+      "refill": "<p>107A nạp lại được và tiết kiệm, nhưng <strong>bắt buộc phải tính cả chi phí chip</strong> vào bài toán. Một lần nạp mực kèm thay chip vẫn rẻ hơn đáng kể so với mua hộp mực chính hãng mới.</p><p>Nên nạp lại khi: máy còn dùng nhiều, vỏ hộp còn kín, bản in trước khi hết vẫn sắc nét.</p><p>Nên cân nhắc hộp mực tương thích mới khi: hộp đã nạp nhiều lần, trục từ và drum đều đã yếu — lúc đó cộng tiền hai linh kiện cộng chip cộng công nạp đã xấp xỉ giá một hộp tương thích mới còn nguyên bộ.</p><p>Không nên mua hộp mực trôi nổi giá quá rẻ cho dòng máy này: mực bột sai loại làm bẩn drum rất nhanh, và drum của 107A không rẻ.</p>",
+      "faqs": [
+        { "q": "Máy HP 107a báo hết mực nhưng hộp còn mực, xử lý thế nào?", "a": "Nguyên nhân là chip W1107A đã đếm đủ số trang định mức và tự khóa, hoàn toàn không liên quan tới lượng mực thật còn lại. Cách xử lý là thay chip mới đúng mã. Sau khi thay, bộ đếm về 0 và máy in tiếp bình thường cho tới khi hết mực thật." },
+        { "q": "Hộp mực 107A in được bao nhiêu trang?", "a": "Khoảng 1.000 trang văn bản ở độ phủ 5 phần trăm. Đây là mã dung lượng thấp so với mặt bằng chung, phù hợp với hộ gia đình và văn phòng nhỏ in dưới 200 trang mỗi tháng. Văn phòng in nhiều nên cân nhắc dòng máy dùng hộp mực lớn hơn để giảm chi phí trên mỗi trang." },
+        { "q": "HP 107a và 107w khác nhau chỗ nào?", "a": "Khác duy nhất ở kết nối: bản 107w có Wi-Fi, bản 107a chỉ có cổng USB. Cơ khí, hộp mực và linh kiện hoàn toàn giống nhau, đều dùng mã W1107A. Cùng dòng còn có 135a và 135w là bản có thêm scan và copy." },
+        { "q": "Nạp mực 107A có làm hỏng máy không?", "a": "Không, nếu dùng đúng loại mực bột và vệ sinh sạch khi nạp. Rủi ro thật sự nằm ở mực kém chất lượng: hạt mực sai kích thước làm xước drum và bám bẩn trục từ, khiến bản in xuống cấp nhanh sau vài trăm trang. Đó là lý do nên nạp ở nơi dùng mực đúng chủng loại thay vì chọn chỗ rẻ nhất." },
+        { "q": "Có nên mua hộp mực 107A tương thích thay vì chính hãng không?", "a": "Với máy dùng cho công việc bình thường thì hộp tương thích chất lượng tốt là lựa chọn hợp lý, giá thấp hơn nhiều mà bản in vẫn ổn định. Chỉ nên dùng chính hãng khi in tài liệu cần độ đậm chuẩn tuyệt đối hoặc máy còn trong thời gian bảo hành có điều kiện ràng buộc về vật tư." }
+      ],
+      "related": [
+        { "href": "../../model/hp-107a-in-mo-nhat-chu/", "text": "HP 107a in mờ, nhạt chữ: 6 nguyên nhân và cách xử lý" },
+        { "href": "../../huong-dan/cach-reset-may-in-hp/", "text": "Cách reset máy in HP và xử lý lỗi chấm than HP 107a, 107w" },
+        { "href": "../../huong-dan/phan-biet-muc-in-chinh-hang/", "text": "Phân biệt mực in chính hãng và mực trôi nổi" }
+      ]
+    },
+
+    {
+      "slug": "hop-muc-49a",
+      "code": "49A",
+      "brand": "HP",
+      "tag": "Hộp mực HP",
+      "query": "49a",
+      "matchKeys": ["49a", "q5949"],
+      "altNames": ["Q5949A", "Canon Cartridge 308", "53A"],
+      "h1": "Hộp mực 49A (Q5949A): dùng cho máy nào, giá bao nhiêu",
+      "title": "Hộp Mực 49A Q5949A: Dùng Cho Máy Nào, Giá Bao Nhiêu",
+      "desc": "Hộp mực 49A (Q5949A) dùng cho HP LaserJet 1160, 1320, 3390 và Canon LBP3300. In khoảng 2.500 trang. Bảng giá hộp mực và linh kiện thật tại kho TP.HCM.",
+      "ogTitle": "Hộp mực 49A (Q5949A) dùng cho máy nào, giá bao nhiêu",
+      "ogDesc": "Máy nào dùng 49A, quan hệ với 53A và Canon 308, giá linh kiện thật trong kho.",
+      "answer": "Hộp mực 49A (mã HP Q5949A) dùng cho HP LaserJet 1160, 1320, 3390, 3392 và Canon LBP 3300, 3360 dưới tên Cartridge 308. Một hộp đầy in được khoảng 2.500 trang văn bản.",
+      "yieldPages": "2.500",
+      "machines": [
+        { "brand": "HP LaserJet", "models": "1160, 1320, 1320n, 1320tn", "note": "Máy in văn phòng bền, tốc độ cao, nhiều máy vẫn chạy tốt sau 15 năm" },
+        { "brand": "HP LaserJet đa năng", "models": "3390, 3392", "note": "Bản có scan và fax" },
+        { "brand": "Canon LBP", "models": "3300, 3360", "note": "Canon gọi là Cartridge 308" },
+        { "brand": "Dùng chéo", "models": "P2014, P2015, M2727 (mã 53A)", "note": "53A cùng phôi, dung lượng cao hơn — xem lưu ý bên dưới" }
+      ],
+      "sections": [
+        {
+          "h2": "49A và 53A — cùng phôi, khác dung lượng",
+          "html": "<p>Hai mã này dùng chung kiểu phôi, nên hầu hết <strong>linh kiện rời như gạt mực, trục từ, bạc phíp, nhông đều lắp lẫn được</strong>. Đó là lý do trong bảng giá bên dưới nhiều mặt hàng ghi kèm cả hai mã 49A/53A.</p><table class=\"price-table\"><thead><tr><th>Mã</th><th>Mã HP</th><th>Máy dùng</th><th>Số trang</th></tr></thead><tbody><tr><td>49A</td><td>Q5949A</td><td>1160, 1320, 3390</td><td>~2.500</td></tr><tr><td>49X</td><td>Q5949X</td><td>1320, 3390 (bản dung lượng cao)</td><td>~6.000</td></tr><tr><td>53A</td><td>Q7553A</td><td>P2014, P2015, M2727</td><td>~3.000</td></tr><tr><td>53X</td><td>Q7553X</td><td>P2015, M2727 (dung lượng cao)</td><td>~7.000</td></tr></tbody></table><p><strong>Lưu ý quan trọng:</strong> tuy phôi giống nhau, hộp mực thành phẩm <em>không</em> lắp lẫn tùy tiện giữa 49A và 53A vì khác kích thước lẫy và khác chip. Chỉ linh kiện bên trong mới dùng chung được.</p>"
+        },
+        {
+          "h2": "Vì sao dòng 1320 vẫn đáng giữ dù đã rất cũ",
+          "html": "<p>HP LaserJet 1320 ra đời từ giữa những năm 2000 nhưng đến nay vẫn còn rất nhiều máy chạy hằng ngày. Lý do là máy dùng khung kim loại, cụm sấy khỏe, in nhanh và hộp mực dung lượng lớn nên chi phí trên mỗi trang thấp hơn hẳn các dòng máy nhỏ đời mới.</p><p>Nhược điểm của tuổi tác nằm ở phần cơ: <strong>quả đào và bố thắng chai gây kéo nhiều tờ</strong>, <strong>bạc phíp mòn gây kêu</strong>, và <strong>lô sấy xuống cấp gây nhòe bản in</strong>. Cả ba đều là linh kiện rời rẻ tiền, thay xong máy chạy tiếp nhiều năm.</p><p>Nếu máy bạn đang nuốt nhiều tờ giấy một lúc, quy trình kiểm tra và bộ phận cần thay có ở bài <a href=\"../../model/canon-2900-keo-nhieu-to-giay/\">máy in kéo nhiều tờ giấy cùng lúc</a> — nguyên lý giống nhau ở mọi máy in laser để bàn.</p>"
+        }
+      ],
+      "refill": "<p>49A là mã <strong>rất đáng nạp lại</strong>. Dung lượng 2.500 trang cao hơn hẳn các mã máy nhỏ, phôi bền chịu được nhiều lần nạp, và linh kiện rời có sẵn với giá thấp.</p><p>Với máy 1160 và 1320 đang chạy ổn, nạp mực là phương án hợp lý nhất về chi phí. Chỉ cần chú ý thay gạt mực và trục từ đúng lúc, tránh để drum bị xước rồi mới xử lý.</p><p>Nên thay hộp mới khi drum đã xước sâu gây sọc đen không hết sau khi vệ sinh, hoặc vỏ hộp đã hở làm rơi mực vào lòng máy. Lúc đó mực rơi bám vào cụm sấy sẽ gây lem toàn bộ bản in về sau, tốn công vệ sinh hơn nhiều so với tiền hộp mực.</p>",
+      "faqs": [
+        { "q": "Hộp mực 49A và 53A có thay thế cho nhau được không?", "a": "Linh kiện bên trong như gạt mực, trục từ, bạc phíp thì dùng chung được vì cùng phôi. Nhưng hộp mực thành phẩm thì không lắp lẫn tùy tiện, do khác kích thước lẫy và khác chip. Nếu máy bạn là 1320 thì dùng 49A, nếu là P2015 thì dùng 53A." },
+        { "q": "Hộp mực 49A in được bao nhiêu trang?", "a": "Khoảng 2.500 trang văn bản ở độ phủ 5 phần trăm. Bản dung lượng cao 49X in được khoảng 6.000 trang, phù hợp với văn phòng in nhiều. Chi phí trên mỗi trang của dòng này thấp hơn đáng kể so với các máy in nhỏ dùng hộp 1.000 tới 1.500 trang." },
+        { "q": "Máy HP 1320 in bị nhòe, chạm tay là ra mực, có phải do hộp mực không?", "a": "Không, đó là lỗi cụm sấy. Lô sấy không đủ nhiệt nên mực không được nung chảy bám chặt vào giấy. Thay hộp mực mới sẽ không giải quyết được. Cần kiểm tra lô sấy và thermistor, đây là linh kiện rời có sẵn cho dòng máy này." },
+        { "q": "Máy 1320 cũ có nên đầu tư sửa tiếp không?", "a": "Nếu khung máy và cụm sấy còn tốt thì rất đáng. Đây là dòng máy khung kim loại, in nhanh, hộp mực dung lượng lớn nên chi phí vận hành thấp. Phần lớn bệnh của máy cũ là quả đào, bố thắng, bạc phíp — linh kiện rẻ, thay xong dùng tiếp được nhiều năm." }
+      ],
+      "related": [
+        { "href": "../../model/canon-2900-keo-nhieu-to-giay/", "text": "Máy in kéo nhiều tờ giấy cùng lúc: cách xử lý tại nhà" },
+        { "href": "../../huong-dan/may-in-bi-soc-den-doc/", "text": "Máy in bị sọc đen dọc: 5 nguyên nhân và cách khắc phục" },
+        { "href": "../../huong-dan/cach-chon-muc-in/", "text": "Cách chọn mực in đúng máy, bền máy và tiết kiệm" }
+      ]
+    },
+
+    {
+      "slug": "hop-muc-cf226a",
+      "code": "26A",
+      "brand": "HP",
+      "tag": "Hộp mực HP",
+      "query": "26a",
+      "matchKeys": ["26a", "cf226"],
+      "altNames": ["CF226A", "HP 26X", "Canon Cartridge 052"],
+      "h1": "Hộp mực 26A (CF226A): dùng cho máy nào, giá bao nhiêu",
+      "title": "Hộp Mực 26A CF226A: Dùng Cho Máy Nào, Giá Bao Nhiêu",
+      "desc": "Hộp mực 26A (CF226A) dùng cho HP LaserJet Pro M402, M426. In khoảng 3.100 trang, có chip khóa firmware. Bảng giá hộp mực và linh kiện thật tại TP.HCM.",
+      "ogTitle": "Hộp mực 26A (CF226A) dùng cho máy nào, giá bao nhiêu",
+      "ogDesc": "Máy nào dùng 26A, chuyện chip khóa firmware của HP, giá linh kiện thật trong kho.",
+      "answer": "Hộp mực 26A (mã HP CF226A) dùng cho HP LaserJet Pro M402d, M402dn, M402n, M402dw và MFP M426fdn, M426fdw. Một hộp đầy in được khoảng 3.100 trang. Đây là dòng có chip khóa theo firmware.",
+      "yieldPages": "3.100",
+      "machines": [
+        { "brand": "HP LaserJet Pro", "models": "M402d, M402dn, M402n, M402dw, M402dne", "note": "Máy in văn phòng tốc độ cao, in hai mặt tự động ở bản dn/dw" },
+        { "brand": "HP LaserJet Pro MFP", "models": "M426fdn, M426fdw, M426dw", "note": "Bản đa năng có scan, copy, fax" },
+        { "brand": "Bản dung lượng cao", "models": "26X (CF226X) — cùng máy, ~9.000 trang", "note": "Chọn 26X nếu văn phòng in nhiều để giảm chi phí mỗi trang" }
+      ],
+      "sections": [
+        {
+          "h2": "Chip khóa firmware — điều phải biết trước khi mua mực 26A",
+          "html": "<p>Đây là điểm khác biệt lớn nhất giữa dòng M402/M426 và các máy HP đời cũ. HP đã nhiều lần <strong>phát hành bản cập nhật firmware chặn hộp mực không chính hãng</strong> trên dòng này. Máy đang chạy mực tương thích bình thường, sau khi tự động cập nhật firmware qua mạng thì báo lỗi cartridge và ngừng in.</p><p><strong>Cách phòng tránh:</strong></p><ol><li>Tắt tự động cập nhật firmware trong menu máy hoặc trong HP Smart, đặc biệt nếu bạn dùng mực tương thích.</li><li>Không cắm máy vào mạng internet nếu không cần in qua mạng.</li><li>Nếu dùng mực tương thích, chọn loại có chip đời mới đã cập nhật tương thích firmware hiện hành.</li></ol><p>Nếu máy đã bị khóa sau cập nhật, thường phải hạ firmware về bản cũ hoặc chuyển sang dùng mực chính hãng. Đây là công việc cần kỹ thuật viên, không nên tự mò theo hướng dẫn trên mạng vì hạ firmware sai có thể làm hỏng bo mạch.</p>"
+        },
+        {
+          "h2": "Bệnh 59.C0 và các lỗi thường gặp của M402",
+          "html": "<p>Dòng M402 và M426 có một số mã lỗi đặc trưng mà khách hay gặp:</p><ul><li><strong>59.C0</strong> — lỗi motor truyền động hoặc bao lụa cụm sấy. Đây là bệnh phổ biến nhất của dòng này sau vài năm sử dụng, cần thay linh kiện chứ không phải thay mực.</li><li><strong>Cartridge error / Supply memory error</strong> — chip hộp mực không được nhận. Nguyên nhân thường là chip bẩn tiếp điểm, chip hỏng, hoặc firmware đã chặn.</li><li><strong>Nhòe bản in, chạm tay ra mực</strong> — bao lụa hoặc lô ép xuống cấp.</li></ul><p>Bao lụa cho dòng 26A/M402 là mặt hàng có sẵn trong kho, thay được tại chỗ. Xem giá trong bảng bên dưới.</p>"
+        }
+      ],
+      "refill": "<p>Với 26A, bài toán khác hẳn các mã đời cũ. Phôi hộp mực nạp lại được và chi phí nạp thấp, <strong>nhưng chip và firmware là rào cản thật</strong>.</p><p><strong>Nên nạp lại khi:</strong> máy đã tắt tự động cập nhật firmware, bạn chấp nhận thay chip kèm mỗi lần nạp, và máy in số lượng lớn nên chênh lệch chi phí đáng kể.</p><p><strong>Nên dùng hộp chính hãng khi:</strong> máy nối mạng và không thể tắt cập nhật, hoặc máy dùng cho công việc quan trọng không chấp nhận rủi ro ngừng in giữa chừng.</p><p>Với văn phòng in nhiều, cân nhắc bản dung lượng cao 26X (khoảng 9.000 trang) — chi phí trên mỗi trang thấp hơn hẳn 26A dù giá hộp cao hơn.</p>",
+      "faqs": [
+        { "q": "Hộp mực 26A in được bao nhiêu trang?", "a": "Khoảng 3.100 trang văn bản ở độ phủ 5 phần trăm. Bản dung lượng cao 26X in được khoảng 9.000 trang trên cùng dòng máy. Nếu văn phòng in trên 500 trang mỗi tháng, chọn 26X sẽ tiết kiệm hơn đáng kể tính trên mỗi trang." },
+        { "q": "Vì sao máy M402 đang dùng mực tương thích bỗng báo lỗi cartridge?", "a": "Gần như chắc chắn là máy vừa tự cập nhật firmware và bản mới chặn hộp mực không chính hãng. HP đã nhiều lần phát hành bản cập nhật như vậy cho dòng này. Cách phòng tránh là tắt tự động cập nhật firmware trong menu máy nếu bạn có ý định dùng mực tương thích lâu dài." },
+        { "q": "Lỗi 59.C0 trên HP M402 có phải do hộp mực không?", "a": "Không. 59.C0 là lỗi phần cơ liên quan tới motor truyền động và cụm sấy, thường gặp sau vài năm sử dụng. Thay hộp mực mới không giải quyết được. Cần kỹ thuật viên kiểm tra và thay linh kiện, thường là bao lụa hoặc bộ truyền động." },
+        { "q": "26A và 26X khác nhau thế nào?", "a": "Cùng máy, cùng kích thước lắp, chỉ khác lượng mực bên trong. 26A in khoảng 3.100 trang, 26X khoảng 9.000 trang. Giá hộp 26X cao hơn nhưng tính trên mỗi trang thì rẻ hơn, nên văn phòng in nhiều thường chọn 26X." }
+      ],
+      "related": [
+        { "href": "../../huong-dan/cach-reset-may-in-hp/", "text": "Cách reset máy in HP và xử lý lỗi chấm than" },
+        { "href": "../../huong-dan/phan-biet-muc-in-chinh-hang/", "text": "Phân biệt mực in chính hãng và mực trôi nổi" },
+        { "href": "../../huong-dan/cach-chon-muc-in/", "text": "Cách chọn mực in đúng máy, bền máy và tiết kiệm" }
+      ]
+    },
+
+    {
+      "slug": "hop-muc-16a",
+      "code": "16A",
+      "brand": "HP",
+      "tag": "Hộp mực HP",
+      "query": "16a",
+      "matchKeys": ["16a", "q7516"],
+      "altNames": ["Q7516A"],
+      "h1": "Hộp mực 16A (Q7516A): dùng cho máy nào, giá bao nhiêu",
+      "title": "Hộp Mực 16A Q7516A: Dùng Cho Máy Nào, Giá Bao Nhiêu",
+      "desc": "Hộp mực 16A (Q7516A) dùng cho HP LaserJet 5200, 5200n, 5200dtn khổ A3. In khoảng 12.000 trang. Bảng giá hộp mực và linh kiện thật tại kho TP.HCM.",
+      "ogTitle": "Hộp mực 16A (Q7516A) dùng cho máy nào, giá bao nhiêu",
+      "ogDesc": "Máy A3 nào dùng 16A, vì sao hộp mực này in được nhiều trang, giá linh kiện thật trong kho.",
+      "answer": "Hộp mực 16A (mã HP Q7516A) dùng cho dòng máy in khổ A3 HP LaserJet 5200, 5200n, 5200tn, 5200dtn và 5200L. Một hộp đầy in được khoảng 12.000 trang — cao gấp nhiều lần hộp mực máy A4 thông thường.",
+      "yieldPages": "12.000",
+      "machines": [
+        { "brand": "HP LaserJet", "models": "5200, 5200L, 5200n, 5200tn, 5200dtn", "note": "Máy in khổ A3 dùng cho bản vẽ, sơ đồ, tài liệu khổ lớn" }
+      ],
+      "sections": [
+        {
+          "h2": "Vì sao chi phí in của máy A3 lại rẻ hơn tưởng tượng",
+          "html": "<p>Nhiều người nghĩ máy in A3 tốn kém, nhưng tính trên mỗi trang thì thường ngược lại. Hộp mực 16A in được khoảng 12.000 trang, trong khi hộp mực máy A4 nhỏ như 107A chỉ khoảng 1.000 trang. Chênh lệch gấp mười hai lần về số trang, trong khi giá hộp không chênh tới mức đó.</p><p>Ngoài ra dòng 5200 dùng khung kim loại, cụm sấy khỏe, thiết kế cho tải trọng in lớn. Máy chịu được in liên tục hàng nghìn trang mỗi tháng mà không xuống chất lượng — điều mà máy A4 để bàn không làm được.</p><p>Đổi lại, máy nặng, chiếm chỗ và linh kiện thay thế đắt hơn. Đây là máy dành cho đơn vị thật sự cần in khổ lớn hoặc in số lượng nhiều, không phải cho văn phòng nhỏ.</p>"
+        },
+        {
+          "h2": "Bộ phận hao mòn cần theo dõi trên dòng 5200",
+          "html": "<p>Với máy tải trọng lớn, việc bảo trì theo số trang quan trọng hơn theo thời gian. Ba nhóm linh kiện cần để mắt:</p><ul><li><strong>Drum</strong> — trên dòng này drum là bộ phận tách rời khỏi hộp mực ở một số cấu hình, tuổi thọ tính bằng vài chục nghìn trang. Xước drum gây sọc dọc lặp lại đều.</li><li><strong>Lô sấy và lô ép</strong> — chịu nhiệt liên tục, sau nhiều chục nghìn trang sẽ xuống cấp gây nhòe bản in hoặc nhăn giấy.</li><li><strong>Trục từ</strong> — mòn gây bản in nhạt không đều theo chiều ngang trang.</li></ul><p>Kho hiện có sẵn drum, trục từ và linh kiện sấy cho dòng 5200 — xem bảng giá bên dưới.</p>"
+        }
+      ],
+      "refill": "<p>Với 16A, <strong>nạp lại là lựa chọn gần như mặc định</strong> ở các đơn vị in nhiều, vì hộp mực dung lượng lớn nên chênh lệch chi phí giữa nạp và mua mới rất đáng kể.</p><p>Điểm cần chú ý là chất lượng mực bột. Máy A3 in tài liệu khổ lớn, mảng đen nhiều, nên mực kém chất lượng lộ khuyết điểm rất nhanh: bản in loang lổ, bám bẩn drum, và làm bẩn cụm sấy. Với dòng máy này, tiết kiệm vài chục nghìn tiền mực có thể đổi lấy chi phí thay drum lớn hơn nhiều lần.</p><p>Nên thay hộp hoặc thay drum khi bản in bắt đầu có sọc lặp lại đều đặn theo chu kỳ cố định — đó là dấu hiệu bề mặt drum đã hỏng, không vệ sinh được.</p>",
+      "faqs": [
+        { "q": "Hộp mực 16A in được bao nhiêu trang?", "a": "Khoảng 12.000 trang ở độ phủ 5 phần trăm. Đây là hộp mực dung lượng lớn dành cho máy in khổ A3 tải trọng cao. Nếu in bản vẽ hoặc tài liệu nhiều mảng đen, số trang thực tế giảm đáng kể so với con số danh nghĩa." },
+        { "q": "Máy HP 5200 in A3 có in được A4 không?", "a": "Được. Máy khổ A3 in được tất cả các khổ nhỏ hơn, chỉ cần chọn đúng khay và đúng khổ giấy trong driver. Nhiều đơn vị mua máy A3 để dùng chung cho cả nhu cầu in A4 số lượng lớn vì chi phí trên mỗi trang thấp." },
+        { "q": "Bản in máy 5200 bị sọc dọc lặp lại đều thì thay gì?", "a": "Sọc lặp lại đúng chu kỳ cố định là dấu hiệu bề mặt drum đã xước. Vệ sinh không hết được vì lớp phủ đã hỏng. Cần thay drum. Nếu vệt sọc không đều và loang lổ hơn thì nghi trục từ hoặc mực vón cục, hai trường hợp này xử lý khác nhau." },
+        { "q": "Máy 5200 đã ngừng sản xuất, còn linh kiện thay không?", "a": "Còn. Đây là dòng máy phổ biến trong ngành in ấn và kỹ thuật nên linh kiện thay thế vẫn có sẵn trên thị trường: drum, trục từ, lô sấy, lô ép, gạt mực. Kho chúng tôi hiện có các mã này, xem bảng giá bên dưới hoặc gọi để kiểm tra tồn kho theo đúng mã cần." }
+      ],
+      "related": [
+        { "href": "../../huong-dan/may-in-bi-soc-den-doc/", "text": "Máy in bị sọc đen dọc: 5 nguyên nhân và cách khắc phục" },
+        { "href": "../../huong-dan/cach-chon-muc-in/", "text": "Cách chọn mực in đúng máy, bền máy và tiết kiệm" },
+        { "href": "../../dich-vu/", "text": "Dịch vụ sửa máy in tận nơi TP.HCM" }
+      ]
+    },
+
+    {
+      "slug": "hop-muc-canon-337",
+      "code": "337",
+      "brand": "Canon",
+      "tag": "Hộp mực Canon",
+      "query": "337",
+      "matchKeys": ["337"],
+      "altNames": ["Canon Cartridge 337", "CRG-337", "HP 83A"],
+      "h1": "Hộp mực Canon 337: dùng cho máy nào, giá bao nhiêu",
+      "title": "Hộp Mực Canon 337: Dùng Cho Máy Nào, Giá Bao Nhiêu",
+      "desc": "Hộp mực Canon 337 dùng cho MF211, MF215, MF226, MF229, MF244, MF249. In khoảng 2.400 trang. Bảng giá hộp mực và linh kiện thật tại kho TP.HCM.",
+      "ogTitle": "Hộp mực Canon 337 dùng cho máy nào, giá bao nhiêu",
+      "ogDesc": "Danh sách máy Canon MF dùng mã 337, quan hệ với HP 83A, giá linh kiện thật trong kho.",
+      "answer": "Hộp mực Canon 337 (Cartridge 337) dùng cho các máy đa năng Canon MF211, MF212w, MF215, MF216n, MF217w, MF226dn, MF229dw, MF232w, MF244dw, MF246dn, MF249dw và LBP151dw. Một hộp đầy in được khoảng 2.400 trang.",
+      "yieldPages": "2.400",
+      "machines": [
+        { "brand": "Canon imageCLASS MF", "models": "MF211, MF212w, MF215, MF216n, MF217w", "note": "Dòng đa năng nhỏ gọn cho văn phòng" },
+        { "brand": "Canon imageCLASS MF", "models": "MF221d, MF226dn, MF229dw, MF232w, MF236n", "note": "Bản có in hai mặt và mạng" },
+        { "brand": "Canon imageCLASS MF", "models": "MF241d, MF244dw, MF246dn, MF249dw", "note": "Đời mới hơn, dùng chung mã mực" },
+        { "brand": "Canon LBP", "models": "LBP151dw", "note": "Bản in đơn năng cùng dòng" }
+      ],
+      "sections": [
+        {
+          "h2": "Canon 337 và HP 83A — quan hệ dễ gây nhầm",
+          "html": "<p>Trong bảng giá bạn sẽ thấy nhiều linh kiện ghi kèm cả hai mã <strong>83A và 337</strong>. Lý do là hai mã này dùng chung kiểu phôi, nên gạt mực, trục từ, chip và một số bộ phận rời lắp lẫn được.</p><p>Tuy nhiên hộp mực thành phẩm thì <strong>không dùng chéo tùy tiện</strong>: HP 83A (CF283A) dành cho HP LaserJet Pro M125, M127, M201, M225; Canon 337 dành cho dòng Canon MF liệt kê ở trên. Kích thước lẫy và chip khác nhau.</p><p>Khi mua linh kiện rời, việc ghi kèm hai mã là bình thường và không sai. Khi mua nguyên hộp mực, nhớ nói đúng tên máy in của mình.</p>"
+        },
+        {
+          "h2": "Dòng Canon MF hay gặp lỗi gì",
+          "html": "<p>Dòng MF2xx là máy đa năng phổ biến ở văn phòng vừa và nhỏ. Ba nhóm bệnh thường gặp:</p><ul><li><strong>Bản in mờ dần</strong> — trục từ mòn hoặc mực gần cạn. Đây là bệnh phổ biến nhất sau vài lần nạp mực.</li><li><strong>Kẹt giấy ở khay và bộ nạp tài liệu</strong> — quả đào chai. Máy MF có thêm khay nạp tài liệu tự động phía trên nên có hai bộ con lăn cần vệ sinh, không chỉ một.</li><li><strong>Máy báo lỗi hộp mực</strong> — chip bẩn tiếp điểm hoặc hộp mực tương thích không được nhận.</li></ul><p>Với lỗi bản in mờ, quy trình chẩn đoán từng bước có ở bài <a href=\"../../model/hp-107a-in-mo-nhat-chu/\">máy in mờ, nhạt chữ: nguyên nhân và cách xử lý</a> — cách đọc bản in để đoán bộ phận hỏng áp dụng chung cho mọi máy in laser.</p>"
+        }
+      ],
+      "refill": "<p>Canon 337 nạp lại được và khá kinh tế. Dung lượng 2.400 trang thuộc nhóm khá, phôi bền, linh kiện rời có sẵn.</p><p>Điểm cần chú ý là <strong>chip</strong>. Hộp mực 337 chính hãng có chip; nạp đầy mực mà không xử lý chip thì máy vẫn báo hết. Khi gọi thợ nạp mực, hỏi rõ có thay chip kèm không để tránh nạp xong máy vẫn không in được.</p><p>Nên thay hộp mới khi bản in có sọc đen dọc lặp lại đều (drum xước), lem mực ở mép (gạt mòn), hoặc hộp đã nạp nhiều lần và mỗi lần chỉ dùng được vài trăm trang. Với dòng máy MF dùng cho văn phòng, chất lượng bản in ổn định thường quan trọng hơn khoản tiết kiệm nhỏ từ lần nạp cuối cùng.</p>",
+      "faqs": [
+        { "q": "Hộp mực Canon 337 in được bao nhiêu trang?", "a": "Khoảng 2.400 trang văn bản ở độ phủ 5 phần trăm. Với văn phòng in khoảng 400 trang mỗi tháng thì một hộp dùng được khoảng nửa năm. In tài liệu nhiều bảng biểu hoặc mảng đen lớn thì số trang thực tế giảm khoảng một nửa." },
+        { "q": "Canon 337 và HP 83A có dùng chéo được không?", "a": "Linh kiện rời như gạt mực, trục từ, chip thì dùng chung được vì hai mã cùng phôi. Nhưng hộp mực thành phẩm thì không, do khác kích thước lẫy và khác chip khai báo. Máy Canon MF dùng 337, máy HP M125 hoặc M127 dùng 83A." },
+        { "q": "Máy Canon MF244 báo hết mực dù mới nạp thì sao?", "a": "Nguyên nhân thường là chip trên hộp mực đã đếm đủ số trang định mức và khóa lại, không liên quan tới lượng mực thật. Cách xử lý là thay chip mới đúng mã. Cũng cần kiểm tra tiếp điểm chip có bị bẩn hay lệch không, vì trường hợp này máy cũng báo lỗi tương tự." },
+        { "q": "Máy Canon MF kẹt giấy liên tục thì thay gì?", "a": "Thường là quả đào lấy giấy đã chai và bố thắng mòn. Riêng dòng MF còn có thêm bộ con lăn ở khay nạp tài liệu phía trên, nếu chỉ kẹt khi copy nhiều trang thì vấn đề nằm ở bộ này. Cả hai đều là linh kiện rời, vệ sinh bằng cồn trước, chai cứng thì thay." }
+      ],
+      "related": [
+        { "href": "../../model/hp-107a-in-mo-nhat-chu/", "text": "Máy in mờ, nhạt chữ: nguyên nhân và cách xử lý" },
+        { "href": "../../huong-dan/canon-2900-khong-nhan-hop-muc/", "text": "Máy Canon không nhận hộp mực: 5 cách xử lý tại chỗ" },
+        { "href": "../../huong-dan/cach-chon-muc-in/", "text": "Cách chọn mực in đúng máy, bền máy và tiết kiệm" }
+      ]
+    }
+  ]
+}

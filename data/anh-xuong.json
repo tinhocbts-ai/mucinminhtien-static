@@ -1,0 +1,131 @@
+{
+  "_help": "Ảnh hiện trường đã xử lý. Dùng alt sẵn có khi chèn vào bài.",
+  "anh": [
+    {
+      "file": "assets/img/xuong/sua-may-in-tai-xuong.webp",
+      "alt": "Bàn làm việc tại xưởng với máy in đang tháo rời và dụng cụ sửa chữa",
+      "w": 1200,
+      "h": 675,
+      "from": "1 (7).jpg"
+    },
+    {
+      "file": "assets/img/xuong/thao-may-in-bao-duong.webp",
+      "alt": "Máy in tháo rời để bảo dưỡng, thấy rõ cụm sấy và bánh răng",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (16).jpg"
+    },
+    {
+      "file": "assets/img/xuong/kiem-tra-bo-mach-may-in.webp",
+      "alt": "Kỹ thuật viên kiểm tra bo mạch và khoang hộp mực bên trong máy in",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (4).jpg"
+    },
+    {
+      "file": "assets/img/xuong/bao-lua-lo-say-may-in.webp",
+      "alt": "Tay kỹ thuật viên cầm bao lụa lô sấy trước máy in đã mở cụm sấy",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (17).jpg"
+    },
+    {
+      "file": "assets/img/xuong/cum-say-may-in-thao-roi.webp",
+      "alt": "Cụm sấy máy in laser tháo rời, thấy rõ đường dẫn giấy",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (2).jpg"
+    },
+    {
+      "file": "assets/img/xuong/cum-say-may-in-va-day-dien.webp",
+      "alt": "Cụm sấy máy in tháo rời cùng bó dây điện và cảm biến nhiệt",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (9).jpg"
+    },
+    {
+      "file": "assets/img/xuong/thay-lo-say-may-in.webp",
+      "alt": "Thay lô sấy cho máy in laser tại xưởng",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (15).jpg"
+    },
+    {
+      "file": "assets/img/xuong/hop-muc-35a-85a-trong-may-in.webp",
+      "alt": "Hộp mực 35A/85A đang lắp trong khoang máy in HP",
+      "w": 1200,
+      "h": 675,
+      "from": "1 (3).jpg"
+    },
+    {
+      "file": "assets/img/xuong/lap-hop-muc-vao-may-in.webp",
+      "alt": "Lắp hộp mực vào khoang máy in laser, thấy nhãn cảnh báo trên hộp",
+      "w": 1200,
+      "h": 675,
+      "from": "1 (5).jpg"
+    },
+    {
+      "file": "assets/img/xuong/cum-quang-laser-may-in.webp",
+      "alt": "Cụm quang laser bên trong máy in, bộ phận gây bản in mờ khi bám bẩn",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (14).jpg"
+    },
+    {
+      "file": "assets/img/xuong/bo-mach-formatter-may-in.webp",
+      "alt": "Bo mạch formatter máy in cùng cáp tín hiệu",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (11).jpg"
+    },
+    {
+      "file": "assets/img/xuong/cong-ket-noi-bo-mach-may-in.webp",
+      "alt": "Cận cảnh cổng kết nối trên bo mạch máy in",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (13).jpg"
+    },
+    {
+      "file": "assets/img/xuong/duong-dan-giay-may-in.webp",
+      "alt": "Đường dẫn giấy và con lăn bên trong máy in đã tháo vỏ",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (8).jpg"
+    },
+    {
+      "file": "assets/img/xuong/tam-dan-giay-may-in.webp",
+      "alt": "Tấm dẫn giấy bằng kim loại tháo khỏi máy in",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (6).jpg"
+    },
+    {
+      "file": "assets/img/xuong/linh-kien-may-in-thao-roi.webp",
+      "alt": "Các linh kiện máy in tháo rời xếp trên bàn trước khi vệ sinh",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (10).jpg"
+    },
+    {
+      "file": "assets/img/xuong/ban-in-thu-sau-khi-sua.webp",
+      "alt": "Bản in thử màu sau khi sửa xong, kiểm tra chất lượng trước khi bàn giao",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (18).jpg"
+    },
+    {
+      "file": "assets/img/xuong/khoang-hop-muc-may-in.webp",
+      "alt": "Khoang hộp mực máy in đã mở nắp để kiểm tra",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (1).jpg"
+    },
+    {
+      "file": "assets/img/xuong/gan-bo-mach-vao-may-in.webp",
+      "alt": "Gắn lại bo mạch vào thân máy in sau khi kiểm tra",
+      "w": 1000,
+      "h": 600,
+      "from": "1 (12).jpg"
+    }
+  ]
+}

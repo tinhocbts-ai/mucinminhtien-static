@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Tra Hộp Mực Theo Model Máy In – Tìm Đúng Mã Trong 5 Giây</title>
+<meta name="description" content="Nhập model máy in như HP 107a, Canon 2900, Epson L3110 để tra ngay mã hộp mực, drum, chip tương thích và giá tham khảo trong {{priceCount}} mã có sẵn tại kho TP.HCM.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mucinminhtien.com/tra-hop-muc/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Mực in Minh Tiến">
+<meta property="og:title" content="Tra hộp mực theo model máy in – tìm đúng mã trong 5 giây">
+<meta property="og:description" content="Nhập model máy in, biết ngay mã hộp mực tương thích và giá. Tra trong {{priceCount}} mã có sẵn tại kho TP.HCM.">
+<meta property="og:url" content="https://mucinminhtien.com/tra-hop-muc/">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Làm sao biết máy in của tôi dùng mã hộp mực nào?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Cách nhanh nhất là nhập model máy in vào ô tra cứu phía trên, ví dụ HP 107a hoặc Canon 2900. Nếu không nhớ model, hãy nhìn tem dán ở mặt trước hoặc mặt trên máy in, hoặc mở nắp lấy hộp mực cũ ra và đọc dãy mã in nổi trên thân hộp." }
+    },
+    {
+      "@type": "Question",
+      "name": "Một model máy có dùng được nhiều mã mực khác nhau không?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Có. Nhiều dòng máy có bản dung lượng thường và bản dung lượng cao dùng cùng kiểu vỏ nhưng khác mã và khác số trang in. Ngoài ra còn có hộp mực chính hãng, hộp mực tương thích và hộp mực đã qua nạp lại. Gọi hotline kèm model máy để được tư vấn phương án hợp túi tiền nhất." }
+    },
+    {
+      "@type": "Question",
+      "name": "Giá hiển thị trong công cụ tra cứu đã cố định chưa?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Đây là giá tham khảo cho khách lẻ tại TP.HCM, có thể thay đổi theo thời điểm và số lượng mua. Gọi {{hotlineDisplay}} để nhận báo giá chính xác, đặc biệt khi mua số lượng nhiều hoặc mua cho văn phòng." }
+    },
+    {
+      "@type": "Question",
+      "name": "Không tìm thấy mã cần tìm thì sao?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Bảng giá công khai chưa phủ hết toàn bộ kho, đặc biệt là linh kiện máy photocopy và các dòng máy cũ. Nhắn Zalo {{hotlineDisplay}} kèm model máy hoặc ảnh chụp hộp mực cũ, chúng tôi kiểm tra tồn kho và báo giá trong ít phút." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
+<div id="site-header"></div>
+
+<main id="main-content">
+  <div class="container">
+    <p class="breadcrumb"><a href="../index.html">Trang chủ</a> / Tra hộp mực theo model</p>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="section-head" style="margin-bottom:22px">
+        <h1>Tra hộp mực theo model máy in</h1>
+        <p><strong>Nhập model máy in của bạn để biết ngay mã hộp mực, drum, chip tương thích và giá tham khảo.</strong> Công cụ tra trong {{priceCount}} mã hàng đang có tại kho {{addressShort}} — không cần nhớ mã mực, chỉ cần nhớ tên máy.</p>
+      </div>
+
+      <div class="lookup-box">
+        <label class="lookup-label" for="lookupInput">Model máy in hoặc mã hộp mực</label>
+        <input type="search" id="lookupInput" class="lookup-input" autocomplete="off"
+               placeholder="Ví dụ: HP 107a, Canon 2900, Epson L3110, 12A, TN-2380…"
+               aria-describedby="lookupCount">
+        <div class="lookup-chips">
+          <span class="lookup-hint">Tra nhanh:</span>
+          <button type="button" class="lookup-chip" data-q="HP 107a">HP 107a</button>
+          <button type="button" class="lookup-chip" data-q="Canon 2900">Canon 2900</button>
+          <button type="button" class="lookup-chip" data-q="Epson L3110">Epson L3110</button>
+          <button type="button" class="lookup-chip" data-q="Brother TN 2380">Brother TN-2380</button>
+          <button type="button" class="lookup-chip" data-q="12A">12A</button>
+          <button type="button" class="lookup-chip" data-q="drum 107">Drum 107</button>
+        </div>
+        <p class="lookup-count" id="lookupCount" role="status" aria-live="polite"></p>
+        <div id="lookupResult"></div>
+      </div>
+
+      <div class="cta-banner" style="margin-top:36px">
+        <h2 class="no-toc">Không thấy mã của máy bạn?</h2>
+        <p>Nhắn Zalo {{hotlineDisplay}} kèm model máy in hoặc ảnh chụp hộp mực cũ — chúng tôi kiểm tra tồn kho và báo giá trong ít phút.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="tel:{{hotlineTel}}" class="btn btn-outline">Gọi {{hotlineDisplay}}</a>
+          <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn btn-outline">Nhắn Zalo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-soft">
+    <div class="container">
+      <div class="prose">
+        <figure>
+          <img src="../assets/img/xuong/linh-kien-may-in-thao-roi.webp" alt="Các linh kiện máy in tháo rời xếp trên bàn trước khi vệ sinh"
+               width="1000" height="600" loading="lazy" decoding="async" style="border-radius:var(--radius-sm)">
+          <figcaption>Linh kiện máy in tại kho — mỗi mã trong bảng kết quả đều là hàng thật có sẵn, không phải danh sách tham khảo.</figcaption>
+        </figure>
+
+        <h2>Cách đọc kết quả tra cứu</h2>
+        <p>Một model máy in thường đi kèm nhiều mã linh kiện khác nhau, không chỉ hộp mực. Bảng kết quả gom đủ các nhóm để bạn biết trước cái gì có thể phải thay:</p>
+        <ul>
+          <li><strong>Hộp mực</strong> — thứ thay thường xuyên nhất, hết mực là thay hoặc nạp lại.</li>
+          <li><strong>Drum (trống in)</strong> — tuổi thọ dài hơn hộp mực nhiều lần. Bản in bị sọc dọc lặp lại đều đặn thường là drum đã xước, xem <a href="../huong-dan/may-in-bi-soc-den-doc/">cách nhận biết sọc do drum</a>.</li>
+          <li><strong>Gạt mực, trục từ</strong> — hàng hao mòn bên trong hộp mực, thay khi bản in lem hoặc mờ không đều.</li>
+          <li><strong>Chip</strong> — bộ đếm số trang. Máy báo hết mực dù còn mực thường là do chip, không phải do hết mực thật.</li>
+        </ul>
+        <p>Chưa chắc nên thay mới hay nạp lại? Đọc <a href="../huong-dan/cach-chon-muc-in/">cách chọn mực in đúng máy và tiết kiệm</a>, hoặc xem <a href="../nap-muc-may-in-tan-noi-tphcm/">dịch vụ nạp mực tận nơi</a> để so chi phí.</p>
+
+        <h2>Câu hỏi thường gặp khi tra mã mực</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Làm sao biết máy in của tôi dùng mã hộp mực nào?</summary>
+          <div>Cách nhanh nhất là nhập model máy in vào ô tra cứu phía trên, ví dụ HP 107a hoặc Canon 2900. Nếu không nhớ model, hãy nhìn tem dán ở mặt trước hoặc mặt trên máy in, hoặc mở nắp lấy hộp mực cũ ra và đọc dãy mã in nổi trên thân hộp.</div>
+        </details>
+        <details>
+          <summary>Một model máy có dùng được nhiều mã mực khác nhau không?</summary>
+          <div>Có. Nhiều dòng máy có bản dung lượng thường và bản dung lượng cao dùng cùng kiểu vỏ nhưng khác mã và khác số trang in. Ngoài ra còn có hộp mực chính hãng, hộp mực tương thích và hộp mực đã qua nạp lại. Gọi hotline kèm model máy để được tư vấn phương án hợp túi tiền nhất.</div>
+        </details>
+        <details>
+          <summary>Giá hiển thị trong công cụ tra cứu đã cố định chưa?</summary>
+          <div>Đây là giá tham khảo cho khách lẻ tại TP.HCM, có thể thay đổi theo thời điểm và số lượng mua. Gọi {{hotlineDisplay}} để nhận báo giá chính xác, đặc biệt khi mua số lượng nhiều hoặc mua cho văn phòng.</div>
+        </details>
+        <details>
+          <summary>Không tìm thấy mã cần tìm thì sao?</summary>
+          <div>Bảng giá công khai chưa phủ hết toàn bộ kho, đặc biệt là linh kiện máy photocopy và các dòng máy cũ. Nhắn Zalo {{hotlineDisplay}} kèm model máy hoặc ảnh chụp hộp mực cũ, chúng tôi kiểm tra tồn kho và báo giá trong ít phút.</div>
+        </details>
+      </div>
+
+      <div class="prose" style="margin-top:34px">
+        <p>Muốn xem toàn bộ danh sách thay vì tra từng mã? Mở <a href="../bang-gia/">bảng giá đầy đủ {{priceCount}} mã</a> hoặc <a href="../san-pham/">danh mục sản phẩm có trang chi tiết</a>. Cần người tới tận nơi thay giúp, xem <a href="../dich-vu/">dịch vụ sửa máy in tận nơi TP.HCM</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="../assets/js/include.js"></script>
+<script src="../assets/js/bang-gia-data.js" defer></script>
+<script src="../assets/js/tra-hop-muc.js" defer></script>
+</body>
+</html>
