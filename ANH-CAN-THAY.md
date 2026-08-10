@@ -55,7 +55,10 @@ Tool tự chọn tấm chưa dùng ở bài nào khác, ưu tiên ảnh nét —
 | ☐ | `/muc-in/hop-muc-35a/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/muc-in/hop-muc-49a/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/muc-in/hop-muc-85a/` | `canon-6030` | ✅ | Hộp mực thật trên bàn làm việc |
+| ☐ | `/muc-in/hop-muc-brother-tn-2380/` | `brother-2366dw` | ✅ | Hộp mực thật trên bàn làm việc |
+| ☐ | `/muc-in/hop-muc-canon-325/` | `canon-6030` | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/muc-in/hop-muc-canon-337/` | `canon-249dw` | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/muc-in/hop-muc-cf226a/` | `hp-laser-jetpro-m402dne` | ✅ | Hộp mực thật trên bàn làm việc |
+| ☐ | `/muc-in/muc-epson-003/` | `epson-l3150` | ✅ | Bản Nozzle Check trước và sau khi thông |
 
-**Tổng: 46 bài — 42 bài có ảnh máy thật.**
+**Tổng: 49 bài — 45 bài có ảnh máy thật.**

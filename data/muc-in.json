@@ -356,6 +356,151 @@
         { "href": "../../huong-dan/canon-2900-khong-nhan-hop-muc/", "text": "Máy Canon không nhận hộp mực: 5 cách xử lý tại chỗ" },
         { "href": "../../huong-dan/cach-chon-muc-in/", "text": "Cách chọn mực in đúng máy, bền máy và tiết kiệm" }
       ]
+    },
+    {
+      "slug": "hop-muc-canon-325",
+      "code": "Canon 325",
+      "brand": "Canon",
+      "tag": "Hộp mực Canon",
+      "query": "canon 325",
+      "matchKeys": ["canon 325", "85a", "ce285"],
+      "altNames": ["CRG-325", "Cartridge 325", "Canon 725", "HP 85A", "CE285A"],
+      "h1": "Hộp mực Canon 325 (CRG-325): dùng cho máy nào, giá bao nhiêu",
+      "title": "Hộp Mực Canon 325 CRG-325: Máy Nào Dùng, Giá Bao Nhiêu",
+      "desc": "Hộp mực Canon 325 dùng cho LBP6000, 6018, 6030 và MF3010, in khoảng 1.600 trang. Dùng chung phôi với HP 85A. Bảng giá hộp mực và linh kiện thật.",
+      "ogTitle": "Hộp mực Canon 325 (CRG-325) dùng cho máy nào, giá bao nhiêu",
+      "ogDesc": "Danh sách máy dùng được Canon 325, quan hệ với HP 85A, giá hộp mực và linh kiện thật trong kho.",
+      "answer": "Hộp mực Canon 325, còn ghi là CRG-325 hoặc Cartridge 325, dùng cho Canon LBP6000, LBP6018, LBP6030, LBP6030w và MF3010, in khoảng 1.600 trang ở độ phủ 5%. Điểm cần biết nhất khi mua: mã này dùng chung phôi với HP 85A (CE285A), nên gần như toàn bộ linh kiện rời của 85A lắp vừa — đó là lý do vật tư cho dòng máy này vừa rẻ vừa sẵn.",
+      "yieldPages": "1.600",
+      "machines": [
+        { "brand": "Canon LBP", "models": "LBP6000, LBP6000B, LBP6018, LBP6018L, LBP6018w", "note": "Dòng máy in đen trắng nhỏ gọn, rất phổ biến cho hộ gia đình" },
+        { "brand": "Canon LBP", "models": "LBP6020, LBP6020B, LBP6030, LBP6030w, LBP6030B", "note": "Đời kế tiếp cùng khung, dùng chung mã mực" },
+        { "brand": "Canon imageCLASS MF", "models": "MF3010", "note": "Bản đa năng có scan và copy, cùng hộp mực" },
+        { "brand": "HP LaserJet Pro (dùng chung phôi)", "models": "P1102, P1102w, M1132, M1212nf, M1214, M1217", "note": "Đây là nhóm máy dùng mã HP 85A — cùng phôi nên linh kiện rời lắp chéo được" }
+      ],
+      "sections": [
+        {
+          "h2": "Canon 325 và HP 85A: cùng một phôi, khác cái tên",
+          "html": "<p>Đây là điều đáng biết nhất khi mua vật tư cho dòng máy này, và cũng là điều hay khiến người mua bối rối vì mỗi nơi gọi một kiểu.</p><p>Canon và HP dùng chung thiết kế phôi hộp mực cho nhóm máy này. Canon gọi là 325 hoặc CRG-325, HP gọi là 85A hoặc CE285A, ở một số thị trường Canon còn ghi 725. Bên trong là cùng bộ phận: drum, trục từ, trục sạc, gạt lớn, gạt nhỏ đều lắp chéo được.</p><p>Hệ quả thực tế rất có lợi cho người dùng:</p><ul><li>Linh kiện rời luôn sẵn vì phục vụ hai hệ máy cùng lúc, giá vì thế cũng rẻ.</li><li>Đi mua nói mã nào cũng được hiểu, miễn là kèm tên model máy.</li><li>Thợ nạp mực quen tay với phôi này nên công nạp thấp và ít rủi ro.</li></ul><p>Bảng giá bên dưới liệt kê chung vật tư cho cả hai mã vì chúng thật sự dùng chung. Trang riêng cho mã HP là <a href=\"../hop-muc-85a/\">hộp mực 85A</a>."
+        },
+        {
+          "h2": "Ba bệnh hay gặp của dòng LBP6030 và MF3010",
+          "html": "<p>Đây là dòng máy bền, ít hỏng vặt, nhưng có ba bệnh xuất hiện gần như theo tuổi máy.</p><p><strong>Bản in mờ dần rồi nhạt hẳn.</strong> Hộp mực nạp lại nhiều lần thì trục từ mất khả năng hút mực đều. Lắc ngang hộp mực thấy đỡ được vài chục trang rồi lại mờ chính là dấu hiệu này. Thay trục từ rẻ hơn nhiều so với thay hộp.</p><p><strong>Sọc đen dọc hoặc lem mực.</strong> Gạt mực mòn để mực thừa lọt qua. Trên phôi 85A có hai lưỡi gạt lớn và nhỏ, cả hai đều bán rời và nên thay cùng lúc khi nạp. Cách nhận bệnh theo hình dạng vệt có ở bài <a href=\"../../huong-dan/may-in-bi-soc-den-doc/\">máy in bị sọc đen dọc</a>.</p><p><strong>Kẹt giấy và kéo lệch.</strong> Quả đào tách giấy chai sau vài năm. Linh kiện này rất rẻ và thay nhanh, chi tiết ở bài <a href=\"../../huong-dan/may-in-khong-keo-giay/\">máy in không kéo giấy</a>.</p>"
+        }
+      ],
+      "refill": "<p>Với Canon 325, <strong>nạp lại là phương án kinh tế rõ rệt</strong> vì linh kiện rời của phôi 85A rất sẵn và rẻ. Nguyên tắc để nạp bền: hai tới ba lần nạp thì thay ruột gồm drum và gạt, và luôn dùng đúng chủng loại mực bột cho phôi này. Nạp bằng mực trôi nổi sai kích thước hạt sẽ mài mòn gạt và trục từ, và bản in sẽ mờ hoặc sọc chỉ sau vài trăm trang.</p><p>Nên mua hộp mới khi hộp cũ đã nạp từ bốn lần trở lên, vỏ rơ hoặc nứt làm mực rỉ ra khoang máy. Khi đó chi phí sửa cộng dồn đã xấp xỉ giá một hộp dựng mới.</p>",
+      "faqs": [
+        { "q": "Hộp mực Canon 325 và HP 85A có thay cho nhau được không?", "a": "Hai mã dùng chung thiết kế phôi nên linh kiện rời bên trong lắp chéo được: drum, trục từ, trục sạc, gạt lớn và gạt nhỏ. Về hộp mực nguyên bộ, nên mua đúng mã theo máy để chip và nhãn khớp. Khi đi mua vật tư, cứ nói tên model máy in kèm mã 325 hoặc 85A, người bán sẽ đưa đúng loại." },
+        { "q": "Canon 325 in được bao nhiêu trang?", "a": "Khoảng 1.600 trang ở độ phủ 5%, tức là trang văn bản thông thường. In nhiều bảng biểu, ảnh hoặc chữ đậm thì số trang thực tế thấp hơn. Ngược lại in văn bản thưa chữ có thể vượt con số công bố." },
+        { "q": "Máy Canon LBP6030 in mờ thì thay gì trước?", "a": "Lắc ngang hộp mực rồi in mười trang trước đã. Hết mờ rồi vài chục trang sau lại mờ nghĩa là mực sắp cạn, cần nạp. Nếu lắc không ăn thua thì nghi trục từ đã yếu — đây là linh kiện rẻ và thay nhanh, thường làm gộp trong lần nạp mực." },
+        { "q": "Canon MF3010 có dùng chung hộp mực với LBP6030 không?", "a": "Có, cả hai đều dùng Canon 325. MF3010 là bản đa năng có thêm scan và copy, còn LBP6030 chỉ in, nhưng phần in bên trong là cùng một thiết kế nên hộp mực và linh kiện dùng chung hoàn toàn." },
+        { "q": "Nạp mực Canon 325 giá bao nhiêu?", "a": "Nạp mực tận nơi cho dòng laser phổ thông từ 80.000đ đến 150.000đ tùy dòng máy và tình trạng hộp. Nên yêu cầu vệ sinh gạt và kiểm tra drum cùng lúc — phần chi phí thêm không đáng kể nhưng tránh được cả sọc lẫn lem về sau." },
+        { "q": "Mua hộp mực mới hay hộp dựng lại thì hợp lý hơn?", "a": "Hộp mực chính hãng cho bản in ổn định nhất và ít rủi ro nhất, hợp với máy dùng cho công việc quan trọng. Hộp dựng lại rẻ hơn đáng kể và với phôi 85A thì chất lượng khá ổn định nhờ linh kiện sẵn. Điều quan trọng nhất không phải chọn loại nào, mà là dùng đúng chủng loại mực bột cho phôi này." }
+      ],
+      "related": [
+        { "href": "../hop-muc-85a/", "text": "Hộp mực 85A (CE285A): dùng cho máy nào, giá bao nhiêu" },
+        { "href": "../../huong-dan/may-in-bi-soc-den-doc/", "text": "Máy in bị sọc đen dọc: 5 nguyên nhân và cách khắc phục" },
+        { "href": "../../huong-dan/may-in-khong-keo-giay/", "text": "Máy in không kéo giấy: 6 nguyên nhân và cách khắc phục" },
+        { "href": "../../huong-dan/cach-chon-muc-in/", "text": "Cách chọn mực in đúng máy, bền máy và tiết kiệm" }
+      ]
+    },
+    {
+      "slug": "muc-epson-003",
+      "code": "Epson 003",
+      "brand": "Epson",
+      "tag": "Mực Epson",
+      "query": "epson 003",
+      "matchKeys": ["epson 003", "003bk", "ecotank l3110", "mực nước epson", "ep1lít"],
+      "altNames": ["T00V", "003BK", "003C", "003M", "003Y", "mực EcoTank 003"],
+      "h1": "Mực Epson 003: dùng cho máy nào, châm thế nào cho đúng",
+      "title": "Mực Epson 003: Dùng Cho Máy Nào, Châm Sao Cho Đúng",
+      "desc": "Mực Epson 003 dùng cho L1110, L1210, L3110, L3210, L3250 và dòng EcoTank. Cách châm đúng, vì sao châm xong máy vẫn báo hết mực, và giá mực thật.",
+      "ogTitle": "Mực Epson 003 dùng cho máy nào, châm thế nào cho đúng",
+      "ogDesc": "Danh sách máy dùng mực 003, cách châm và xác nhận mức mực, giá mực chính hãng và mực thay thế.",
+      "answer": "Mực Epson 003 là mực chai dùng cho dòng EcoTank bình mực ngoài: L1110, L1210, L3110, L3150, L3210, L3250 và các máy cùng hệ. Theo công bố của hãng, một chai đen cho khoảng 4.500 trang và chai màu khoảng 7.500 trang. Điều quan trọng nhất khi dùng mã này: châm đầy bình xong <strong>vẫn phải báo cho máy biết</strong>, vì máy đếm mực bằng phần mềm chứ không đo thật trong bình.",
+      "yieldPages": "4.500 (đen)",
+      "machines": [
+        { "brand": "Epson EcoTank đơn năng", "models": "L1110, L1210", "note": "Chỉ in, không scan không copy — ít bộ phận nhất nên dễ chẩn đoán" },
+        { "brand": "Epson EcoTank đa năng", "models": "L3110, L3150, L3116", "note": "In, scan, copy. Bản L3150 có thêm Wi-Fi" },
+        { "brand": "Epson EcoTank đời kế tiếp", "models": "L3210, L3250, L3251, L3256", "note": "Đời thay thế cho L3110 và L3150, vẫn dùng mực 003" },
+        { "brand": "Epson EcoTank dòng L5", "models": "L5190 và các máy cùng hệ mực", "note": "Có thêm fax và khay nạp tự động" }
+      ],
+      "sections": [
+        {
+          "h2": "Châm mực xong máy vẫn báo hết mực — vì sao và xử lý ra sao",
+          "html": "<p>Đây là tình huống gây bối rối nhất với người mới dùng dòng EcoTank, và nó không phải lỗi máy.</p><p>Máy dòng L <strong>không có cảm biến đo mực thật trong bình</strong>. Nó đếm số giọt mực đã phun ra bằng phần mềm rồi suy ra lượng mực còn lại. Bạn châm đầy bình mà không báo cho máy biết thì bộ đếm vẫn ở mức cạn, và máy tiếp tục cảnh báo hoặc khóa không cho in.</p><p><strong>Cách xử lý đúng:</strong></p><ol><li>Châm đầy bình tới vạch trên, không châm tràn.</li><li>Nối máy với máy tính bằng cáp USB.</li><li>Mở Epson Printer Utility hoặc phần mềm Epson đi kèm driver.</li><li>Tìm mục đặt lại hoặc xác nhận mức mực sau khi châm, xác nhận từng màu đã châm đầy.</li><li>Một số dòng còn cho giữ nút giọt mực trên thân máy vài giây để xác nhận nhanh.</li></ol><p>Dùng phần mềm trên máy tính là cách chắc chắn nhất vì giao diện giống nhau ở mọi đời máy, không sợ bấm nhầm nút khi làm theo video của model khác.</p>"
+        },
+        {
+          "h2": "Bốn quy tắc để dùng mực 003 không hỏng đầu phun",
+          "html": "<p>Đầu phun là bộ phận đắt nhất và cũng nhạy cảm nhất trên dòng máy này. Bốn quy tắc dưới đây quyết định máy dùng được vài năm hay vài tháng.</p><ul><li><strong>Không để bình cạn kiệt rồi mới châm.</strong> Mực xuống dưới vạch dưới thì không khí lọt vào ống dẫn, gây bọt khí và mất màu từng đoạn. Châm khi còn khoảng một phần tư bình.</li><li><strong>Không trộn nhiều loại mực khác nhau.</strong> Mỗi loại mực có công thức riêng; trộn lẫn dễ kết tủa và bịt vòi phun.</li><li><strong>In vài trang có đủ bốn màu mỗi tuần.</strong> Máy phun để nằm không là nguyên nhân số một gây khô mực trong vòi.</li><li><strong>Không chạy Head Cleaning liên tục.</strong> Mỗi lần chạy là một lần xả mực xuống tấm thấm mực thải, đẩy bộ đếm đầy nhanh hơn. Tối đa ba lần rồi để máy nghỉ.</li></ul><p>Quy trình xử lý khi bản in đã bị sọc hoặc mất màu có ở bài <a href=\"../../huong-dan/ve-sinh-dau-phun-epson/\">vệ sinh đầu phun máy in Epson</a>. Nếu máy đang nháy đèn kèm theo, đọc <a href=\"../../huong-dan/may-in-epson-bao-loi-2-den-do/\">máy in Epson nháy 2 đèn đỏ</a> trước khi thao tác.</p>"
+        }
+      ],
+      "refill": "<p>Dòng EcoTank vốn đã được thiết kế để người dùng tự châm mực, nên câu hỏi ở đây không phải nạp hay không nạp mà là <strong>châm bằng mực nào</strong>.</p><p>Mực chính hãng cho màu sắc ổn định và ít rủi ro tắc vòi nhất, hợp với máy in ảnh hoặc in tài liệu cần màu chuẩn. Mực thay thế loại tốt rẻ hơn đáng kể và dùng ổn với văn phòng in văn bản là chính. Điều tuyệt đối nên tránh là mực trôi nổi không rõ nguồn: chi phí thay đầu phun luôn cao hơn nhiều so với khoản tiết kiệm được trên vài chai mực.</p><p>Một lưu ý về lượng dùng: mực dòng L có thể mua theo chai lẻ từng màu hoặc theo bộ bốn màu. Văn phòng in đen là chính thường hết màu đen trước, nên mua lẻ chai đen sẽ hợp lý hơn mua trọn bộ.</p>",
+      "faqs": [
+        { "q": "Mực Epson 003 dùng cho máy nào?", "a": "Dùng cho dòng EcoTank bình mực ngoài: L1110, L1210, L3110, L3150, L3116, L3210, L3250 và các máy cùng hệ mực. Đây là các máy có bốn bình mực trong suốt gắn bên hông hoặc phía trước. Nếu máy của bạn dùng hộp mực rời cắm vào đầu phun thì đó là dòng khác, không dùng mã 003." },
+        { "q": "Một chai mực 003 in được bao nhiêu trang?", "a": "Theo công bố của hãng, chai đen cho khoảng 4.500 trang và chai màu khoảng 7.500 trang ở độ phủ tiêu chuẩn. Đây là lý do dòng EcoTank có chi phí trên mỗi trang thấp hơn hẳn máy dùng hộp mực rời, dù giá máy ban đầu cao hơn." },
+        { "q": "Châm mực xong máy vẫn báo hết mực thì làm sao?", "a": "Máy dòng L đếm mực bằng phần mềm chứ không đo thật trong bình, nên châm đầy xong phải báo cho máy biết. Cách chắc nhất là nối cáp USB, mở Epson Printer Utility trên máy tính rồi xác nhận đã châm đầy từng màu. Một số dòng cho giữ nút giọt mực trên thân máy vài giây để xác nhận nhanh." },
+        { "q": "Có được trộn mực 003 với mực loại khác không?", "a": "Không nên. Mỗi loại mực có công thức riêng, trộn lẫn dễ gây kết tủa và bịt vòi phun. Nếu muốn đổi sang loại mực khác, tốt nhất là dùng cạn gần hết loại cũ rồi châm loại mới, và chấp nhận vài trang đầu màu chưa chuẩn trong lúc mực trong ống dẫn thay dần." },
+        { "q": "Máy dùng mực 003 bị mất màu đen thì xử lý thế nào?", "a": "In Nozzle Check trước để xem vòi nào mất, rồi mới chạy Head Cleaning, tối đa ba lần và mỗi lần kiểm tra lại bằng Nozzle Check. Không tiến triển thì để máy nghỉ vài giờ cho mực khô ngấm mềm rồi thử lại. Kiểm tra thêm ống dẫn xem có đoạn nào trong suốt không màu — đó là bọt khí chứ không phải tắc vòi." },
+        { "q": "Bao lâu nên châm mực một lần?", "a": "Đừng chờ tới lúc bình cạn kiệt. Châm khi mực còn khoảng một phần tư bình là hợp lý nhất, vì để cạn hẳn thì không khí lọt vào ống dẫn gây bọt khí và mất màu từng đoạn. Đây là thói quen giữ đầu phun bền hơn hẳn." }
+      ],
+      "related": [
+        { "href": "../../huong-dan/ve-sinh-dau-phun-epson/", "text": "Cách vệ sinh đầu phun máy in Epson hết sọc, hết mất màu" },
+        { "href": "../../huong-dan/tran-bo-dem-muc-thai-epson/", "text": "Tràn bộ đếm mực thải Epson: dấu hiệu và cách xử lý" },
+        { "href": "../../model/epson-l3210-nhay-2-den-do/", "text": "Epson L3210 nháy 2 đèn đỏ: nguyên nhân và cách xử lý" },
+        { "href": "../../huong-dan/may-in-bi-soc-trang-ngang/", "text": "Máy in bị sọc trắng ngang: xử lý theo từng loại máy" }
+      ]
+    },
+    {
+      "slug": "hop-muc-brother-tn-2380",
+      "code": "TN-2380",
+      "brand": "Brother",
+      "tag": "Hộp mực Brother",
+      "query": "tn 2380",
+      "matchKeys": ["2380", "2385", "tn 2325"],
+      "altNames": ["TN2380", "TN-2385", "TN-2325", "Brother 2380"],
+      "h1": "Hộp mực Brother TN-2380: dùng cho máy nào, giá bao nhiêu",
+      "title": "Hộp Mực Brother TN-2380: Máy Nào Dùng, Giá Bao Nhiêu",
+      "desc": "TN-2380 dùng cho HL-L2321D, L2361DN, L2366DW, MFC-L2701D, in khoảng 2.600 trang. Vì sao dòng này tách rời drum và hộp mực, và giá vật tư thật.",
+      "ogTitle": "Hộp mực Brother TN-2380 dùng cho máy nào, giá bao nhiêu",
+      "ogDesc": "Danh sách máy dùng TN-2380, quan hệ với TN-2385 và drum DR-2385, giá hộp mực và linh kiện thật.",
+      "answer": "Hộp mực Brother TN-2380 dùng cho HL-L2321D, HL-L2361DN, HL-L2366DW, MFC-L2701D và các máy cùng khung, in khoảng 2.600 trang ở độ phủ 5%. Điểm khác biệt lớn nhất so với máy HP và Canon cùng tầm: dòng này <strong>tách rời hộp mực và drum</strong>, nên khi bản in xuống cấp phải xác định đúng bộ phận nào hỏng trước khi mua.",
+      "yieldPages": "2.600",
+      "machines": [
+        { "brand": "Brother HL", "models": "HL-L2321D, HL-L2361DN, HL-L2366DW", "note": "Dòng in đơn năng, bản DN có mạng, bản DW có Wi-Fi" },
+        { "brand": "Brother MFC", "models": "MFC-L2701D, MFC-L2701DW, MFC-L2716DW", "note": "Bản đa năng có scan, copy và fax" },
+        { "brand": "Brother DCP", "models": "DCP-L2520D, DCP-L2540DW", "note": "Bản đa năng không fax" },
+        { "brand": "Brother HL đời cùng khung", "models": "HL-L2320D, HL-L2340DW, HL-L2360DN", "note": "Cùng hệ hộp mực và drum, tên gọi khác theo thị trường" }
+      ],
+      "sections": [
+        {
+          "h2": "Hộp mực và drum tách rời — điều phải biết trước khi mua",
+          "html": "<p>Đây là khác biệt lớn nhất giữa dòng Brother này với HP hay Canon cùng tầm giá, và cũng là chỗ người dùng hay mua nhầm.</p><p>Trên máy HP 1102 hay Canon 2900, drum nằm luôn trong hộp mực nên thay hộp là thay cả cụm. Brother tách làm hai: <strong>hộp mực TN-2380 chỉ chứa mực</strong>, còn <strong>drum là cụm DR-2385 riêng</strong>, dùng được qua nhiều lần thay hộp mực.</p><p>Cách phân biệt khi bản in xuống cấp:</p><ul><li><strong>Bản in mờ dần đều, máy báo sắp hết mực</strong> — hết mực, thay hoặc nạp hộp mực TN-2380.</li><li><strong>Chấm đen lặp lại đều đặn, hoặc sọc dọc cố định</strong> — drum đã tới tuổi, thay cụm drum chứ không phải thay mực.</li><li><strong>Máy báo Drum End Soon</strong> — bộ đếm drum đã đầy, xem cách xử lý ở bài <a href=\"../../huong-dan/loi-drum-end-soon-brother/\">lỗi Drum End Soon Brother</a>.</li></ul><p>Ưu điểm của thiết kế này là chi phí dài hạn thấp hơn, vì mỗi lần hết mực chỉ phải mua phần mực. Nhược điểm là phải biết mình đang cần gì trước khi mua.</p>"
+        },
+        {
+          "h2": "TN-2380, TN-2385 và TN-2325 — ba tên cho cùng một nhóm máy",
+          "html": "<p>Ra tiệm hỏi mực cho HL-L2321D, bạn có thể được đưa hộp ghi TN-2380, TN-2385 hoặc TN-2325, và cả ba đều lắp vừa. Sự khác biệt nằm ở <strong>thị trường phát hành và dung lượng mực ghi trên hộp</strong>, không phải ở thiết kế phôi.</p><p>Trong đó TN-2380 thuộc nhóm dung lượng cao, in được nhiều trang hơn bản tiêu chuẩn cùng nhóm. Với văn phòng in nhiều, bản dung lượng cao gần như luôn rẻ hơn tính theo chi phí mỗi trang, đồng thời đỡ công thay hộp.</p><p><strong>Cách mua không nhầm:</strong> nói tên model máy in trước, mã hộp mực sau. Người bán tra theo model là ra đúng nhóm, còn nói mỗi mã thì dễ lệch giữa các thị trường. Hoặc dùng <a href=\"../../tra-hop-muc/\">công cụ tra hộp mực theo model</a> để đối chiếu trước.</p>"
+        },
+        {
+          "h2": "Máy báo hết mực dù mới nạp — chuyện của bộ đếm",
+          "html": "<p>Dòng Brother này đếm số trang đã in để suy ra lượng mực còn lại, không đo mực thật trong hộp. Nạp mực xong mà không đặt lại bộ đếm thì máy vẫn báo hết và có thể khóa không cho in.</p><p>Đây là lý do rất nhiều người nạp mực xong tưởng thợ làm hỏng máy. Cách đặt lại khác nhau giữa dòng có màn hình và dòng chỉ có đèn, quy trình đầy đủ có ở bài <a href=\"../../huong-dan/cach-reset-may-in-brother/\">cách reset máy in Brother báo hết mực</a>.</p><p>Lưu ý thêm: hộp mực và drum có hai bộ đếm riêng. Đặt lại bộ đếm mực không xóa cảnh báo drum và ngược lại — đây là chỗ hay bị làm nhầm.</p>"
+        }
+      ],
+      "refill": "<p>Với TN-2380, cả ba phương án đều dùng được và chênh lệch chi phí khá rõ.</p><p><strong>Hộp mực chính hãng</strong> cho bản in ổn định nhất, hợp với máy dùng cho công việc quan trọng hoặc in khối lượng lớn. <strong>Hộp dựng lại</strong> rẻ hơn nhiều và với dòng này chất lượng khá ổn định vì phôi phổ biến, linh kiện rời sẵn. <strong>Nạp lại hộp cũ</strong> là phương án rẻ nhất, nhưng bắt buộc phải đặt lại bộ đếm sau khi nạp, và nên thay gạt mực cùng lúc.</p><p>Một lưu ý riêng của dòng này: vì drum tách rời nên đừng đổ lỗi cho hộp mực khi bản in có chấm đen lặp lại hoặc sọc cố định — đó là dấu hiệu drum, và thay mực bao nhiêu lần cũng không hết.</p>",
+      "faqs": [
+        { "q": "TN-2380 dùng cho máy Brother nào?", "a": "Dùng cho HL-L2321D, HL-L2361DN, HL-L2366DW, MFC-L2701D, MFC-L2701DW, DCP-L2520D, DCP-L2540DW và các máy cùng khung. Đây là nhóm máy in laser đen trắng phổ thông của Brother, rất nhiều văn phòng nhỏ đang dùng. Nếu không chắc, tra theo tên model máy thay vì tra theo mã hộp." },
+        { "q": "TN-2380 và TN-2385 khác nhau thế nào?", "a": "Cùng nhóm máy và cùng thiết kế phôi, khác nhau ở thị trường phát hành và dung lượng mực ghi trên hộp. Cả hai đều lắp vừa các máy trong danh sách. Khi mua, nói tên model máy in trước rồi mới nói mã hộp mực để tránh lệch giữa các thị trường." },
+        { "q": "Vì sao máy Brother báo hết mực dù vừa nạp?", "a": "Vì máy đếm số trang đã in để suy ra lượng mực chứ không đo mực thật trong hộp. Nạp xong phải đặt lại bộ đếm thì máy mới biết. Cách làm khác nhau giữa dòng có màn hình và dòng chỉ có đèn báo. Lưu ý hộp mực và drum có hai bộ đếm riêng, đặt lại cái này không xóa cảnh báo của cái kia." },
+        { "q": "Bản in có chấm đen lặp lại thì thay mực hay thay drum?", "a": "Thay drum. Chấm đen lặp lại đều đặn theo một khoảng cách cố định là dấu hiệu bề mặt drum đã hỏng tại một điểm, mỗi vòng quay lại in dấu xuống giấy một lần. Thay hộp mực trong trường hợp này không giải quyết được gì vì trên dòng Brother này drum là cụm riêng." },
+        { "q": "Drum DR-2385 dùng được bao lâu?", "a": "Drum dùng được qua nhiều lần thay hộp mực, đó chính là lợi thế của thiết kế tách rời. Khi máy báo Drum End Soon nghĩa là bộ đếm drum đã tới ngưỡng, nhưng nếu bản in vẫn sạch thì thường còn in thêm được một thời gian. Chỉ thay khi bản in bắt đầu có chấm hoặc sọc lặp lại." },
+        { "q": "Nạp mực TN-2380 có bền không?", "a": "Bền nếu làm đúng: nạp đúng chủng loại mực bột, thay gạt mực cùng lúc và đặt lại bộ đếm sau khi nạp. Phôi của dòng này phổ biến và linh kiện rời sẵn nên thợ quen tay. Sau hai tới ba lần nạp thì nên cân nhắc thay hộp dựng mới vì vỏ và gioăng đã xuống cấp." }
+      ],
+      "related": [
+        { "href": "../../huong-dan/cach-reset-may-in-brother/", "text": "Cách reset máy in Brother báo hết mực và reset drum" },
+        { "href": "../../huong-dan/loi-drum-end-soon-brother/", "text": "Lỗi Drum End Soon máy in Brother và cách reset drum" },
+        { "href": "../../model/reset-drum-brother-dcp-b7535dw/", "text": "Reset drum Brother DCP-B7535DW: cách làm đúng" },
+        { "href": "../../huong-dan/may-in-bi-soc-ngang/", "text": "Máy in bị sọc ngang: 6 nguyên nhân và cách khắc phục" }
+      ]
     }
   ]
 }

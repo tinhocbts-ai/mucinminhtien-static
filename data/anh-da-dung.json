@@ -166,5 +166,17 @@
   "hp-m402dn-loi-thuong-gap": {
     "folder": "hp-laser-jetpro-m402dne",
     "file": "D:\\AUTOMATION\\projects\\chotot\\chotot-images\\hp-laser-jetpro-m402dne\\original\\frame_1779521719987_94iehg.jpg"
+  },
+  "hop-muc-brother-tn-2380": {
+    "folder": "brother-2366dw",
+    "file": "D:\\AUTOMATION\\projects\\chotot\\chotot-images\\brother-2366dw\\original\\frame_1786175390832_iflci2.jpg"
+  },
+  "hop-muc-canon-325": {
+    "folder": "canon-6030",
+    "file": "D:\\AUTOMATION\\projects\\chotot\\chotot-images\\canon-6030\\original\\frame_1786176331030_c9ih8n.jpg"
+  },
+  "muc-epson-003": {
+    "folder": "epson-l3150",
+    "file": "D:\\AUTOMATION\\projects\\chotot\\chotot-images\\epson-l3150\\original\\frame_1778469515094_d3grfv.jpg"
   }
 }
