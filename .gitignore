@@ -9,3 +9,9 @@ Thumbs.db
 node_modules/
 *.bak
 *.log
+# Khoa Google API — TUYET DOI khong commit, repo nay la PUBLIC
+*service-account*.json
+*gsc-key*.json
+gsc-key.json
+credentials*.json
+*.pem

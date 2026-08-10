@@ -17,11 +17,12 @@
  *
  * CẦN LÀM 2 VIỆC MỘT LẦN TRƯỚC KHI CHẠY (chỉ chủ tài khoản làm được):
  *
- *  1. Bật API trong Google Cloud project n8nhungthinh-492502:
- *     https://console.cloud.google.com/apis/library/searchconsole.googleapis.com
+ *  1. Bật Search Console API trong ĐÚNG Cloud project mà service account thuộc về.
+ *     Nếu chạy lỗi, script sẽ in ra link kèm project NUMBER lấy từ chính lỗi Google trả về.
  *
  *  2. Cấp quyền cho service account trong Search Console:
- *     GSC → chọn property mucinminhtien.com → Cài đặt → Người dùng và quyền
+ *     GSC → chọn property (Domain hoặc URL-prefix đều được, script tự dò)
+ *     → Cài đặt → Người dùng và quyền
  *     → Thêm người dùng → dán email:
  *        hungthinhservicesacc@n8nhungthinh-492502.iam.gserviceaccount.com
  *     → quyền "Đầy đủ" (cần Đầy đủ mới nộp được sitemap; "Hạn chế" chỉ đọc được)
@@ -35,24 +36,67 @@ const path = require('path');
 const { google } = require('googleapis');
 
 const ROOT = path.join(__dirname, '..');
-const SITE = 'https://mucinminhtien.com/';
+/* GSC có hai kiểu property và ID khác hẳn nhau:
+     Domain property   → sc-domain:mucinminhtien.com     (xác minh bằng DNS)
+     URL-prefix        → https://mucinminhtien.com/      (xác minh bằng thẻ HTML)
+   Gọi API sai kiểu sẽ báo "does not have sufficient permission" y như thiếu quyền,
+   rất dễ đi lạc hướng. Nên dò thật từ sites.list thay vì cắm cứng. */
+const DOMAIN = 'mucinminhtien.com';
+const DOMAIN_2 = 'tinhocnamphong.net';
+let SITE = null;                                  // điền sau khi dò
 const SITEMAP = 'https://mucinminhtien.com/sitemap.xml';
-const KEY_FILE = 'D:/AUTOMATION/projects/chotot/service-account.json';
-const SITE_2 = 'https://tinhocnamphong.net/';   // dùng cho lệnh trung-lap
+/* Khoá service account. Tìm theo thứ tự ưu tiên; file nào có trước thì dùng.
+   TẤT CẢ đều nằm trong .gitignore — repo này là PUBLIC, không được commit khoá. */
+const KEY_CANDIDATES = [
+  process.env.GSC_KEY,                                   // đặt biến môi trường thì ưu tiên nhất
+  path.join(ROOT, 'gsc-key.json'),                       // khuyến nghị: để ngay trong repo, đã gitignore
+  'D:/AUTOMATION/projects/chotot/service-account.json'   // dự phòng: service account cũ của hub
+].filter(Boolean);
+
+const KEY_FILE = KEY_CANDIDATES.find(p => { try { return fs.existsSync(p); } catch { return false; } });
+let SITE_2 = null;                                // dùng cho lệnh trung-lap, cũng dò
+
+/* Tìm đúng ID property cho một domain trong danh sách service account được cấp.
+   Ưu tiên Domain property vì nó gộp cả http/https và mọi subdomain. */
+async function timProperty(api, domain) {
+  const r = await api.sites.list();
+  const rows = (r.data.siteEntry || []).filter(s => s.permissionLevel !== 'siteUnverifiedUser');
+  const dom = rows.find(s => s.siteUrl === 'sc-domain:' + domain);
+  if (dom) return dom.siteUrl;
+  const pre = rows.find(s => s.siteUrl.replace(/^https?:\/\//, '').replace(/\/$/, '') === domain);
+  return pre ? pre.siteUrl : null;
+}
 
 const cmd = process.argv[2];
 const argv = process.argv.slice(3);
 
 async function auth(readOnly) {
-  if (!fs.existsSync(KEY_FILE)) {
-    console.error('Không thấy service account: ' + KEY_FILE);
+  if (!KEY_FILE) {
+    console.error('\n✗ Không tìm thấy khoá service account.\n');
+    console.error('  Đã tìm ở:');
+    KEY_CANDIDATES.forEach(p => console.error('    ' + p));
+    console.error('\n  Cách nhanh nhất: tải khoá JSON về, đổi tên thành gsc-key.json,');
+    console.error('  đặt ngay trong thư mục dự án. File này đã nằm trong .gitignore.\n');
     process.exit(1);
   }
+  try {
+    const info = JSON.parse(fs.readFileSync(KEY_FILE, 'utf8'));
+    console.log('  (dùng khoá: ' + info.client_email + ')');
+  } catch { /* không đọc được thì để googleapis báo lỗi */ }
   const scopes = readOnly
     ? ['https://www.googleapis.com/auth/webmasters.readonly']
     : ['https://www.googleapis.com/auth/webmasters'];
   const client = new google.auth.GoogleAuth({ keyFile: KEY_FILE, scopes: scopes });
-  return google.searchconsole({ version: 'v1', auth: await client.getClient() });
+  const api = google.searchconsole({ version: 'v1', auth: await client.getClient() });
+
+  SITE = await timProperty(api, DOMAIN);
+  if (!SITE) {
+    console.error('\n✗ Service account chưa được cấp quyền trên property nào của ' + DOMAIN + '.');
+    console.error('  GSC → property → Cài đặt → Người dùng và quyền → Thêm người dùng.\n');
+    process.exit(1);
+  }
+  console.log('  (property: ' + SITE + ')\n');
+  return api;
 }
 
 function huongDanLoi(e) {
@@ -109,7 +153,8 @@ async function kiemTraIndex() {
     /* chỉ lấy trang có file nguồn sửa trong 7 ngày qua */
     const nguong = Date.now() - 7 * 864e5;
     urls = urls.filter(u => {
-      const rel = u.replace(SITE, '').replace(/\/$/, '');
+      /* SITE có thể là sc-domain:… nên không dùng để cắt URL được */
+      const rel = u.replace(/^https?:\/\/[^/]+\//, '').replace(/\/$/, '');
       const f = path.join(ROOT, rel || '.', 'index.html');
       try { return fs.statSync(f).mtime.getTime() > nguong; } catch { return false; }
     });
@@ -193,6 +238,12 @@ async function trungLap() {
     }
   };
 
+  SITE_2 = await timProperty(api, DOMAIN_2);
+  if (!SITE_2) {
+    console.log('Service account chưa có quyền trên property ' + DOMAIN_2 + ' — không so được.');
+    console.log('Thêm nó vào GSC của tinhocnamphong rồi chạy lại.');
+    return;
+  }
   const [a, b] = await Promise.all([lay(SITE), lay(SITE_2)]);
   if (!a.size || !b.size) { console.log('\nThiếu dữ liệu một trong hai property, không so được.'); return; }
 
