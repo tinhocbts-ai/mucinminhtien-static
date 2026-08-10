@@ -110,5 +110,17 @@
   "epson-l3210-nhay-2-den-do": {
     "folder": "epson-l3150",
     "file": "D:\\AUTOMATION\\projects\\chotot\\chotot-images\\epson-l3150\\original\\frame_1778469515083_wnh812.jpg"
+  },
+  "epson-l1210-nhay-2-den-do": {
+    "folder": "epson-l3150",
+    "file": "D:\\AUTOMATION\\projects\\chotot\\chotot-images\\epson-l3150\\original\\frame_1778469515053_k6v5cl.jpg"
+  },
+  "epson-l3250-nhay-2-den-do": {
+    "folder": "epson-l3150",
+    "file": "D:\\AUTOMATION\\projects\\chotot\\chotot-images\\epson-l3150\\original\\frame_1778469515091_9mg1rn.jpg"
+  },
+  "reset-drum-brother-dcp-b7535dw": {
+    "folder": "brother-2366dw",
+    "file": "D:\\AUTOMATION\\projects\\chotot\\chotot-images\\brother-2366dw\\original\\frame_1785901335715_r9geop.jpg"
   }
 }

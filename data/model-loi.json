@@ -248,6 +248,255 @@
         ["../epson-l1110-nhay-2-den-do/", "Epson L1110 nháy 2 đèn đỏ: nguyên nhân và cách xử lý"],
         ["../../huong-dan/tran-bo-dem-muc-thai-epson/", "Tràn bộ đếm mực thải Epson"]
       ]
+    },
+
+    {
+      "slug": "reset-drum-brother-dcp-b7535dw",
+      "model": "Brother DCP-B7535DW",
+      "crumb": "Reset drum Brother B7535DW",
+      "tag": "Máy in Brother",
+      "totalTime": "PT10M",
+      "published": "2026-08-10",
+      "apDung": "Áp dụng cho Brother DCP-B7535DW, B7520DW, HL-B2080DW và các máy dùng cụm drum DR-B022",
+      "h1": "Reset drum Brother DCP-B7535DW: cách làm và khi nào phải thay",
+      "title": "Reset Drum Brother DCP-B7535DW: Cách Làm Và Khi Nào Thay",
+      "desc": "Brother B7535DW báo Drum End Soon? Cách reset bộ đếm trống, phân biệt khi nào reset được và khi nào phải thay. Drum DR-B022 từ 299.000đ tại kho TP.HCM.",
+      "ogTitle": "Reset drum Brother DCP-B7535DW: cách làm và khi nào phải thay",
+      "ogDesc": "Phân biệt Drum End Soon với Replace Drum, cách reset bộ đếm và giá cụm drum DR-B022 thật trong kho.",
+      "answer": "Brother DCP-B7535DW báo Drum End Soon nghĩa là bộ đếm trống đã tới ngưỡng cảnh báo, không phải trống đã hỏng. Reset bộ đếm bằng cách mở nắp trước rồi thao tác trên bảng điều khiển. Nhưng chỉ reset khi bản in còn sạch — nếu đã có sọc hoặc chấm lặp lại thì phải thay cụm drum DR-B022.",
+      "specs": [
+        ["Kiểu máy", "Đa năng laser đen trắng — in, scan, copy, có Wi-Fi"],
+        ["Màn hình", "Có màn hình LCD, thao tác qua menu chứ không đếm đèn"],
+        ["Hộp mực", "Brother TN-B023 (dùng chung phôi với TN-B020, B021, B022)"],
+        ["Cụm drum", "DR-B022 — tách rời khỏi hộp mực, thay riêng được"],
+        ["Điểm cần biết", "Hộp mực và drum là hai bộ phận riêng, hai bộ đếm riêng"]
+      ],
+      "sections": [
+        {
+          "h2": "Phân biệt ba thông báo dễ nhầm trên B7535DW",
+          "html": "<p>Máy này có màn hình nên báo lỗi bằng chữ, nhưng ba thông báo dưới đây khác nhau hoàn toàn về cách xử lý — nhầm là mua sai vật tư.</p><ul><li><strong>Drum End Soon</strong> — trống sắp hết tuổi thọ theo bộ đếm. Máy vẫn in bình thường. Reset được nếu bản in còn sạch.</li><li><strong>Replace Drum</strong> — bộ đếm đã hết. Vẫn reset được, nhưng nếu bản in đã có sọc thì reset chỉ tắt thông báo chứ không cứu được chất lượng in.</li><li><strong>Replace Toner / Toner Low</strong> — đây là <strong>hộp mực</strong>, không phải drum. Xử lý khác hẳn: nạp mực hoặc thay hộp TN-B023.</li></ul><p>Sai lầm phổ biến nhất là thấy báo Drum rồi đi mua hộp mực, hoặc ngược lại. Trên dòng này hộp mực và cụm drum là hai món tách rời, tuổi thọ khác nhau — drum bền hơn hộp mực nhiều lần.</p>"
+        },
+        {
+          "h2": "Bước 1 — Kiểm tra bản in trước khi reset",
+          "html": "<p>Đây là bước quan trọng nhất và hầu như ai cũng bỏ qua. Reset chỉ đặt lại con số đếm; nó không làm mới bề mặt trống.</p><p>In một trang có mảng đen lớn rồi soi kỹ:</p><ul><li><strong>Bản in sạch, không sọc, không chấm</strong> → trống còn tốt, reset thoải mái, dùng tiếp được khá lâu.</li><li><strong>Có sọc đen dọc lặp lại đều đặn</strong> → bề mặt trống đã xước. Reset chỉ tắt thông báo, sọc vẫn nguyên. Cần thay drum.</li><li><strong>Có chấm đen lặp lại theo chu kỳ cố định</strong> → trống bị điểm hỏng cục bộ, cũng phải thay.</li></ul><p>Cách phân biệt sọc do drum với sọc do gạt mực có ở bài <a href=\"../../huong-dan/may-in-bi-soc-den-doc/\">máy in bị sọc đen dọc</a> — đọc trước khi quyết định mua vật tư sẽ đỡ tốn tiền oan.</p>"
+        },
+        {
+          "h2": "Bước 2 — Reset bộ đếm drum trên máy có màn hình",
+          "html": "<p>Dòng B7535DW có màn hình nên thao tác qua bảng điều khiển, không phải bấm tổ hợp mù như các máy đời cũ không màn hình.</p><ol><li>Bật máy, đợi cho vào trạng thái sẵn sàng.</li><li><strong>Mở nắp trước</strong> — bước này bắt buộc, máy chỉ cho vào chế độ reset khi nắp đang mở.</li><li>Trên bảng điều khiển, giữ nút <em>OK</em> cho tới khi màn hình đổi sang mục chọn.</li><li>Chọn mục <em>Drum</em> bằng phím mũi tên.</li><li>Xác nhận reset, đợi màn hình báo hoàn tất.</li><li>Đóng nắp trước, máy khởi động lại và thông báo biến mất.</li></ol><p>Trình tự có thể khác đôi chút giữa các bản firmware. Nếu giữ OK mà máy không phản hồi, tra đúng model tại <a href=\"https://www.brother.com.vn/vi-vn/support\" target=\"_blank\" rel=\"noopener\">trang hỗ trợ Brother Việt Nam</a> thay vì làm theo video của model khác — bố trí menu giữa các dòng B7520, B7535, B2080 không giống nhau.</p>"
+        },
+        {
+          "h2": "Bước 3 — Khi nào bắt buộc thay cụm drum",
+          "html": "<p>Reset là giải pháp kéo dài, không phải giải pháp vĩnh viễn. Bốn dấu hiệu cho thấy đã tới lúc thay thật:</p><ol><li><strong>Sọc hoặc chấm lặp lại đều</strong> sau khi đã vệ sinh và thay hộp mực mới.</li><li><strong>Đã reset từ hai lần trở lên</strong> và bản in xuống cấp rõ sau mỗi lần.</li><li><strong>Bề mặt trống nhìn thấy vết xước</strong> khi soi nghiêng dưới ánh đèn.</li><li><strong>Bản in mờ loang lổ</strong> dù hộp mực còn đầy — lớp phủ cảm quang đã mòn.</li></ol><p>Cụm drum DR-B022 cho dòng này có sẵn tại kho, giá tham khảo từ 299.000đ. Nếu cả hộp mực lẫn drum đều tới hạn thì có bộ combo hộp mực B022 kèm cụm drum, giá tham khảo 385.000đ — thường rẻ hơn mua rời từng món.</p>"
+        }
+      ],
+      "traRows": [
+        ["Màn hình báo Drum End Soon, bản in sạch", "Bộ đếm tới ngưỡng, trống còn tốt", "Reset bộ đếm, dùng tiếp", "0 đ"],
+        ["Báo Replace Drum, bản in vẫn sạch", "Bộ đếm hết hạn", "Reset được, theo dõi bản in", "0 đ"],
+        ["Sọc đen dọc lặp lại đều", "Bề mặt trống đã xước", "Thay cụm drum DR-B022", "từ 299.000 đ"],
+        ["Chấm đen lặp theo chu kỳ cố định", "Trống hỏng điểm cục bộ", "Thay cụm drum", "từ 299.000 đ"],
+        ["Báo Replace Toner", "Hết mực, không liên quan drum", "Nạp mực hoặc thay TN-B023", "từ 178.000 đ"],
+        ["Giữ OK mà máy không vào menu reset", "Chưa mở nắp trước, hoặc sai model", "Mở nắp trước rồi thử lại", "0 đ"]
+      ],
+      "goiTho": [
+        "Đã reset mà bản in vẫn sọc — cần thay drum, nên để thợ kiểm tra luôn gạt mực và hộp mực",
+        "Không vào được menu reset dù đã mở nắp trước",
+        "Bản in vừa mờ vừa sọc, không rõ do drum hay do hộp mực",
+        "Máy báo lỗi khác kèm theo Drum End Soon",
+        "Văn phòng nhiều máy Brother, cần bảo trì đồng loạt"
+      ],
+      "giaRows": [
+        ["Reset bộ đếm drum tận nơi kèm kiểm tra bản in", "từ 100.000 đ"],
+        ["Cụm drum DR-B022", "từ 299.000 đ"],
+        ["Hộp mực TN-B023 / B020 / B021 / B022", "từ 178.000 đ"],
+        ["Bộ hộp mực B022 kèm cụm drum", "từ 385.000 đ"],
+        ["Nạp mực Brother tận nơi", "80.000 – 150.000 đ"]
+      ],
+      "phongTranh": [
+        "<strong>Reset đúng lúc, đừng đợi máy dừng hẳn.</strong> Reset khi bản in còn sạch thì trống dùng được thêm lâu; đợi tới lúc sọc mới xử lý thì đã muộn.",
+        "<strong>Kiểm tra bản in mỗi lần thay hộp mực.</strong> Đây là lúc dễ nhìn bề mặt trống nhất.",
+        "<strong>Không sờ tay vào mặt trống</strong> khi tháo lắp — dấu vân tay để lại vệt trên bản in.",
+        "<strong>Tránh để trống ra ánh sáng mạnh</strong> quá vài phút, lớp cảm quang xuống cấp nhanh.",
+        "<strong>Dùng mực đúng loại.</strong> Mực bột sai chủng loại làm xước trống nhanh hơn nhiều, và trống đắt hơn hộp mực."
+      ],
+      "faqs": [
+        { "q": "Reset drum Brother B7535DW có làm mới trống không?", "a": "Không. Reset chỉ đặt lại con số đếm số trang trong bộ nhớ máy, hoàn toàn không tác động tới bề mặt trống. Nếu trống đã xước thì sau khi reset bản in vẫn sọc y như cũ, chỉ khác là thông báo trên màn hình biến mất. Vì vậy phải kiểm tra bản in trước khi quyết định reset hay thay." },
+        { "q": "Drum End Soon và Replace Toner khác nhau thế nào?", "a": "Drum End Soon nói về cụm trống, Replace Toner nói về hộp mực — hai bộ phận tách rời trên dòng máy này, có hai bộ đếm riêng. Trống bền hơn hộp mực nhiều lần. Nhầm hai thông báo này dẫn tới mua sai vật tư, đây là lỗi phổ biến nhất khi khách tự đi mua." },
+        { "q": "Giữ nút OK mà máy không vào được menu reset?", "a": "Nguyên nhân thường gặp nhất là chưa mở nắp trước — máy chỉ cho vào chế độ reset khi nắp đang mở. Nếu đã mở nắp mà vẫn không được, có thể bố trí menu của bản firmware trên máy bạn khác, nên tra đúng model tại trang hỗ trợ Brother thay vì làm theo video của dòng khác." },
+        { "q": "Reset drum được bao nhiêu lần?", "a": "Về kỹ thuật thì reset được nhiều lần, máy không giới hạn. Nhưng mỗi lần reset là một lần bạn đang dùng trống quá tuổi thọ thiết kế. Thực tế sau một tới hai lần reset, bản in thường bắt đầu xuống cấp rõ và lúc đó thay drum là kinh tế hơn — trống xước còn làm bẩn gạt mực và hộp mực đi kèm." },
+        { "q": "Thay cụm drum cho B7535DW hết bao nhiêu?", "a": "Cụm drum DR-B022 có giá tham khảo từ 299.000đ tại kho. Nếu hộp mực cũng tới hạn thì bộ hộp mực B022 kèm cụm drum khoảng 385.000đ, thường rẻ hơn mua rời. Thay drum là thao tác đơn giản, tự làm được, chỉ cần tránh sờ tay vào mặt trống." }
+      ],
+      "ctaTitle": "Brother B7535DW vẫn sọc sau khi reset drum?",
+      "related": [
+        ["../../huong-dan/loi-drum-end-soon-brother/", "Lỗi Drum End Soon Brother là gì và cách reset trống"],
+        ["../../huong-dan/cach-reset-may-in-brother/", "Cách reset máy in Brother báo hết mực và reset drum"],
+        ["../../huong-dan/may-in-bi-soc-den-doc/", "Máy in bị sọc đen dọc: 5 nguyên nhân và cách khắc phục"]
+      ]
+    },
+
+    {
+      "slug": "epson-l3250-nhay-2-den-do",
+      "model": "Epson L3250",
+      "crumb": "Epson L3250 nháy 2 đèn",
+      "tag": "Máy in Epson",
+      "totalTime": "PT25M",
+      "published": "2026-08-10",
+      "apDung": "Áp dụng cho Epson L3250, L3251 và các máy cùng khung có Wi-Fi",
+      "h1": "Epson L3250 báo lỗi 2 đèn đỏ: nguyên nhân và cách xử lý",
+      "title": "Epson L3250 Báo Lỗi 2 Đèn Đỏ: Nguyên Nhân Và Cách Xử Lý",
+      "desc": "Epson L3250 nháy 2 đèn đỏ, in qua Wi-Fi không được? Máy có Wi-Fi nên thêm một nhóm nguyên nhân mà L3210 không có. Cách xử lý từng bước và chi phí.",
+      "ogTitle": "Epson L3250 báo lỗi 2 đèn đỏ: nguyên nhân và cách xử lý",
+      "ogDesc": "L3250 có Wi-Fi nên lỗi kết nối hay bị nhầm với lỗi phần cứng. Cách tách hai nhóm nguyên nhân.",
+      "answer": "Epson L3250 nháy 2 đèn đỏ do kẹt giấy, chưa xác nhận mức mực sau khi châm, tràn bộ đếm mực thải hoặc tắc đầu phun. Riêng dòng này có Wi-Fi nên còn một nhóm nguyên nhân nữa mà L3210 không có: lỗi kết nối mạng khiến máy nhấp nháy dù phần cứng hoàn toàn bình thường.",
+      "specs": [
+        ["Kiểu máy", "Đa năng — in, scan, copy"],
+        ["Kết nối", "USB và Wi-Fi — in được từ điện thoại"],
+        ["Mực dùng", "Epson 003 — dùng chung với L3110, L3210, L1110"],
+        ["Bản không Wi-Fi", "Chính là L3210, mọi thứ khác giống hệt"],
+        ["Màn hình", "Không có, đọc lỗi qua tổ hợp đèn"]
+      ],
+      "sections": [
+        {
+          "h2": "Wi-Fi làm cho việc chẩn đoán khó hơn — tách hai nhóm trước",
+          "html": "<p>Trên L3250, đèn nháy có thể đến từ hai thế giới hoàn toàn khác nhau: phần cứng của máy, hoặc kết nối mạng. Xử lý nhầm nhóm là mất cả buổi.</p><p><strong>Phép thử tách nhóm, mất hai phút:</strong> cắm cáp USB trực tiếp từ máy tính vào máy in, rồi in thử một trang.</p><ul><li><strong>In qua USB được, qua Wi-Fi không được</strong> → phần cứng máy in hoàn toàn tốt, vấn đề nằm ở mạng. Không cần tháo máy.</li><li><strong>Cả USB lẫn Wi-Fi đều không in được</strong> → lỗi phần cứng thật, đi tiếp các bước bên dưới.</li></ul><p>Rất nhiều ca chúng tôi nhận là máy hoàn toàn bình thường, chỉ do đổi router hoặc đổi mật khẩu Wi-Fi khiến máy mất kết nối và nhấp nháy đèn.</p>"
+        },
+        {
+          "h2": "Bước 1 — Xử lý nhóm Wi-Fi trước vì nhanh nhất",
+          "html": "<p>Nếu phép thử USB cho thấy máy in tốt, làm ba việc sau theo thứ tự:</p><ol><li><strong>Khởi động lại router và máy in</strong>, đợi máy in tự kết nối lại khoảng một phút.</li><li><strong>Kết nối lại Wi-Fi bằng nút WPS</strong>: giữ nút Wi-Fi trên máy in khoảng năm giây, rồi bấm nút WPS trên router trong vòng hai phút.</li><li><strong>Kiểm tra máy in và máy tính có cùng dải mạng không</strong> — nhà có nhiều Wi-Fi hoặc bộ mở rộng sóng rất hay gây lệch dải.</li></ol><p>Nếu vừa đổi router hoặc đổi mật khẩu, gần như chắc chắn phải kết nối lại từ đầu — máy in không tự cập nhật mật khẩu mới.</p>"
+        },
+        {
+          "h2": "Bước 2 — Nhóm phần cứng: kẹt giấy và mức mực",
+          "html": "<p>Khi cả USB cũng không in được, quy trình giống các máy cùng dòng L.</p><ol><li>Tắt máy, rút điện, soi đèn dọc đường giấy từ khay sau ra khe trước.</li><li>Gỡ mảnh giấy theo chiều giấy đi, kiểm tra kỹ vùng dưới cụm đầu phun.</li><li>Lau con lăn nếu bám bụi giấy trắng.</li><li>Nếu vừa châm mực: đặt lại mức mực bằng Epson Printer Utility trên máy tính, hoặc giữ nút giọt mực khoảng năm giây.</li><li>In Nozzle Check để kiểm tra đầu phun, thiếu màu thì chạy Head Cleaning tối đa ba lần.</li></ol><p>Thứ tự vệ sinh đầu phun sao cho tốn ít mực nhất có ở bài <a href=\"../../huong-dan/ve-sinh-dau-phun-epson/\">vệ sinh đầu phun máy in Epson</a>.</p>"
+        },
+        {
+          "h2": "Bước 3 — Tràn bộ đếm mực thải",
+          "html": "<p>Giống mọi máy dòng L: máy đếm số lần xả mực vệ sinh đầu phun, đủ ngưỡng thì khoá và báo <em>Service Required</em>, hai đèn nháy đồng thời không dứt.</p><p>Điểm riêng của L3250: vì có Wi-Fi nên máy thường được đặt ở vị trí xa, cả nhà cùng in, tần suất sử dụng cao hơn máy chỉ cắm USB. Bộ đếm vì thế đầy nhanh hơn.</p><p>Xử lý đúng gồm hai việc làm cùng nhau — đặt lại bộ đếm và vệ sinh hoặc thay tấm thấm mực thải. Bỏ vế thứ hai thì vài tuần sau mực rỉ ra đáy máy. Cơ chế chi tiết có ở bài <a href=\"../../huong-dan/tran-bo-dem-muc-thai-epson/\">tràn bộ đếm mực thải Epson</a>.</p>"
+        }
+      ],
+      "traRows": [
+        ["In qua USB được, Wi-Fi không được", "Lỗi kết nối mạng, máy in vẫn tốt", "Kết nối lại Wi-Fi bằng WPS", "0 đ"],
+        ["Vừa đổi router hoặc mật khẩu", "Máy in giữ mật khẩu cũ", "Cài lại kết nối Wi-Fi", "0 – 100.000 đ"],
+        ["Cả USB lẫn Wi-Fi đều không in", "Lỗi phần cứng", "Kiểm tra giấy, mực, đầu phun", "0 – 150.000 đ"],
+        ["Đèn giấy nháy, có tiếng kéo", "Kẹt giấy hoặc dị vật", "Soi đèn, gỡ theo chiều giấy", "0 – 150.000 đ"],
+        ["Châm mực xong vẫn báo cạn", "Chưa đặt lại mức mực", "Đặt lại qua phần mềm Epson", "0 đ"],
+        ["Hai đèn nháy đồng thời, báo Service Required", "Tràn bộ đếm mực thải", "Đặt lại bộ đếm + xử lý tấm thấm", "từ 200.000 đ"]
+      ],
+      "goiTho": [
+        "Đã thử USB, kết nối lại Wi-Fi mà đèn vẫn nháy",
+        "Máy báo Service Required — cần xử lý cả bộ đếm lẫn tấm thấm",
+        "Head Cleaning ba lần vẫn thiếu màu",
+        "Nhà có nhiều thiết bị, cần cấu hình mạng cho máy in ổn định lâu dài",
+        "Máy đặt xa, không tiện tháo lắp kiểm tra"
+      ],
+      "giaRows": [
+        ["Cài lại kết nối Wi-Fi và driver tận nơi", "từ 100.000 đ"],
+        ["Kiểm tra, vệ sinh đường giấy", "từ 100.000 đ"],
+        ["Vệ sinh đầu phun chuyên sâu", "từ 150.000 đ"],
+        ["Đặt lại bộ đếm mực thải kèm vệ sinh tấm thấm", "từ 200.000 đ"],
+        ["Châm mực 003", "từ 60.000 đ/màu"]
+      ],
+      "phongTranh": [
+        "<strong>Đặt IP tĩnh cho máy in</strong> nếu nhà hay mất điện hoặc đổi router — máy sẽ không bị lạc mạng mỗi lần khởi động lại.",
+        "<strong>In vài trang mỗi tuần</strong>, máy Wi-Fi hay bị bỏ quên lâu hơn vì không ai nhìn thấy nó.",
+        "<strong>Hạn chế Head Cleaning</strong>, tối đa ba lần rồi để máy nghỉ.",
+        "<strong>Ghi lại mật khẩu Wi-Fi</strong> ở nơi dễ tìm — đổi mật khẩu là phải cài lại máy in.",
+        "<strong>Châm đúng mực 003</strong> và đậy kín nắp bình."
+      ],
+      "faqs": [
+        { "q": "Epson L3250 nháy 2 đèn có phải luôn là lỗi phần cứng không?", "a": "Không. Vì máy có Wi-Fi nên lỗi kết nối mạng cũng làm máy nhấp nháy dù phần cứng hoàn toàn bình thường. Cách tách nhanh nhất là cắm cáp USB trực tiếp rồi in thử: in được qua USB nghĩa là máy tốt, vấn đề nằm ở mạng và không cần tháo máy." },
+        { "q": "L3250 và L3210 khác nhau chỗ nào?", "a": "Khác duy nhất ở kết nối. L3250 có Wi-Fi, in được từ điện thoại; L3210 chỉ có cổng USB. Phần cơ khí, đầu phun, mực 003, bộ đếm mực thải và cách xử lý lỗi phần cứng giống hệt nhau." },
+        { "q": "Đổi router xong máy in không in được nữa?", "a": "Đây là tình huống phổ biến nhất với dòng máy Wi-Fi. Máy in vẫn giữ thông tin mạng cũ nên không kết nối được vào mạng mới. Cách xử lý là kết nối lại bằng nút WPS: giữ nút Wi-Fi trên máy in khoảng năm giây rồi bấm WPS trên router trong vòng hai phút." },
+        { "q": "Máy in được từ điện thoại nhưng máy tính thì không?", "a": "Thường là máy tính và máy in không cùng dải mạng, hoặc driver trên máy tính trỏ vào địa chỉ IP cũ. Kiểm tra xem máy tính có đang nối vào cùng Wi-Fi với máy in không, rồi vào cài đặt máy in trên Windows kiểm tra lại cổng kết nối." },
+        { "q": "Chi phí xử lý Epson L3250 khoảng bao nhiêu?", "a": "Nếu chỉ là lỗi Wi-Fi thì tự làm được, miễn phí; gọi kỹ thuật viên cài lại tận nơi từ 100.000đ. Vệ sinh đường giấy từ 100.000đ, vệ sinh đầu phun chuyên sâu từ 150.000đ, xử lý tràn bộ đếm mực thải kèm vệ sinh tấm thấm từ 200.000đ." }
+      ],
+      "ctaTitle": "Epson L3250 nháy đèn, đã thử hết cách?",
+      "related": [
+        ["../epson-l3210-nhay-2-den-do/", "Epson L3210 nháy 2 đèn đỏ: nguyên nhân và cách xử lý"],
+        ["../epson-l3110-nhay-2-den-do/", "Epson L3110 nháy 2 đèn đỏ: 4 nguyên nhân và cách xử lý"],
+        ["../../huong-dan/cach-cai-dat-may-in/", "Cách cài đặt máy in: USB, WiFi và mạng LAN"]
+      ]
+    },
+
+    {
+      "slug": "epson-l1210-nhay-2-den-do",
+      "model": "Epson L1210",
+      "crumb": "Epson L1210 nháy 2 đèn",
+      "tag": "Máy in Epson",
+      "totalTime": "PT25M",
+      "published": "2026-08-10",
+      "apDung": "Áp dụng cho Epson L1210, L1250 và các máy in đơn năng cùng khung",
+      "h1": "Epson L1210 báo lỗi 2 đèn đỏ: nguyên nhân và cách xử lý",
+      "title": "Epson L1210 Báo Lỗi 2 Đèn Đỏ: Nguyên Nhân Và Cách Xử Lý",
+      "desc": "Epson L1210 nháy 2 đèn đỏ, không in được? Đây là đời thay L1110, máy đơn năng nên ít điểm hỏng. Cách xử lý từng bước và chi phí tại TP.HCM.",
+      "ogTitle": "Epson L1210 báo lỗi 2 đèn đỏ: nguyên nhân và cách xử lý",
+      "ogDesc": "L1210 là đời thay L1110. Máy đơn năng, ít điểm hỏng, phần lớn ca tự xử lý được.",
+      "answer": "Epson L1210 nháy 2 đèn đỏ chủ yếu do kẹt giấy, chưa xác nhận mức mực sau khi châm, hoặc tràn bộ đếm mực thải. Đây là đời thay thế cho L1110, vẫn là máy in đơn năng chỉ in nên ít bộ phận hỏng hơn dòng đa năng, phần lớn trường hợp tự xử lý được tại nhà.",
+      "specs": [
+        ["Kiểu máy", "Đơn năng — chỉ in, không scan, không copy"],
+        ["Kết nối", "Chỉ USB"],
+        ["Mực dùng", "Epson 003 — dùng chung với L3110, L3210, L1110"],
+        ["Vị trí trong dòng", "Đời thay thế cho L1110, ra sau"],
+        ["Ưu điểm khi sửa", "Ít bộ phận nhất trong dòng L nên dễ chẩn đoán"]
+      ],
+      "sections": [
+        {
+          "h2": "L1210 thay L1110 — cẩn thận khi làm theo hướng dẫn cũ",
+          "html": "<p>Giống trường hợp L3210 thay L3110, đời máy mới giữ nguyên hệ mực nhưng thay đổi bố trí nút trên mặt máy.</p><p><strong>Giữ nguyên:</strong> mực 003, cơ chế bộ đếm mực thải, nguyên lý đầu phun, cách châm mực vào bình.</p><p><strong>Thay đổi:</strong> vị trí và ký hiệu nút bấm. Thao tác giữ nút để đặt lại mức mực không nằm cùng chỗ như trên L1110, nên làm theo video của máy cũ rất dễ bấm nhầm rồi tưởng máy hỏng.</p><p>Cách chắc chắn nhất, không phụ thuộc đời máy: dùng Epson Printer Utility trên máy tính. Giao diện phần mềm giống nhau ở mọi đời, không sợ nhầm nút.</p>"
+        },
+        {
+          "h2": "Bước 1 — Kiểm tra đường giấy",
+          "html": "<p>L1210 chỉ có khay nạp phía sau, đường giấy ngắn và thẳng nên soi rất nhanh.</p><ol><li>Tắt máy, rút điện, đợi vài phút.</li><li>Nhấc nắp trên, soi đèn từ khay sau xuống khe ra giấy trước.</li><li>Kiểm tra kỹ vùng ngay dưới cụm đầu phun.</li><li>Gỡ mảnh giấy theo chiều giấy đi, không kéo ngược.</li><li>Lau con lăn cao su nếu thấy bám bụi giấy trắng.</li></ol><p>Vì đường giấy ngắn, soi kỹ mà không thấy gì thì gần như chắc chắn nguyên nhân nằm ở chỗ khác — chuyển sang bước 2 thay vì tháo máy.</p>"
+        },
+        {
+          "h2": "Bước 2 — Đặt lại mức mực đúng cách",
+          "html": "<p>Máy dòng L đếm mực bằng phần mềm chứ không đo thật trong bình. Châm đầy mà không báo cho máy biết thì nó vẫn tưởng đang cạn và tiếp tục nháy đèn.</p><ol><li>Nối máy với máy tính bằng cáp USB.</li><li>Mở Epson Printer Utility hoặc phần mềm Epson đi kèm driver.</li><li>Tìm mục đặt lại hoặc xác nhận mức mực sau khi châm.</li><li>Xác nhận đã châm đầy từng màu, làm theo hướng dẫn trên màn hình.</li><li>In thử một trang.</li></ol><p>Không cài được phần mềm thì giữ nút giọt mực khoảng năm giây cho tới khi đèn phản hồi — nhưng nhìn kỹ ký hiệu trên nút của chính máy mình, đừng làm theo trí nhớ từ L1110.</p>"
+        },
+        {
+          "h2": "Bước 3 — Bộ đếm mực thải trên máy in tải cao",
+          "html": "<p>L1210 là máy đơn năng, thường được mua để in nhiều — in hoá đơn, in tài liệu số lượng lớn. Tần suất in cao nghĩa là số lần vệ sinh đầu phun cũng nhiều, và bộ đếm mực thải đầy nhanh hơn người ta tưởng.</p><p>Khi máy báo <em>Service Required</em>, hai đèn nháy đồng thời không dứt sau khi đã loại trừ giấy và mực, đó là bộ đếm đã tới ngưỡng. Máy không hỏng — nó tự khoá để mực không tràn ra ngoài.</p><p>Xử lý đúng phải làm hai việc cùng lúc: đặt lại bộ đếm và vệ sinh hoặc thay tấm thấm mực thải. Phần mềm tải trên mạng chỉ làm được vế đầu, nên vài tuần sau mực sẽ rỉ ra đáy máy thật.</p>"
+        }
+      ],
+      "traRows": [
+        ["Đèn giấy nháy, có tiếng kéo giấy", "Kẹt giấy hoặc dị vật", "Soi đèn, gỡ theo chiều giấy", "0 – 150.000 đ"],
+        ["Làm theo video L1110 mà máy không phản hồi", "Bố trí nút khác trên đời mới", "Dùng Epson Printer Utility", "0 đ"],
+        ["Châm mực xong vẫn báo cạn", "Chưa đặt lại mức mực", "Đặt lại qua phần mềm hoặc nút giọt mực", "0 đ"],
+        ["Hai đèn nháy đồng thời, báo Service Required", "Tràn bộ đếm mực thải", "Đặt lại bộ đếm + xử lý tấm thấm", "từ 200.000 đ"],
+        ["Nozzle Check thiếu một dải màu", "Tắc vòi phun", "Head Cleaning tối đa 3 lần", "0 – 150.000 đ"],
+        ["Có mực rỉ ra đáy máy", "Tấm thấm đã ngậm đầy", "Thay tấm thấm ngay", "Cần kiểm tra"]
+      ],
+      "goiTho": [
+        "Đường giấy sạch, đã đặt lại mức mực mà đèn vẫn nháy",
+        "Máy báo Service Required — xử lý cả bộ đếm lẫn tấm thấm",
+        "Đã thấy mực rỉ ra đáy máy hoặc mặt bàn",
+        "Head Cleaning ba lần vẫn thiếu màu",
+        "Không cài được phần mềm Epson để đặt lại mức mực"
+      ],
+      "giaRows": [
+        ["Kiểm tra, vệ sinh đường giấy", "từ 100.000 đ"],
+        ["Vệ sinh đầu phun chuyên sâu", "từ 150.000 đ"],
+        ["Đặt lại bộ đếm mực thải kèm vệ sinh tấm thấm", "từ 200.000 đ"],
+        ["Cài driver và phần mềm Epson tận nơi", "từ 100.000 đ"],
+        ["Châm mực 003", "từ 60.000 đ/màu"]
+      ],
+      "phongTranh": [
+        "<strong>Cài phần mềm Epson ngay khi mua máy</strong> — sau này đặt lại mức mực và chạy Nozzle Check đều chắc hơn bấm nút.",
+        "<strong>Hạn chế Head Cleaning</strong>, mỗi lần chạy đẩy bộ đếm mực thải đầy thêm.",
+        "<strong>In đều đặn</strong>, máy đơn năng hay bị bỏ quên và mực khô trong đầu phun.",
+        "<strong>Xử lý sớm khi máy báo Service Required</strong>, đừng cố in thêm — tấm thấm ngậm càng nhiều càng khó cứu.",
+        "<strong>Châm đúng mực 003</strong>, không pha trộn nhiều loại mực vào cùng bình."
+      ],
+      "faqs": [
+        { "q": "Epson L1210 khác L1110 chỗ nào?", "a": "L1210 là đời thay thế cho L1110, vẫn là máy in đơn năng chỉ in và vẫn dùng mực 003. Khác biệt chính nằm ở bố trí nút trên mặt máy, nên các thao tác giữ nút không nằm cùng vị trí. Nếu làm theo video của L1110 mà máy không phản hồi thì rất có thể bạn đang bấm nhầm nút." },
+        { "q": "L1210 và L3210 nên chọn cái nào?", "a": "L1210 chỉ in, L3210 có thêm scan và copy. Nếu bạn chỉ cần in thì L1210 rẻ hơn, ít bộ phận hơn nên cũng ít hỏng hơn. Cần scan hoặc photo tài liệu thì phải chọn L3210. Cả hai dùng chung mực 003 nên chi phí vận hành như nhau." },
+        { "q": "Châm mực xong máy vẫn nháy đèn báo hết mực?", "a": "Máy dòng L đếm mực bằng phần mềm chứ không đo thật trong bình, nên châm đầy xong phải báo cho máy biết. Cách chắc nhất là dùng Epson Printer Utility trên máy tính; hoặc giữ nút giọt mực trên máy khoảng năm giây cho tới khi đèn phản hồi." },
+        { "q": "Có nên tự tải phần mềm đặt lại bộ đếm mực thải không?", "a": "Chúng tôi không khuyến khích. Phần mềm đó chỉ đặt lại con số đếm, không xử lý được tấm thấm đã ngậm đầy mực, nên vài tuần sau mực sẽ rỉ ra đáy máy và bàn làm việc. Các bản trôi nổi trên mạng còn thường bị nhét mã độc và sai phiên bản có thể gây lỗi bo mạch." },
+        { "q": "Chi phí xử lý Epson L1210 nháy đèn khoảng bao nhiêu?", "a": "Kẹt giấy và đặt lại mức mực thì tự làm được, miễn phí. Gọi kỹ thuật viên vệ sinh đường giấy từ 100.000đ, vệ sinh đầu phun chuyên sâu từ 150.000đ, xử lý tràn bộ đếm mực thải kèm vệ sinh tấm thấm từ 200.000đ. Luôn kiểm tra và báo giá trước khi làm." }
+      ],
+      "ctaTitle": "Epson L1210 nháy đèn không dứt?",
+      "related": [
+        ["../epson-l1110-nhay-2-den-do/", "Epson L1110 nháy 2 đèn đỏ: nguyên nhân và cách xử lý"],
+        ["../epson-l3210-nhay-2-den-do/", "Epson L3210 nháy 2 đèn đỏ: nguyên nhân và cách xử lý"],
+        ["../../huong-dan/tran-bo-dem-muc-thai-epson/", "Tràn bộ đếm mực thải Epson"]
+      ]
     }
   ]
 }

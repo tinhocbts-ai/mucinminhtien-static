@@ -30,7 +30,10 @@
     "may-in-bill-khong-in-duoc": "epson-t82",
     "epson-l3110-nhay-2-den-do": "epson-l3150",
     "epson-l1110-nhay-2-den-do": "epson-l3150",
-    "epson-l3210-nhay-2-den-do": "epson-l3150"
+    "epson-l3210-nhay-2-den-do": "epson-l3150",
+    "reset-drum-brother-dcp-b7535dw": "brother-2366dw",
+    "epson-l3250-nhay-2-den-do": "epson-l3150",
+    "epson-l1210-nhay-2-den-do": "epson-l3150"
   },
   "_khongGan": {
     "loi-5b00-canon": "Lỗi 5B00 là lỗi máy in PHUN. Kho chỉ có Canon laser — dùng ảnh laser cho bài về máy phun là sai sự thật. Giữ thẻ thiết kế cho tới khi chụp được máy phun Canon (G1010/G2010/iX6770).",
