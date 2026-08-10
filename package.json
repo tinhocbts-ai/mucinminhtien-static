@@ -14,7 +14,11 @@
     "publish": "node build.js && node scripts/check-seo.js --summary",
     "anh": "node tools/tao-anh-bai.js && node scripts/chen-anh-bai.js --write && node build.js",
     "check:anchors": "node scripts/check-anchors.js",
-    "check:outbound": "node scripts/check-outbound.js"
+    "check:outbound": "node scripts/check-outbound.js",
+    "gsc:sitemap": "node scripts/gsc.js sitemap",
+    "gsc:index": "node scripts/gsc.js index",
+    "gsc:queries": "node scripts/gsc.js queries",
+    "gsc:trung-lap": "node scripts/gsc.js trung-lap"
   },
   "repository": {
     "type": "git",
@@ -29,6 +33,7 @@
   },
   "homepage": "https://github.com/tinhocbts-ai/mucinminhtien-static#readme",
   "dependencies": {
+    "googleapis": "^174.0.1",
     "sharp": "^0.35.3"
   }
 }
