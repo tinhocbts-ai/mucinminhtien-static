@@ -98,6 +98,9 @@ Mỗi bài thêm đúng 3 thứ: **1 bảng tra**, **số liệu chi phí thật
 |---|---|---|---|
 | ✅ | `/huong-dan/may-in-ra-giay-trang/` | Máy in ra giấy trắng: 7 nguyên nhân — **2.532 từ** | Drum, trục từ, cụm quang |
 | ✅ | `/huong-dan/may-in-bi-lem-muc/` | Máy in bị lem mực: 6 nguyên nhân — **2.237 từ** | Gạt mực, lô sấy, bao lụa |
+| ✅ | `/huong-dan/may-in-bi-soc-ngang/` | Máy in bị sọc ngang: bảng chu kỳ lặp — **3.263 từ** | Drum, trục từ, lô sấy, gạt |
+| ✅ | `/huong-dan/may-in-bi-soc-trang-doc/` | Máy in bị sọc trắng dọc — **2.725 từ** | Trục từ, gạt, cụm quang |
+| ✅ | `/huong-dan/may-in-bi-soc-trang-ngang/` | Máy in bị sọc trắng ngang: 3 loại máy — **2.817 từ** | Đầu phun, quả đào, đầu nhiệt |
 | ☐ | `may-in-in-mo` | Máy in in mờ, chữ nhạt: 7 nguyên nhân theo hãng | Mực đổ, trục từ, drum |
 | ☐ | `in-bi-bong-chu-ghosting` | Bản in bị bóng chữ (ghosting) | Lô sấy, drum, lô ép |
 | ☐ | `in-bi-dom-trang` | Bản in bị đốm trắng, in không đều | Trục từ, mực bột, drum |
@@ -121,7 +124,8 @@ Mỗi bài thêm đúng 3 thứ: **1 bảng tra**, **số liệu chi phí thật
 
 | ☐ | Slug | Tiêu đề | Bán được gì |
 |---|---|---|---|
-| ☐ | `may-tinh-khong-nhan-may-in` | Máy tính không nhận máy in, không cài được driver | Dịch vụ tận nơi |
+| ✅ | `/huong-dan/may-tinh-khong-nhan-may-in/` | Máy tính không nhận máy in: 8 bước — **2.565 từ** | Dịch vụ tận nơi |
+| ✅ | `/huong-dan/driver-canon-lbp-251dw/` | Driver Canon LBP 251dw, 252dw — **2.318 từ** | Dịch vụ tận nơi |
 | ☐ | `lenh-in-bi-pending` | Lệnh in bị Pending, kẹt trong hàng đợi | Dịch vụ tận nơi |
 | ☐ | `may-in-wifi-chap-chon` | Máy in Wi-Fi chập chờn, lúc in được lúc không | Dịch vụ tận nơi |
 | ☐ | `may-in-khong-len-nguon` | Máy in không lên nguồn: kiểm tra theo thứ tự | Nguồn, bo, dịch vụ |
@@ -167,7 +171,7 @@ Anh có sẵn linh kiện nhưng không có một chữ nào dẫn về.
 | ☐ | Slug | Tiêu đề | Bán được gì |
 |---|---|---|---|
 | ☐ | `chon-giay-in-dinh-luong` | Chọn giấy in đúng định lượng: 70, 80 hay 100 gsm | Giấy in |
-| ☐ | `giay-in-nhiet-57-hay-80` | Giấy in nhiệt khổ 57mm hay 80mm: chọn đúng cho máy bill | Giấy nhiệt |
+| ✅ | `/huong-dan/giay-in-nhiet-57-hay-80/` | Giấy in nhiệt khổ 57mm hay 80mm — **2.085 từ** | Giấy nhiệt |
 | ☐ | `ruy-bang-may-in-kim` | Ruy băng máy in kim: chọn đúng loại, thay thế nào | Ruy băng |
 | ☐ | `giay-chuyen-nhiet-in-duoc-gi` | Giấy chuyển nhiệt in được lên chất liệu gì | Giấy chuyển nhiệt |
 
@@ -182,7 +186,7 @@ Anh có sẵn linh kiện nhưng không có một chữ nào dẫn về.
 | ☐ | `brother-hl-l2321d-bao-toner` | Brother HL-L2321D báo Toner Life End | TN-2380, gạt Brother |
 | ☐ | `epson-l3110-mat-mau-den` | Epson L3110 mất màu đen | Mực 003 (9 mã) |
 | ☐ | `canon-2900-loi-e000` | Canon 2900 lỗi E000 | Lô sấy, cụm sấy 12A (28 mã) |
-| ☐ | `hp-m402-loi-59c0` | HP M402 lỗi 59.C0 | Bao lụa 26A, lô ép (17 mã) |
+| ✅ | `/model/hp-m402dn-loi-thuong-gap/` | HP M402dn: 59.C0, kẹt giấy khay 1, firmware chặn hộp mực — **2.409 từ** | Bao lụa 226A, lô ép, drum, trục từ (11 mã có giá) |
 
 ---
 
@@ -201,9 +205,13 @@ Bảng linh kiện + giá sinh tự động từ `data/bang-gia.json` nên luôn
 | ✅ | `/muc-in/hop-muc-85a/` | 85A | 14 | Canon LBP6030 |
 | ✅ | `/muc-in/hop-muc-107a/` | 107A / W1107A | 12 | HP Laser 107w |
 | ✅ | `/muc-in/hop-muc-canon-337/` | Canon 337 | 10 | Canon MF249dw |
-| ☐ | `/muc-in/hop-muc-canon-325/` | Canon 325 | 14 | |
-| ☐ | `/muc-in/muc-epson-003/` | Epson 003 | 9 | |
-| ☐ | `/muc-in/hop-muc-brother-tn-2380/` | TN-2380 | 3 | |
+| ✅ | `/muc-in/hop-muc-canon-325/` | Canon 325 | 14 | Canon LBP6030 |
+| ✅ | `/muc-in/muc-epson-003/` | Epson 003 | 5 | Epson L3150 |
+| ✅ | `/muc-in/hop-muc-brother-tn-2380/` | TN-2380 | 9 | Brother 2366dw |
+
+> ✅ **Cụm H xong 11/11 ngày 10/08/2026.** Số mã kho là số dòng thật khớp `matchKeys`
+> trong `data/bang-gia.json` — Epson 003 chỉ 5 mã vì kho ít vật tư máy phun, TN-2380 được 9 mã
+> nhờ gộp cả nhóm 2385/2325 dùng chung phôi.
 
 Thêm mã mới: thêm một khối vào `data/muc-in.json` rồi `node build.js` — hub và link chéo tự cập nhật.
 

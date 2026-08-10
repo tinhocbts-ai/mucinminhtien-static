@@ -1,7 +1,7 @@
 # SESSION-NOTES — mucinminhtien.com
 
 > File bàn giao giữa các phiên làm việc. **Đọc file này trước, rồi tới `PROJECT.md` và `CONTENT-PLAN.md`.**
-> Cập nhật lần cuối: 10/08/2026.
+> Cập nhật lần cuối: 10/08/2026 — sau phiên viết 14 trang (cụm sọc, cụm bill/nhiệt, cụm driver, 3 mã mực cuối).
 
 ---
 
@@ -23,13 +23,13 @@ node build.js && node scripts/check-seo.js --summary && node scripts/check-ancho
 
 | | |
 |---|---|
-| Trang đã build | **102** |
-| Bài nội dung | **32** (18 hướng dẫn, 9 model, 8 mã mực, trừ hub) |
+| Trang đã build | **116** |
+| Bài nội dung | **46** (27 hướng dẫn, 11 model, 11 mã mực, trừ hub) |
 | Lỗi ERR | **0** |
-| Cảnh báo | 4 (đều là inlink < 3, tự hết khi thêm bài) |
+| Cảnh báo | 1 (inlink < 3 ở 1 trang sản phẩm) |
 | Anchor gãy | 0 |
-| Link ra ngoài | 9 link / 5 domain |
-| Commit gần nhất | `56554cc` |
+| Link ra ngoài | 11 link / 6 domain |
+| Commit gần nhất | `293e0e1` |
 
 Site live: https://mucinminhtien.com — GitHub Pages, repo **public** `tinhocbts-ai/mucinminhtien-static`.
 
@@ -45,9 +45,9 @@ Quy mô đối thủ (đọc từ sitemap ngày 10/08/2026):
 
 | | Họ | Ta |
 |---|---|---|
-| Bài viết | 205 | 32 |
+| Bài viết | 205 | 46 |
 | Sản phẩm | 248 | 55 |
-| **Tổng URL** | **~493** | **102** |
+| **Tổng URL** | **~493** | **116** |
 
 Bóc 205 bài của họ:
 - ~26 bài **phần mềm reset crack** → ta KHÔNG làm (DMCA + malware)
@@ -184,12 +184,12 @@ Cơ hội lớn còn bỏ trống (đo ngày 10/08):
 
 | Cụm | Hiển thị | Trạng thái |
 |---|---|---|
-| `máy in bị sọc` — cả cụm (ngang, trắng, dọc mờ…) | **1.093** | Mới có 1 bài sọc đen **dọc** |
-| `sửa máy in nhiệt` + `bill` + `hóa đơn` | **969** | Mới có 1 bài |
-| `driver canon lbp 251dw/252dw` các biến thể | ~700 | Chưa có |
-| `máy in hp laserjet pro m402dn` | 519 | Chưa có |
-| `reset drum brother 7535` | 506 | ✅ Vừa làm |
-| `máy in canon 2900 bị sọc đen dọc` | 147 | Chưa có bản theo model |
+| `máy in bị sọc` — cả cụm (ngang, trắng, dọc mờ…) | **1.093** | ✅ Đủ 4 bài: đen dọc, ngang, trắng dọc, trắng ngang |
+| `sửa máy in nhiệt` + `bill` + `hóa đơn` | **969** | ✅ 5 bài: không in được, sửa, in mờ, khổ A5, chọn giấy |
+| `driver canon lbp 251dw/252dw` các biến thể | ~700 | ✅ Vừa làm + bài máy tính không nhận máy in |
+| `máy in hp laserjet pro m402dn` | 519 | ✅ Trang model kèm bảng giá vật tư 226A thật |
+| `reset drum brother 7535` | 506 | ✅ Đã làm |
+| `máy in canon 2900 bị sọc đen dọc` | 147 | ✅ Trang model riêng, giá vật tư 12A thật |
 
 **Lưu ý:** `máy in bị sọc ngang` và `sọc trắng` là chủ đề KHÁC với sọc đen dọc — nguyên nhân
 khác hẳn, phải viết bài riêng chứ không gộp.
@@ -229,14 +229,47 @@ Ngoài ra:
 
 ## 10. Làm tiếp theo thứ tự này
 
-1. **Cụm sọc** — `máy in bị sọc ngang`, `sọc trắng dọc`, `sọc trắng ngang`, `canon 2900 bị sọc đen dọc` (1.093 hiển thị)
-2. **Cụm bill/nhiệt** — `sửa máy in nhiệt`, `máy in nhiệt khổ A5`, `sửa máy in nhiệt Xprinter` (969)
-3. **Cụm driver** — `driver canon lbp 251dw/252dw` các biến thể (~700)
-4. **HP M402dn** — trang model, dẫn sang `/muc-in/hop-muc-cf226a/` (519)
-5. **3 mã mực còn lại** — Canon 325, Epson 003, TN-2380
-6. **4 bài cụm reset viết đúng cách** — lấy traffic mà không đụng file crack
-7. **Mở rộng 14 bài cũ** dưới 1.200 từ lên 2.000+
-8. Cụm lô sấy (157 mã hàng), photocopy (44 mã), giấy in (53 mã) — long-tail không ai tranh
+Năm mục đầu của danh sách cũ **đã xong trong phiên 10/08** (14 trang mới). Còn lại:
+
+1. **Cụm lô sấy / lô ép** — 157 mã hàng, chưa có bài nào. Mục D trong `CONTENT-PLAN.md`.
+   Bài `lo-say-may-in-la-gi`, `may-in-nhoe-cham-tay-ra-muc`, `loi-50-hp-fuser`, `thay-lo-ep-khi-nao`, `bao-lua-may-in-la-gi`.
+   Đã có sẵn móc nối: bài sọc ngang và lem mực đều trỏ tới cụm sấy nhưng chưa có trang đích.
+2. **Cụm máy photocopy** — 44 mã, mục E. Đối thủ 2 đang ăn mảng này.
+3. **Cụm giấy in & ruy băng** — 53 mã, mục F. Đã làm 1 bài (giấy in nhiệt), còn 3 bài.
+4. **Cụm lỗi bản in còn lại (C1)** — `may-in-in-mo`, `in-bi-bong-chu-ghosting`, `in-bi-dom-trang`, `may-in-mat-chu-thieu-net`, `may-in-in-sai-mau`.
+5. **Cụm lỗi kéo giấy (C2)** — `may-in-ket-giay`, `bao-ket-giay-du-khong-ket`, `may-in-in-xien-lech`, `may-in-keu-to`, `may-in-co-mui-khet`.
+6. **4 bài cụm reset viết đúng cách** — lấy traffic mà không đụng file crack.
+7. **Mở rộng 14 bài cũ** dưới 1.200 từ lên 2.000+ (mục B).
+8. **5 bài model còn lại (G)** — HP 1102 kẹt giấy, Canon MF3010 in mờ, Brother HL-L2321D báo toner, Epson L3110 mất màu đen, Canon 2900 lỗi E000.
+
+### Đã làm trong phiên 10/08 (14 trang)
+
+| Cụm | Trang | Từ |
+|---|---|---|
+| Sọc | `/huong-dan/may-in-bi-soc-ngang/` | 3.263 |
+| Sọc | `/huong-dan/may-in-bi-soc-trang-doc/` | 2.725 |
+| Sọc | `/huong-dan/may-in-bi-soc-trang-ngang/` | 2.817 |
+| Sọc | `/model/canon-2900-bi-soc-den-doc/` | 2.449 |
+| Nhiệt | `/huong-dan/sua-may-in-nhiet/` | 2.488 |
+| Nhiệt | `/huong-dan/may-in-nhiet-in-mo/` | 2.767 |
+| Nhiệt | `/huong-dan/may-in-nhiet-kho-a5/` | 2.671 |
+| Nhiệt | `/huong-dan/giay-in-nhiet-57-hay-80/` | 2.085 |
+| Driver | `/huong-dan/driver-canon-lbp-251dw/` | 2.318 |
+| Driver | `/huong-dan/may-tinh-khong-nhan-may-in/` | 2.565 |
+| Model | `/model/hp-m402dn-loi-thuong-gap/` | 2.409 |
+| Mã mực | `/muc-in/hop-muc-canon-325/` | 1.637 |
+| Mã mực | `/muc-in/muc-epson-003/` | 1.600 |
+| Mã mực | `/muc-in/hop-muc-brother-tn-2380/` | 1.690 |
+
+**Ba thứ mới rút ra, dùng lại cho các cụm sau:**
+
+1. **Bảng chu kỳ lặp vệt sọc** (`may-in-bi-soc-ngang`) — đo khoảng cách giữa hai vệt rồi
+   đối chiếu chu vi từng trục để ra đúng bộ phận. Không đối thủ nào có.
+2. **Phép thử đổi hộp mực** — tách bạch lỗi trong hộp mực và lỗi ở máy trong hai phút.
+   Dùng lại được cho mọi bài lỗi bản in.
+3. **Bảng giá vật tư thật theo mã** (`canon-2900-bi-soc-den-doc`, `hp-m402dn-loi-thuong-gap`) —
+   lấy thẳng từ `data/bang-gia.json`, ghi rõ quy cách (bộ 5 cây, 1 cặp…) để không gây hiểu nhầm.
+   Đây là thứ đối thủ không thể sao chép vì họ không có kho.
 
 Chi tiết từng bài ở `CONTENT-PLAN.md`.
 
@@ -246,5 +279,11 @@ Chi tiết từng bài ở `CONTENT-PLAN.md`.
 
 - 2 bài để mở chỗ cho link về `mucinht.com`: `chon-may-in-bill-cho-quan-cafe`, `may-in-tem-ma-vach-la-gi`
   (đã đặt 1 link tới trang trụ máy bill cũ, còn 2 link nữa theo kế hoạch)
+- **Giá trục từ đang lệch giữa các bài**: bài cũ `may-in-ra-giay-trang` ghi "từ 34.000đ",
+  bài mới ghi "từ 20.000đ" (đúng mức thấp nhất trong kho — trục từ 15A/92A). Cả hai đều là giá
+  thật nhưng nên thống nhất một con số khi rà lại loạt bài cũ.
+- **Kho ảnh Chợ Tốt**: `xprinter-q260` có 86 ảnh nhưng nằm ở `dot1/` và `_posted/`, còn
+  `original/` rỗng nên `tao-anh-bai.js` không dùng được. Muốn dùng ảnh máy in bill Xprinter
+  thì phải copy sang `original/`. Hiện bài nhiệt đang dùng `apos-200` và `epson-t82`.
 - `.github/workflows/publish.yml` đã có cron 08:00 giờ VN nhưng **chưa chạy lần nào** —
   cần bật quyền Read and write trong Settings → Actions → General
