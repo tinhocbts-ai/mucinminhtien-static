@@ -13,7 +13,8 @@
     "all": "node scripts/apply-meta.js && node build.js && node scripts/check-seo.js --summary && node scripts/check-anchors.js",
     "publish": "node build.js && node scripts/check-seo.js --summary",
     "anh": "node tools/tao-anh-bai.js && node scripts/chen-anh-bai.js --write && node build.js",
-    "check:anchors": "node scripts/check-anchors.js"
+    "check:anchors": "node scripts/check-anchors.js",
+    "check:outbound": "node scripts/check-outbound.js"
   },
   "repository": {
     "type": "git",
