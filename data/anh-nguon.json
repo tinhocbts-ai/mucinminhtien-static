@@ -41,7 +41,10 @@
     "sua-may-in-nhiet": "apos-200",
     "may-in-nhiet-in-mo": "epson-t82",
     "may-in-nhiet-kho-a5": "epson-t82",
-    "giay-in-nhiet-57-hay-80": "apos-200"
+    "giay-in-nhiet-57-hay-80": "apos-200",
+    "driver-canon-lbp-251dw": "canon-223dw",
+    "may-tinh-khong-nhan-may-in": "brother-b2100d",
+    "hp-m402dn-loi-thuong-gap": "hp-laser-jetpro-m402dne"
   },
   "_khongGan": {
     "loi-5b00-canon": "Lỗi 5B00 là lỗi máy in PHUN. Kho chỉ có Canon laser — dùng ảnh laser cho bài về máy phun là sai sự thật. Giữ thẻ thiết kế cho tới khi chụp được máy phun Canon (G1010/G2010/iX6770).",

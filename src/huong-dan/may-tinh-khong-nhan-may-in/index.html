@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Máy Tính Không Nhận Máy In: 8 Bước Kiểm Tra Theo Thứ Tự</title>
+<meta name="description" content="Máy in không hiện trong danh sách thiết bị? Kiểm tra theo thứ tự cáp, cổng USB, Device Manager, driver, Print Spooler và lớp mạng để tìm đúng điểm hỏng.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mucinminhtien.com/huong-dan/may-tinh-khong-nhan-may-in/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Mực in Minh Tiến">
+<meta property="og:title" content="Máy tính không nhận máy in: 8 bước kiểm tra theo thứ tự">
+<meta property="og:description" content="Tách bạch lỗi máy in, lỗi cáp, lỗi driver và lỗi mạng bằng một trình tự kiểm tra không bỏ sót.">
+<meta property="og:url" content="https://mucinminhtien.com/huong-dan/may-tinh-khong-nhan-may-in/">
+<meta property="og:image" content="https://mucinminhtien.com/assets/img/hero/may-tinh-khong-nhan-may-in.webp">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Máy tính không nhận máy in: 8 bước kiểm tra theo thứ tự",
+  "description": "Trình tự kiểm tra khi máy in không xuất hiện trong danh sách thiết bị: máy in, cáp, cổng USB, Device Manager, driver, Print Spooler, lớp mạng và máy in chia sẻ.",
+  "author": { "@id": "https://mucinminhtien.com/#organization" },
+  "publisher": { "@id": "https://mucinminhtien.com/#organization" },
+  "datePublished": "2026-08-10",
+  "dateModified": "2026-08-10",
+  "mainEntityOfPage": "https://mucinminhtien.com/huong-dan/may-tinh-khong-nhan-may-in/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Máy tính không nhận máy in khác gì máy in báo Offline?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Khác nhau ở chỗ máy in có xuất hiện trong danh sách thiết bị hay không. Báo Offline nghĩa là Windows đã biết máy in đó, chỉ là hiện không liên lạc được — thường do hàng đợi kẹt, dịch vụ in treo hoặc IP đã đổi. Không nhận nghĩa là máy in không hiện ra chút nào, và khi đó phải đi từ tầng thấp hơn: cáp, cổng, nguồn và driver." }
+    },
+    {
+      "@type": "Question",
+      "name": "Vì sao không nên cắm máy in qua hub USB?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Máy in cần dòng điện ổn định và đường truyền không bị chia sẻ. Hub không có nguồn riêng thường không cấp đủ, khiến máy in lúc nhận lúc không, hoặc nhận rồi rớt giữa lệnh in. Cắm thẳng vào cổng phía sau thùng máy tính là cách ổn định nhất vì cổng sau nối trực tiếp lên bo mạch chủ, còn cổng trước đi qua dây nối trong thùng máy." }
+    },
+    {
+      "@type": "Question",
+      "name": "Trong Device Manager thấy Unknown device thì làm gì?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Dấu hiệu đó cho biết phần cứng đã được nhận nhưng Windows chưa có driver phù hợp — tin tốt vì cáp và cổng đều ổn. Việc cần làm là cài driver đúng model và đúng kiến trúc hệ điều hành, tải từ trang chính thức của hãng. Sau khi cài xong, thiết bị sẽ chuyển từ Unknown device sang đúng tên máy in." }
+    },
+    {
+      "@type": "Question",
+      "name": "Máy in dùng chung từ máy khác không vào được thì sao?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Máy in chia sẻ chỉ hoạt động khi máy tính đang giữ máy in đó bật và không ở chế độ ngủ. Ngoài ra hai máy phải bật tính năng dò tìm mạng, cùng một mạng nội bộ, và tài khoản truy cập phải có quyền. Nếu văn phòng phụ thuộc nhiều vào một máy in, giải pháp bền hơn là nối máy in thẳng vào mạng bằng cổng LAN thay vì chia sẻ qua một máy tính." }
+    },
+    {
+      "@type": "Question",
+      "name": "Sau khi cập nhật Windows thì máy in biến mất?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Bản cập nhật đôi khi thay driver của hãng bằng driver cơ bản của Windows, hoặc gỡ hẳn thiết bị khỏi danh sách. Cách xử lý là gỡ sạch mục máy in còn sót, khởi động lại máy tính rồi cài lại driver chính thức của hãng theo đúng model. Trường hợp nhiều máy trong văn phòng cùng mất sau một đợt cập nhật thì nên cài lại đồng loạt cho gọn." }
+    },
+    {
+      "@type": "Question",
+      "name": "Chi phí gọi kỹ thuật viên cài lại máy in khoảng bao nhiêu?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Đây là nhóm lỗi phần mềm nên không tốn tiền linh kiện. Phí kiểm tra và cài đặt tận nơi từ 100.000đ, gồm cài driver, khai cổng in và in thử. Nếu cần đặt IP tĩnh và chia sẻ máy in cho nhiều máy tính trong văn phòng thì báo trước số lượng máy để được báo giá trọn gói." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
+<div id="site-header"></div>
+
+<main id="main-content">
+<!--HOWTO totalTime="PT20M" from="Bước 1" to="Bảng tra"-->
+  <div class="container">
+    <p class="breadcrumb"><a href="../../index.html">Trang chủ</a> / <a href="../">Hướng dẫn</a> / Máy tính không nhận máy in</p>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="prose">
+        <span class="post-tag">Cài đặt</span>
+        <h1 style="margin:12px 0 6px">Máy tính không nhận máy in: 8 bước kiểm tra theo thứ tự</h1>
+        <p class="post-meta">Cập nhật: 10/08/2026 · Áp dụng cho Windows 10 và Windows 11, máy in kết nối USB, LAN, Wi-Fi và máy in chia sẻ</p>
+
+        <figure>
+          <img src="../../assets/img/hero/may-tinh-khong-nhan-may-in.webp" alt="Máy tính không nhận máy in: 8 bước kiểm tra theo thứ tự"
+               width="1200" height="675" fetchpriority="high" style="border-radius:var(--radius-sm)">
+        </figure>
+
+        <p><strong>Việc quan trọng nhất khi máy tính không nhận máy in là kiểm tra đúng thứ tự từ dưới lên: máy in, cáp, cổng, hệ điều hành, rồi mới tới driver và mạng.</strong> Nhảy thẳng vào cài lại driver là cách mất thời gian nhất, vì nếu lỗi nằm ở cáp hay cổng USB thì cài mười lần cũng vẫn thế.</p>
+
+        <!--TOC-->
+
+        <h2>Phân biệt: không nhận và báo Offline là hai chuyện khác nhau</h2>
+        <p>Trước khi làm gì, xác định bạn đang ở tình huống nào — hai tình huống này đi theo hai hướng hoàn toàn khác.</p>
+        <ul>
+          <li><strong>Máy in không hiện trong danh sách thiết bị.</strong> Windows chưa biết có máy in nào. Đây là nội dung bài này.</li>
+          <li><strong>Máy in có trong danh sách nhưng báo Offline hoặc lệnh in nằm im.</strong> Windows đã biết máy in, chỉ là không liên lạc được. Xử lý theo bài <a href="../may-in-khong-in-duoc/">máy in không in được, báo Offline</a>.</li>
+        </ul>
+        <p>Mở danh sách máy in bằng cách nhấn tổ hợp phím Windows và chữ R, gõ <strong>control printers</strong> rồi Enter. Nhìn vào đó là biết mình thuộc trường hợp nào.</p>
+
+        <h2>Bước 1 — Xác nhận máy in tự nó vẫn sống</h2>
+        <p>Bước này mất một phút và loại trừ được nửa vấn đề. Gần như mọi máy in đều in được trang cấu hình bằng tổ hợp nút trên chính máy, không cần máy tính.</p>
+        <ul>
+          <li><strong>In được trang cấu hình</strong> — máy in hoàn toàn tốt. Vấn đề nằm ở cáp, cổng, driver hoặc mạng. Đi tiếp bước 2.</li>
+          <li><strong>Không in được, đèn báo lỗi</strong> — lỗi ở chính máy in. Đọc đèn báo hoặc màn hình rồi xử lý theo lỗi cụ thể trong mục <a href="../">hướng dẫn sửa lỗi máy in</a>.</li>
+        </ul>
+        <p>Với máy nối mạng, trang cấu hình còn cho biết địa chỉ IP hiện tại — thông tin cần đến ở bước 6.</p>
+
+        <h2>Bước 2 — Đổi cáp và đổi cổng USB</h2>
+        <p>Đây là nguyên nhân bị đánh giá thấp nhất, nhưng chiếm tỉ lệ rất cao trong các ca chúng tôi nhận, đặc biệt ở máy đã dùng nhiều năm.</p>
+        <ol>
+          <li><strong>Cắm thẳng vào cổng phía sau thùng máy tính.</strong> Cổng sau nối trực tiếp lên bo mạch chủ; cổng trước đi qua dây nối bên trong thùng và hay tiếp xúc kém.</li>
+          <li><strong>Bỏ hub USB.</strong> Hub không có nguồn riêng thường không cấp đủ dòng cho máy in, gây hiện tượng lúc nhận lúc không.</li>
+          <li><strong>Đổi sang cáp khác.</strong> Cáp USB máy in hay bị gãy ngầm ở đoạn sát đầu cắm, nhìn ngoài không thấy gì.</li>
+          <li><strong>Tránh dây nối dài.</strong> Cáp càng dài tín hiệu càng yếu, nhất là cáp rẻ tiền.</li>
+          <li><strong>Thử cắm máy in sang một máy tính khác.</strong> Máy kia nhận được thì lỗi nằm ở máy tính đầu tiên.</li>
+        </ol>
+
+        <h2>Bước 3 — Xem Device Manager để biết phần cứng đã tới chưa</h2>
+        <p>Đây là bước phân định rõ nhất giữa lỗi phần cứng và lỗi phần mềm, nhưng ít người dùng phổ thông biết mở.</p>
+        <ol>
+          <li>Nhấn tổ hợp phím Windows và chữ X, chọn Device Manager, hoặc nhấn Windows và R rồi gõ <strong>devmgmt.msc</strong>.</li>
+          <li>Bật máy in và cắm cáp. Quan sát danh sách khi cắm vào và rút ra.</li>
+          <li>Đọc kết quả:</li>
+        </ol>
+        <ul>
+          <li><strong>Danh sách nhấp nháy, hiện thêm một mục khi cắm</strong> — phần cứng đã được nhận. Lỗi thuộc về driver, đi tiếp bước 4.</li>
+          <li><strong>Hiện mục có dấu chấm than vàng hoặc Unknown device</strong> — đã nhận thiết bị nhưng chưa có driver phù hợp. Đây là tin tốt, chỉ cần cài đúng driver.</li>
+          <li><strong>Không có gì thay đổi khi cắm vào rút ra</strong> — tín hiệu chưa tới máy tính. Quay lại bước 2, đổi cáp và đổi cổng.</li>
+        </ul>
+
+        <h2>Bước 4 — Cài driver đúng model và đúng kiến trúc</h2>
+        <p>Chỉ tới bước này mới nên nghĩ tới driver. Hai điều kiện phải đúng cùng lúc: đúng model máy in và đúng kiến trúc hệ điều hành.</p>
+        <ul>
+          <li><strong>Tải từ trang chính thức của hãng.</strong> Driver máy in luôn miễn phí; trang tổng hợp bên thứ ba hay gói kèm phần mềm rác.</li>
+          <li><strong>Chọn đúng 32-bit hay 64-bit.</strong> Kiểm tra trong Settings, mục About, dòng System type.</li>
+          <li><strong>Windows 11 chưa có bản riêng thì dùng bản Windows 10 64-bit.</strong> Hai hệ dùng chung kiến trúc driver.</li>
+          <li><strong>Cài đúng thứ tự với kết nối USB:</strong> chạy bản cài trước, chỉ cắm cáp khi được yêu cầu.</li>
+        </ul>
+        <p>Hướng dẫn chi tiết cho dòng Canon LBP có ở bài <a href="../driver-canon-lbp-251dw/">driver Canon LBP 251dw, 252dw</a>. Các kiểu kết nối khác xem <a href="../cach-cai-dat-may-in/">cách cài đặt máy in vào máy tính</a>.</p>
+
+        <h2>Bước 5 — Dọn sạch các mục máy in cũ còn sót</h2>
+        <p>Máy tính đã cài đi cài lại nhiều lần thường tồn một đống mục rác. Chúng tranh nhau cùng một cổng và làm bản cài mới báo lỗi.</p>
+        <ol>
+          <li>Mở danh sách máy in, xoá hết các mục liên quan tới máy in đang xử lý.</li>
+          <li>Khởi động lại dịch vụ in: nhấn Windows và R, gõ <strong>services.msc</strong>, tìm Print Spooler, chuột phải chọn khởi động lại.</li>
+          <li>Khởi động lại máy tính. Bước này không bỏ qua được vì Windows chỉ dọn hẳn cổng in cũ sau khi khởi động lại.</li>
+          <li>Cài lại driver từ đầu.</li>
+        </ol>
+
+        <h2>Bước 6 — Máy in nối mạng: đối chiếu lớp mạng</h2>
+        <p>Với máy in dùng cổng LAN hoặc Wi-Fi, nguyên nhân phổ biến nhất là máy tính và máy in không nằm cùng một mạng nội bộ.</p>
+        <ol>
+          <li>In trang cấu hình từ máy in để lấy địa chỉ IP thật.</li>
+          <li>Trên máy tính, nhấn Windows và R, gõ <strong>cmd</strong>, rồi gõ <strong>ipconfig</strong> để xem IP máy tính.</li>
+          <li>So ba cụm số đầu của hai địa chỉ — phải giống nhau, ví dụ cùng bắt đầu bằng 192.168.1.</li>
+          <li>Gõ lệnh <strong>ping</strong> kèm IP máy in. Có phản hồi nghĩa là đường mạng thông, lỗi nằm ở driver hoặc cổng in. Không phản hồi thì lỗi nằm ở mạng.</li>
+        </ol>
+        <p>Trường hợp hay gặp trong văn phòng: máy tính nối Wi-Fi khách còn máy in cắm dây vào mạng nội bộ. Hai mạng tách biệt nên không bao giờ thấy nhau, dù đứng cạnh nhau trong cùng phòng.</p>
+
+        <h2>Bước 7 — Máy in chia sẻ từ một máy tính khác</h2>
+        <p>Kiểu dùng này rất phổ biến ở văn phòng nhỏ và cũng hay hỏng nhất, vì nó phụ thuộc vào một máy tính khác.</p>
+        <ul>
+          <li><strong>Máy tính đang giữ máy in phải đang bật</strong> và không ở chế độ ngủ. Đây là lý do số một khiến in được buổi sáng, chiều thì không.</li>
+          <li><strong>Cả hai máy phải bật tính năng dò tìm mạng</strong> và cùng một mạng nội bộ.</li>
+          <li><strong>Tài khoản truy cập phải có quyền.</strong> Đổi mật khẩu trên máy giữ máy in là các máy khác mất kết nối.</li>
+          <li><strong>Bản cập nhật Windows có thể tắt tính năng chia sẻ cũ</strong> vì lý do bảo mật.</li>
+        </ul>
+        <div class="callout">
+          <strong>Giải pháp bền hơn:</strong> nếu văn phòng phụ thuộc nhiều vào một máy in, hãy nối máy in thẳng vào mạng bằng cổng LAN và cài trên từng máy tính theo IP tĩnh. Cách này bỏ được hẳn sự phụ thuộc vào một máy tính cụ thể.
+        </div>
+
+        <h2>Bước 8 — Loại trừ cập nhật hệ điều hành và phần mềm bảo mật</h2>
+        <ul>
+          <li><strong>Máy in biến mất ngay sau một đợt cập nhật Windows</strong> — bản cập nhật đã thay driver hãng bằng driver cơ bản, hoặc gỡ hẳn thiết bị. Cài lại driver chính thức.</li>
+          <li><strong>Phần mềm diệt virus hoặc tường lửa chặn</strong> — hay gặp với máy in mạng. Tạm tắt để thử, nếu đúng thì thêm ngoại lệ chứ đừng tắt hẳn.</li>
+          <li><strong>Máy tính công ty bị khoá chính sách</strong> — không cài được driver do không đủ quyền quản trị. Cần người quản trị hệ thống cấp quyền.</li>
+        </ul>
+
+        <h2>Bảng tra: dấu hiệu nào ứng với nguyên nhân nào</h2>
+        <div class="price-table-wrap">
+          <table class="price-table">
+            <thead><tr><th>Biểu hiện</th><th>Nguyên nhân</th><th>Cách xử lý</th><th style="width:120px">Chi phí</th></tr></thead>
+            <tbody>
+              <tr><td>Máy in không in nổi trang cấu hình</td><td>Lỗi ở chính máy in</td><td>Đọc đèn báo, xử lý theo lỗi cụ thể</td><td class="price">tuỳ lỗi</td></tr>
+              <tr><td>Cắm vào rút ra, Device Manager không đổi</td><td>Cáp đứt ngầm hoặc cổng USB hỏng</td><td>Đổi cáp, cắm cổng sau, bỏ hub</td><td class="price">0 đ</td></tr>
+              <tr><td>Hiện Unknown device có dấu chấm than</td><td>Chưa có driver phù hợp</td><td>Cài driver đúng model và kiến trúc</td><td class="price">0 đ</td></tr>
+              <tr><td>Bản cài chạy giữa chừng rồi lỗi</td><td>Sai kiến trúc, hoặc còn mục máy in cũ chiếm cổng</td><td>Dọn mục cũ, khởi động lại, cài lại</td><td class="price">0 đ</td></tr>
+              <tr><td>Máy in mạng ping không phản hồi</td><td>Khác lớp mạng hoặc rớt mạng</td><td>Đối chiếu IP, nối lại mạng cho máy in</td><td class="price">0 đ</td></tr>
+              <tr><td>Sáng in được, chiều thì không</td><td>Máy tính giữ máy in chia sẻ đã ngủ hoặc tắt</td><td>Tắt chế độ ngủ, hoặc chuyển sang nối LAN</td><td class="price">0 đ</td></tr>
+              <tr><td>Cả văn phòng cùng mất máy in một lúc</td><td>Cập nhật Windows hoặc máy chủ chia sẻ tắt</td><td>Cài lại driver đồng loạt</td><td class="price">từ 100.000 đ</td></tr>
+              <tr><td>Nhận máy in nhưng in ra chữ mờ, sọc</td><td>Không phải lỗi kết nối, mà là lỗi hộp mực</td><td>Xử lý theo lỗi bản in</td><td class="price">tuỳ lỗi</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="price-note">Nhóm lỗi này là lỗi phần mềm và kết nối nên không tốn tiền linh kiện. Cần người làm giúp tận nơi tại TP.HCM thì gọi {{hotlineDisplay}}.</p>
+
+        <h2>Khi nào nên gọi kỹ thuật viên</h2>
+        <ul>
+          <li>Đã đổi cáp, đổi cổng, đổi máy tính mà vẫn không nhận.</li>
+          <li>Máy in nối mạng công ty có phân vùng, cần người biết cấu hình mạng.</li>
+          <li>Cần cài và chia sẻ cho nhiều máy tính trong văn phòng cùng lúc.</li>
+          <li>Danh sách máy in đầy mục rác không xoá được, cần dọn sạch cấp hệ thống.</li>
+          <li>Máy in dùng cho công việc gấp, không có thời gian thử từng bước.</li>
+        </ul>
+
+        <h2>Báo giá cài đặt và xử lý kết nối máy in tận nơi</h2>
+        <div class="price-table-wrap">
+          <table class="price-table">
+            <thead><tr><th>Hạng mục</th><th>Áp dụng</th><th style="width:150px">Giá tham khảo</th></tr></thead>
+            <tbody>
+              <tr><td>Kiểm tra, cài driver và in thử</td><td>Một máy tính</td><td class="price">từ 100.000 đ</td></tr>
+              <tr><td>Dọn mục máy in rác, cài lại từ đầu</td><td>Một máy tính</td><td class="price">từ 100.000 đ</td></tr>
+              <tr><td>Đặt IP tĩnh, khai cổng in cho máy in mạng</td><td>Máy in có cổng LAN hoặc Wi-Fi</td><td class="price">từ 100.000 đ</td></tr>
+              <tr><td>Chia sẻ máy in cho nhiều máy tính</td><td>Văn phòng</td><td class="price">Báo giá theo số máy</td></tr>
+              <tr><td>Xử lý lỗi bản in kèm theo</td><td>Mờ, sọc, lem, kẹt giấy</td><td class="price">tuỳ lỗi, báo trước khi làm</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Xem đầy đủ hạng mục và cam kết ở trang <a href="../../dich-vu/">dịch vụ sửa máy in tận nơi TP.HCM</a>.</p>
+
+        <figure>
+          <img src="../../assets/img/info/may-tinh-khong-nhan-may-in.webp" alt="Tóm tắt các bước: Máy tính không nhận máy in: 8 bước kiểm tra theo thứ tự"
+               width="1000" height="600" loading="lazy" decoding="async" style="border-radius:var(--radius-sm)">
+          <figcaption>Tóm tắt nhanh trình tự kiểm tra trong bài. Lưu ảnh này để làm theo khi không tiện mở web.</figcaption>
+        </figure>
+
+        <h2>Câu hỏi thường gặp</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Máy tính không nhận máy in khác gì máy in báo Offline?</summary>
+          <div>Khác nhau ở chỗ máy in có xuất hiện trong danh sách thiết bị hay không. Báo Offline nghĩa là Windows đã biết máy in đó, chỉ là hiện không liên lạc được — thường do hàng đợi kẹt, dịch vụ in treo hoặc IP đã đổi. Không nhận nghĩa là máy in không hiện ra chút nào, và khi đó phải đi từ tầng thấp hơn: cáp, cổng, nguồn và driver.</div>
+        </details>
+        <details>
+          <summary>Vì sao không nên cắm máy in qua hub USB?</summary>
+          <div>Máy in cần dòng điện ổn định và đường truyền không bị chia sẻ. Hub không có nguồn riêng thường không cấp đủ, khiến máy in lúc nhận lúc không, hoặc nhận rồi rớt giữa lệnh in. Cắm thẳng vào cổng phía sau thùng máy tính là cách ổn định nhất vì cổng sau nối trực tiếp lên bo mạch chủ, còn cổng trước đi qua dây nối trong thùng máy.</div>
+        </details>
+        <details>
+          <summary>Trong Device Manager thấy Unknown device thì làm gì?</summary>
+          <div>Dấu hiệu đó cho biết phần cứng đã được nhận nhưng Windows chưa có driver phù hợp — tin tốt vì cáp và cổng đều ổn. Việc cần làm là cài driver đúng model và đúng kiến trúc hệ điều hành, tải từ trang chính thức của hãng. Sau khi cài xong, thiết bị sẽ chuyển từ Unknown device sang đúng tên máy in.</div>
+        </details>
+        <details>
+          <summary>Máy in dùng chung từ máy khác không vào được thì sao?</summary>
+          <div>Máy in chia sẻ chỉ hoạt động khi máy tính đang giữ máy in đó bật và không ở chế độ ngủ. Ngoài ra hai máy phải bật tính năng dò tìm mạng, cùng một mạng nội bộ, và tài khoản truy cập phải có quyền. Nếu văn phòng phụ thuộc nhiều vào một máy in, giải pháp bền hơn là nối máy in thẳng vào mạng bằng cổng LAN thay vì chia sẻ qua một máy tính.</div>
+        </details>
+        <details>
+          <summary>Sau khi cập nhật Windows thì máy in biến mất?</summary>
+          <div>Bản cập nhật đôi khi thay driver của hãng bằng driver cơ bản của Windows, hoặc gỡ hẳn thiết bị khỏi danh sách. Cách xử lý là gỡ sạch mục máy in còn sót, khởi động lại máy tính rồi cài lại driver chính thức của hãng theo đúng model. Trường hợp nhiều máy trong văn phòng cùng mất sau một đợt cập nhật thì nên cài lại đồng loạt cho gọn.</div>
+        </details>
+        <details>
+          <summary>Chi phí gọi kỹ thuật viên cài lại máy in khoảng bao nhiêu?</summary>
+          <div>Đây là nhóm lỗi phần mềm nên không tốn tiền linh kiện. Phí kiểm tra và cài đặt tận nơi từ 100.000đ, gồm cài driver, khai cổng in và in thử. Nếu cần đặt IP tĩnh và chia sẻ máy in cho nhiều máy tính trong văn phòng thì báo trước số lượng máy để được báo giá trọn gói.</div>
+        </details>
+      </div>
+
+      <div class="prose" style="margin-top:34px">
+        <h2 class="no-toc">Bài viết liên quan</h2>
+        <ul>
+          <li><a href="../may-in-khong-in-duoc/">Máy in không in được, báo Offline: 7 bước khắc phục</a></li>
+          <li><a href="../driver-canon-lbp-251dw/">Driver Canon LBP 251dw, 252dw: tải đúng bản và cách cài</a></li>
+          <li><a href="../cach-cai-dat-may-in/">Cách cài đặt máy in vào máy tính: USB, WiFi, mạng LAN</a></li>
+          <li><a href="../may-in-ra-giay-trang/">Máy in ra giấy trắng: 7 nguyên nhân và cách khắc phục</a></li>
+          <li><a href="../../tra-hop-muc/">Tra hộp mực và linh kiện theo model máy in</a></li>
+          <li><a href="../../dich-vu/">Dịch vụ sửa máy in tận nơi TP.HCM</a></li>
+        </ul>
+      </div>
+
+      <div class="cta-banner" style="margin-top:40px">
+        <h2 class="no-toc">Thử hết cách mà máy tính vẫn không thấy máy in?</h2>
+        <p>Gọi hoặc nhắn Zalo {{hotlineDisplay}} — kỹ thuật viên tới tận nơi tại TP.HCM, dọn sạch cấu hình cũ, cài lại và in thử tới khi chạy.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="tel:{{hotlineTel}}" class="btn btn-outline">Gọi {{hotlineDisplay}}</a>
+          <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn btn-outline">Nhắn Zalo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="../../assets/js/include.js"></script>
+</body>
+</html>

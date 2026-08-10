@@ -594,6 +594,106 @@
         ["../../huong-dan/canon-2900-khong-nhan-hop-muc/", "Canon 2900 không nhận hộp mực: 5 cách xử lý"],
         ["../../muc-in/hop-muc-12a/", "Hộp mực 12A: dùng cho máy nào, giá bao nhiêu"]
       ]
+    },
+    {
+      "slug": "hp-m402dn-loi-thuong-gap",
+      "model": "HP LaserJet Pro M402dn",
+      "crumb": "HP M402dn lỗi thường gặp",
+      "tag": "Máy in HP",
+      "totalTime": "PT30M",
+      "published": "2026-08-10",
+      "apDung": "Áp dụng cho HP LaserJet Pro M402d, M402n, M402dn, M402dw và dòng M403, M426 cùng khung",
+      "h1": "HP LaserJet Pro M402dn: lỗi thường gặp và chi phí vật tư",
+      "title": "HP M402dn: Lỗi Thường Gặp Và Chi Phí Vật Tư Thật",
+      "desc": "HP M402dn báo 59.C0, kẹt giấy, không nhận hộp mực sau cập nhật firmware hay in mờ? Cách xử lý từng lỗi kèm giá vật tư 226A thật trong kho.",
+      "ogTitle": "HP LaserJet Pro M402dn: lỗi thường gặp và chi phí vật tư",
+      "ogDesc": "Máy văn phòng bền, in nhanh, nhưng có ba bệnh đặc trưng. Kèm bảng giá vật tư 226A thật.",
+      "answer": "HP LaserJet Pro M402dn có ba nhóm bệnh đặc trưng: lỗi 59.C0 liên quan cụm sấy và truyền động sấy, kẹt giấy do quả đào và tấm tách giấy khay 1 mòn, và máy không nhận hộp mực sau khi firmware được cập nhật. Ngoài ra là nhóm lỗi bản in thông thường của mọi máy laser. Đây là dòng máy bền và vật tư 226A rất sẵn nên chi phí duy trì thấp.",
+      "specs": [
+        ["Hộp mực", "CF226A (26A) và bản dung lượng cao CF226X (26X)"],
+        ["Số trang mỗi hộp", "Khoảng 3.100 trang với 26A, khoảng 9.000 trang với 26X, ở độ phủ 5%"],
+        ["In hai mặt", "Có, tự động — đó là ý nghĩa chữ d trong tên máy"],
+        ["Kết nối", "USB và cổng mạng LAN. Bản có Wi-Fi là M402dw"],
+        ["Kiểu máy", "Đơn năng — chỉ in, không scan, không copy"],
+        ["Vật tư thay thế", "Trục từ, trục sạc, drum, bao lụa, lô ép, quả đào đều có rời cho mã 226A"]
+      ],
+      "sections": [
+        {
+          "h2": "Chọn 26A hay 26X: tính theo chi phí mỗi trang",
+          "html": "<p>Máy dùng được cả hai mã, phôi giống nhau, chỉ khác lượng mực bên trong. 26A cho khoảng 3.100 trang, 26X cho khoảng 9.000 trang ở cùng độ phủ 5%.</p><p>Cách chọn đúng không nằm ở giá hộp mà ở <strong>chi phí trên mỗi trang</strong>: lấy giá hộp chia cho số trang. Với văn phòng in trên 1.000 trang mỗi tháng, 26X gần như luôn rẻ hơn tính theo trang, đồng thời đỡ công thay hộp. Văn phòng in ít thì 26A hợp hơn vì mực để lâu trong hộp cũng xuống cấp.</p><p>Chi tiết mã mực, danh sách máy dùng chung và giá có ở trang <a href=\"../../muc-in/hop-muc-cf226a/\">hộp mực 26A / CF226A</a>.</p>"
+        },
+        {
+          "h2": "Lỗi 59.C0 — nhóm cụm sấy và truyền động",
+          "html": "<p>Đây là mã lỗi đặc trưng nhất của dòng M402 và M403. Máy dừng giữa chừng, màn hình hiện mã lỗi và không in tiếp được.</p><p>Mã 59 thuộc nhóm lỗi truyền động, phần lớn liên quan tới cụm sấy: bánh răng truyền động mòn hoặc vỡ răng, mô tơ kéo cụm sấy yếu, hoặc cụm sấy bị kẹt do mảnh giấy còn sót.</p><p><strong>Việc nên làm trước khi gọi thợ:</strong></p><ol><li>Tắt máy, rút điện, đợi máy nguội hẳn ít nhất 20 phút — cụm sấy rất nóng.</li><li>Mở nắp sau, soi đèn kiểm tra xem có mảnh giấy nào kẹt trong đường sấy không. Gỡ theo chiều giấy đi.</li><li>Mở khay, rút hộp mực, kiểm tra khoang máy có dị vật không.</li><li>Cắm điện, bật lại. Lỗi hết nghĩa là chỉ do kẹt tạm thời.</li></ol><p>Lỗi trở lại sau vài trang thì gần như chắc chắn là bánh răng hoặc mô tơ, cần mở máy — đây là ranh giới nên dừng tự làm.</p>"
+        },
+        {
+          "h2": "Kẹt giấy liên tục ở khay 1",
+          "html": "<p>Bệnh tuổi tác điển hình. Hai chi tiết mòn cùng lúc và người dùng thường chỉ thay một cái rồi tưởng chưa hết bệnh.</p><ul><li><strong>Quả đào khay 1.</strong> Bề mặt cao su chai bóng, không bám giấy nữa. Máy kêu nhưng giấy nằm im, hoặc kéo lệch.</li><li><strong>Tấm tách giấy (load giấy) khay 1.</strong> Mòn thì máy kéo nhiều tờ cùng lúc rồi báo kẹt.</li></ul><p>Hai chi tiết này rẻ và nên thay cùng lúc. Cách nhận diện chi tiết theo triệu chứng có ở bài <a href=\"../../huong-dan/may-in-khong-keo-giay/\">máy in không kéo giấy</a>.</p><p>Nếu giấy đi qua được nhưng nhăn hoặc nhòe ở đoạn cuối, vấn đề chuyển sang cụm sấy chứ không còn là chuyện kéo giấy.</p>"
+        },
+        {
+          "h2": "Máy không nhận hộp mực sau khi cập nhật firmware",
+          "html": "<p>Đây là tình huống khiến nhiều văn phòng bối rối vì máy đang chạy tốt, không ai đụng vào, tự nhiên báo lỗi hộp mực.</p><p>Firmware của máy có thể được cập nhật tự động qua mạng, và bản mới thay đổi cách máy kiểm tra chip trên hộp mực. Hộp mực đang dùng vẫn nguyên vẹn nhưng máy không còn chấp nhận chip đó nữa.</p><p><strong>Cách xử lý theo thứ tự:</strong></p><ol><li>Rút hộp mực, lau tiếp điểm chip bằng khăn khô mềm, lắp lại. Loại trừ khả năng chỉ là bám bụi.</li><li>Thử một hộp mực khác còn tốt để xác định lỗi ở hộp hay ở máy.</li><li>Nếu đúng là do firmware, thay chip tương thích với bản firmware hiện tại là cách nhanh nhất — chip CF226A bán rời và rẻ.</li><li>Tắt chế độ tự cập nhật firmware trong menu máy để tránh lặp lại.</li></ol><p>Trường hợp máy vẫn nhận hộp mực nhưng báo sắp hết trong khi mực còn nhiều, đọc thêm <a href=\"../../huong-dan/cach-reset-may-in-hp/\">cách reset máy in HP</a>.</p>"
+        },
+        {
+          "h2": "Bản in mờ, sọc, lem trên M402dn",
+          "html": "<p>Nhóm lỗi chung của mọi máy laser, nhưng trên dòng này có một điểm riêng đáng nhớ: vì máy in nhanh và chạy khối lượng lớn, các chi tiết trong hộp mực mòn sớm hơn cảm nhận thông thường.</p><ul><li><strong>In mờ đều, nhạt dần</strong> — mực sắp cạn hoặc trục từ 226A đã yếu.</li><li><strong>Sọc đen dọc</strong> — drum xước hoặc gạt mực mẻ, xem <a href=\"../../huong-dan/may-in-bi-soc-den-doc/\">bài về sọc đen dọc</a>.</li><li><strong>Vệt trắng dọc</strong> — vật lạ chặn khe mực hoặc trục từ mòn theo dải, xem <a href=\"../../huong-dan/may-in-bi-soc-trang-doc/\">sọc trắng dọc</a>.</li><li><strong>Sọc ngang lặp đều</strong> — đo chu kỳ để biết trục nào hỏng, xem <a href=\"../../huong-dan/may-in-bi-soc-ngang/\">sọc ngang</a>.</li><li><strong>Chạm tay dính mực</strong> — bao lụa rách hoặc lô ép mòn, thuộc cụm sấy.</li></ul>"
+        },
+        {
+          "h2": "Bảng giá vật tư 226A thật trong kho",
+          "html": "<p>Vật tư rời cho dòng M402 rất sẵn, đó là lý do máy này đáng sửa hơn nhiều dòng đời mới. Số lượng ghi rõ trong ngoặc vì nhiều mã bán theo bộ.</p><div class=\"price-table-wrap\"><table class=\"price-table\"><thead><tr><th>Vật tư cho M402dn</th><th>Quy cách</th><th style=\"width:130px\">Giá kho</th></tr></thead><tbody><tr><td>Hộp mực 226A / 052</td><td>1 hộp</td><td class=\"price\">160.000 đ</td></tr><tr><td>Chip mực CF226A</td><td>Bộ 2 con</td><td class=\"price\">30.000 đ</td></tr><tr><td>Drum 226A (phôi chính hãng)</td><td>Bộ 3 cây</td><td class=\"price\">75.000 đ</td></tr><tr><td>Trục từ 226A</td><td>Bộ 5 cây</td><td class=\"price\">130.000 đ</td></tr><tr><td>Trục sạc 226A</td><td>Bộ 5 cây</td><td class=\"price\">175.000 đ</td></tr><tr><td>Bạc phíp 226A</td><td>1 cặp</td><td class=\"price\">50.000 đ</td></tr><tr><td>Bao lụa 402D / 226A</td><td>1 cái</td><td class=\"price\">80.000 đ</td></tr><tr><td>Lô ép HP 226A / 402</td><td>1 cái</td><td class=\"price\">130.000 đ</td></tr><tr><td>Quả đào khay 1</td><td>1 cái</td><td class=\"price\">50.000 đ</td></tr><tr><td>Load giấy, tấm tách giấy khay 1</td><td>1 cái</td><td class=\"price\">50.000 đ</td></tr><tr><td>Lò xo kéo hộp mực 226A</td><td>Bộ 5</td><td class=\"price\">60.000 đ</td></tr></tbody></table></div><p>Giá vật tư rời, chưa gồm công thay. Mua lẻ từng cây thì đơn giá cao hơn giá chia trung bình của bộ.</p>"
+        }
+      ],
+      "traRows": [
+        ["Màn hình báo 59.C0, máy dừng giữa chừng", "Kẹt giấy trong cụm sấy, bánh răng hoặc mô tơ truyền động", "Gỡ kẹt trước; tái phát thì mở máy kiểm tra truyền động", "Báo giá theo tình trạng"],
+        ["Kêu nhưng giấy nằm im ở khay 1", "Quả đào chai", "Thay quả đào khay 1", "50.000 đ"],
+        ["Kéo nhiều tờ cùng lúc rồi báo kẹt", "Tấm tách giấy mòn", "Thay load giấy khay 1", "50.000 đ"],
+        ["Báo lỗi hộp mực dù hộp còn nguyên", "Firmware đã cập nhật, chip không còn được chấp nhận", "Lau tiếp điểm; không hết thì thay chip", "30.000 đ/bộ 2 con"],
+        ["In mờ đều, nhạt dần", "Mực sắp cạn hoặc trục từ yếu", "Nạp mực hoặc thay trục từ 226A", "từ 26.000 đ/cây"],
+        ["Sọc đen dọc sắc nét", "Drum xước", "Thay drum 226A", "từ 25.000 đ/cây"],
+        ["Chạm tay dính mực", "Bao lụa rách hoặc lô ép mòn", "Thay bao lụa hoặc lô ép", "80.000 – 130.000 đ"],
+        ["Giấy ra nhăn ở đoạn cuối", "Lô ép mòn không đều", "Thay lô ép", "130.000 đ"]
+      ],
+      "goiTho": [
+        "Lỗi 59.C0 quay lại sau khi đã gỡ kẹt giấy — cần mở máy kiểm tra bánh răng và mô tơ cụm sấy",
+        "Cần thay bao lụa hoặc lô ép — cụm sấy chạy nhiệt cao, tháo sai dễ đứt thanh nhiệt",
+        "Máy báo lỗi hộp mực dù đã thử hộp khác còn tốt",
+        "Máy in mạng trong văn phòng, cần đặt IP tĩnh và cài lại cho nhiều máy tính",
+        "Máy dùng khối lượng lớn hằng ngày, cần xử lý dứt điểm trong một lần hẹn"
+      ],
+      "giaRows": [
+        ["Kiểm tra, vệ sinh hộp mực và khoang máy", "từ 100.000 đ"],
+        ["Nạp mực hộp 226A", "80.000 – 150.000 đ"],
+        ["Thay chip hộp mực", "30.000 đ/bộ 2 con + công"],
+        ["Thay drum, trục từ, trục sạc", "từ 25.000 đ/cây + công"],
+        ["Thay bao lụa cụm sấy", "80.000 đ + công"],
+        ["Thay lô ép", "130.000 đ + công"],
+        ["Thay quả đào và load giấy khay 1", "50.000 đ mỗi chi tiết + công"],
+        ["Xử lý lỗi 59.C0", "Báo giá sau khi kiểm tra"]
+      ],
+      "phongTranh": [
+        "<strong>Thay quả đào và load giấy cùng lúc.</strong> Hai chi tiết này mòn song song, thay một cái thì vài tuần sau lại kẹt giấy vì cái còn lại.",
+        "<strong>Tắt tự động cập nhật firmware</strong> nếu văn phòng đang dùng hộp mực nạp lại — tránh tình huống máy tự nhiên không nhận hộp mực.",
+        "<strong>Dùng giấy 70–80 gsm khô ráo.</strong> Máy in nhanh nên giấy ẩm gây kẹt và nhăn nhiều hơn hẳn so với máy chậm.",
+        "<strong>Vệ sinh khoang hộp mực mỗi lần nạp mực.</strong> Bụi mực tích tụ là nguồn gốc của lỗi tiếp điểm và lỗi cụm quang về sau.",
+        "<strong>In đều đặn thay vì để máy nghỉ dài.</strong> Bánh răng và lô ép chịu tải tốt hơn khi máy chạy đều so với khi nằm không rồi in dồn."
+      ],
+      "faqs": [
+        { "q": "HP M402dn dùng hộp mực gì, 26A và 26X khác nhau ra sao?", "a": "Máy dùng hộp mực CF226A hoặc bản dung lượng cao CF226X. Phôi giống nhau, khác nhau ở lượng mực: 26A cho khoảng 3.100 trang, 26X khoảng 9.000 trang ở độ phủ 5%. Văn phòng in nhiều nên chọn 26X vì chi phí trên mỗi trang thấp hơn và đỡ công thay hộp; in ít thì 26A hợp hơn." },
+        { "q": "Lỗi 59.C0 trên HP M402dn có tự sửa được không?", "a": "Chỉ tự làm được phần gỡ kẹt giấy trong đường sấy. Tắt máy, rút điện, đợi nguội ít nhất 20 phút rồi mở nắp sau soi đèn kiểm tra, gỡ mảnh giấy theo chiều giấy đi. Nếu lỗi quay lại sau vài trang thì nguyên nhân nằm ở bánh răng hoặc mô tơ truyền động cụm sấy, cần mở máy và nên để kỹ thuật viên làm." },
+        { "q": "Vì sao máy đang chạy tốt bỗng báo lỗi hộp mực?", "a": "Nguyên nhân phổ biến là firmware của máy vừa được cập nhật qua mạng và bản mới thay đổi cách kiểm tra chip trên hộp mực. Hộp mực vẫn nguyên vẹn nhưng máy không chấp nhận chip đó nữa. Lau tiếp điểm chip trước; nếu không hết thì thay chip tương thích, đây là linh kiện rời rẻ tiền. Nên tắt tự động cập nhật firmware sau đó." },
+        { "q": "M402dn kẹt giấy liên tục ở khay 1 thì thay gì?", "a": "Thay cả quả đào và tấm tách giấy khay 1 cùng lúc. Quả đào chai làm máy kêu mà giấy nằm im hoặc kéo lệch; tấm tách mòn làm máy kéo nhiều tờ rồi báo kẹt. Hai chi tiết mòn song song nên thay một cái thì vài tuần sau lại kẹt vì cái còn lại." },
+        { "q": "Vật tư cho M402dn có sẵn và đắt không?", "a": "Rất sẵn và rẻ so với mặt bằng, đó là lý do dòng máy này đáng sửa hơn nhiều dòng đời mới. Kho có đủ hộp mực, chip, drum, trục từ, trục sạc, bạc phíp, bao lụa, lô ép, quả đào và load giấy cho mã 226A. Bảng giá cụ thể có ngay trong bài." },
+        { "q": "M402dn có in hai mặt tự động không?", "a": "Có. Chữ d trong tên máy chính là ký hiệu in hai mặt tự động, và chữ n là có cổng mạng. Bản M402dw có thêm Wi-Fi. Nếu in hai mặt bị lệch trang hoặc ngược đầu thì đó là chuyện thiết lập trong hộp thoại in chứ không phải máy hỏng." }
+      ],
+      "ctaTitle": "HP M402dn báo lỗi giữa giờ làm việc?",
+      "related": [
+        ["../../muc-in/hop-muc-cf226a/", "Hộp mực 26A / CF226A: dùng cho máy nào, giá bao nhiêu"],
+        ["../../huong-dan/may-in-khong-keo-giay/", "Máy in không kéo giấy: 6 nguyên nhân và cách khắc phục"],
+        ["../../huong-dan/cach-reset-may-in-hp/", "Cách reset máy in HP và lỗi chấm than 107a, 107w"],
+        ["../../huong-dan/may-in-bi-soc-ngang/", "Máy in bị sọc ngang: 6 nguyên nhân và cách khắc phục"],
+        ["../../huong-dan/may-in-bi-lem-muc/", "Máy in bị lem mực: 6 nguyên nhân và cách khắc phục"],
+        ["../../huong-dan/may-tinh-khong-nhan-may-in/", "Máy tính không nhận máy in: 8 bước kiểm tra"]
+      ]
     }
   ]
 }

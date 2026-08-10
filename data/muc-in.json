@@ -264,6 +264,7 @@
         { "q": "26A và 26X khác nhau thế nào?", "a": "Cùng máy, cùng kích thước lắp, chỉ khác lượng mực bên trong. 26A in khoảng 3.100 trang, 26X khoảng 9.000 trang. Giá hộp 26X cao hơn nhưng tính trên mỗi trang thì rẻ hơn, nên văn phòng in nhiều thường chọn 26X." }
       ],
       "related": [
+        { "href": "../../model/hp-m402dn-loi-thuong-gap/", "text": "HP LaserJet Pro M402dn: lỗi thường gặp và chi phí vật tư" },
         { "href": "../../huong-dan/cach-reset-may-in-hp/", "text": "Cách reset máy in HP và xử lý lỗi chấm than" },
         { "href": "../../huong-dan/phan-biet-muc-in-chinh-hang/", "text": "Phân biệt mực in chính hãng và mực trôi nổi" },
         { "href": "../../huong-dan/cach-chon-muc-in/", "text": "Cách chọn mực in đúng máy, bền máy và tiết kiệm" }
