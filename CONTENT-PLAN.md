@@ -96,8 +96,8 @@ Mỗi bài thêm đúng 3 thứ: **1 bảng tra**, **số liệu chi phí thật
 
 | ☐ | Slug | Tiêu đề | Bán được gì |
 |---|---|---|---|
-| ☐ | `may-in-ra-giay-trang` | Máy in ra giấy trắng: 6 nguyên nhân và cách xử lý | Drum, trục từ, cụm quang |
-| ☐ | `may-in-bi-lem-muc` | Máy in bị lem mực, dính mực ra tay | Gạt mực, lô sấy |
+| ✅ | `/huong-dan/may-in-ra-giay-trang/` | Máy in ra giấy trắng: 7 nguyên nhân — **2.532 từ** | Drum, trục từ, cụm quang |
+| ✅ | `/huong-dan/may-in-bi-lem-muc/` | Máy in bị lem mực: 6 nguyên nhân — **2.237 từ** | Gạt mực, lô sấy, bao lụa |
 | ☐ | `may-in-in-mo` | Máy in in mờ, chữ nhạt: 7 nguyên nhân theo hãng | Mực đổ, trục từ, drum |
 | ☐ | `in-bi-bong-chu-ghosting` | Bản in bị bóng chữ (ghosting) | Lô sấy, drum, lô ép |
 | ☐ | `in-bi-dom-trang` | Bản in bị đốm trắng, in không đều | Trục từ, mực bột, drum |
@@ -111,7 +111,7 @@ Mỗi bài thêm đúng 3 thứ: **1 bảng tra**, **số liệu chi phí thật
 | ☐ | Slug | Tiêu đề | Bán được gì |
 |---|---|---|---|
 | ☐ | `may-in-ket-giay` | Máy in kẹt giấy: gỡ đúng cách và chống tái phát | Quả đào, bố thắng, lô ép, con lăn |
-| ☐ | `may-in-khong-keo-giay` | Máy in không kéo giấy, nhăn giấy | Quả đào, bố thắng |
+| ✅ | `/huong-dan/may-in-khong-keo-giay/` | Máy in không kéo giấy: 6 nguyên nhân — **2.202 từ** | Quả đào, bố thắng, lô ép |
 | ☐ | `bao-ket-giay-du-khong-ket` | Máy in báo Paper Jam dù không kẹt giấy | Cảm biến, lô sấy |
 | ☐ | `may-in-in-xien-lech` | Máy in nuốt giấy lệch, bản in bị xiên | Con lăn, bố thắng |
 | ☐ | `may-in-keu-to` | Máy in kêu to, có tiếng lạ khi in | Bánh răng, nhông, lô sấy |
@@ -186,28 +186,26 @@ Anh có sẵn linh kiện nhưng không có một chữ nào dẫn về.
 
 ---
 
-## H. CỤM MÃ MỰC (`/muc-in/`) — 11 trang, ý định mua rõ nhất
+## H. CỤM MÃ MỰC (`/muc-in/`) — ✅ ĐÃ XONG 8/11 (10/08/2026)
 
 Mỗi trang trả lời đúng 3 câu: **dùng cho máy nào — giá bao nhiêu — nên mua chính hãng hay nạp lại**.
-Xếp theo **số mã linh kiện thật trong kho** (càng nhiều càng dễ bán kèm).
+Bảng linh kiện + giá sinh tự động từ `data/bang-gia.json` nên luôn khớp hàng thật.
 
-| ☐ | Slug | Mã | Số mã | Giá thấp nhất |
+| ✓ | Trang | Mã | Số mã kho | Ảnh máy thật |
 |---|---|---|---|---|
-| ☐ | `muc-in/hop-muc-35a` | 35A | 33 | 10.000đ |
-| ☐ | `muc-in/hop-muc-12a` | 12A | 28 | 10.000đ |
-| ☐ | `muc-in/hop-muc-49a` | 49A | 18 | 10.000đ |
-| ☐ | `muc-in/hop-muc-cf226a` | 26A / CF226A | 17 | 10.000đ |
-| ☐ | `muc-in/hop-muc-16a` | 16A | 15 | 40.000đ |
-| ☐ | `muc-in/hop-muc-85a` | 85A | 14 | 25.000đ |
-| ☐ | `muc-in/hop-muc-canon-325` | Canon 325 | 14 | 50.000đ |
-| ☐ | `muc-in/hop-muc-107a` | 107A / W1107A | 12 | 20.000đ |
-| ☐ | `muc-in/hop-muc-canon-337` | Canon 337 | 10 | 10.000đ |
-| ☐ | `muc-in/muc-epson-003` | Epson 003 | 9 | 75.000đ |
-| ☐ | `muc-in/hop-muc-brother-tn-2380` | TN-2380 | 3 | 25.000đ |
+| ✅ | `/muc-in/hop-muc-35a/` | 35A | 33 | thẻ thiết kế (kho chưa có máy P1005) |
+| ✅ | `/muc-in/hop-muc-12a/` | 12A | 28 | Canon LBP2900 |
+| ✅ | `/muc-in/hop-muc-49a/` | 49A | 18 | thẻ thiết kế (kho chưa có máy 1320) |
+| ✅ | `/muc-in/hop-muc-cf226a/` | 26A / CF226A | 17 | HP M402DNE |
+| ✅ | `/muc-in/hop-muc-16a/` | 16A | 15 | thẻ thiết kế (kho chưa có máy A3 5200) |
+| ✅ | `/muc-in/hop-muc-85a/` | 85A | 14 | Canon LBP6030 |
+| ✅ | `/muc-in/hop-muc-107a/` | 107A / W1107A | 12 | HP Laser 107w |
+| ✅ | `/muc-in/hop-muc-canon-337/` | Canon 337 | 10 | Canon MF249dw |
+| ☐ | `/muc-in/hop-muc-canon-325/` | Canon 325 | 14 | |
+| ☐ | `/muc-in/muc-epson-003/` | Epson 003 | 9 | |
+| ☐ | `/muc-in/hop-muc-brother-tn-2380/` | TN-2380 | 3 | |
 
-Mỗi trang nhúng link lọc sẵn của công cụ tra cứu: `/tra-hop-muc/?q=35a`.
-
----
+Thêm mã mới: thêm một khối vào `data/muc-in.json` rồi `node build.js` — hub và link chéo tự cập nhật.
 
 ## I. CỤM KIẾN THỨC / TƯ VẤN — 8 bài
 
@@ -258,9 +256,40 @@ Giới hạn thật không nằm ở SEO mà ở tốc độ viết: mỗi phiê
 
 Ảnh không chặn tiến độ: viết xong chạy `npm run anh` là mỗi bài có 2 ảnh ngay.
 
+## BỘ KHUNG CHUẨN CHO BÀI LỖI — rút từ đối thủ đang top (10/08/2026)
+
+Đối thủ mạnh nhất `suamayingiare.com` dùng chung một bộ khung cho toàn cụm lỗi, bài dài **2.500–3.000 từ**:
+
+1. Dấu hiệu nhận biết
+2. Nguyên nhân (mỗi nguyên nhân một H3)
+3. Cách khắc phục tại nhà, từng bước
+4. Khi nào cần gọi kỹ thuật viên
+5. **Báo giá sửa lỗi** ← khối này site ta đang thiếu ở mọi bài
+6. Cách phòng tránh
+7. FAQ
+8. Liên hệ & tổng kết
+
+**Bốn thứ ta hơn được họ** — đã kiểm chứng bằng cách đọc trực tiếp bài của họ:
+
+| Họ | Ta |
+|---|---|
+| Ảnh placeholder SVG, không một ảnh chụp thật nào | 18 ảnh xưởng thật + kho 41.576 ảnh máy in |
+| Bảng giá chỉ nêu khoảng dịch vụ (150.000–600.000đ) | Giá **linh kiện thật** từ 773 mã trong kho |
+| FAQ 3 câu | FAQ 5–6 câu, đẩy hết vào schema |
+| Không có bảng tra triệu chứng → bộ phận | Bảng tra là điểm mạnh cố định của ta |
+
+→ **Nâng mục tiêu độ dài bài lỗi từ 1.400–1.800 lên 2.000–2.500 từ.**
+
+Ghi chú: `linhkienmayingiare.net` mang thương hiệu **Nam Phong** — nhiều khả năng là site của chính anh
+(cùng chủ với `tinhocnamphong`). Nếu đúng thì cụm lỗi bản in sẽ tự cạnh tranh giữa hai domain.
+Anh xác nhận lại giúp; nếu là site nhà thì nên phân vai rõ thay vì viết trùng chủ đề.
+
+---
+
 ## ĐIỀU KIỆN KHÔNG ĐƯỢC BỎ QUA
 
-- [ ] Mỗi bài ≥ 1 bảng tra hoặc danh sách bước đánh số
+- [ ] Mỗi bài ≥ 1 bảng tra triệu chứng → bộ phận → chi phí
+- [ ] Mỗi bài có khối **báo giá** riêng (đối thủ có, ta đang thiếu)
 - [ ] Mỗi bài ≥ 2 ảnh — chạy `npm run anh` là có ngay hero + infographic, không chờ ảnh chụp
 - [ ] Ảnh thật thay dần theo `ANH-CAN-THAY.md`, ghi đè đúng đường dẫn và giữ nguyên kích thước
 - [ ] Mỗi bài ≥ 3 link nội bộ vào, ≥ 3 link ra, và **link tới ít nhất 1 mã hàng cụ thể**
