@@ -31,6 +31,9 @@ Tool tự chọn tấm chưa dùng ở bài nào khác, ưu tiên ảnh nét —
 | ☐ | `/huong-dan/ve-sinh-dau-phun-epson/` | `epson-l3150` | ✅ | Bản in lỗi đặt cạnh bản in chuẩn |
 | ☐ | `/model/canon-2900-chay-lien-tuc/` | `canon-2900` | ✅ | Kỹ thuật viên đang thao tác trên máy in |
 | ☐ | `/model/canon-2900-keo-nhieu-to-giay/` | `canon-2900` | ✅ | Các loại giấy xếp cạnh nhau, thấy rõ định lượng |
+| ☐ | `/model/epson-l1110-nhay-2-den-do/` | `epson-l3150` | ✅ | Bản Nozzle Check trước và sau khi thông |
+| ☐ | `/model/epson-l3110-nhay-2-den-do/` | `epson-l3150` | ✅ | Bản Nozzle Check trước và sau khi thông |
+| ☐ | `/model/epson-l3210-nhay-2-den-do/` | `epson-l3150` | ✅ | Bản Nozzle Check trước và sau khi thông |
 | ☐ | `/model/hp-107a-in-mo-nhat-chu/` | `hp-107a` | ✅ | Bản in lỗi đặt cạnh bản in chuẩn |
 | ☐ | `/muc-in/hop-muc-107a/` | `hp-laser-107w` | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/muc-in/hop-muc-12a/` | `canon-2900` | ✅ | Hộp mực thật trên bàn làm việc |
@@ -41,4 +44,4 @@ Tool tự chọn tấm chưa dùng ở bài nào khác, ưu tiên ảnh nét —
 | ☐ | `/muc-in/hop-muc-canon-337/` | `canon-249dw` | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/muc-in/hop-muc-cf226a/` | `hp-laser-jetpro-m402dne` | ✅ | Hộp mực thật trên bàn làm việc |
 
-**Tổng: 29 bài — 25 bài có ảnh máy thật.**
+**Tổng: 32 bài — 28 bài có ảnh máy thật.**

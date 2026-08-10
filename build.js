@@ -577,6 +577,20 @@ function build() {
     console.log('  ✓ assets/js/bang-gia-data.js (' + lookup.items.length + ' mã)');
   } else { cfg.priceTables = ''; cfg.priceCount = 0; }
 
+  // ---- Danh sach loi theo model cho hub /model/ ({{modelLoiList}}) ----
+  const ML_LIST = path.join(ROOT, 'data', 'model-loi.json');
+  if (fs.existsSync(ML_LIST)) {
+    const ms = JSON.parse(fs.readFileSync(ML_LIST, 'utf8')).models || [];
+    cfg.modelLoiList = ms.map(k => [
+      '        <div class="card post-card">',
+      '          <span class="post-tag">' + escAttr(k.tag) + '</span>',
+      '          <h2><a href="' + k.slug + '/">' + escAttr(k.h1) + '</a></h2>',
+      '          <p>' + escAttr(k.specs[0][1]) + '. ' + escAttr(k.specs[2][1].split('—')[0].trim()) + '.</p>',
+      '          <a class="card-link" href="' + k.slug + '/">Đọc bài viết →</a>',
+      '        </div>'
+    ].join('\n')).join('\n');
+  } else { cfg.modelLoiList = ''; }
+
   // ---- Danh sach ma muc cho trang hub /muc-in/ ({{mucInList}}) ----
   const MUCIN_LIST_FILE = path.join(ROOT, 'data', 'muc-in.json');
   if (fs.existsSync(MUCIN_LIST_FILE)) {
@@ -855,6 +869,67 @@ function build() {
       pagesBuilt.push({ url: outRel.replace(/\\/g, '/'), mtime: mucMtime });
     }
     console.log('  ✓ ' + mucIn.codes.length + ' trang mã mực (muc-in/<slug>/)');
+  }
+
+  // ---- Cum bai loi theo model (/model/<slug>/) tu data/model-loi.json ----
+  // Doi thu lam MOT TRANG MOT MODEL; day la cum duoi theo va vuot.
+  const MODELLOI_FILE = path.join(ROOT, 'data', 'model-loi.json');
+  if (fs.existsSync(MODELLOI_FILE)) {
+    const ml = JSON.parse(fs.readFileSync(MODELLOI_FILE, 'utf8'));
+    const tplML = fs.readFileSync(path.join(SRC, 'templates', 'model-loi.html'), 'utf8');
+    const mlMtime = new Date(Math.max(
+      fs.statSync(MODELLOI_FILE).mtime.getTime(),
+      fs.statSync(path.join(SRC, 'templates', 'model-loi.html')).mtime.getTime()
+    ));
+
+    const bang = (heads, rows, widths) =>
+      '<div class="price-table-wrap"><table class="price-table"><thead><tr>' +
+      heads.map((h, i) => '<th' + (widths && widths[i] ? ' style="width:' + widths[i] + '"' : '') + '>' + escAttr(h) + '</th>').join('') +
+      '</tr></thead><tbody>\n' +
+      rows.map(r => '<tr>' + r.map((c, i) =>
+        '<td' + (i === r.length - 1 && /đ$|kiểm tra$/.test(c) ? ' class="price"' : '') + '>' + c + '</td>').join('') + '</tr>').join('\n') +
+      '\n</tbody></table></div>';
+
+    for (const k of ml.models) {
+      const faqSchema = '<script type="application/ld+json">\n' + JSON.stringify({
+        '@context': 'https://schema.org', '@type': 'FAQPage',
+        mainEntity: k.faqs.map(f => ({
+          '@type': 'Question', name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a }
+        }))
+      }, null, 2) + '\n</script>';
+
+      const dict = Object.assign({}, cfg, {
+        'k.slug': k.slug, 'k.model': escAttr(k.model), 'k.crumb': escAttr(k.crumb),
+        'k.tag': escAttr(k.tag), 'k.h1': escAttr(k.h1), 'k.title': escAttr(k.title),
+        'k.desc': escAttr(k.desc), 'k.ogTitle': escAttr(k.ogTitle), 'k.ogDesc': escAttr(k.ogDesc),
+        'k.answer': escAttr(k.answer), 'k.apDung': escAttr(k.apDung),
+        'k.totalTime': k.totalTime, 'k.published': k.published,
+        'k.updatedVN': k.published.split('-').reverse().join('/'),
+        'k.ctaTitle': escAttr(k.ctaTitle),
+        'k.specTable': bang(['Hạng mục', 'Chi tiết'], k.specs.map(r => [escAttr(r[0]), escAttr(r[1])]), ['180px']),
+        'k.sectionsHtml': k.sections.map(s => '<h2>' + escAttr(s.h2) + '</h2>\n' + s.html).join('\n\n'),
+        'k.traTable': bang(['Dấu hiệu', 'Nguyên nhân', 'Cách xử lý', 'Chi phí'],
+          k.traRows.map(r => r.map(escAttr)), [null, null, null, '130px']),
+        'k.giaTable': bang(['Hạng mục', 'Giá tham khảo'],
+          k.giaRows.map(r => r.map(escAttr)), [null, '160px']),
+        'k.goiThoHtml': '<ul>\n' + k.goiTho.map(x => '          <li>' + escAttr(x) + '</li>').join('\n') + '\n        </ul>',
+        'k.phongTranhHtml': '<ul>\n' + k.phongTranh.map(x => '          <li>' + x + '</li>').join('\n') + '\n        </ul>',
+        'k.faqHtml': k.faqs.map(f =>
+          '        <details>\n          <summary>' + escAttr(f.q) + '</summary>\n' +
+          '          <div>' + escAttr(f.a) + '</div>\n        </details>').join('\n'),
+        'k.faqSchema': faqSchema,
+        'k.relatedHtml': k.related.map(r =>
+          '          <li><a href="' + r[0] + '">' + escAttr(r[1]) + '</a></li>').join('\n')
+      });
+
+      const outRel = path.join('model', k.slug, 'index.html');
+      const outPath = path.join(ROOT, outRel);
+      fs.mkdirSync(path.dirname(outPath), { recursive: true });
+      fs.writeFileSync(outPath, finalize(render(tplML, dict, outRel), outRel, shell, cfg), 'utf8');
+      pagesBuilt.push({ url: outRel.replace(/\\/g, '/'), mtime: mlMtime });
+    }
+    console.log('  ✓ ' + ml.models.length + ' trang lỗi theo model (model/<slug>/)');
   }
 
   // ---- Phan 4: sitemap.xml (khong gom partials, 404, trang redirect) ----

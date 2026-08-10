@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>{{k.title}}</title>
+<meta name="description" content="{{k.desc}}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mucinminhtien.com/model/{{k.slug}}/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Mực in Minh Tiến">
+<meta property="og:title" content="{{k.ogTitle}}">
+<meta property="og:description" content="{{k.ogDesc}}">
+<meta property="og:url" content="https://mucinminhtien.com/model/{{k.slug}}/">
+<meta property="og:image" content="https://mucinminhtien.com/assets/img/hero/{{k.slug}}.webp">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{k.h1}}",
+  "description": "{{k.desc}}",
+  "author": { "@id": "https://mucinminhtien.com/#organization" },
+  "publisher": { "@id": "https://mucinminhtien.com/#organization" },
+  "datePublished": "{{k.published}}",
+  "dateModified": "{{k.published}}",
+  "mainEntityOfPage": "https://mucinminhtien.com/model/{{k.slug}}/"
+}
+</script>
+{{k.faqSchema}}
+</head>
+<body>
+<a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
+<div id="site-header"></div>
+
+<main id="main-content">
+<!--HOWTO totalTime="{{k.totalTime}}" from="Bước 1" to="Bảng tra"-->
+  <div class="container">
+    <p class="breadcrumb"><a href="../../index.html">Trang chủ</a> / <a href="../">Lỗi theo model</a> / {{k.crumb}}</p>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="prose">
+        <span class="post-tag">{{k.tag}}</span>
+        <h1 style="margin:12px 0 6px">{{k.h1}}</h1>
+        <p class="post-meta">Cập nhật: {{k.updatedVN}} · {{k.apDung}}</p>
+
+        <figure>
+          <img src="../../assets/img/hero/{{k.slug}}.webp" alt="{{k.h1}}"
+               width="1200" height="675" fetchpriority="high" style="border-radius:var(--radius-sm)">
+        </figure>
+
+        <p><strong>{{k.answer}}</strong></p>
+
+        <!--TOC-->
+
+        <h2>Thông số máy {{k.model}} cần biết trước khi xử lý</h2>
+        <p>Biết đúng máy mình đang dùng loại nào giúp khỏi mua nhầm vật tư và khỏi làm theo hướng dẫn của dòng khác.</p>
+        {{k.specTable}}
+
+        {{k.sectionsHtml}}
+
+        <h2>Bảng tra: dấu hiệu nào ứng với nguyên nhân nào</h2>
+        {{k.traTable}}
+        <p class="price-note">Vật tư cho {{k.model}} có sẵn tại kho {{addressShort}} — xem <a href="../../bang-gia/">bảng giá {{priceCount}} mã</a> hoặc gọi {{hotlineDisplay}} kèm model máy.</p>
+
+        <h2>Khi nào nên gọi kỹ thuật viên</h2>
+        {{k.goiThoHtml}}
+
+        <h2>Báo giá xử lý {{k.model}} tận nơi</h2>
+        {{k.giaTable}}
+        <p>Kỹ thuật viên kiểm tra và báo giá trước khi làm — xem cam kết ở <a href="../../dich-vu/">dịch vụ sửa máy in tận nơi TP.HCM</a>.</p>
+
+        <h2>Cách phòng tránh tái phát</h2>
+        {{k.phongTranhHtml}}
+
+        <figure>
+          <img src="../../assets/img/info/{{k.slug}}.webp" alt="Tóm tắt các bước xử lý {{k.h1}}"
+               width="1000" height="600" loading="lazy" decoding="async" style="border-radius:var(--radius-sm)">
+          <figcaption>Tóm tắt nhanh các bước trong bài. Lưu ảnh này để làm theo khi không tiện mở web.</figcaption>
+        </figure>
+
+        <h2>Câu hỏi thường gặp về {{k.model}}</h2>
+      </div>
+      <div class="faq">
+{{k.faqHtml}}
+      </div>
+
+      <div class="prose" style="margin-top:34px">
+        <h2 class="no-toc">Bài viết liên quan</h2>
+        <ul>
+{{k.relatedHtml}}
+        </ul>
+      </div>
+
+      <div class="cta-banner" style="margin-top:40px">
+        <h2 class="no-toc">{{k.ctaTitle}}</h2>
+        <p>Gọi hoặc nhắn Zalo {{hotlineDisplay}} — kỹ thuật viên có mặt trong 30–60 phút tại khu vực trung tâm TP.HCM, mang sẵn vật tư cho dòng {{k.model}}.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="tel:{{hotlineTel}}" class="btn btn-outline">Gọi {{hotlineDisplay}}</a>
+          <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn btn-outline">Nhắn Zalo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="../../assets/js/include.js"></script>
+</body>
+</html>
