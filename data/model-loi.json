@@ -497,6 +497,103 @@
         ["../epson-l3210-nhay-2-den-do/", "Epson L3210 nháy 2 đèn đỏ: nguyên nhân và cách xử lý"],
         ["../../huong-dan/tran-bo-dem-muc-thai-epson/", "Tràn bộ đếm mực thải Epson"]
       ]
+    },
+    {
+      "slug": "canon-2900-bi-soc-den-doc",
+      "model": "Canon LBP2900",
+      "crumb": "Canon 2900 bị sọc đen dọc",
+      "tag": "Máy in Canon",
+      "totalTime": "PT25M",
+      "published": "2026-08-10",
+      "apDung": "Áp dụng cho Canon LBP2900, LBP2900B, LBP3000 và các máy dùng hộp mực 303 / 12A",
+      "h1": "Canon 2900 bị sọc đen dọc: nguyên nhân và cách xử lý",
+      "title": "Canon 2900 Bị Sọc Đen Dọc: Nguyên Nhân Và Cách Xử Lý",
+      "desc": "Canon LBP2900 bị sọc đen dọc phần lớn do drum 303 đã nạp quá nhiều lần, gạt mực mẻ hoặc bạc phíp mòn. Cách nhận bệnh theo vệt sọc và giá vật tư thật.",
+      "ogTitle": "Canon 2900 bị sọc đen dọc: nguyên nhân và cách xử lý",
+      "ogDesc": "Máy phổ biến nhất Việt Nam, hộp mực 303 bị nạp đi nạp lại nhiều lần nên sọc là bệnh tuổi tác. Cách nhận đúng bệnh và giá vật tư thật.",
+      "answer": "Canon LBP2900 bị sọc đen dọc gần như luôn xuất phát từ hộp mực 303 chứ không phải từ máy: drum đã nạp lại quá nhiều lần nên mòn lớp phủ, lưỡi gạt mực mẻ để mực thừa lọt qua, bạc phíp mòn làm drum quay lệch, hoặc mực vón cục kẹt ở khe gạt. Đây là máy ra đời từ 2007 và vẫn chạy khắp văn phòng Việt Nam, nên phần lớn ca sọc là bệnh tuổi tác của hộp mực chứ không phải máy hỏng.",
+      "specs": [
+        ["Hộp mực", "Canon 303 (EP-303) — thị trường Việt Nam quen gọi theo mã tương đương HP 12A"],
+        ["Số trang mỗi hộp", "Khoảng 2.000 trang ở độ phủ 5%"],
+        ["Kiểu máy", "Đơn năng — chỉ in, không scan, không copy"],
+        ["Kết nối", "Chỉ USB, không có mạng và không có Wi-Fi"],
+        ["Điểm yếu khi dùng lâu", "Drum và gạt mực của hộp 303 xuống cấp nhanh sau 2–3 lần nạp"],
+        ["Ưu điểm khi sửa", "Vật tư 12A phổ biến và rẻ nhất trong các dòng laser"]
+      ],
+      "sections": [
+        {
+          "h2": "Vì sao Canon 2900 hay bị sọc hơn máy đời mới",
+          "html": "<p>LBP2900 ra mắt từ năm 2007 và tới nay vẫn là máy in laser phổ biến nhất trong văn phòng nhỏ ở Việt Nam. Chính độ phổ biến đó tạo ra đặc điểm riêng của mọi ca sọc trên dòng này.</p><ul><li><strong>Hộp mực bị nạp đi nạp lại rất nhiều lần.</strong> Vỏ hộp 303 bền, nên thay vì mua mới người dùng nạp tiếp. Drum và lưỡi gạt bên trong thì không bền tương ứng — sau khoảng hai tới ba lần nạp, lớp phủ drum đã mòn và mép gạt đã chai.</li><li><strong>Vật tư 12A rẻ nên hay bị nạp bằng mực trôi nổi.</strong> Mực sai kích thước hạt làm mòn gạt và trục từ nhanh gấp nhiều lần mực đúng loại.</li><li><strong>Máy đã chạy trên chục năm.</strong> Bạc phíp hai đầu drum mòn, drum quay lệch nhẹ và tì không đều lên giấy.</li></ul><p>Hệ quả thực tế: trên dòng này, đổi sang một hộp mực khác còn tốt là bước chẩn đoán nhanh nhất và cũng đúng nhất, vì hơn chín phần mười nguyên nhân nằm trong hộp mực.</p>"
+        },
+        {
+          "h2": "Bước 1 — Nhìn hình dạng vệt sọc để đoán bệnh",
+          "html": "<p>Trước khi tháo bất cứ thứ gì, in ba trang liên tiếp và so sánh. Ba kiểu vệt dưới đây ứng với ba bộ phận khác nhau bên trong hộp mực 303.</p><ul><li><strong>Vệt đen mảnh, sắc nét, đứng đúng một vị trí trên mọi trang</strong> — drum đã xước hoặc có vật lạ tì vào drum.</li><li><strong>Vệt rộng, mờ, mép nhòe, đôi khi kèm lem</strong> — lưỡi gạt mực mòn hoặc mẻ một điểm, mực thừa lọt qua.</li><li><strong>Vệt xám không đều, lúc có lúc không giữa các trang</strong> — mực vón cục kẹt ở khe gạt, hay gặp với hộp đã nạp nhiều lần hoặc máy để lâu không dùng.</li></ul><p>Nếu vệt nằm ngang chứ không dọc thì bệnh khác hẳn, đọc bài <a href=\"../../huong-dan/may-in-bi-soc-ngang/\">máy in bị sọc ngang</a> để đo chu kỳ lặp.</p>"
+        },
+        {
+          "h2": "Bước 2 — Tháo hộp mực 303 và soi khe gạt",
+          "html": "<p>Hộp mực 303 tháo ra rất dễ, chỉ cần mở nắp trước và rút thẳng ra theo ray. Việc này an toàn và giải quyết được kha khá ca sọc mà không tốn đồng nào.</p><ol><li>Tắt máy, mở nắp trước, rút hộp mực ra và đặt lên tờ giấy sạch.</li><li>Che mặt drum khỏi ánh sáng mạnh — không để hộp mực phơi nắng hoặc dưới đèn gắt quá vài phút.</li><li>Soi đèn dọc khe hẹp nơi lưỡi gạt tiếp giáp drum, tìm mảnh giấy, xơ vải, ghim hoặc hạt mực đóng cứng.</li><li>Gắp vật lạ bằng nhíp, nhẹ tay, không cạy và không dùng vật cứng chạm vào mặt drum.</li><li>Lắc ngang hộp mực năm sáu lần theo chiều trục để rải đều mực, lắp lại và in thử ba trang.</li></ol><p>Rất nhiều ca sọc trên 2900 dừng lại ở đây. Nếu vệt vẫn còn nguyên, đi tiếp bước 3.</p>"
+        },
+        {
+          "h2": "Bước 3 — Kiểm tra drum, gạt mực và bạc phíp",
+          "html": "<p>Ba bộ phận này nằm trong hộp mực và là thủ phạm của phần lớn ca sọc kéo dài trên LBP2900.</p><p><strong>Drum.</strong> Nghiêng hộp mực dưới ánh sáng chéo, nhìn dọc theo ống drum màu xanh lục bóng. Vết xước hiện lên thành đường mảnh sẫm hơn. Drum xước thì không sửa được, phải thay — và nếu hộp đã nạp từ ba lần trở lên thì thường thay drum kèm gạt luôn cho đáng một lần tháo.</p><p><strong>Gạt mực.</strong> Mép lưỡi gạt còn tốt thì thẳng và bám một lớp mực mỏng đều. Gạt hỏng có điểm khuyết, mép chai bóng hoặc dính mảng mực cứng. Gạt mòn là nguyên nhân số một của vệt rộng và mờ.</p><p><strong>Bạc phíp.</strong> Đây là hai vòng nhựa nhỏ ở hai đầu drum, giữ khoảng cách giữa drum và trục từ. Mòn không đều thì hai bộ phận này tì sai lực và bản in ra vệt dọc kèm đậm nhạt lệch hẳn về một bên trang. Bạc phíp 12A rất rẻ, thay theo cặp.</p><p>Danh sách vật tư và giá cho dòng này có ở trang <a href=\"../../muc-in/hop-muc-12a/\">hộp mực 12A</a>.</p>"
+        },
+        {
+          "h2": "Bước 4 — Khi nào nên thay hộp mực thay vì sửa tiếp",
+          "html": "<p>Có một ngưỡng mà sửa tiếp không còn kinh tế. Với LBP2900, ngưỡng đó khá rõ:</p><ul><li>Hộp mực đã nạp từ <strong>bốn lần trở lên</strong> — vỏ đã rơ, gioăng đã cứng, sửa xong sẽ sinh bệnh khác trong vài tháng.</li><li>Đã thay drum một lần mà nay lại xước tiếp trong thời gian ngắn — thường là do trong máy còn dị vật hoặc do mực nạp sai loại.</li><li>Vỏ hộp có vết nứt, mực rỉ ra khoang máy — đây là nguồn gốc của cả sọc lẫn <a href=\"../../huong-dan/may-in-bi-lem-muc/\">lem mực</a>.</li><li>Sửa cộng dồn ba bốn linh kiện lại xấp xỉ giá một hộp mực dựng mới hoàn chỉnh.</li></ul><p>Ngược lại, hộp mực mới nạp lần đầu hoặc lần hai mà bị sọc thì gần như luôn đáng sửa, chi phí chỉ bằng một phần nhỏ so với thay hộp.</p>"
+        },
+        {
+          "h2": "Bảng giá vật tư 12A thật trong kho",
+          "html": "<p>Khác với giá dịch vụ chung chung, đây là vật tư thật đang có sẵn cho dòng 2900. Số lượng ghi rõ trong ngoặc vì nhiều mã bán theo bộ.</p><div class=\"price-table-wrap\"><table class=\"price-table\"><thead><tr><th>Vật tư cho LBP2900</th><th>Quy cách</th><th style=\"width:130px\">Giá kho</th></tr></thead><tbody><tr><td>Trục từ 12A</td><td>Bộ 2 cây</td><td class=\"price\">34.000 đ</td></tr><tr><td>Bạc phíp 12A</td><td>1 cặp</td><td class=\"price\">25.000 đ</td></tr><tr><td>Gạt mực nhỏ 12A</td><td>Bộ 5 cây</td><td class=\"price\">40.000 đ</td></tr><tr><td>Drum 12A / FX9 (Mitsu, Nhật)</td><td>Bộ 5 cây</td><td class=\"price\">185.000 đ</td></tr><tr><td>Bao lụa dùng chung 2900 / 1200 / 12A</td><td>1 cái</td><td class=\"price\">80.000 đ</td></tr><tr><td>Ron từ 12A</td><td>Bộ 10 cặp</td><td class=\"price\">10.000 đ</td></tr></tbody></table></div><p>Giá trên là giá vật tư rời, chưa gồm công thay. Mua lẻ từng cây thì đơn giá cao hơn giá chia trung bình của bộ.</p>"
+        }
+      ],
+      "traRows": [
+        ["Vệt đen mảnh, sắc nét, đứng yên một vị trí", "Drum xước hoặc có vật lạ tì vào", "Soi khe gạt, gắp vật lạ; còn vệt thì thay drum", "từ 39.000 đ"],
+        ["Vệt rộng, mờ, mép nhòe", "Lưỡi gạt mực mòn hoặc mẻ", "Thay gạt mực, làm cùng lúc khi nạp", "từ 30.000 đ"],
+        ["Vệt xám thất thường, lúc có lúc không", "Mực vón cục ở khe gạt", "Đổ mực cũ, vệ sinh hộp, nạp lại đúng loại", "từ 80.000 đ"],
+        ["Vệt dọc kèm đậm nhạt lệch một bên trang", "Bạc phíp mòn không đều", "Thay bạc phíp theo cặp", "25.000 đ/cặp"],
+        ["Lắc hộp mực thì đỡ, in tiếp lại sọc", "Mực sắp cạn", "Nạp mực", "từ 80.000 đ"],
+        ["Đổi hộp mực khác vẫn sọc đúng chỗ", "Dị vật trong khoang máy hoặc cụm quang bẩn", "Soi đèn khoang máy, vệ sinh cụm quang", "từ 150.000 đ"]
+      ],
+      "goiTho": [
+        "Đã đổi sang hộp mực khác còn tốt mà vệt sọc vẫn nguyên vị trí — lỗi nằm ở máy chứ không ở hộp mực",
+        "Mực rỉ ra khoang máy, đáy máy có bụi mực đóng dày",
+        "Muốn thay drum và gạt nhưng chưa từng tháo rời hộp mực 303 — lắp lệch lưỡi gạt là hỏng luôn cả hộp",
+        "Máy kêu rít hoặc có mùi khét kèm theo lỗi sọc",
+        "Máy dùng cho công việc gấp, cần xử lý dứt điểm trong một lần"
+      ],
+      "giaRows": [
+        ["Kiểm tra, vệ sinh hộp mực và khoang máy", "từ 100.000 đ"],
+        ["Nạp mực hộp 303 / 12A", "80.000 – 150.000 đ"],
+        ["Thay gạt mực", "từ 30.000 đ + công"],
+        ["Thay trục từ", "từ 34.000 đ/bộ 2 cây + công"],
+        ["Thay drum", "từ 39.000 đ + công"],
+        ["Thay bạc phíp", "25.000 đ/cặp + công"],
+        ["Vệ sinh cụm quang", "từ 150.000 đ"]
+      ],
+      "phongTranh": [
+        "<strong>Đừng nạp quá ba lần trên cùng một hộp mực.</strong> Vỏ 303 bền hơn ruột rất nhiều, và tiết kiệm ở lần nạp thứ tư thường phải trả bằng một ca sọc kéo dài.",
+        "<strong>Mỗi lần nạp mực yêu cầu vệ sinh gạt và kiểm tra drum.</strong> Chi phí thêm không đáng kể mà chặn được cả sọc đen lẫn lem mực.",
+        "<strong>Nạp đúng chủng loại mực bột cho 12A.</strong> Mực sai kích thước hạt mài mòn lưỡi gạt và trục từ nhanh hơn nhiều lần.",
+        "<strong>Không in giấy đã ghim kẹp.</strong> Một mẩu ghim sót lại đủ để xước drum vĩnh viễn chỉ trong một trang.",
+        "<strong>Đừng cố in tiếp khi đã thấy sọc.</strong> Mỗi trang lỗi vẫn tiêu tốn một vòng quay của drum và trục từ mà không thu được bản in dùng được."
+      ],
+      "faqs": [
+        { "q": "Canon 2900 bị sọc đen dọc có phải thay máy không?", "a": "Gần như không bao giờ phải thay máy. Hơn chín phần mười ca sọc trên dòng này nằm trong hộp mực 303, tức là drum, gạt mực, bạc phíp hoặc mực vón. Cách kiểm chứng nhanh nhất là mượn một hộp mực cùng mã còn tốt lắp vào in thử: hết sọc thì máy hoàn toàn bình thường, chỉ cần xử lý hộp mực." },
+        { "q": "Hộp mực Canon 2900 nạp được mấy lần thì nên bỏ?", "a": "Kinh nghiệm thực tế là hai tới ba lần nạp thì nên thay ruột gồm drum và gạt, và từ lần thứ tư trở đi thì cân nhắc thay hộp dựng mới. Vỏ hộp 303 bền hơn các bộ phận bên trong rất nhiều, nên nạp tiếp mà không thay ruột thì bản in sẽ sọc, mờ hoặc lem trong thời gian ngắn." },
+        { "q": "Canon 2900 dùng hộp mực mã gì?", "a": "Máy dùng hộp mực Canon 303, còn gọi là EP-303. Ở thị trường Việt Nam, cửa hàng vật tư thường gọi theo mã tương đương là 12A vì hai dòng dùng chung phần lớn linh kiện như trục từ, gạt mực, bạc phíp và drum. Khi mua vật tư, nói mã 12A hoặc 303 đều được hiểu đúng." },
+        { "q": "Thay drum cho Canon 2900 hết bao nhiêu tiền?", "a": "Drum 12A loại Mitsu của Nhật đang bán theo bộ năm cây với giá 185.000đ, tính ra khoảng 37.000đ mỗi cây, mua lẻ thì đơn giá cao hơn. Cộng công thay và thường làm gộp cùng gạt mực trong một lần tháo hộp. Kỹ thuật viên kiểm tra rồi báo giá trước khi làm." },
+        { "q": "Vì sao vừa thay drum xong lại bị sọc tiếp?", "a": "Hai khả năng chính. Một là trong khoang máy còn dị vật, thường là mẩu ghim hoặc mảnh giấy cứng, tì vào drum mới và xước lại ngay. Hai là mực nạp sai chủng loại, hạt mực quá to mài mòn lưỡi gạt và làm xước bề mặt drum. Cần soi sạch khoang máy và đổi nguồn mực trước khi thay drum lần nữa." },
+        { "q": "Sọc trên Canon 2900 khác gì máy in khác?", "a": "Cơ chế thì giống mọi máy laser, nhưng phân bố nguyên nhân khác. LBP2900 là máy đã trên chục năm tuổi và hộp mực 303 thường bị nạp lại nhiều lần, nên tỉ lệ ca do drum mòn và gạt chai cao hơn hẳn máy đời mới. Bù lại vật tư 12A rẻ và sẵn nhất trong các dòng laser nên chi phí xử lý thấp." }
+      ],
+      "ctaTitle": "Canon 2900 sọc mãi không hết?",
+      "related": [
+        ["../../huong-dan/may-in-bi-soc-den-doc/", "Máy in bị sọc đen dọc: 5 nguyên nhân và cách khắc phục"],
+        ["../../huong-dan/may-in-bi-soc-ngang/", "Máy in bị sọc ngang: 6 nguyên nhân và cách khắc phục"],
+        ["../../huong-dan/may-in-bi-soc-trang-doc/", "Máy in bị sọc trắng dọc: 6 nguyên nhân và cách xử lý"],
+        ["../canon-2900-keo-nhieu-to-giay/", "Canon 2900 kéo nhiều tờ giấy cùng lúc"],
+        ["../../huong-dan/canon-2900-khong-nhan-hop-muc/", "Canon 2900 không nhận hộp mực: 5 cách xử lý"],
+        ["../../muc-in/hop-muc-12a/", "Hộp mực 12A: dùng cho máy nào, giá bao nhiêu"]
+      ]
     }
   ]
 }
