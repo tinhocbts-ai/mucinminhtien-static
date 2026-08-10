@@ -280,9 +280,25 @@ Giới hạn thật không nằm ở SEO mà ở tốc độ viết: mỗi phiê
 
 → **Nâng mục tiêu độ dài bài lỗi từ 1.400–1.800 lên 2.000–2.500 từ.**
 
-Ghi chú: `linhkienmayingiare.net` mang thương hiệu **Nam Phong** — nhiều khả năng là site của chính anh
-(cùng chủ với `tinhocnamphong`). Nếu đúng thì cụm lỗi bản in sẽ tự cạnh tranh giữa hai domain.
-Anh xác nhận lại giúp; nếu là site nhà thì nên phân vai rõ thay vì viết trùng chủ đề.
+**Đối thủ chính: `linhkienmayingiare.net`** — do kỹ thuật viên cũ của Nam Phong tách ra lập,
+dùng lại tên thương hiệu và đổi logo. Site mới nhưng lên rất nhanh. Đây là đối thủ thật, **không phải site nhà**,
+nên bám sát và đánh trực diện vào key họ đang thắng. Site nhà là `tinhocnamphong` — mucinminhtien là site mới
+dựng để tranh key với đối thủ mà không phải động vào site cũ.
+
+### Key đối thủ đang thắng — trạng thái đối đầu
+
+| Key họ có | Ta | Ghi chú |
+|---|---|---|
+| sửa máy in bị lem mực | ✅ 3.189 từ | Họ 3.500–4.000 từ nhưng **0 schema, 0 FAQ, 0 mục lục, 0 bảng giá** |
+| máy in không nhận lệnh in | ✅ máy in không in được | |
+| HP 107a/107w lỗi đèn đỏ | ✅ 2 bài (reset + in mờ) | |
+| Epson L3110/L1110 nháy 2 đèn | ✅ | |
+| Canon 2900 chạy liên tục | ✅ 2.082 từ | Vừa viết |
+| máy in bill, in nhiệt không in được | ✅ 2.266 từ | Vừa viết — ta còn **bán giấy in nhiệt**, họ không |
+| sửa máy in quận Phú Nhuận | ☐ | Cụm quận — xem mục 14, đang hoãn |
+| sửa máy in gần đây / thợ tận nơi HCM | ☐ | Key dịch vụ, cân nhắc |
+| reset Epson L360 (phần mềm crack) | ✋ **không làm** | Rủi ro DMCA, xem mục 12 |
+
 
 ---
 

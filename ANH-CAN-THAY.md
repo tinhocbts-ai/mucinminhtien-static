@@ -21,6 +21,7 @@ Tool tự chọn tấm chưa dùng ở bài nào khác, ưu tiên ảnh nét —
 | ☐ | `/huong-dan/loi-drum-end-soon-brother/` | `brother-2366dw` | ✅ | Bề mặt drum xước dưới ánh sáng nghiêng |
 | ☐ | `/huong-dan/may-in-bi-lem-muc/` | `brother-2701dw` | ✅ | Bản in lỗi đặt cạnh bản in chuẩn |
 | ☐ | `/huong-dan/may-in-bi-soc-den-doc/` | `hp-m12a` | ✅ | Bản in lỗi đặt cạnh bản in chuẩn |
+| ☐ | `/huong-dan/may-in-bill-khong-in-duoc/` | `epson-t82` | ✅ | Kỹ thuật viên đang thao tác trên máy in |
 | ☐ | `/huong-dan/may-in-epson-bao-loi-2-den-do/` | `epson-l3150` | ✅ | Bản Nozzle Check trước và sau khi thông |
 | ☐ | `/huong-dan/may-in-khong-in-duoc/` | `canon-223dw` | ✅ | Kỹ thuật viên đang thao tác trên máy in |
 | ☐ | `/huong-dan/may-in-khong-keo-giay/` | `canon-lbp-6700` | ✅ | Quả đào / bố thắng đã mòn, chụp cận |
@@ -28,6 +29,7 @@ Tool tự chọn tấm chưa dùng ở bài nào khác, ưu tiên ảnh nét —
 | ☐ | `/huong-dan/phan-biet-muc-in-chinh-hang/` | `hp-135w` | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/huong-dan/tran-bo-dem-muc-thai-epson/` | `epson-l3150` | ✅ | Vị trí chip trên hộp mực, chụp cận |
 | ☐ | `/huong-dan/ve-sinh-dau-phun-epson/` | `epson-l3150` | ✅ | Bản in lỗi đặt cạnh bản in chuẩn |
+| ☐ | `/model/canon-2900-chay-lien-tuc/` | `canon-2900` | ✅ | Kỹ thuật viên đang thao tác trên máy in |
 | ☐ | `/model/canon-2900-keo-nhieu-to-giay/` | `canon-2900` | ✅ | Các loại giấy xếp cạnh nhau, thấy rõ định lượng |
 | ☐ | `/model/hp-107a-in-mo-nhat-chu/` | `hp-107a` | ✅ | Bản in lỗi đặt cạnh bản in chuẩn |
 | ☐ | `/muc-in/hop-muc-107a/` | `hp-laser-107w` | ✅ | Hộp mực thật trên bàn làm việc |
@@ -39,4 +41,4 @@ Tool tự chọn tấm chưa dùng ở bài nào khác, ưu tiên ảnh nét —
 | ☐ | `/muc-in/hop-muc-canon-337/` | `canon-249dw` | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/muc-in/hop-muc-cf226a/` | `hp-laser-jetpro-m402dne` | ✅ | Hộp mực thật trên bàn làm việc |
 
-**Tổng: 27 bài — 23 bài có ảnh máy thật.**
+**Tổng: 29 bài — 25 bài có ảnh máy thật.**
