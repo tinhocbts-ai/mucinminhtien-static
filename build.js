@@ -782,6 +782,58 @@ function build() {
     console.log('  ✓ ' + productData.products.length + ' trang san pham (san-pham/<slug>/)');
   }
 
+  /* ---- Anh phu trong than bai (sinh boi tools/tao-anh-phu.js) ----
+     Trang /model/ va /muc-in/ khong co file src/ nen khong chen tay duoc,
+     phai bom anh vao luc build. Chu thich chi noi ten dong may — thu duy nhat
+     kiem chung duoc — chu khong mo ta anh dang cho thay thao tac gi. */
+  const ANH_PHU_FILE = path.join(ROOT, 'data', 'anh-bai-phu.json');
+  const ANH_NGUON_FILE = path.join(ROOT, 'data', 'anh-nguon.json');
+  const anhPhu = fs.existsSync(ANH_PHU_FILE)
+    ? JSON.parse(fs.readFileSync(ANH_PHU_FILE, 'utf8')) : {};
+  const anhNguon = fs.existsSync(ANH_NGUON_FILE)
+    ? JSON.parse(fs.readFileSync(ANH_NGUON_FILE, 'utf8')) : {};
+  const tenMayCua = slug => (anhNguon._tenMay || {})[(anhNguon.map || {})[slug]] || '';
+
+  function chuThichAnh(ten, i) {
+    return [
+      'Máy in ' + ten + ' — thuộc nhóm máy áp dụng hướng dẫn trong bài.',
+      'Máy in ' + ten + '. Các bước ở trên làm được trên dòng máy này.',
+      'Máy in ' + ten + ' — máy khác dòng thì vị trí nút có thể khác, nguyên tắc xử lý vẫn vậy.',
+      'Máy in ' + ten + '. Vật tư và giá theo dòng máy có trong bảng ở bài.'
+    ][i % 4];
+  }
+
+  /* Tra ve <figure> cho tam anh phu thu i (0-based), hoac chuoi rong neu khong co */
+  function figAnhPhu(slug, i) {
+    const list = anhPhu[slug] || [];
+    if (!list[i]) return '';
+    const ten = list[i].may || tenMayCua(slug);
+    if (!ten) return '';
+    return '<figure>\n' +
+      '          <img src="../../assets/img/bai/' + list[i].ten + '" alt="Máy in ' + escAttr(ten) + '"\n' +
+      '               width="1000" height="600" loading="lazy" decoding="async" style="border-radius:var(--radius-sm)">\n' +
+      '          <figcaption>' + escAttr(chuThichAnh(ten, i)) + '</figcaption>\n' +
+      '        </figure>';
+  }
+
+  /* Xen anh phu vao giua cac muc H2 sinh tu JSON, rai deu chu khong don mot cho */
+  function xenAnhPhu(slug, khoiMuc) {
+    const list = anhPhu[slug] || [];
+    if (!list.length || khoiMuc.length < 2) return khoiMuc.join('\n\n');
+    const out = [];
+    const buoc = Math.max(1, Math.floor(khoiMuc.length / Math.min(list.length, khoiMuc.length - 1)));
+    let ai = 0;
+    for (let i = 0; i < khoiMuc.length; i++) {
+      out.push(khoiMuc[i]);
+      const cuoiBai = i === khoiMuc.length - 1;
+      if (!cuoiBai && ai < list.length && (i + 1) % buoc === 0) {
+        out.push(figAnhPhu(slug, ai));
+        ai++;
+      }
+    }
+    return out.join('\n\n');
+  }
+
   // ---- Trang ma muc (/muc-in/<slug>/) tu data/muc-in.json + template ----
   // Bang linh kien va gia KHONG khai bao trong muc-in.json — lay tu bang-gia.json
   // theo matchKeys, nen gia tren trang luon khop bang gia that.
@@ -854,6 +906,8 @@ function build() {
         'm.partCount': parts.length,
         'm.machineHtml': machineHtml, 'm.partsTable': partsTable,
         'm.sectionsHtml': sectionsHtml, 'm.refillHtml': m.refill,
+        'm.anhPhu1': figAnhPhu(m.slug, 0), 'm.anhPhu2': figAnhPhu(m.slug, 1),
+        'm.anhPhu3': figAnhPhu(m.slug, 2), 'm.anhPhu4': figAnhPhu(m.slug, 3),
         'm.faqHtml': faqHtml, 'm.faqSchema': faqSchema,
         'm.relatedHtml': m.related.map(r =>
           '          <li><a href="' + r.href + '">' + escAttr(r.text) + '</a></li>').join('\n') +
@@ -908,7 +962,8 @@ function build() {
         'k.updatedVN': k.published.split('-').reverse().join('/'),
         'k.ctaTitle': escAttr(k.ctaTitle),
         'k.specTable': bang(['Hạng mục', 'Chi tiết'], k.specs.map(r => [escAttr(r[0]), escAttr(r[1])]), ['180px']),
-        'k.sectionsHtml': k.sections.map(s => '<h2>' + escAttr(s.h2) + '</h2>\n' + s.html).join('\n\n'),
+        'k.sectionsHtml': xenAnhPhu(k.slug,
+          k.sections.map(s => '<h2>' + escAttr(s.h2) + '</h2>\n' + s.html)),
         'k.traTable': bang(['Dấu hiệu', 'Nguyên nhân', 'Cách xử lý', 'Chi phí'],
           k.traRows.map(r => r.map(escAttr)), [null, null, null, '130px']),
         'k.giaTable': bang(['Hạng mục', 'Giá tham khảo'],

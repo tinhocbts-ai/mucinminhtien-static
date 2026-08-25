@@ -132,6 +132,45 @@ Ba nguồn:
 
 ---
 
+## 4b. Ảnh phụ trong thân bài — ba cái bẫy của kho ảnh Chợ Tốt
+
+Mỗi bài giờ có **hero + 3 ảnh máy trong thân bài + infographic**. Sinh bằng:
+
+```bash
+node tools/tao-anh-phu.js && node scripts/chen-anh-phu.js --write && node build.js
+```
+
+Kho ảnh Chợ Tốt là **frame cắt từ video bán hàng**, nên có ba cái bẫy phải chặn.
+Cả ba đều đã cài sẵn trong tool, đừng gỡ ra:
+
+1. **`original/` cạn dần.** Bot Chợ Tốt chuyển ảnh sang `_posted/` sau khi đăng.
+   Nhiều folder giờ `original/` rỗng hoàn toàn nhưng `_posted/` có cả nghìn tấm
+   (canon-2900 1.293, hp-107w 1.193). Tool đọc **cả hai** thư mục.
+
+2. **Trùng cảnh.** Rải đều theo timeline là chưa đủ — hai frame cách nhau xa vẫn
+   có thể là cùng một cảnh quay chậm, chỉ khác góc zoom. Tool so chữ ký ảnh 16×16
+   xám, khác dưới 30 thì loại. Trước khi cài ngưỡng này, cặp giống nhau nhất chỉ
+   khác 12,6 — nhìn bằng mắt là một tấm.
+
+3. **Frame không phải máy in.** Trong video có cả ảnh in ra, kệ trống, tay cầm giấy,
+   frame tối đen. Chú thích "Máy in X" gắn lên mấy tấm đó là **sai sự thật**.
+   Đã soi tay từng tấm và loại 46 frame, ghi ở `data/anh-da-dung.json` → `_loaiBo`.
+   **Mỗi lần thêm bài mới phải soi lại ảnh mới sinh** — tool không tự nhận ra
+   tấm nào là máy in tấm nào không. Cách soi nhanh: ghép ảnh thành bảng 4×4 rồi xem.
+
+Hai quy tắc nội dung đi kèm:
+
+- **Bài chung lấy ảnh nhiều dòng máy.** Bài "máy in bị sọc ngang" áp dụng cho HP,
+  Canon, Brother nên lấy mỗi hãng một máy — vừa đỡ nhàm vừa đúng phạm vi bài.
+  Trang `/model/` nói về đúng một dòng máy nên **không trộn**.
+- **Chỉ trộn trong cùng loại máy.** `data/anh-nguon.json` → `_loaiMay` phân
+  laser / phun / nhiệt. Không có nó thì ảnh máy in bill lọt vào bài hộp mực laser
+  (đã xảy ra: trang Canon 325 dính ảnh Epson TM-T82 vì bắt được chữ "Epson" trong
+  link chéo cuối trang).
+
+Chú thích ảnh **chỉ nói tên dòng máy** — thứ duy nhất kiểm chứng được. Không mô tả
+ảnh đang cho thấy thao tác gì, vì đây là ảnh máy chứ không phải ảnh chụp từng bước sửa.
+
 ## 5. Cơ chế đặc biệt trong build.js
 
 | Cơ chế | Cách dùng |

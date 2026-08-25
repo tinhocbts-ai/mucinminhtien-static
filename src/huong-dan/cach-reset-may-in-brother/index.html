@@ -71,53 +71,6 @@
 
         <p style="margin-top:18px">Máy in Brother có một đặc điểm khiến nhiều người "ức chế": <strong>vừa nạp mực đầy hộp nhưng máy vẫn báo Replace Toner</strong> và không chịu in. Lý do rất đơn giản — Brother không đo mực thật mà <em>đếm số trang</em>. Nạp mực xong, bộ đếm vẫn ở mức "hết", nên phải reset thủ công. Bài này hướng dẫn cả hai thao tác: reset toner (sau nạp mực) và reset drum (sau thay trống).</p>
 
-        <figure>
-          <svg viewBox="0 0 720 240" role="img" aria-label="Sơ đồ 4 bước reset toner máy in Brother: mở nắp trước, bấm giữ nút, chọn reset, đóng nắp">
-            <title>4 bước reset bộ đếm mực máy in Brother</title>
-            <rect width="720" height="240" fill="#f5f8fc"/>
-            <!-- step boxes -->
-            <g font-family="Arial">
-              <rect x="25" y="55" width="150" height="110" rx="12" fill="#fff" stroke="#0b5fae" stroke-width="1.5"/>
-              <circle cx="100" cy="45" r="16" fill="#0b5fae"/><text x="100" y="50" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">1</text>
-              <text x="100" y="95" text-anchor="middle" font-size="26">🚪</text>
-              <text x="100" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#1c2733">Mở nắp trước</text>
-              <text x="100" y="142" text-anchor="middle" font-size="10" fill="#56626e">máy đang bật nguồn</text>
-
-              <rect x="205" y="55" width="150" height="110" rx="12" fill="#fff" stroke="#0b5fae" stroke-width="1.5"/>
-              <circle cx="280" cy="45" r="16" fill="#0b5fae"/><text x="280" y="50" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">2</text>
-              <text x="280" y="95" text-anchor="middle" font-size="26">👆</text>
-              <text x="280" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#1c2733">Giữ nút GO / OK</text>
-              <text x="280" y="142" text-anchor="middle" font-size="10" fill="#56626e">tới khi đèn cùng sáng</text>
-
-              <rect x="385" y="55" width="150" height="110" rx="12" fill="#fff" stroke="#0b5fae" stroke-width="1.5"/>
-              <circle cx="460" cy="45" r="16" fill="#0b5fae"/><text x="460" y="50" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">3</text>
-              <text x="460" y="95" text-anchor="middle" font-size="26">🔢</text>
-              <text x="460" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#1c2733">Bấm tổ hợp reset</text>
-              <text x="460" y="142" text-anchor="middle" font-size="10" fill="#56626e">theo dòng máy (xem bài)</text>
-
-              <rect x="565" y="55" width="130" height="110" rx="12" fill="#fff" stroke="#22a45d" stroke-width="1.5"/>
-              <circle cx="630" cy="45" r="16" fill="#22a45d"/><text x="630" y="50" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">4</text>
-              <text x="630" y="95" text-anchor="middle" font-size="26">✅</text>
-              <text x="630" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#1c2733">Đóng nắp</text>
-              <text x="630" y="142" text-anchor="middle" font-size="10" fill="#56626e">máy về Ready là xong</text>
-            </g>
-            <g stroke="#9aa7b5" stroke-width="2" fill="none">
-              <path d="M178 110 h22" marker-end="url(#ar)"/><path d="M358 110 h22" marker-end="url(#ar)"/><path d="M538 110 h22" marker-end="url(#ar)"/>
-            </g>
-            <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#9aa7b5"/></marker></defs>
-            <text x="360" y="205" text-anchor="middle" font-family="Arial" font-size="12" fill="#56626e">Trình tự chung — tổ hợp phím ở bước 3 khác nhau giữa dòng có màn hình và không màn hình</text>
-          </svg>
-          <figcaption>Hình 1 — Trình tự chung 4 bước reset bộ đếm mực trên máy in Brother.</figcaption>
-        </figure>
-
-        <!--TOC-->
-
-        <h2>Phân biệt 2 thông báo trước khi reset</h2>
-        <ul>
-          <li><strong>Replace Toner / Toner Ended:</strong> bộ đếm mực đã cạn → cần <em>reset toner</em> (làm sau khi nạp mực).</li>
-          <li><strong>Replace Drum / Drum End Soon:</strong> trống từ hết tuổi thọ (~12.000 trang) → nên <em>thay drum</em> rồi mới reset drum. Chỉ reset mà không thay, bản in sẽ mờ, sọc và hại máy.</li>
-        </ul>
-
         <h2>Cách reset toner — dòng KHÔNG màn hình (HL-L2321D, HL-L2320D, HL-L2361DN…)</h2>
         <ol>
           <li>Bật máy, <strong>mở nắp trước</strong> (nơi tháo hộp mực).</li>
@@ -126,6 +79,12 @@
           <li>Máy khởi động lại bộ đếm, đèn Toner tắt, về trạng thái Ready là reset thành công.</li>
         </ol>
         <p>Một số đời cũ hơn (HL-2130, HL-2240…) dùng cách tương tự nhưng giữ nút GO tới khi đèn nháy 2 lần. Nếu giữ 4 giây không ăn, thử lại và quan sát số lần nháy đèn.</p>
+
+        <figure>
+          <img src="../../assets/img/bai/cach-reset-may-in-brother-1.webp" alt="Máy in Brother HL-L2361DN"
+               width="1000" height="600" loading="lazy" decoding="async" style="border-radius:var(--radius-sm)">
+          <figcaption>Máy in Brother HL-L2361DN — thuộc nhóm máy áp dụng hướng dẫn trong bài.</figcaption>
+        </figure>
 
         <h2>Cách reset toner — dòng CÓ màn hình (DCP-L2520D, MFC-L2701D…)</h2>
         <ol>
@@ -139,6 +98,12 @@
           <strong>Mẹo:</strong> mỗi đời Brother có thể lệch nhau một chút ở bước 3. Nguyên tắc chung là: <em>mở nắp trước → gọi menu reset bằng phím (GO hoặc Clear) → xác nhận → đóng nắp</em>. Ghi lại tổ hợp phím dòng máy của bạn để lần nạp mực sau làm trong 30 giây.
         </div>
 
+        <figure>
+          <img src="../../assets/img/bai/cach-reset-may-in-brother-2.webp" alt="Máy in Brother HL-L2361DN"
+               width="1000" height="600" loading="lazy" decoding="async" style="border-radius:var(--radius-sm)">
+          <figcaption>Máy in Brother HL-L2361DN. Các bước ở trên làm được trên dòng máy này.</figcaption>
+        </figure>
+
         <h2>Cách reset drum (sau khi thay trống mới)</h2>
         <ol>
           <li>Thay drum mới, lắp hộp mực vào drum rồi lắp cả cụm vào máy. Nếu chưa rõ giá drum, xem <a href="../../bang-gia/#brother">bảng giá hộp mực, drum Brother</a>.</li>
@@ -150,6 +115,12 @@
         <div class="callout warn">
           <strong>Đừng lạm dụng reset drum:</strong> drum Brother được đếm ~12.000 trang là có lý do — quá ngưỡng này lớp phủ quang trên trống thoái hoá, bản in mờ dần và mực bám lem trong máy. Reset "chay" nhiều lần không thay drum có thể làm hỏng cả hộp mực lẫn bộ sấy.
         </div>
+
+        <figure>
+          <img src="../../assets/img/bai/cach-reset-may-in-brother-3.webp" alt="Máy in Brother HL-L2361DN"
+               width="1000" height="600" loading="lazy" decoding="async" style="border-radius:var(--radius-sm)">
+          <figcaption>Máy in Brother HL-L2361DN — khác dòng thì vị trí nút có thể khác, nguyên tắc xử lý vẫn vậy.</figcaption>
+        </figure>
 
         <h2>Reset xong vẫn báo lỗi?</h2>
         <p>Nếu đã làm đúng tổ hợp phím mà máy vẫn báo Replace Toner, thường do: nạp mực chưa đủ lượng, chip/bánh răng reset trên hộp mực bị kẹt, hoặc cần <em>reset bằng bánh răng cơ</em> trên một số hộp TN-2385. Kỹ thuật viên Mực In Minh Tiến khi <a href="../../nap-muc-may-in-tan-noi-tphcm/#brother">nạp mực máy in Brother tận nơi</a> đều reset sẵn bộ đếm và kiểm tra bánh răng — bạn không phải tự làm bước nào.</p>

@@ -67,15 +67,23 @@
         <h2>Hộp mực {{m.code}} dùng cho máy in nào</h2>
         {{m.machineHtml}}
 
+        {{m.anhPhu1}}
+
         <h2>Giá hộp mực {{m.code}} và linh kiện đi kèm</h2>
         <p>Bảng dưới là <strong>hàng đang có tại kho {{addressShort}}</strong>, giá tham khảo cho khách lẻ. Đây là giá thật trong bảng giá công khai, không phải giá quảng cáo.</p>
         {{m.partsTable}}
         <p class="price-note">Không thấy mã cần tìm? Dùng <a href="../../tra-hop-muc/?q={{m.query}}">công cụ tra cứu theo model máy</a> hoặc xem <a href="../../bang-gia/">bảng giá đầy đủ {{priceCount}} mã</a>.</p>
 
+        {{m.anhPhu2}}
+
         {{m.sectionsHtml}}
+
+        {{m.anhPhu3}}
 
         <h2>Nên mua hộp mực mới hay nạp lại {{m.code}}</h2>
         {{m.refillHtml}}
+
+        {{m.anhPhu4}}
 
         <figure>
           <img src="../../assets/img/info/{{m.slug}}.webp" alt="Tóm tắt thông tin hộp mực {{m.code}}: máy dùng được, giá và cách chọn"
