@@ -33,7 +33,7 @@
 
   "_trackingNote": "Dien vao roi chay 'node build.js' la ma tracking tu duoc chen vao TAT CA cac trang. De trong thi khong chen gi (khong lam cham trang). Lay o dau: ga4Id -> analytics.google.com > Admin > Data streams > Measurement ID (dang G-XXXXXXX). gscVerification -> search.google.com/search-console > Add property > URL prefix > HTML tag > copy phan content=\"...\". bingVerification -> bing.com/webmasters (co the Import truc tiep tu GSC, nhanh hon).",
   "ga4Id": "",
-  "gscVerification": "",
+  "gscVerification": "wnEHYR4N-EHeLgy3YV7yyaCNnPZpX7Bbu2i0NbH4yUE",
   "bingVerification": "",
 
   "_formNote": "Form lien he can 1 endpoint mien phi. Nhanh nhat: vao web3forms.com > nhap email > nhan Access Key qua mail > dan vao day. De trong thi trang /lien-he/ chi hien nut Goi va Zalo nhu cu.",
