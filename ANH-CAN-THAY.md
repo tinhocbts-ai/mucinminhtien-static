@@ -66,8 +66,9 @@ Tool tự chọn tấm chưa dùng ở bài nào khác, ưu tiên ảnh nét —
 | ☐ | `/khu-vuc/chanh-hung/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/khu-vuc/hiep-phuoc/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/khu-vuc/nha-be/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
+| ☐ | `/khu-vuc/phu-my-hung/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/khu-vuc/quan-4/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/khu-vuc/quan-7/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/khu-vuc/quan-8/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 
-**Tổng: 58 bài — 46 bài có ảnh máy thật.**
+**Tổng: 59 bài — 46 bài có ảnh máy thật.**
