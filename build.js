@@ -591,6 +591,35 @@ function build() {
     ].join('\n')).join('\n');
   } else { cfg.modelLoiList = ''; }
 
+  // ---- Danh sach trang driver cho hub /driver/ ({{driverList}}) ----
+  const DRV_LIST = path.join(ROOT, 'data', 'driver.json');
+  if (fs.existsSync(DRV_LIST)) {
+    const ds = JSON.parse(fs.readFileSync(DRV_LIST, 'utf8')).printers || [];
+    cfg.driverList = ds.map(k => [
+      '        <div class="card post-card">',
+      '          <span class="post-tag">' + escAttr(k.tag) + '</span>',
+      '          <h2><a href="' + k.slug + '/">' + escAttr(k.h1) + '</a></h2>',
+      '          <p>' + escAttr(k.cardDesc) + '</p>',
+      '          <a class="card-link" href="' + k.slug + '/">Xem hướng dẫn cài →</a>',
+      '        </div>'
+    ].join('\n')).join('\n');
+  } else { cfg.driverList = ''; }
+
+  // ---- Danh sach khu vuc cho hub /khu-vuc/ ({{khuVucList}}) ----
+  const KV_LIST = path.join(ROOT, 'data', 'khu-vuc.json');
+  if (fs.existsSync(KV_LIST)) {
+    const as = (JSON.parse(fs.readFileSync(KV_LIST, 'utf8')).areas || [])
+      .filter(k => !k.publish || k.publish <= todayVN());
+    cfg.khuVucList = as.map(k => [
+      '        <div class="card post-card">',
+      '          <span class="post-tag">' + escAttr(k.tag) + '</span>',
+      '          <h2><a href="' + k.slug + '/">' + escAttr(k.area) + '</a></h2>',
+      '          <p>' + escAttr(k.cardDesc) + '</p>',
+      '          <a class="card-link" href="' + k.slug + '/">Xem dịch vụ tại ' + escAttr(k.area) + ' →</a>',
+      '        </div>'
+    ].join('\n')).join('\n');
+  } else { cfg.khuVucList = ''; }
+
   // ---- Danh sach ma muc cho trang hub /muc-in/ ({{mucInList}}) ----
   const MUCIN_LIST_FILE = path.join(ROOT, 'data', 'muc-in.json');
   if (fs.existsSync(MUCIN_LIST_FILE)) {
@@ -726,7 +755,21 @@ function build() {
       fs.statSync(PRODUCTS_FILE).mtime.getTime(),
       fs.statSync(path.join(SRC, 'templates', 'product.html')).mtime.getTime()
     ));
+    /* Bon cach dien dat cho moi link co dinh, xoay vong theo chi so san pham.
+       Muc dich: ho so anchor da dang tu nhien thay vi 55 trang giong het nhau. */
+    const ANCHOR = {
+      bangGia: ['bảng giá đầy đủ {{priceCount}} mã hộp mực & linh kiện', 'bảng giá vật tư đang bán',
+                'danh sách giá {{priceCount}} mã trong kho', 'bảng giá hộp mực và linh kiện'],
+      dichVu: ['dịch vụ sửa máy in tận nơi TP.HCM', 'kỹ thuật viên tới tận nơi thay giúp',
+               'dịch vụ thay linh kiện tại nhà', 'gọi thợ tới kiểm tra và thay'],
+      huongDan: ['hướng dẫn tự xử lý lỗi máy in', 'các bài chẩn đoán lỗi theo triệu chứng',
+                 'cách tự kiểm tra trước khi thay đồ', 'thư viện hướng dẫn sửa lỗi'],
+      napMuc: ['nạp mực máy in tận nơi', 'dịch vụ đổ mực tại nhà và văn phòng',
+               'nạp lại mực thay vì mua hộp mới', 'bơm mực tận nơi trong ngày']
+    };
+    let pIdx = -1;
     for (const p of productData.products) {
+      pIdx++;
       /* Chon SP lien quan theo kieu XOAY VONG thay vi luon lay 3 cai dau:
          cach cu khien vai SP dau nhom nhan het link noi bo, cac SP con lai
          gan nhu mo coi. Xoay vong dam bao moi SP deu duoc >= 3 trang tro toi. */
@@ -773,6 +816,11 @@ function build() {
         'p.metaDesc': escAttr(metaDesc),
         'p.related': relatedHtml
       });
+      dict['p.aBangGia'] = ANCHOR.bangGia[pIdx % 4].replace('{{priceCount}}', cfg.priceCount);
+      dict['p.aDichVu'] = ANCHOR.dichVu[(pIdx + 1) % 4];
+      dict['p.aHuongDan'] = ANCHOR.huongDan[(pIdx + 2) % 4];
+      dict['p.aNapMuc'] = ANCHOR.napMuc[(pIdx + 3) % 4];
+
       const outRel = path.join('san-pham', p.slug, 'index.html');
       const outPath = path.join(ROOT, outRel);
       fs.mkdirSync(path.dirname(outPath), { recursive: true });
@@ -985,6 +1033,157 @@ function build() {
       pagesBuilt.push({ url: outRel.replace(/\\/g, '/'), mtime: mlMtime });
     }
     console.log('  ✓ ' + ml.models.length + ' trang lỗi theo model (model/<slug>/)');
+  }
+
+  // ---- Cum trang driver (/driver/<slug>/) tu data/driver.json ----
+  // Cum traffic lon nhat nganh: 117.070 luot/thang, canh tranh thap
+  // (xem CHIEN-LUOC-TRAFFIC-2026-09.md). KHONG host file cai dat, chi dan link trang hang.
+  const DRIVER_FILE = path.join(ROOT, 'data', 'driver.json');
+  if (fs.existsSync(DRIVER_FILE)) {
+    const dv = JSON.parse(fs.readFileSync(DRIVER_FILE, 'utf8'));
+    const tplDV = fs.readFileSync(path.join(SRC, 'templates', 'driver.html'), 'utf8');
+    const dvMtime = new Date(Math.max(
+      fs.statSync(DRIVER_FILE).mtime.getTime(),
+      fs.statSync(path.join(SRC, 'templates', 'driver.html')).mtime.getTime()
+    ));
+
+    const bangDV = (heads, rows, widths) =>
+      '<div class="price-table-wrap"><table class="price-table"><thead><tr>' +
+      heads.map((h, i) => '<th' + (widths && widths[i] ? ' style="width:' + widths[i] + '"' : '') + '>' + escAttr(h) + '</th>').join('') +
+      '</tr></thead><tbody>\n' +
+      rows.map(r => '<tr>' + r.map(c => '<td>' + c + '</td>').join('') + '</tr>').join('\n') +
+      '\n</tbody></table></div>';
+
+    for (const k of dv.printers) {
+      const faqSchema = '<script type="application/ld+json">\n' + JSON.stringify({
+        '@context': 'https://schema.org', '@type': 'FAQPage',
+        mainEntity: k.faqs.map(f => ({
+          '@type': 'Question', name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a }
+        }))
+      }, null, 2) + '\n</script>';
+
+      const dict = Object.assign({}, cfg, {
+        'k.slug': k.slug, 'k.model': escAttr(k.model), 'k.crumb': escAttr(k.crumb),
+        'k.tag': escAttr(k.tag), 'k.h1': escAttr(k.h1), 'k.title': escAttr(k.title),
+        'k.desc': escAttr(k.desc), 'k.ogTitle': escAttr(k.ogTitle), 'k.ogDesc': escAttr(k.ogDesc),
+        'k.answer': escAttr(k.answer), 'k.apDung': escAttr(k.apDung),
+        'k.totalTime': k.totalTime, 'k.published': k.published,
+        'k.updatedVN': k.published.split('-').reverse().join('/'),
+        'k.ctaTitle': escAttr(k.ctaTitle),
+        'k.officialHtml': '          <p><strong>Trang tải chính hãng:</strong> ' +
+          k.official.map(o => '<a href="' + o[1] + '" target="_blank" rel="nofollow noopener">' + escAttr(o[0]) + '</a>').join(' · ') + '</p>',
+        'k.specTable': bangDV(['Hạng mục', 'Chi tiết'], k.specs.map(r => [escAttr(r[0]), escAttr(r[1])]), ['180px']),
+        'k.specNote': k.specNote || '',
+        'k.stepsHtml': k.steps.map(st => '        <h2>' + escAttr(st.h2) + '</h2>\n        ' + st.html).join('\n\n'),
+        'k.sectionsHtml': xenAnhPhu(k.slug,
+          (k.sections || []).map(st => '<h2>' + escAttr(st.h2) + '</h2>\n' + st.html)),
+        'k.loiTable': bangDV(['Hiện tượng khi cài', 'Nguyên nhân thật', 'Cách xử lý'],
+          k.loiRows.map(r => r.map(escAttr))),
+        'k.mucNote': k.mucNote || '',
+        'k.mucTable': bangDV(['Vật tư', 'Dùng cho', 'Ghi chú khi mua'], k.mucRows.map(r => r.map(escAttr))),
+        'k.loiBaiHtml': k.loiBai.map(r =>
+          '          <li><a href="' + r[0] + '">' + escAttr(r[1]) + '</a> — ' + escAttr(r[2]) + '</li>').join('\n'),
+        'k.faqHtml': k.faqs.map(f =>
+          '        <details>\n          <summary>' + escAttr(f.q) + '</summary>\n' +
+          '          <div>' + escAttr(f.a) + '</div>\n        </details>').join('\n'),
+        'k.faqSchema': faqSchema,
+        'k.relatedHtml': k.related.map(r =>
+          '          <li><a href="' + r[0] + '">' + escAttr(r[1]) + '</a></li>').join('\n')
+      });
+
+      const outRel = path.join('driver', k.slug, 'index.html');
+      const outPath = path.join(ROOT, outRel);
+      fs.mkdirSync(path.dirname(outPath), { recursive: true });
+      fs.writeFileSync(outPath, finalize(render(tplDV, dict, outRel), outRel, shell, cfg), 'utf8');
+      pagesBuilt.push({ url: outRel.replace(/\\/g, '/'), mtime: dvMtime });
+    }
+    console.log('  ✓ ' + dv.printers.length + ' trang driver (driver/<slug>/)');
+  }
+
+  // ---- Cum trang khu vuc (/khu-vuc/<slug>/) tu data/khu-vuc.json ----
+  // Xem KE-HOACH-KHU-NAM-5-QUAN-2026-09.md. Moi trang phai co noi dung that khac nhau.
+  const KHUVUC_FILE = path.join(ROOT, 'data', 'khu-vuc.json');
+  if (fs.existsSync(KHUVUC_FILE)) {
+    const kv = JSON.parse(fs.readFileSync(KHUVUC_FILE, 'utf8'));
+    const tplKV = fs.readFileSync(path.join(SRC, 'templates', 'khu-vuc.html'), 'utf8');
+    const kvMtime = new Date(Math.max(
+      fs.statSync(KHUVUC_FILE).mtime.getTime(),
+      fs.statSync(path.join(SRC, 'templates', 'khu-vuc.html')).mtime.getTime()
+    ));
+
+    const bangKV = (heads, rows, widths) =>
+      '<div class="price-table-wrap"><table class="price-table"><thead><tr>' +
+      heads.map((h, i) => '<th' + (widths && widths[i] ? ' style="width:' + widths[i] + '"' : '') + '>' + escAttr(h) + '</th>').join('') +
+      '</tr></thead><tbody>\n' +
+      rows.map(r => '<tr>' + r.map((c, i) =>
+        '<td' + (i === r.length - 1 && /đ$/.test(c) ? ' class="price"' : '') + '>' + c + '</td>').join('') + '</tr>').join('\n') +
+      '\n</tbody></table></div>';
+
+    const OFFER = JSON.stringify({
+      '@type': 'OfferCatalog', name: 'Dịch vụ máy in tận nơi',
+      itemListElement: [
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Nạp mực máy in tận nơi' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Sửa máy in tận nơi' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Thay drum, gạt mực, trục từ' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Vệ sinh máy in định kỳ' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Cài driver và chia sẻ máy in qua mạng' } }
+      ]
+    });
+
+    let kvHoan = 0;
+    for (const k of kv.areas) {
+      if (k.publish && k.publish > todayVN()) {
+        kvHoan++;
+        /* Xoá file đã sinh từ lần build trước (nếu có) để trang hẹn ngày
+           không vô tình còn sống trên ổ đĩa rồi bị commit lên. */
+        const cu = path.join(ROOT, 'khu-vuc', k.slug);
+        if (fs.existsSync(cu)) fs.rmSync(cu, { recursive: true, force: true });
+        continue;
+      }
+      const faqSchema = '<script type="application/ld+json">\n' + JSON.stringify({
+        '@context': 'https://schema.org', '@type': 'FAQPage',
+        mainEntity: k.faqs.map(f => ({
+          '@type': 'Question', name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a }
+        }))
+      }, null, 2) + '\n</script>';
+
+      const dict = Object.assign({}, cfg, {
+        'k.slug': k.slug, 'k.area': escAttr(k.area), 'k.crumb': escAttr(k.crumb),
+        'k.tag': escAttr(k.tag), 'k.h1': escAttr(k.h1), 'k.title': escAttr(k.title),
+        'k.desc': escAttr(k.desc), 'k.ogTitle': escAttr(k.ogTitle), 'k.ogDesc': escAttr(k.ogDesc),
+        'k.answer': escAttr(k.answer), 'k.apDung': escAttr(k.apDung),
+        'k.serviceName': escAttr(k.serviceName), 'k.published': k.published,
+        'k.updatedVN': k.published.split('-').reverse().join('/'),
+        'k.ctaTitle': escAttr(k.ctaTitle),
+        'k.areaServedLd': k.areaServedLd,
+        'k.offerLd': OFFER,
+        'k.quickTable': bangKV(['Hạng mục', 'Chi tiết'], k.quickRows.map(r => [escAttr(r[0]), escAttr(r[1])]), ['180px']),
+        'k.sectionsHtml': xenAnhPhu(k.slug,
+          k.sections.map(st => '<h2>' + escAttr(st.h2) + '</h2>\n' + st.html)),
+        'k.giaTable': bangKV(['Hạng mục', 'Áp dụng cho', 'Giá tham khảo'],
+          k.giaRows.map(r => r.map(escAttr)), [null, null, '160px']),
+        'k.vatTuIntro': escAttr(k.vatTuIntro),
+        'k.vatTuTable': bangKV(['Vật tư mang theo', 'Dùng cho', 'Ghi chú'], k.vatTuRows.map(r => r.map(escAttr))),
+        'k.loiBaiHtml': k.loiBai.map(r =>
+          '          <li><a href="' + r[0] + '">' + escAttr(r[1]) + '</a> — ' + escAttr(r[2]) + '</li>').join('\n'),
+        'k.faqHtml': k.faqs.map(f =>
+          '        <details>\n          <summary>' + escAttr(f.q) + '</summary>\n' +
+          '          <div>' + escAttr(f.a) + '</div>\n        </details>').join('\n'),
+        'k.faqSchema': faqSchema,
+        'k.relatedHtml': kv.areas.filter(x => x.slug !== k.slug && (!x.publish || x.publish <= todayVN())).map(x =>
+          '          <li><a href="../' + x.slug + '/">' + escAttr(x.h1) + '</a></li>').join('\n')
+      });
+
+      const outRel = path.join('khu-vuc', k.slug, 'index.html');
+      const outPath = path.join(ROOT, outRel);
+      fs.mkdirSync(path.dirname(outPath), { recursive: true });
+      fs.writeFileSync(outPath, finalize(render(tplKV, dict, outRel), outRel, shell, cfg), 'utf8');
+      pagesBuilt.push({ url: outRel.split(path.sep).join('/'), mtime: kvMtime });
+    }
+    console.log('  ✓ ' + (kv.areas.length - kvHoan) + ' trang khu vực (khu-vuc/<slug>/)' +
+      (kvHoan ? '  [' + kvHoan + ' trang đang hẹn ngày đăng]' : ''));
   }
 
   // ---- Phan 4: sitemap.xml (khong gom partials, 404, trang redirect) ----

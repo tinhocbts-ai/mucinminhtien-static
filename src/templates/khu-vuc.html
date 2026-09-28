@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>{{k.title}}</title>
+<meta name="description" content="{{k.desc}}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mucinminhtien.com/khu-vuc/{{k.slug}}/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Mực in Minh Tiến">
+<meta property="og:title" content="{{k.ogTitle}}">
+<meta property="og:description" content="{{k.ogDesc}}">
+<meta property="og:url" content="https://mucinminhtien.com/khu-vuc/{{k.slug}}/">
+<meta property="og:image" content="https://mucinminhtien.com/assets/img/hero/{{k.slug}}.webp">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{k.serviceName}}",
+  "serviceType": "Sửa máy in, nạp mực máy in tận nơi",
+  "description": "{{k.desc}}",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "{{brandName}}",
+    "telephone": "{{hotlineIntl}}",
+    "priceRange": "{{priceRange}}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{addressStreet}}",
+      "addressLocality": "{{addressLocality}}",
+      "addressRegion": "{{addressRegion}}",
+      "postalCode": "{{postalCode}}",
+      "addressCountry": "VN"
+    }
+  },
+  "areaServed": {{k.areaServedLd}},
+  "hasOfferCatalog": {{k.offerLd}},
+  "url": "https://mucinminhtien.com/khu-vuc/{{k.slug}}/"
+}
+</script>
+{{k.faqSchema}}
+</head>
+<body>
+<a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
+<div id="site-header"></div>
+
+<main id="main-content">
+  <div class="container">
+    <p class="breadcrumb"><a href="../../index.html">Trang chủ</a> / <a href="../">Khu vực phục vụ</a> / {{k.crumb}}</p>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="prose">
+        <span class="post-tag">{{k.tag}}</span>
+        <h1 style="margin:12px 0 6px">{{k.h1}}</h1>
+        <p class="post-meta">Cập nhật: {{k.updatedVN}} · {{k.apDung}}</p>
+
+        <figure>
+          <img src="../../assets/img/hero/{{k.slug}}.webp" alt="{{k.h1}}"
+               width="1200" height="675" fetchpriority="high" style="border-radius:var(--radius-sm)">
+        </figure>
+
+        <p><strong>{{k.answer}}</strong></p>
+
+        <div class="btn-row">
+          <a href="tel:{{hotlineTel}}" class="btn">Gọi {{hotlineDisplay}}</a>
+          <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn btn-outline">Nhắn Zalo</a>
+        </div>
+
+        <!--TOC-->
+
+        <h2>Thông tin nhanh cho khách {{k.area}}</h2>
+        {{k.quickTable}}
+
+{{k.sectionsHtml}}
+
+        <h2>Bảng giá dịch vụ tại {{k.area}}</h2>
+        {{k.giaTable}}
+        <p class="price-note">Giá vật tư lấy đúng theo kho — xem <a href="../../bang-gia/">bảng giá {{priceCount}} mã</a>. Kỹ thuật viên kiểm tra và báo giá trước khi làm; khách đồng ý mới thay.</p>
+
+        <h2>Vật tư mang sẵn theo xe khi tới {{k.area}}</h2>
+        <p>{{k.vatTuIntro}}</p>
+        {{k.vatTuTable}}
+
+        <h2>Lỗi hay gặp ở {{k.area}} và bài hướng dẫn tự xử lý</h2>
+        <p>Nhiều ca chỉ cần làm theo bài là xong, không phải gọi thợ. Đọc trước cho đỡ tốn tiền:</p>
+        <ul>
+{{k.loiBaiHtml}}
+        </ul>
+
+        <figure>true          <img src="../../assets/img/info/{{k.slug}}.webp" alt="Các bước làm việc khi sửa máy in tận nơi tại {{k.area}}"true               width="1000" height="600" loading="lazy" decoding="async" style="border-radius:var(--radius-sm)">true          <figcaption>Tóm tắt cách bên mình xử lý một ca tại {{k.area}}: tiếp nhận model máy, mang sẵn vật tư, kiểm tra, báo giá rồi mới làm.</figcaption>true        </figure>truetrue        <h2>Câu hỏi thường gặp — khách {{k.area}}</h2>
+      </div>
+      <div class="faq">
+{{k.faqHtml}}
+      </div>
+
+      <div class="prose" style="margin-top:34px">
+        <h2 class="no-toc">Khu vực phục vụ khác</h2>
+        <ul>
+{{k.relatedHtml}}
+        </ul>
+      </div>
+
+      <div class="cta-banner" style="margin-top:40px">
+        <h2 class="no-toc">{{k.ctaTitle}}</h2>
+        <p>Gọi hoặc nhắn Zalo {{hotlineDisplay}}. Báo giúp tên model máy (ghi ở mặt trước máy in) và địa chỉ — kỹ thuật viên mang sẵn vật tư đúng dòng máy, khỏi phải đi hai lần.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="tel:{{hotlineTel}}" class="btn btn-outline">Gọi {{hotlineDisplay}}</a>
+          <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn btn-outline">Nhắn Zalo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="../../assets/js/include.js"></script>
+</body>
+</html>

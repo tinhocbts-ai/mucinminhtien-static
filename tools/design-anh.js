@@ -8,7 +8,7 @@
  *   node tools/design-anh.js "<đường dẫn ảnh gốc>" "<tiêu đề>" <ten-file-ra> [chữ nhỏ phụ]
  *
  * Ví dụ:
- *   node tools/design-anh.js "D:/AUTOMATION/projects/tinhocnamphong/hình kỹ thuật/20260327_145647.jpg" \
+ *   node tools/design-anh.js "D:/kho-anh-ky-thuat/20260327_145647.jpg" \
  *        "Máy in bị sọc đen dọc|Nguyên nhân & cách khắc phục" soc-den-doc "Hướng dẫn từ kỹ thuật viên"
  *
  * - Tiêu đề dùng dấu | để xuống dòng thủ công (mỗi dòng ≤ ~26 ký tự cho đẹp).
@@ -36,7 +36,7 @@ function esc(s) {
 }
 
 const lines = titleRaw.split('|').map(s => s.trim()).filter(Boolean);
-const sub = (subRaw || 'mucinminhtien.com — 0915 510 203').trim();
+const sub = (subRaw || 'mucinminhtien.com — 0986 704 260').trim();
 
 /* Panel trai phu gradient xanh dam -> trong suot; tieu de chu to trang;
    gach cam accent; ten thuong hieu tren cung. */

@@ -1,0 +1,1255 @@
+{
+  "_help": "Cum trang khu vuc (/khu-vuc/<slug>/). Sua file nay roi 'node build.js'. Xem KE-HOACH-KHU-NAM-5-QUAN-2026-09.md. LUAT: moi trang phai co noi dung THAT khac nhau (tuyen duong, khu cu the, dong may hay gap o do) — KHONG nhan ban doi ten quan (PROJECT.md muc 12).",
+  "_todo_chi_nhanh": "Chua co dia chi chi nhanh Q8 (dang di kiem mat bang, 28/09/2026). Schema dang dung NAP co so hien tai — KHONG khai chi nhanh chua ton tai. Khi co dia chi: them branch vao site.config.json, sua khoi 'Thong tin nhanh' cua tung trang (thoi gian di chuyen that) va mo GBP.",
+  "areas": [
+    {
+      "slug": "quan-7",
+      "area": "Quận 7",
+      "crumb": "Quận 7",
+      "tag": "Khu vực phục vụ",
+      "cardDesc": "Phú Mỹ Hưng, KCX Tân Thuận, Him Lam, Tân Hưng — máy văn phòng nước ngoài, máy màu đa năng, máy in mã vạch kho hàng.",
+      "h1": "Sửa máy in, nạp mực tận nơi Quận 7 — có mặt trong 45–60 phút",
+      "title": "Sửa Máy In Quận 7 Tận Nơi – Phú Mỹ Hưng, KCX Tân Thuận",
+      "desc": "Nạp mực, sửa máy in tận nơi Quận 7: Phú Mỹ Hưng, Tân Thuận, Him Lam, Tân Hưng. Nạp mực từ 80.000đ, kiểm tra trước khi báo giá. Gọi Zalo 0986 704 260.",
+      "ogTitle": "Sửa máy in, nạp mực tận nơi Quận 7 — Phú Mỹ Hưng, Tân Thuận, Him Lam",
+      "ogDesc": "Kỹ thuật viên mang sẵn vật tư theo dòng máy, có mặt 45–60 phút. Bảng giá rõ, kiểm tra trước khi báo giá.",
+      "serviceName": "Sửa máy in và nạp mực tận nơi Quận 7, TP.HCM",
+      "answer": "Minh Tiến nhận sửa máy in và nạp mực tận nơi toàn Quận 7 — Phú Mỹ Hưng, Khu chế xuất Tân Thuận, Him Lam, Tân Hưng, Tân Quy. Gọi trước 45–60 phút là có kỹ thuật viên tới, mang sẵn hộp mực và vật tư theo đúng dòng máy khách báo. Nạp mực từ 80.000đ, kiểm tra xong mới báo giá.",
+      "apDung": "Sau sáp nhập 01/7/2025, Quận 7 gồm các phường Tân Thuận, Phú Thuận, Tân Mỹ, Tân Hưng",
+      "published": "2026-09-28",
+      "ctaTitle": "Máy in ở Quận 7 đang hỏng? Gọi là có người tới",
+      "areaServedLd": "[{\"@type\":\"AdministrativeArea\",\"name\":\"Quận 7, TP. Hồ Chí Minh\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Tân Thuận\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Phú Thuận\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Tân Mỹ\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Tân Hưng\"}]",
+      "quickRows": [
+        [
+          "Thời gian có mặt",
+          "45–60 phút trong giờ hành chính; qua cầu Kênh Tẻ giờ cao điểm (7h30–8h30, 17h–18h30) có thể chậm hơn 15 phút"
+        ],
+        [
+          "Khu vực nhận",
+          "Phú Mỹ Hưng, Khu chế xuất Tân Thuận, Him Lam, Tân Quy, Tân Hưng, Tân Kiểng, khu cảng Tân Thuận"
+        ],
+        [
+          "Làm được tại chỗ",
+          "Nạp mực, thay drum – gạt – trục từ, vệ sinh máy, xử lý kẹt giấy, cài driver và chia sẻ máy in qua mạng"
+        ],
+        [
+          "Phải mang về xưởng",
+          "Thay lô sấy trọn cụm, sửa bo formatter, sửa nguồn — có máy cho mượn nếu văn phòng cần in gấp"
+        ],
+        [
+          "Hoá đơn",
+          "Có xuất VAT cho công ty — báo trước khi kỹ thuật viên tới để mang sẵn giấy tờ"
+        ],
+        [
+          "Ngoài giờ",
+          "Nhận ca tối và cuối tuần cho toà nhà văn phòng, đặt lịch trước"
+        ]
+      ],
+      "sections": [
+        {
+          "h2": "Quận 7 hay gọi vì chuyện gì",
+          "html": "<p>Quận 7 khác các quận khác ở chỗ tỷ lệ máy văn phòng cao hơn máy gia đình rất nhiều, và phần lớn là máy dùng chung cho cả phòng.</p><ul><li><strong>Phú Mỹ Hưng và các toà văn phòng Tân Mỹ, Tân Phú:</strong> nhiều công ty nước ngoài, máy đa năng in màu khổ A4/A3 có scan và in hai mặt. Bệnh hay gặp là in lệch màu, kẹt giấy ở bộ đảo mặt và lỗi kết nối sau khi công ty đổi router.</li><li><strong>Khu chế xuất Tân Thuận:</strong> máy in laser đen trắng chạy khối lượng lớn cộng máy in mã vạch dán thùng hàng. Ở đây vật tư hao nhanh, thường tới lúc gọi là drum và lô sấy đã quá hạn từ lâu.</li><li><strong>Him Lam, Tân Hưng, Tân Quy:</strong> nhiều văn phòng nhỏ, phòng khám, trung tâm ngoại ngữ — máy để bàn Canon, HP, Brother, gọi chủ yếu vì hết mực và bản in bị mờ.</li><li><strong>Kho và công ty logistics quanh cảng Tân Thuận:</strong> máy in phiếu, máy in kim in nhiều liên, hay hỏng đầu kim và ruy băng.</li></ul><p>Vì vậy khi khách Quận 7 gọi, kỹ thuật viên hỏi thêm một câu: máy dùng chung qua mạng hay cắm thẳng vào một máy tính. Hai trường hợp này cách xử lý khác nhau hoàn toàn, và hỏi trước giúp mang đúng đồ nghề.</p>"
+        },
+        {
+          "h2": "Toà nhà có bảo vệ và thẻ ra vào: báo trước cho nhanh",
+          "html": "<p>Phần lớn toà nhà ở Phú Mỹ Hưng và khu chế xuất yêu cầu đăng ký khách trước, gửi xe đúng chỗ, có nơi phải mượn thẻ tầng. Khách báo giúp ba thứ khi đặt lịch thì kỹ thuật viên vào thẳng, không mất 20 phút ở quầy lễ tân:</p><ol><li>Tên công ty và số tầng.</li><li>Tên người đứng ra đăng ký với lễ tân.</li><li>Quy định riêng nếu có — ví dụ khu chế xuất cần giấy giới thiệu hoặc đăng ký trước một ngày.</li></ol><p>Với văn phòng chỉ có thể cho vào ngoài giờ làm việc, đặt lịch buổi tối được, báo trước trong ngày.</p>"
+        },
+        {
+          "h2": "Cách làm việc: kiểm tra xong mới báo giá",
+          "html": "<ol><li>Khách gọi hoặc nhắn Zalo, đọc tên model ghi ở mặt trước máy và mô tả bản in đang bị gì.</li><li>Kỹ thuật viên chuẩn bị hộp mực, drum và vật tư đúng dòng máy đó rồi mới lên đường — đây là lý do câu đầu tiên luôn là hỏi model.</li><li>Tới nơi kiểm tra, in thử, chỉ cho khách xem chỗ hỏng và báo giá. Khách đồng ý mới làm.</li><li>Làm xong in thử lại trước mặt khách, hướng dẫn cách dùng để lâu hỏng hơn.</li><li>Vật tư thay có bảo hành; hộp mực nạp bảo hành đúng lượng mực, kẹt hay lem trong thời gian bảo hành thì xử lý lại không tính tiền.</li></ol>"
+        }
+      ],
+      "giaRows": [
+        [
+          "Nạp mực hộp mực laser",
+          "HP, Canon, Brother (12A, 85A, 337, TN-2380…)",
+          "80.000 – 150.000 đ"
+        ],
+        [
+          "Bơm mực máy in phun",
+          "Epson, Canon dòng phun",
+          "từ 60.000 đ/màu"
+        ],
+        [
+          "Thay trống (drum)",
+          "Máy in laser HP, Canon, Brother",
+          "từ 120.000 đ"
+        ],
+        [
+          "Vệ sinh máy in tận nơi",
+          "Tất cả các dòng",
+          "từ 100.000 đ"
+        ],
+        [
+          "Xử lý kẹt giấy, không kéo giấy",
+          "Laser và phun",
+          "Kiểm tra rồi báo giá"
+        ],
+        [
+          "Cài driver, chia sẻ máy in qua mạng LAN",
+          "Cả phòng nhiều máy tính",
+          "Kiểm tra rồi báo giá"
+        ]
+      ],
+      "vatTuIntro": "Xe đi Quận 7 mang sẵn nhóm vật tư hợp với máy văn phòng ở khu này, nên phần lớn ca xong ngay trong một lần tới:",
+      "vatTuRows": [
+        [
+          "Hộp mực 12A, 85A, 35A, CF226A",
+          "Canon LBP2900, HP 1102, M402 và các máy để bàn phổ biến",
+          "Xem <a href=\"../../muc-in/\">trang mã mực</a> để biết máy mình dùng mã nào"
+        ],
+        [
+          "Mực Canon 337, Brother TN-2380",
+          "Canon MF3010, MF249dw · Brother 2321D, 2366DW",
+          "Hai dòng gặp nhiều nhất ở văn phòng nhỏ"
+        ],
+        [
+          "Drum, gạt mực, trục từ rời",
+          "Thay lẻ rẻ hơn thay cả hộp",
+          "Đọc <a href=\"../../huong-dan/may-in-bi-soc-den-doc/\">bài sọc đen dọc</a> để biết khi nào cần"
+        ],
+        [
+          "Mực Epson 003, 664",
+          "Máy phun bình mực ở phòng kế toán, phòng khám",
+          "Kèm dụng cụ vệ sinh đầu phun"
+        ],
+        [
+          "Quả đào, bố thắng",
+          "Máy kéo nhiều tờ hoặc không kéo giấy",
+          "Thay theo cặp cho bền"
+        ]
+      ],
+      "loiBai": [
+        [
+          "../../huong-dan/may-in-bi-soc-den-doc/",
+          "Máy in bị sọc đen dọc",
+          "hay gặp ở máy chạy khối lượng lớn trong khu chế xuất"
+        ],
+        [
+          "../../huong-dan/may-tinh-khong-nhan-may-in/",
+          "Máy tính không nhận máy in",
+          "thường xảy ra sau khi công ty đổi router hoặc đổi máy tính"
+        ],
+        [
+          "../../huong-dan/cach-in-2-mat/",
+          "Cách in 2 mặt trên Canon, HP, Brother, Epson",
+          "câu hỏi nhiều nhất từ văn phòng dùng máy đa năng"
+        ],
+        [
+          "../../driver/canon-2900/",
+          "Driver Canon 2900 cho Windows 11, 10",
+          "máy cũ nhưng còn rất nhiều ở văn phòng Quận 7"
+        ],
+        [
+          "../../huong-dan/may-in-khong-keo-giay/",
+          "Máy in không kéo giấy",
+          "máy chạy nhiều thì quả đào mòn trước tiên"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Quận 7 có tính phí đi lại không?",
+          "a": "Không tính phí đi lại riêng trong nội bộ Quận 7. Giá báo cho khách là giá dịch vụ và vật tư; kiểm tra xong mới báo, khách đồng ý mới làm."
+        },
+        {
+          "q": "Văn phòng ở Phú Mỹ Hưng cần đăng ký khách với lễ tân, có hỗ trợ không?",
+          "a": "Có. Khách báo giúp tên công ty, số tầng và tên người đăng ký, kỹ thuật viên mang theo giấy tờ tuỳ thân để lễ tân đổi thẻ. Toà nhà nào cần đăng ký trước một ngày thì đặt lịch sớm hơn."
+        },
+        {
+          "q": "Cả phòng dùng chung một máy in qua mạng, sửa xong có phải cài lại từng máy không?",
+          "a": "Tuỳ lỗi. Nếu chỉ thay vật tư thì không phải đụng tới máy tính. Nếu phải đổi máy in hoặc đổi địa chỉ IP thì kỹ thuật viên cài lại cho toàn bộ máy trong phòng luôn trong lần tới đó."
+        },
+        {
+          "q": "Có xuất hoá đơn VAT cho công ty không?",
+          "a": "Có. Báo trước khi đặt lịch để mang sẵn giấy tờ và xuất hoá đơn ngay sau khi nghiệm thu."
+        },
+        {
+          "q": "Máy phải mang về xưởng thì bao lâu xong, có máy dùng tạm không?",
+          "a": "Những ca phải mang về (thay trọn cụm sấy, sửa bo, sửa nguồn) thường 1–2 ngày làm việc. Văn phòng cần in liên tục thì báo trước, bên mình cho mượn máy dùng tạm trong thời gian sửa."
+        },
+        {
+          "q": "Ngoài giờ hành chính hoặc cuối tuần có nhận không?",
+          "a": "Có nhận theo lịch hẹn, phù hợp với văn phòng không thể dừng việc trong giờ làm. Nhắn Zalo trước để sắp lịch."
+        }
+      ]
+    },
+    {
+      "slug": "quan-4",
+      "area": "Quận 4",
+      "crumb": "Quận 4",
+      "tag": "Khu vực phục vụ",
+      "cardDesc": "Khánh Hội, Vĩnh Hội, Xóm Chiếu — nhà phố hẻm nhỏ, công ty giao nhận, văn phòng nhỏ sát trung tâm.",
+      "h1": "Nạp mực, sửa máy in tận nơi Quận 4 — sát trung tâm, tới nhanh",
+      "title": "Nạp Mực Máy In Quận 4 Tại Nhà – Tới Trong 30–45 Phút",
+      "desc": "Nạp mực và sửa máy in tận nơi Quận 4: Khánh Hội, Vĩnh Hội, Xóm Chiếu. Nạp mực từ 80.000đ, đi xe máy vào được hẻm nhỏ. Gọi hoặc Zalo 0986 704 260.",
+      "ogTitle": "Nạp mực, sửa máy in tận nơi Quận 4 — Khánh Hội, Vĩnh Hội, Xóm Chiếu",
+      "ogDesc": "Sát trung tâm nên tới nhanh, đi xe máy vào được hẻm nhỏ. Kiểm tra trước khi báo giá, có vật tư mang sẵn.",
+      "serviceName": "Nạp mực và sửa máy in tận nơi Quận 4, TP.HCM",
+      "answer": "Minh Tiến nhận nạp mực và sửa máy in tận nơi toàn Quận 4 — Khánh Hội, Vĩnh Hội, Xóm Chiếu và khu cảng cũ. Quận 4 sát trung tâm nên thường 30–45 phút là có mặt. Kỹ thuật viên đi xe máy nên vào được hẻm nhỏ, nạp mực từ 80.000đ, kiểm tra xong mới báo giá.",
+      "apDung": "Sau sáp nhập 01/7/2025, Quận 4 gồm ba phường Vĩnh Hội, Khánh Hội và Xóm Chiếu",
+      "published": "2026-09-28",
+      "ctaTitle": "Máy in ở Quận 4 hỏng giữa buổi? Gọi là có người tới",
+      "areaServedLd": "[{\"@type\":\"AdministrativeArea\",\"name\":\"Quận 4, TP. Hồ Chí Minh\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Vĩnh Hội\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Khánh Hội\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Xóm Chiếu\"}]",
+      "quickRows": [
+        [
+          "Thời gian có mặt",
+          "30–45 phút — Quận 4 nằm sát trung tâm, qua cầu Khánh Hội hoặc cầu Ông Lãnh là tới"
+        ],
+        [
+          "Khu vực nhận",
+          "Khánh Hội, Vĩnh Hội, Xóm Chiếu, khu Bến Vân Đồn, Hoàng Diệu, Nguyễn Tất Thành, Tôn Đản"
+        ],
+        [
+          "Hẻm nhỏ",
+          "Kỹ thuật viên đi xe máy nên vào được hẻm xe hơi không vào được — phần lớn nhà phố Quận 4 thuộc diện này"
+        ],
+        [
+          "Làm được tại chỗ",
+          "Nạp mực, thay drum – gạt – trục từ, vệ sinh máy, gỡ kẹt giấy, cài driver"
+        ],
+        [
+          "Khách hay gọi",
+          "Văn phòng công ty giao nhận, đại lý vé, tiệm photo nhỏ, hộ kinh doanh, nhà riêng"
+        ],
+        [
+          "Hoá đơn",
+          "Có xuất VAT — báo trước khi đặt lịch"
+        ]
+      ],
+      "sections": [
+        {
+          "h2": "Quận 4 hay gọi vì chuyện gì",
+          "html": "<p>Quận 4 là quận nhỏ, đông dân, nhiều nhà phố mặt tiền hẹp và rất nhiều hộ kinh doanh. Máy in ở đây phần lớn là máy để bàn một chức năng hoặc máy đa năng cỡ nhỏ, dùng hằng ngày nhưng ít được vệ sinh.</p><ul><li><strong>Công ty giao nhận, đại lý vận tải quanh Nguyễn Tất Thành và khu cảng cũ:</strong> in vận đơn, phiếu giao hàng liên tục. Máy chạy nhiều nên hay kẹt giấy và mòn quả đào.</li><li><strong>Văn phòng nhỏ, phòng công chứng, đại lý bảo hiểm ở Bến Vân Đồn, Hoàng Diệu:</strong> máy laser đen trắng, gọi vì bản in mờ hoặc hết mực.</li><li><strong>Tiệm photo, tiệm in nhỏ trong hẻm:</strong> máy chạy khối lượng lớn hơn nhiều so với máy văn phòng, tới lúc gọi thì thường phải thay cả drum lẫn gạt.</li><li><strong>Nhà riêng, học sinh sinh viên:</strong> máy phun Epson, Canon để lâu không dùng nên tắc đầu phun.</li></ul><p>Máy để lâu không in là bệnh riêng của nhóm khách nhà riêng — với máy phun, mỗi lần bỏ không vài tuần là mực khô trong đầu phun. Nếu gặp trường hợp đó, đọc trước <a href=\"../../huong-dan/ve-sinh-dau-phun-epson/\">bài vệ sinh đầu phun</a>, nhiều ca tự làm được.</p>"
+        },
+        {
+          "h2": "Hẻm nhỏ và chỗ gửi xe: mẹo để không mất thời gian",
+          "html": "<p>Nhiều địa chỉ ở Quận 4 nằm trong hẻm ngoặt nhiều lần và số nhà xuyệt dài. Hai việc giúp kỹ thuật viên tới đúng chỗ ngay lần đầu:</p><ul><li>Nhắn Zalo <strong>vị trí trên bản đồ</strong> thay vì đọc số nhà — nhanh và chính xác hơn hẳn.</li><li>Nói trước hẻm có cho gửi xe không, hoặc gửi ở đâu gần nhất.</li></ul><p>Với chung cư cũ không có thang máy, báo giúp tầng — nếu phải khiêng máy xuống thì kỹ thuật viên đi hai người.</p>"
+        },
+        {
+          "h2": "Nạp mực hay thay hộp mới: khi nào nên chọn cái nào",
+          "html": "<p>Câu hỏi gặp nhiều nhất ở nhóm khách hộ kinh doanh. Nguyên tắc bên mình vẫn tư vấn thẳng:</p><ul><li><strong>Hộp còn vỏ tốt, mới nạp dưới 3–4 lần:</strong> nạp lại là kinh tế nhất, in ra vẫn đẹp.</li><li><strong>Hộp đã nạp nhiều lần, bản in bắt đầu có sọc hoặc lem:</strong> thay trống và gạt rồi nạp tiếp, rẻ hơn mua hộp mới.</li><li><strong>Vỏ hộp đã nứt, bánh răng mòn, in ra nền xám:</strong> lúc này nạp thêm chỉ tốn tiền, nên thay hộp.</li></ul><p>Chi tiết cách phân biệt nằm ở bài <a href=\"../../huong-dan/phan-biet-muc-in-chinh-hang/\">phân biệt mực chính hãng và mực trôi nổi</a> và <a href=\"../../huong-dan/cach-chon-muc-in/\">cách chọn mực in đúng máy</a>.</p>"
+        }
+      ],
+      "giaRows": [
+        [
+          "Nạp mực hộp mực laser",
+          "HP, Canon, Brother phổ thông",
+          "80.000 – 150.000 đ"
+        ],
+        [
+          "Bơm mực máy in phun",
+          "Epson, Canon dòng phun",
+          "từ 60.000 đ/màu"
+        ],
+        [
+          "Vệ sinh đầu phun máy in phun",
+          "Máy để lâu không dùng, in mất nét",
+          "Kiểm tra rồi báo giá"
+        ],
+        [
+          "Thay trống (drum)",
+          "Máy in laser",
+          "từ 120.000 đ"
+        ],
+        [
+          "Vệ sinh máy in tận nơi",
+          "Tất cả các dòng",
+          "từ 100.000 đ"
+        ],
+        [
+          "Thay quả đào, bố thắng",
+          "Máy kẹt giấy, kéo nhiều tờ",
+          "Kiểm tra rồi báo giá"
+        ]
+      ],
+      "vatTuIntro": "Quận 4 nhiều máy để bàn phổ thông nên xe mang sẵn nhóm vật tư dùng chung cho các dòng này:",
+      "vatTuRows": [
+        [
+          "Hộp mực 12A, 85A, 35A",
+          "Canon 2900, HP 1102, HP 1005 — ba dòng gặp nhiều nhất",
+          "Xem giá ở <a href=\"../../muc-in/hop-muc-12a/\">trang 12A</a> và <a href=\"../../muc-in/hop-muc-85a/\">trang 85A</a>"
+        ],
+        [
+          "Mực Epson 003",
+          "Epson L3110, L3210, L1210 ở nhà riêng và tiệm nhỏ",
+          "<a href=\"../../muc-in/muc-epson-003/\">Xem trang mực 003</a>"
+        ],
+        [
+          "Drum và gạt mực rời",
+          "Bản in sọc, lem sau nhiều lần nạp",
+          "Thay lẻ rẻ hơn thay cả hộp"
+        ],
+        [
+          "Quả đào, bố thắng",
+          "Máy in vận đơn chạy nhiều",
+          "Hàng hao nhanh nhất ở nhóm giao nhận"
+        ]
+      ],
+      "loiBai": [
+        [
+          "../../huong-dan/may-in-khong-keo-giay/",
+          "Máy in không kéo giấy",
+          "bệnh số một của máy in vận đơn chạy liên tục"
+        ],
+        [
+          "../../huong-dan/ve-sinh-dau-phun-epson/",
+          "Vệ sinh đầu phun Epson",
+          "máy phun để lâu không dùng ở nhà riêng"
+        ],
+        [
+          "../../huong-dan/may-in-ra-giay-trang/",
+          "Máy in ra giấy trắng",
+          "kiểm tra theo bảng trước khi gọi thợ"
+        ],
+        [
+          "../../huong-dan/cach-chon-muc-in/",
+          "Cách chọn mực in đúng máy, tiết kiệm",
+          "nạp lại hay mua mới thì rẻ hơn"
+        ],
+        [
+          "../../huong-dan/may-in-khong-in-duoc/",
+          "Máy in không in được, báo Offline",
+          "phần lớn tự xử lý được trong 5 phút"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Nhà trong hẻm nhỏ Quận 4 có nhận không?",
+          "a": "Có. Kỹ thuật viên đi xe máy nên vào được hẻm xe hơi không vào được. Nhắn vị trí bản đồ qua Zalo là nhanh nhất vì số nhà xuyệt ở Quận 4 khá khó tìm."
+        },
+        {
+          "q": "Nạp mực tại nhà mất bao lâu?",
+          "a": "Một hộp mực laser thường 15–20 phút gồm cả vệ sinh hộp và in thử. Nếu phải thay thêm trống hoặc gạt thì lâu hơn khoảng 15 phút."
+        },
+        {
+          "q": "Máy in nhà để mấy tháng không dùng, giờ in ra mất nét, có cứu được không?",
+          "a": "Máy phun bị khô mực trong đầu phun, phần lớn cứu được bằng vệ sinh đầu phun, nặng hơn thì ngâm rửa. Trường hợp đầu phun hỏng hẳn thì chi phí thay thường không đáng so với máy mới — kỹ thuật viên sẽ nói thẳng khi kiểm tra."
+        },
+        {
+          "q": "Hộ kinh doanh nhỏ có được nợ hay thanh toán chuyển khoản không?",
+          "a": "Thanh toán chuyển khoản hoặc tiền mặt sau khi nghiệm thu đều được. Khách quen lấy vật tư thường xuyên thì làm theo tháng."
+        },
+        {
+          "q": "Tiệm photo cần gấp trong ngày có kịp không?",
+          "a": "Báo sớm trong buổi sáng thì gần như luôn kịp trong ngày. Quận 4 sát trung tâm nên thời gian di chuyển ngắn, ca gấp thường được ưu tiên."
+        },
+        {
+          "q": "Có bán luôn hộp mực để tự thay không?",
+          "a": "Có. Đọc mã máy rồi gọi, bên mình giao hộp mực đúng mã tận nơi; xem trước giá ở bảng giá vật tư trên web."
+        }
+      ]
+    },
+    {
+      "slug": "binh-chanh",
+      "area": "Bình Chánh",
+      "crumb": "Bình Chánh",
+      "tag": "Khu vực phục vụ",
+      "cardDesc": "Trung Sơn, Him Lam, Bình Hưng, Tân Nhựt, Vĩnh Lộc — phòng khám, trường học, xưởng may và kho hàng.",
+      "h1": "Sửa máy in, nạp mực tận nơi Bình Chánh — Trung Sơn, Bình Hưng, Vĩnh Lộc",
+      "title": "Sửa Máy In Bình Chánh – Trung Sơn, Vĩnh Lộc, Xưởng Và Kho",
+      "desc": "Sửa máy in, nạp mực tận nơi Bình Chánh: Trung Sơn, Him Lam, Bình Hưng, Tân Nhựt, Vĩnh Lộc. Nhận cả máy in kim, máy in kho. Gọi Zalo 0986 704 260.",
+      "ogTitle": "Sửa máy in, nạp mực tận nơi Bình Chánh — Trung Sơn, Bình Hưng, Vĩnh Lộc",
+      "ogDesc": "Đi được cả khu dân cư lẫn xưởng, kho. Nhận máy laser, máy phun, máy in kim in nhiều liên.",
+      "serviceName": "Sửa máy in và nạp mực tận nơi Bình Chánh, TP.HCM",
+      "answer": "Minh Tiến nhận sửa máy in và nạp mực tận nơi khu vực Bình Chánh — khu dân cư Trung Sơn, Him Lam, Bình Hưng, Tân Nhựt và cụm xưởng Vĩnh Lộc. Địa bàn rộng nên nên đặt lịch trước nửa buổi; kỹ thuật viên mang sẵn vật tư cho cả máy laser, máy phun lẫn máy in kim.",
+      "apDung": "Sau sáp nhập 01/7/2025, khu vực Bình Chánh chia thành các xã Bình Hưng, Tân Nhựt, Vĩnh Lộc, Tân Vĩnh Lộc, Bình Chánh…",
+      "published": "2026-09-28",
+      "ctaTitle": "Máy in ở Bình Chánh hỏng? Đặt lịch, kỹ thuật viên gom tuyến đi luôn",
+      "areaServedLd": "[{\"@type\":\"AdministrativeArea\",\"name\":\"Bình Chánh, TP. Hồ Chí Minh\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Xã Bình Hưng\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Xã Tân Nhựt\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Xã Vĩnh Lộc\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Xã Tân Vĩnh Lộc\"}]",
+      "quickRows": [
+        [
+          "Thời gian có mặt",
+          "Khu Trung Sơn – Him Lam – Bình Hưng: 45–60 phút. Vĩnh Lộc, Tân Nhựt và các xã xa hơn: đặt lịch trước nửa buổi để gom tuyến"
+        ],
+        [
+          "Khu vực nhận",
+          "KDC Trung Sơn, Him Lam 6A, Bình Hưng, Phong Phú, Tân Nhựt, Vĩnh Lộc, Tân Vĩnh Lộc, khu vực dọc Nguyễn Văn Linh và Quốc lộ 50"
+        ],
+        [
+          "Loại máy nhận",
+          "Laser, phun, đa năng, và máy in kim in nhiều liên — loại máy kho hàng và xưởng hay dùng"
+        ],
+        [
+          "Làm được tại chỗ",
+          "Nạp mực, thay drum – gạt – trục từ, thay ruy băng và đầu kim, vệ sinh, cài driver, nối máy in qua mạng"
+        ],
+        [
+          "Khách hay gọi",
+          "Phòng khám, trường học, xưởng may, kho hàng, công ty gia đình"
+        ],
+        [
+          "Hợp đồng bảo trì",
+          "Xưởng và kho nhiều máy có thể làm bảo trì định kỳ theo tháng, giá gọn hơn gọi lẻ"
+        ]
+      ],
+      "sections": [
+        {
+          "h2": "Bình Chánh chia làm hai nhóm khách rất khác nhau",
+          "html": "<p>Địa bàn này rộng và không đồng nhất. Máy in ở khu dân cư và máy in trong xưởng hỏng theo hai kiểu hoàn toàn khác nhau, nên cách chuẩn bị cũng khác.</p><p><strong>Nhóm 1 — khu dân cư Trung Sơn, Him Lam, Bình Hưng:</strong> nhiều phòng khám, phòng răng, trung tâm dạy thêm, văn phòng công ty nhỏ. Máy laser để bàn và máy đa năng, in tài liệu và toa thuốc mỗi ngày. Bệnh thường gặp là mờ chữ, kẹt giấy, và lỗi mạng khi nhiều máy tính dùng chung một máy in.</p><p><strong>Nhóm 2 — xưởng và kho ở Vĩnh Lộc, Tân Nhựt, Phong Phú:</strong> môi trường nhiều bụi vải, bụi gỗ. Máy ở đây bẩn nhanh gấp mấy lần máy văn phòng, và rất nhiều nơi còn dùng <strong>máy in kim</strong> để in phiếu nhiều liên. Máy in kim hỏng chủ yếu ở ruy băng và đầu kim, là thứ thợ máy in laser thuần thường không mang theo.</p><p>Khi gọi, khách nói rõ máy đặt trong xưởng hay trong văn phòng — chỉ một câu đó thôi cũng đủ để kỹ thuật viên mang đúng đồ.</p>"
+        },
+        {
+          "h2": "Bụi xưởng giết máy in nhanh hơn khối lượng in",
+          "html": "<p>Ở xưởng may và kho, thứ làm hỏng máy không phải số trang in mà là bụi. Bụi bám vào trống và gương quang làm bản in mờ từng mảng; bụi lọt vào bộ kéo giấy làm máy nhai giấy; bụi tích trong cụm sấy gây kẹt giấy liên tục.</p><p>Ba việc giữ máy trong xưởng sống lâu hơn, làm được mà không tốn tiền:</p><ol><li><strong>Đặt máy trong tủ hoặc hộp che</strong>, chỉ hở mặt trước — riêng việc này đã giảm hẳn số lần gọi thợ.</li><li><strong>Không để máy ngay dưới quạt công nghiệp</strong> hoặc lối ra vào nhiều bụi.</li><li><strong>Vệ sinh định kỳ 3–6 tháng</strong> thay vì đợi hỏng. Vệ sinh một lần rẻ hơn thay trống một lần.</li></ol><p>Xưởng nhiều máy nên làm bảo trì định kỳ: kỹ thuật viên tới theo lịch, vệ sinh và thay vật tư tới hạn cho tất cả máy một lượt, không phải gọi gấp giữa ca sản xuất.</p>"
+        },
+        {
+          "h2": "Đặt lịch theo tuyến để đi nhanh hơn",
+          "html": "<p>Bình Chánh rộng, đi một ca lẻ ở Vĩnh Lộc mất thời gian gần gấp đôi so với khu Trung Sơn. Cách bên mình làm để không bắt khách chờ lâu:</p><ul><li>Ca ở khu <strong>Trung Sơn, Him Lam, Bình Hưng</strong> nhận trong ngày như các quận nội thành.</li><li>Ca ở <strong>Vĩnh Lộc, Tân Nhựt, Phong Phú</strong> gom theo tuyến, đặt trước nửa buổi hoặc trước một ngày là chắc chắn có người.</li><li>Công ty có nhiều máy thì gộp một lần kiểm tra toàn bộ thay vì gọi lẻ từng máy — tiết kiệm cho cả hai bên.</li></ul>"
+        }
+      ],
+      "giaRows": [
+        [
+          "Nạp mực hộp mực laser",
+          "HP, Canon, Brother phổ thông",
+          "80.000 – 150.000 đ"
+        ],
+        [
+          "Vệ sinh máy in tận nơi",
+          "Máy đặt trong xưởng, kho nhiều bụi",
+          "từ 100.000 đ"
+        ],
+        [
+          "Thay trống (drum)",
+          "Máy in laser",
+          "từ 120.000 đ"
+        ],
+        [
+          "Thay ruy băng máy in kim",
+          "Epson LQ và các dòng in nhiều liên",
+          "Kiểm tra rồi báo giá"
+        ],
+        [
+          "Xử lý kẹt giấy, máy nhai giấy",
+          "Máy nhiều bụi, quả đào mòn",
+          "Kiểm tra rồi báo giá"
+        ],
+        [
+          "Bảo trì định kỳ nhiều máy",
+          "Xưởng, kho, trường học",
+          "Báo giá theo số lượng máy"
+        ]
+      ],
+      "vatTuIntro": "Xe đi tuyến Bình Chánh mang thêm nhóm vật tư cho máy làm việc trong môi trường bụi và máy in nhiều liên:",
+      "vatTuRows": [
+        [
+          "Hộp mực laser phổ thông 12A, 85A, 35A, CF226A",
+          "Phòng khám, trường học, văn phòng xưởng",
+          "<a href=\"../../muc-in/\">Tra theo mã mực</a>"
+        ],
+        [
+          "Ruy băng máy in kim",
+          "Máy in phiếu nhiều liên ở kho, xưởng",
+          "Đọc đúng mã ruy băng trên hộp cũ khi gọi"
+        ],
+        [
+          "Drum, gạt mực, trục từ",
+          "Máy bẩn do bụi, bản in mờ từng mảng",
+          "Thay lẻ, không cần thay cả hộp"
+        ],
+        [
+          "Quả đào, bố thắng, con lăn",
+          "Máy nhai giấy, kéo lệch",
+          "Hao nhanh nhất trong môi trường bụi"
+        ],
+        [
+          "Bộ vệ sinh chuyên dụng",
+          "Thổi bụi trong máy, lau gương quang",
+          "Đi kèm gói vệ sinh định kỳ"
+        ]
+      ],
+      "loiBai": [
+        [
+          "../../huong-dan/may-in-bi-soc-ngang/",
+          "Máy in bị sọc ngang: bảng chu kỳ lặp",
+          "đo khoảng cách vệt là ra đúng bộ phận hỏng"
+        ],
+        [
+          "../../huong-dan/may-in-khong-keo-giay/",
+          "Máy in không kéo giấy",
+          "quả đào bám bụi là nguyên nhân số một ở xưởng"
+        ],
+        [
+          "../../huong-dan/may-in-bi-lem-muc/",
+          "Máy in bị lem mực",
+          "hay gặp khi cụm sấy bẩn"
+        ],
+        [
+          "../../huong-dan/may-in-ra-giay-trang/",
+          "Máy in ra giấy trắng",
+          "kiểm tra theo bảng trước khi gọi thợ"
+        ],
+        [
+          "../../huong-dan/cach-cai-dat-may-in/",
+          "Cách cài đặt và chia sẻ máy in qua mạng LAN",
+          "văn phòng xưởng nhiều máy tính dùng chung"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Bình Chánh xa, có tính thêm phí đi lại không?",
+          "a": "Khu Trung Sơn, Him Lam, Bình Hưng tính như nội thành. Các xã xa hơn như Vĩnh Lộc, Tân Nhựt thì tuỳ ca, kỹ thuật viên báo rõ trước khi đi — không phát sinh sau khi làm xong."
+        },
+        {
+          "q": "Có nhận máy in kim không?",
+          "a": "Có. Máy in kim in phiếu nhiều liên là loại rất phổ biến ở kho và xưởng khu này. Bên mình thay ruy băng, xử lý đầu kim kẹt và căn lại khổ giấy tại chỗ."
+        },
+        {
+          "q": "Xưởng có 5–10 máy thì làm thế nào cho gọn?",
+          "a": "Nên làm bảo trì định kỳ: kỹ thuật viên tới theo lịch, kiểm tra và vệ sinh tất cả máy một lượt, thay vật tư tới hạn. Giá gọn hơn gọi lẻ và tránh phải dừng việc giữa ca sản xuất."
+        },
+        {
+          "q": "Máy đặt trong xưởng bụi, bao lâu nên vệ sinh một lần?",
+          "a": "Ba đến sáu tháng, sớm hơn nhiều so với máy văn phòng. Bụi vải và bụi gỗ bám vào trống và bộ kéo giấy là nguyên nhân hỏng nhanh nhất ở môi trường này."
+        },
+        {
+          "q": "Đặt lịch trước bao lâu thì chắc chắn có người?",
+          "a": "Khu gần đặt trong buổi là được. Khu xa nên báo trước nửa buổi hoặc trước một ngày để gom tuyến, kỹ thuật viên tới đúng giờ hẹn."
+        },
+        {
+          "q": "Có giao hộp mực tận nơi mà không cần thợ không?",
+          "a": "Có. Đọc mã máy rồi gọi, bên mình giao đúng mã tới tận nơi. Xem trước giá ở bảng giá vật tư trên web."
+        }
+      ]
+    },
+    {
+      "slug": "quan-8",
+      "area": "Quận 8",
+      "crumb": "Quận 8",
+      "tag": "Khu vực phục vụ",
+      "cardDesc": "Chánh Hưng, Phú Định, Bình Đông, Bình Phú — chợ đầu mối Bình Điền, vựa kho bến Bình Đông, nhà phố và trường học.",
+      "h1": "Sửa máy in, nạp mực tận nơi Quận 8 — có mặt 30–45 phút, báo giá trước",
+      "title": "Nạp Mực, Sửa Máy In Quận 8 – Có Mặt Trong 30–45 Phút",
+      "desc": "Sửa máy in và nạp mực tận nơi Quận 8: Chánh Hưng, Phú Định, Bình Đông, Bình Phú, chợ Bình Điền. Nạp mực từ 80.000đ, kiểm tra rồi mới báo giá. Zalo 0986 704 260.",
+      "ogTitle": "Sửa máy in, nạp mực tận nơi Quận 8 — Chánh Hưng, Phú Định, Bình Đông",
+      "ogDesc": "Có mặt 30–45 phút, bảng giá vật tư thật theo mã, nhận cả ca đêm ở khu chợ đầu mối Bình Điền.",
+      "serviceName": "Sửa máy in và nạp mực tận nơi Quận 8, TP.HCM",
+      "answer": "Minh Tiến nhận sửa máy in và nạp mực tận nơi toàn Quận 8 — Chánh Hưng, Phú Định, Bình Đông, Bình Phú và khu chợ đầu mối Bình Điền. Kỹ thuật viên có mặt trong 30–45 phút giờ hành chính, kiểm tra và in thử trước mặt khách rồi mới báo giá. Nạp mực từ 80.000đ, vật tư báo đúng giá theo mã trong kho.",
+      "apDung": "Sau sáp nhập 01/7/2025, Quận 8 gồm các phường Chánh Hưng, Phú Định, Bình Đông, Bình Phú",
+      "published": "2026-09-28",
+      "ctaTitle": "Máy in ở Quận 8 hỏng? Gọi là có người tới trong 30–45 phút",
+      "areaServedLd": "[{\"@type\":\"AdministrativeArea\",\"name\":\"Quận 8, TP. Hồ Chí Minh\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Chánh Hưng\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Phú Định\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Bình Đông\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Bình Phú\"}]",
+      "quickRows": [
+        [
+          "Thời gian có mặt",
+          "30–45 phút trong giờ hành chính. Khu Bình Điền và bến Bình Đông nhận cả ca sớm và ca tối theo hẹn"
+        ],
+        [
+          "Phường nhận sửa",
+          "Chánh Hưng, Phú Định, Bình Đông, Bình Phú — tương ứng các phường 1–16 cũ của Quận 8"
+        ],
+        [
+          "Trục đường hay đi",
+          "Phạm Thế Hiển, Tạ Quang Bửu, Âu Dương Lân, Dương Bá Trạc, Bến Bình Đông, Võ Văn Kiệt, Nguyễn Văn Linh"
+        ],
+        [
+          "Làm được tại chỗ",
+          "Nạp mực, thay drum – gạt – trục từ – bao lụa, vệ sinh máy, gỡ kẹt giấy, thay quả đào, cài driver, chia sẻ máy in qua mạng"
+        ],
+        [
+          "Phải mang về xưởng",
+          "Thay trọn cụm sấy, sửa bo formatter, sửa nguồn — thường 1–2 ngày, có máy cho mượn nếu cần in gấp"
+        ],
+        [
+          "Loại máy nhận",
+          "Laser, phun, đa năng, máy in bill nhiệt ở sạp chợ, máy in kim in phiếu nhiều liên"
+        ]
+      ],
+      "sections": [
+        {
+          "h2": "Quận 8 có ba nhóm khách, hỏng theo ba kiểu khác nhau",
+          "html": "<p>Quận 8 trải dài dọc kênh Tàu Hủ và kênh Đôi, nên cùng một quận mà máy in mỗi khu lại hỏng vì lý do khác nhau. Biết trước thuộc nhóm nào thì kỹ thuật viên mang đúng đồ ngay lần đầu.</p><ul><li><strong>Chợ đầu mối Bình Điền và các vựa quanh Phú Định:</strong> chủ yếu máy in bill nhiệt và máy in tem cân hàng, chạy liên tục từ nửa đêm tới sáng. Bệnh hay gặp là in mờ dần do đầu in bẩn, kẹt giấy do bụi và ẩm, dao cắt không đứt. Khu này gọi nhiều vào khung giờ lạ — bên mình nhận theo hẹn.</li><li><strong>Bến Bình Đông, khu kho vựa dọc kênh:</strong> máy in phiếu, máy in kim in nhiều liên cho giao nhận hàng. Môi trường ẩm và nhiều bụi, ruy băng và đầu kim hao nhanh.</li><li><strong>Nhà phố, trường học, phòng khám ở Chánh Hưng và Bình Phú:</strong> máy laser để bàn và máy đa năng cỡ nhỏ, gọi vì bản in mờ, có sọc, kẹt giấy, hoặc máy tính không nhận máy in sau khi đổi máy mới.</li></ul><p>Riêng nhóm chợ và kho, lời khuyên thật lòng: đừng đợi máy chết hẳn giữa phiên chợ. Một lần vệ sinh đầu in và bộ kéo giấy rẻ hơn nhiều so với thay đầu in, mà lại không làm gián đoạn buổi bán hàng.</p>"
+        },
+        {
+          "h2": "Các phường Quận 8 nhận sửa tận nơi",
+          "html": "<p>Từ 01/7/2025, mười sáu phường cũ của Quận 8 được sắp xếp lại thành bốn phường. Bên mình nhận toàn bộ địa bàn, ghi cả hai cách gọi để khách dễ đối chiếu:</p><ul><li><strong>Phường Chánh Hưng</strong> — khu Phạm Thế Hiển, Dương Bá Trạc, Âu Dương Lân, cầu Chữ Y, các chung cư khu Giai Việt.</li><li><strong>Phường Bình Đông</strong> — bến Bình Đông, Tạ Quang Bửu, khu kho vựa dọc kênh Tàu Hủ.</li><li><strong>Phường Phú Định</strong> — khu chợ đầu mối Bình Điền, Võ Văn Kiệt đoạn cuối, giáp Bình Chánh.</li><li><strong>Phường Bình Phú</strong> — khu giáp Quận 6, đường Bình Phú, các tuyến hẻm dân cư đông.</li></ul><p>Địa chỉ trong hẻm hoặc nhà dọc kênh thì nhắn vị trí bản đồ qua Zalo là nhanh nhất — nhiều tuyến ở Quận 8 số nhà xuyệt dài và hẻm thông nhau.</p>"
+        },
+        {
+          "h2": "Quy trình làm việc: năm bước, báo giá trước khi động vào máy",
+          "html": "<ol><li><strong>Tiếp nhận:</strong> khách gọi hoặc nhắn Zalo, đọc tên model ghi ở mặt trước máy và mô tả hiện tượng.</li><li><strong>Chuẩn bị vật tư:</strong> kỹ thuật viên lấy sẵn hộp mực, drum, gạt, trục từ đúng dòng máy đó từ kho rồi mới lên đường.</li><li><strong>Kiểm tra tại chỗ:</strong> in thử, mở máy, chỉ cho khách xem đúng chỗ hỏng.</li><li><strong>Báo giá:</strong> nói rõ hạng mục nào bắt buộc, hạng mục nào có thể để sau. Khách đồng ý mới làm.</li><li><strong>Nghiệm thu:</strong> in thử lại trước mặt khách, dọn sạch chỗ làm, ghi bảo hành theo từng hạng mục.</li></ol><p>Không phát sinh giá sau khi đã báo. Nếu mở máy ra phát hiện thêm hư hỏng khác, kỹ thuật viên dừng lại báo trước chứ không tự làm rồi tính tiền.</p>"
+        }
+      ],
+      "giaRows": [
+        [
+          "Nạp mực hộp mực laser",
+          "HP, Canon, Brother (12A, 85A, 35A, 337, TN-2380…)",
+          "80.000 – 150.000 đ"
+        ],
+        [
+          "Bơm mực máy in phun",
+          "Epson, Canon dòng phun",
+          "từ 60.000 đ/màu"
+        ],
+        [
+          "Thay gạt mực",
+          "Bản in có sọc đen dọc, nền xám",
+          "từ 40.000 đ"
+        ],
+        [
+          "Thay trục từ",
+          "Bản in mờ dần dù mực còn",
+          "từ 34.000 đ"
+        ],
+        [
+          "Thay bao lụa",
+          "Bản in nhòe, chạm tay ra mực",
+          "từ 80.000 đ"
+        ],
+        [
+          "Thay trống (drum)",
+          "Vệt lặp đều theo chu kỳ trên trang in",
+          "từ 120.000 đ"
+        ],
+        [
+          "Thay lô sấy, lô ép",
+          "Kẹt giấy ở cuối đường đi, mực không bám",
+          "từ 49.000 đ tuỳ dòng máy"
+        ],
+        [
+          "Thay quả đào, bố thắng",
+          "Máy không kéo giấy, kéo nhiều tờ",
+          "từ 90.000 đ"
+        ],
+        [
+          "Vệ sinh máy in tận nơi",
+          "Máy ở chợ, kho nhiều bụi",
+          "từ 100.000 đ"
+        ]
+      ],
+      "vatTuIntro": "Giá trên là giá vật tư thật đang có trong kho, không phải giá ước chừng. Xe đi tuyến Quận 8 mang sẵn nhóm hàng hợp với cả máy văn phòng lẫn máy ngoài chợ:",
+      "vatTuRows": [
+        [
+          "Hộp mực 12A, 85A, 35A, CF226A",
+          "Canon 2900, HP 1102, HP M402 — nhóm máy để bàn phổ biến nhất",
+          "<a href=\"../../muc-in/hop-muc-12a/\">Xem trang 12A</a> · <a href=\"../../muc-in/hop-muc-85a/\">85A</a>"
+        ],
+        [
+          "Gạt mực, trục từ, drum rời",
+          "Thay lẻ thay vì thay cả hộp mực",
+          "Combo 5 cây gạt 12A từ 40.000đ, trục từ 12A từ 34.000đ"
+        ],
+        [
+          "Bao lụa, lô sấy",
+          "Bản in nhòe, kẹt giấy ở cụm sấy",
+          "Bao lụa 1200/12A 80.000đ, lô sấy tuỳ dòng từ 49.000đ"
+        ],
+        [
+          "Quả đào, bố thắng",
+          "Máy chợ và máy kho chạy nhiều, hao nhanh nhất",
+          "Bộ quả đào Brother 2240/2321 khoảng 90.000đ"
+        ],
+        [
+          "Giấy in nhiệt K57, K80",
+          "Sạp chợ, quầy thu ngân dùng máy in bill",
+          "Giao kèm luôn khi đi ca, khỏi đặt riêng"
+        ],
+        [
+          "Mực Epson 003, 664",
+          "Máy phun ở nhà riêng, văn phòng nhỏ",
+          "<a href=\"../../muc-in/muc-epson-003/\">Xem trang mực 003</a>"
+        ]
+      ],
+      "loiBai": [
+        [
+          "../../huong-dan/may-in-nhiet-in-mo/",
+          "Máy in nhiệt in mờ",
+          "bệnh số một của máy in bill ngoài chợ"
+        ],
+        [
+          "../../huong-dan/may-in-bill-khong-in-duoc/",
+          "Máy in bill không in được",
+          "kiểm tra mặt giấy nhiệt trước khi gọi thợ"
+        ],
+        [
+          "../../huong-dan/may-in-bi-soc-den-doc/",
+          "Máy in bị sọc đen dọc",
+          "gạt mực hoặc trống đã tới hạn"
+        ],
+        [
+          "../../huong-dan/may-in-khong-keo-giay/",
+          "Máy in không kéo giấy",
+          "quả đào bám bụi, bố thắng mòn"
+        ],
+        [
+          "../../huong-dan/may-tinh-khong-nhan-may-in/",
+          "Máy tính không nhận máy in",
+          "hay gặp sau khi đổi máy tính mới"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Quận 8 bao lâu có thợ tới?",
+          "a": "Giờ hành chính thường 30–45 phút kể từ lúc chốt lịch. Khu Phú Định và chợ Bình Điền xa hơn nên cộng thêm khoảng 10–15 phút, kỹ thuật viên báo giờ dự kiến ngay khi nhận cuộc gọi."
+        },
+        {
+          "q": "Sạp ở chợ Bình Điền bán đêm, có nhận sửa ngoài giờ không?",
+          "a": "Có, nhận theo hẹn cho ca sớm và ca tối. Máy in bill ở chợ hỏng giữa phiên là mất doanh thu ngay, nên bên mình ưu tiên xếp lịch cho nhóm này và mang sẵn giấy in nhiệt K57, K80 theo xe."
+        },
+        {
+          "q": "Giá vật tư có phải giá ước chừng không?",
+          "a": "Không. Giá lấy đúng theo mã hàng trong kho — ví dụ combo gạt 12A 40.000đ, trục từ 12A 34.000đ, bao lụa 1200 80.000đ. Khách xem được toàn bộ danh sách ở trang bảng giá trên web trước khi gọi."
+        },
+        {
+          "q": "Máy in kim in phiếu nhiều liên ở kho có sửa được không?",
+          "a": "Có. Bên mình thay ruy băng, xử lý đầu kim kẹt, căn lại khổ giấy và chỉnh độ đậm tại chỗ. Đầu kim hỏng hẳn thì báo giá thay trước khi làm."
+        },
+        {
+          "q": "Mở máy ra thấy hỏng thêm chỗ khác thì tính tiền thế nào?",
+          "a": "Kỹ thuật viên dừng lại, gọi khách xem và báo giá bổ sung. Khách đồng ý mới làm tiếp. Không có chuyện tự sửa rồi tính thêm tiền lúc thanh toán."
+        },
+        {
+          "q": "Có bán hộp mực giao tận nơi mà không cần thợ không?",
+          "a": "Có. Đọc mã máy rồi gọi, bên mình giao đúng mã tới tận nơi trong Quận 8, thường trong ngày. Xem giá trước ở bảng giá vật tư trên web."
+        }
+      ]
+    },
+    {
+      "slug": "chanh-hung",
+      "publish": "2026-09-29",
+      "area": "phường Chánh Hưng",
+      "crumb": "Phường Chánh Hưng",
+      "tag": "Khu vực phục vụ",
+      "cardDesc": "Phạm Thế Hiển, Dương Bá Trạc, Âu Dương Lân, cầu Chữ Y, các chung cư khu Giai Việt — tới trong 30 phút.",
+      "h1": "Sửa máy in, nạp mực tại phường Chánh Hưng — tới trong 30 phút",
+      "title": "Sửa Máy In Phường Chánh Hưng – Tới Trong 30 Phút",
+      "desc": "Sửa máy in, nạp mực tận nơi phường Chánh Hưng: Phạm Thế Hiển, Dương Bá Trạc, Âu Dương Lân, chung cư Giai Việt. Nạp mực từ 80.000đ. Gọi Zalo 0986 704 260.",
+      "ogTitle": "Sửa máy in, nạp mực tại phường Chánh Hưng — tới trong 30 phút",
+      "ogDesc": "Địa bàn quen thuộc: Phạm Thế Hiển, Dương Bá Trạc, cầu Chữ Y, chung cư Giai Việt. Kiểm tra rồi mới báo giá.",
+      "serviceName": "Sửa máy in và nạp mực tận nơi phường Chánh Hưng, TP.HCM",
+      "answer": "Phường Chánh Hưng là địa bàn kỹ thuật viên chạy hằng ngày, nên phần lớn ca nhận được trong 30 phút là có mặt: Phạm Thế Hiển, Dương Bá Trạc, Âu Dương Lân, Tạ Quang Bửu, khu cầu Chữ Y và các chung cư dọc kênh Đôi. Nạp mực từ 80.000đ, kiểm tra và in thử trước mặt khách rồi mới báo giá.",
+      "apDung": "Phường Chánh Hưng hình thành từ các phường 4, 5, 6, 7 và một phần phường 3, 8 của Quận 8 cũ",
+      "published": "2026-09-29",
+      "ctaTitle": "Ở Chánh Hưng, gọi buổi sáng là xong trong buổi",
+      "areaServedLd": "[{\"@type\":\"AdministrativeArea\",\"name\":\"Phường Chánh Hưng, TP. Hồ Chí Minh\"}]",
+      "quickRows": [
+        [
+          "Thời gian có mặt",
+          "Khoảng 30 phút trong giờ hành chính — đây là tuyến kỹ thuật viên chạy mỗi ngày"
+        ],
+        [
+          "Đường hay đi",
+          "Phạm Thế Hiển, Dương Bá Trạc, Âu Dương Lân, Tạ Quang Bửu, Bùi Minh Trực, Nguyễn Thị Tần"
+        ],
+        [
+          "Mốc quen",
+          "Cầu Chữ Y, cầu Nguyễn Tri Phương, chợ Rạch Ông, các chung cư dọc kênh Đôi"
+        ],
+        [
+          "Khách thường gặp",
+          "Nhà phố, hộ kinh doanh, phòng khám, trường học, văn phòng công ty nhỏ, tiệm photo"
+        ],
+        [
+          "Làm tại chỗ",
+          "Nạp mực, thay drum – gạt – trục từ, vệ sinh máy, gỡ kẹt giấy, cài driver, nối máy in qua mạng"
+        ],
+        [
+          "Phí kiểm tra",
+          "Không thu phí kiểm tra riêng. Kiểm tra xong báo giá, khách thấy hợp lý mới làm"
+        ]
+      ],
+      "sections": [
+        {
+          "h2": "Chánh Hưng: chung cư và nhà phố, mỗi kiểu một cách tiếp cận",
+          "html": "<p>Phường này có hai kiểu địa chỉ rất khác nhau, và kinh nghiệm cho thấy hỏi trước một câu là đỡ mất cả hai bên nửa tiếng.</p><ul><li><strong>Chung cư dọc kênh Đôi và khu Giai Việt:</strong> bảo vệ thường yêu cầu đăng ký khách, có nơi phải có cư dân xuống đón hoặc bấm thang. Khách báo giúp block, tầng và số căn khi đặt lịch là vào thẳng.</li><li><strong>Nhà phố và hẻm quanh Phạm Thế Hiển, Bùi Minh Trực:</strong> nhiều hẻm nhỏ thông nhau, số nhà xuyệt dài. Nhắn vị trí bản đồ qua Zalo nhanh hơn đọc địa chỉ.</li></ul><p>Kỹ thuật viên đi xe máy, mang theo thùng đồ nghề và vật tư của các dòng máy phổ biến nên vào hẻm hay lên chung cư đều được.</p>"
+        },
+        {
+          "h2": "Ba việc khách Chánh Hưng gọi nhiều nhất",
+          "html": "<p><strong>1. Hết mực giữa lúc cần in gấp.</strong> Trường học, phòng khám và tiệm photo hay rơi vào cảnh này. Nếu hộp mực còn vỏ tốt thì nạp tại chỗ 15–20 phút là in lại được; hộp đã nạp nhiều lần và bản in bắt đầu có sọc thì nên thay <a href=\"../../san-pham/combo-3-drum-trong-muc-in-mitsu-35a-1005-1006-1505/\">trống mực</a> cùng lúc để khỏi gọi lại lần nữa.</p><p><strong>2. Bản in mờ dần dù mực vẫn còn.</strong> Phần lớn là trục từ yếu chứ không phải hết mực — cách phân biệt nằm trong bài <a href=\"../../model/hp-107a-in-mo-nhat-chu/\">HP 107a in mờ, nhạt chữ</a>. Với dòng HP 107A, <a href=\"../../san-pham/truc-tu-dung-cho-hop-muc-hp-107a-may-in-m135a-m137fdn-m135w-m107w-w1107a-dung-cho-phoi-ch/\">trục từ thay lẻ</a> rẻ hơn nhiều so với mua hộp mực mới.</p><p><strong>3. Máy kẹt giấy liên tục.</strong> Nhà ở gần kênh, độ ẩm cao, giấy để lâu hút ẩm là kẹt. Trước khi gọi thợ, thử thay ram giấy mới và làm theo bài <a href=\"../../huong-dan/may-in-khong-keo-giay/\">máy in không kéo giấy</a> — nhiều ca tự xử lý được.</p>"
+        },
+        {
+          "h2": "Giấy tờ, bảo hành và cách tính tiền",
+          "html": "<p>Hạng mục nào cũng báo giá trước khi làm. Vật tư thay có bảo hành theo từng loại; hộp mực nạp bảo hành đúng lượng mực — trong thời gian bảo hành mà bản in lem hay kẹt thì xử lý lại không tính tiền.</p><p>Khách là công ty, trường học cần hoá đơn VAT thì báo lúc đặt lịch để kỹ thuật viên mang sẵn giấy tờ. Thanh toán tiền mặt hoặc chuyển khoản sau khi in thử đạt.</p><p>Máy phải mang về xưởng — thay trọn cụm sấy, sửa bo, sửa nguồn — thì có phiếu nhận máy ghi rõ tình trạng, thường 1–2 ngày làm việc.</p>"
+        }
+      ],
+      "giaRows": [
+        [
+          "Nạp mực hộp mực laser",
+          "HP, Canon, Brother phổ thông",
+          "80.000 – 150.000 đ"
+        ],
+        [
+          "Bơm mực máy in phun",
+          "Epson, Canon dòng phun",
+          "từ 60.000 đ/màu"
+        ],
+        [
+          "Thay gạt mực",
+          "Bản in có sọc đen dọc",
+          "từ 40.000 đ"
+        ],
+        [
+          "Thay trục từ",
+          "Bản in mờ dần dù mực còn",
+          "từ 34.000 đ"
+        ],
+        [
+          "Thay trống (drum)",
+          "Vệt lặp đều theo chu kỳ",
+          "từ 120.000 đ"
+        ],
+        [
+          "Vệ sinh máy in tận nơi",
+          "Máy dùng lâu chưa bảo dưỡng",
+          "từ 100.000 đ"
+        ],
+        [
+          "Xử lý kẹt giấy, máy nhai giấy",
+          "Laser và phun",
+          "Kiểm tra rồi báo giá"
+        ]
+      ],
+      "vatTuIntro": "Vật tư mang theo khi chạy tuyến Chánh Hưng, chọn theo dòng máy hay gặp ở khu dân cư và trường học:",
+      "vatTuRows": [
+        [
+          "Hộp mực 12A, 85A, 35A",
+          "Canon 2900, HP 1102, HP 1005",
+          "<a href=\"../../muc-in/hop-muc-12a/\">Xem mã 12A</a> · <a href=\"../../muc-in/hop-muc-85a/\">85A</a>"
+        ],
+        [
+          "Trục từ, gạt mực rời",
+          "Bản in mờ hoặc có sọc sau nhiều lần nạp",
+          "Thay lẻ từ 34.000đ, không cần thay cả hộp"
+        ],
+        [
+          "Hộp quang, hộp scan Canon 2900",
+          "Máy 2900 in ra trang trắng hoặc mờ một bên",
+          "<a href=\"../../san-pham/hop-scan-hop-quang-canon-lbp-2900-12a/\">Xem hộp quang Canon 2900</a>"
+        ],
+        [
+          "Mực Epson 003",
+          "Máy phun ở nhà riêng, phòng khám nhỏ",
+          "<a href=\"../../muc-in/muc-epson-003/\">Xem trang mực 003</a>"
+        ],
+        [
+          "Quả đào, bố thắng",
+          "Máy kẹt giấy, kéo nhiều tờ",
+          "Thay theo cặp cho bền"
+        ]
+      ],
+      "loiBai": [
+        [
+          "../../huong-dan/may-in-khong-keo-giay/",
+          "Máy in không kéo giấy",
+          "giấy hút ẩm và quả đào mòn là hai lý do chính"
+        ],
+        [
+          "../../huong-dan/may-in-bi-soc-den-doc/",
+          "Máy in bị sọc đen dọc",
+          "gạt mực tới hạn"
+        ],
+        [
+          "../../huong-dan/may-in-ra-giay-trang/",
+          "Máy in ra giấy trắng",
+          "kiểm theo bảng trước khi gọi thợ"
+        ],
+        [
+          "../../huong-dan/may-in-khong-in-duoc/",
+          "Máy in không in được, báo Offline",
+          "phần lớn tự xử lý trong 5 phút"
+        ],
+        [
+          "../../khu-vuc/quan-8/",
+          "Trang dịch vụ chung cho Quận 8",
+          "xem phạm vi và bảng giá đầy đủ"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Ở Chánh Hưng gọi bao lâu thì có thợ?",
+          "a": "Thường khoảng 30 phút trong giờ hành chính vì đây là tuyến chạy hằng ngày. Giờ cao điểm qua cầu Chữ Y có thể chậm hơn mươi phút, kỹ thuật viên sẽ báo giờ dự kiến khi nhận cuộc gọi."
+        },
+        {
+          "q": "Nhà trong chung cư có lên được không?",
+          "a": "Được. Khách báo block, tầng, số căn và tên người đăng ký với bảo vệ khi đặt lịch, kỹ thuật viên mang theo giấy tờ tuỳ thân để đổi thẻ."
+        },
+        {
+          "q": "Có thu phí kiểm tra khi không sửa không?",
+          "a": "Không thu phí kiểm tra riêng. Kỹ thuật viên kiểm tra, chỉ chỗ hỏng và báo giá; khách thấy chưa cần làm thì thôi, không tính tiền công đi lại."
+        },
+        {
+          "q": "Nạp mực tại nhà có sạch không, có làm bẩn nhà không?",
+          "a": "Kỹ thuật viên trải tấm lót, hút sạch mực thừa trong hộp trước khi nạp và mang rác mực về. Trong nhà có trẻ nhỏ hoặc phòng khám thì báo trước để làm ở khu vực thoáng."
+        },
+        {
+          "q": "Trường học, công ty cần hoá đơn VAT thì sao?",
+          "a": "Báo lúc đặt lịch, kỹ thuật viên mang sẵn giấy tờ và xuất hoá đơn ngay sau khi nghiệm thu."
+        },
+        {
+          "q": "Máy cũ quá thì nên sửa hay thay?",
+          "a": "Khi tiền sửa vượt quá nửa giá một máy tương đương đang bán, bên mình nói thẳng là nên thay thay vì cố sửa. Trường hợp máy còn tốt mà chỉ hao vật tư thì sửa vẫn kinh tế hơn nhiều."
+        }
+      ]
+    },
+    {
+      "slug": "nha-be",
+      "area": "Nhà Bè",
+      "crumb": "Nhà Bè",
+      "tag": "Khu vực phục vụ",
+      "cardDesc": "Xã Nhà Bè và Hiệp Phước — khu công nghiệp, cảng, kho bãi và khu dân cư Phú Xuân, Nhơn Đức. Đặt lịch theo tuyến.",
+      "h1": "Sửa máy in, nạp mực tận nơi Nhà Bè — nhận cả khu công nghiệp Hiệp Phước",
+      "title": "Sửa Máy In Nhà Bè Và KCN Hiệp Phước – Đặt Lịch Theo Tuyến",
+      "desc": "Sửa máy in, nạp mực tận nơi Nhà Bè: Phú Xuân, Nhơn Đức, Hiệp Phước, KCN và cảng. Đặt lịch theo tuyến, kỹ thuật viên mang đủ vật tư. Gọi Zalo 0986 704 260.",
+      "ogTitle": "Sửa máy in, nạp mực tận nơi Nhà Bè — KCN Hiệp Phước, Phú Xuân, Nhơn Đức",
+      "ogDesc": "Khu xa ít thợ nhận, bên mình đi theo tuyến và hẹn giờ chắc. Nhận cả máy văn phòng nhà máy, máy in mã vạch và máy in phiếu.",
+      "serviceName": "Sửa máy in và nạp mực tận nơi huyện Nhà Bè, TP.HCM",
+      "answer": "Minh Tiến nhận sửa máy in và nạp mực tận nơi khu vực Nhà Bè — xã Nhà Bè (Phú Xuân, Nhơn Đức, Phước Kiển cũ) và xã Hiệp Phước gồm khu công nghiệp, cảng, kho bãi. Đây là địa bàn xa nên bên mình đi theo tuyến: đặt lịch trước nửa buổi là hẹn được giờ chắc chắn, kỹ thuật viên mang đủ vật tư cho cả máy laser, máy phun, máy in mã vạch và máy in phiếu.",
+      "apDung": "Sau sáp nhập 01/7/2025, huyện Nhà Bè cũ gộp thành hai xã: Nhà Bè và Hiệp Phước",
+      "published": "2026-09-28",
+      "ctaTitle": "Nhà Bè xa nhưng vẫn có người tới — đặt lịch là chốt giờ",
+      "areaServedLd": "[{\"@type\":\"AdministrativeArea\",\"name\":\"Nhà Bè, TP. Hồ Chí Minh\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Xã Nhà Bè\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Xã Hiệp Phước\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Khu công nghiệp Hiệp Phước\"}]",
+      "quickRows": [
+        [
+          "Cách đặt lịch",
+          "Đặt trước nửa buổi hoặc trước một ngày — bên mình gom tuyến Quận 7 xuống Nhà Bè nên hẹn được giờ cụ thể, không để khách chờ mơ hồ"
+        ],
+        [
+          "Khu vực nhận",
+          "Xã Nhà Bè (Phú Xuân, Nhơn Đức, Phước Kiển, Long Thới cũ) và xã Hiệp Phước gồm KCN, cảng, kho bãi"
+        ],
+        [
+          "Trục đường hay đi",
+          "Nguyễn Hữu Thọ, Lê Văn Lương, Huỳnh Tấn Phát, Nguyễn Bình — từ Quận 7 xuống KCN Hiệp Phước khoảng 45–60 phút"
+        ],
+        [
+          "Loại máy nhận",
+          "Máy laser và đa năng văn phòng nhà máy, máy in mã vạch dán thùng, máy in phiếu cân xe, máy in kim nhiều liên"
+        ],
+        [
+          "Làm được tại chỗ",
+          "Nạp mực, thay drum – gạt – trục từ, vệ sinh máy, xử lý kẹt giấy, cài driver, nối máy in qua mạng nội bộ nhà máy"
+        ],
+        [
+          "Nhiều máy một lần",
+          "Nhà máy, kho có 3 máy trở lên nên gộp một buổi kiểm tra toàn bộ — rẻ hơn và không phải chờ nhiều lần"
+        ]
+      ],
+      "sections": [
+        {
+          "h2": "Vì sao máy in ở Nhà Bè hay phải chờ thợ lâu",
+          "html": "<p>Nhà Bè nằm xa trung tâm, mật độ cửa hàng kỹ thuật thấp hơn hẳn các quận nội thành. Phần lớn đơn vị nhận ca ở đây theo kiểu có tiện đường thì ghé, nên khách gọi buổi sáng mà chiều tối mới có người tới là chuyện thường.</p><p>Bên mình làm khác: <strong>gom tuyến</strong>. Các ca Nhà Bè và Hiệp Phước được xếp chung một chuyến đi từ Quận 7 xuống, hẹn giờ cụ thể với từng khách trên tuyến đó. Đổi lại, khách cần đặt trước nửa buổi thay vì gọi là đi ngay như trong nội thành. Cách này giúp giờ hẹn chính xác và không phát sinh phụ phí đi lại vô lý.</p><p>Ca thật sự gấp — máy in phiếu cân ngừng giữa ca sản xuất, máy in vận đơn chết trước giờ cắt đơn — thì báo rõ khi gọi, bên mình tách chuyến riêng và nói thẳng chi phí trước.</p>"
+        },
+        {
+          "h2": "Hai vùng, hai kiểu máy hoàn toàn khác",
+          "html": "<p><strong>Xã Hiệp Phước — khu công nghiệp, cảng và kho bãi.</strong> Đây là nhóm khách chính ở Nhà Bè. Máy ở đây gồm máy laser văn phòng nhà máy, máy in mã vạch dán thùng hàng, máy in phiếu cân xe tải và máy in kim in nhiều liên. Đặc điểm chung: chạy khối lượng lớn, môi trường nhiều bụi và ẩm do gần sông, và <strong>hỏng là dây chuyền phải dừng</strong> chứ không chỉ chậm việc giấy tờ. Bệnh hay gặp là đầu in mã vạch mòn, quả đào và bố thắng bám bụi, lô sấy bẩn gây kẹt giấy liên tục.</p><p><strong>Xã Nhà Bè — khu dân cư Phú Xuân, Nhơn Đức, Phước Kiển.</strong> Chung cư, nhà phố, trường học, phòng khám và văn phòng công ty nhỏ. Máy để bàn Canon, HP, Brother và máy phun Epson. Bệnh phổ biến là hết mực, in mờ, kẹt giấy, và máy phun tắc đầu phun do để lâu không dùng.</p><p>Khi gọi, chỉ cần nói máy đặt trong nhà máy hay trong văn phòng, kỹ thuật viên sẽ mang đúng nhóm vật tư — hai vùng này cần hai bộ đồ nghề khác nhau.</p>"
+        },
+        {
+          "h2": "Nhà máy và kho: nên bảo trì định kỳ thay vì gọi gấp",
+          "html": "<p>Với doanh nghiệp trong KCN Hiệp Phước, gọi thợ lúc máy đã chết luôn là phương án đắt nhất: vừa mất thời gian chờ, vừa dừng việc, vừa thường phải thay linh kiện lớn vì đã để quá hạn.</p><p>Gói bảo trì định kỳ làm gọn hơn nhiều:</p><ul><li>Kỹ thuật viên tới theo lịch cố định, kiểm tra toàn bộ máy trong một buổi.</li><li>Vệ sinh bộ kéo giấy, cụm sấy, đầu in mã vạch; thay vật tư đã tới hạn trước khi nó gây sự cố.</li><li>Ghi lại tình trạng từng máy để lần sau biết cái nào sắp phải thay gì — doanh nghiệp chủ động được ngân sách.</li><li>Có sẵn danh sách vật tư dự phòng cho những model quan trọng, tránh trường hợp phải chờ hàng.</li></ul><p>Chi phí báo theo số lượng máy, thường rẻ hơn tổng các lần gọi lẻ trong năm. Xuất hoá đơn VAT đầy đủ cho doanh nghiệp.</p>"
+        }
+      ],
+      "giaRows": [
+        [
+          "Nạp mực hộp mực laser",
+          "HP, Canon, Brother phổ thông",
+          "80.000 – 150.000 đ"
+        ],
+        [
+          "Bơm mực máy in phun",
+          "Epson, Canon dòng phun",
+          "từ 60.000 đ/màu"
+        ],
+        [
+          "Vệ sinh máy in tận nơi",
+          "Máy trong nhà máy, kho nhiều bụi",
+          "từ 100.000 đ"
+        ],
+        [
+          "Thay gạt mực, trục từ",
+          "Bản in sọc hoặc mờ dần",
+          "từ 34.000 đ"
+        ],
+        [
+          "Thay trống (drum)",
+          "Vệt lặp theo chu kỳ",
+          "từ 120.000 đ"
+        ],
+        [
+          "Thay quả đào, bố thắng",
+          "Máy nhai giấy, không kéo giấy",
+          "từ 90.000 đ"
+        ],
+        [
+          "Thay ruy băng máy in kim",
+          "Máy in phiếu nhiều liên",
+          "Kiểm tra rồi báo giá"
+        ],
+        [
+          "Bảo trì định kỳ nhiều máy",
+          "Nhà máy, kho, văn phòng KCN",
+          "Báo giá theo số lượng máy"
+        ]
+      ],
+      "vatTuIntro": "Vì địa bàn xa, xe đi tuyến Nhà Bè mang dư vật tư để không phải quay lại lần hai:",
+      "vatTuRows": [
+        [
+          "Hộp mực laser phổ thông",
+          "12A, 85A, 35A, CF226A, 337, TN-2380",
+          "<a href=\"../../muc-in/\">Tra theo mã mực</a> trước khi gọi cho nhanh"
+        ],
+        [
+          "Drum, gạt, trục từ, bao lụa",
+          "Thay lẻ cho máy chạy nhiều",
+          "Gạt từ 40.000đ, trục từ từ 34.000đ, bao lụa từ 80.000đ"
+        ],
+        [
+          "Quả đào, bố thắng, con lăn",
+          "Máy kho hút bụi nhiều, hao nhanh nhất",
+          "Thay theo cặp cho bền"
+        ],
+        [
+          "Ruy băng máy in kim",
+          "Máy in phiếu cân, phiếu giao hàng",
+          "Đọc mã ruy băng trên hộp cũ khi đặt lịch"
+        ],
+        [
+          "Mực Epson 003, 664",
+          "Máy phun ở văn phòng và khu dân cư",
+          "Kèm bộ vệ sinh đầu phun"
+        ],
+        [
+          "Bộ vệ sinh chuyên dụng",
+          "Thổi bụi, lau gương quang, vệ sinh đầu in",
+          "Đi kèm gói bảo trì định kỳ"
+        ]
+      ],
+      "loiBai": [
+        [
+          "../../huong-dan/may-in-khong-keo-giay/",
+          "Máy in không kéo giấy",
+          "bụi kho làm quả đào chai mặt"
+        ],
+        [
+          "../../huong-dan/may-in-bi-soc-ngang/",
+          "Máy in bị sọc ngang: bảng chu kỳ lặp",
+          "đo khoảng cách vệt là ra đúng bộ phận"
+        ],
+        [
+          "../../huong-dan/may-in-bi-lem-muc/",
+          "Máy in bị lem mực",
+          "cụm sấy bẩn hoặc bao lụa rách"
+        ],
+        [
+          "../../huong-dan/ve-sinh-dau-phun-epson/",
+          "Vệ sinh đầu phun Epson",
+          "máy phun văn phòng để lâu không dùng"
+        ],
+        [
+          "../../huong-dan/cach-cai-dat-may-in/",
+          "Cách cài đặt và chia sẻ máy in qua mạng LAN",
+          "nối máy in dùng chung trong mạng nhà máy"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Nhà Bè xa vậy có nhận không, có tính thêm phí không?",
+          "a": "Có nhận, kể cả trong khu công nghiệp Hiệp Phước. Bên mình gom tuyến nên không tính phụ phí đi lại vô lý; nếu ca nào cần đi riêng ngoài tuyến thì báo rõ chi phí trước khi đi, không phát sinh sau."
+        },
+        {
+          "q": "Đặt lịch trước bao lâu thì chắc chắn có người?",
+          "a": "Đặt trước nửa buổi hoặc trước một ngày là hẹn được giờ cụ thể. Gọi gấp trong ngày vẫn nhận nhưng giờ tới phụ thuộc tuyến đang chạy, kỹ thuật viên sẽ nói thẳng khung giờ sớm nhất có thể."
+        },
+        {
+          "q": "Nhà máy trong KCN Hiệp Phước cần thủ tục ra vào, xử lý thế nào?",
+          "a": "Khách báo tên công ty, cổng vào và người đăng ký với bảo vệ khi đặt lịch. Nơi nào yêu cầu đăng ký trước một ngày hoặc cần đồ bảo hộ thì nói trước, kỹ thuật viên chuẩn bị đầy đủ."
+        },
+        {
+          "q": "Có nhận máy in mã vạch và máy in phiếu cân không?",
+          "a": "Có. Đây là nhóm máy phổ biến nhất ở kho và cảng khu này. Bên mình vệ sinh đầu in, thay ruy băng, căn lại khổ tem và xử lý lỗi kết nối tại chỗ; đầu in mòn hẳn thì báo giá thay trước."
+        },
+        {
+          "q": "Công ty có nhiều máy, làm sao cho đỡ tốn?",
+          "a": "Gộp một buổi kiểm tra toàn bộ thay vì gọi lẻ từng máy, hoặc làm bảo trì định kỳ theo lịch. Cách này rẻ hơn tổng các lần gọi gấp và tránh dừng việc giữa ca sản xuất."
+        },
+        {
+          "q": "Có xuất hoá đơn VAT cho doanh nghiệp không?",
+          "a": "Có, xuất đầy đủ cho cả dịch vụ và vật tư. Báo trước khi đặt lịch để mang sẵn giấy tờ và xuất ngay sau khi nghiệm thu."
+        }
+      ]
+    },
+    {
+      "slug": "hiep-phuoc",
+      "publish": "2026-10-02",
+      "area": "xã Hiệp Phước",
+      "crumb": "Xã Hiệp Phước",
+      "tag": "Khu vực phục vụ",
+      "cardDesc": "Khu công nghiệp Hiệp Phước, cảng và kho bãi — máy văn phòng nhà máy, máy in mã vạch, máy in phiếu cân. Đặt lịch theo tuyến.",
+      "h1": "Sửa máy in, nạp mực xã Hiệp Phước và khu công nghiệp Hiệp Phước",
+      "title": "Nạp Mực, Sửa Máy In KCN Hiệp Phước – Có Hoá Đơn VAT",
+      "desc": "Sửa máy in, nạp mực tận nơi xã Hiệp Phước và KCN Hiệp Phước: máy văn phòng nhà máy, máy in mã vạch, máy in phiếu cân. Có hoá đơn VAT. Zalo 0986 704 260.",
+      "ogTitle": "Sửa máy in, nạp mực xã Hiệp Phước và khu công nghiệp Hiệp Phước",
+      "ogDesc": "Nhận nhà máy, kho, cảng. Đặt lịch theo tuyến, có hợp đồng bảo trì định kỳ và hoá đơn VAT.",
+      "serviceName": "Sửa máy in và nạp mực tận nơi xã Hiệp Phước, TP.HCM",
+      "answer": "Minh Tiến nhận sửa máy in và nạp mực cho nhà máy, kho bãi trong khu công nghiệp Hiệp Phước và khu dân cư xã Hiệp Phước. Đây là địa bàn xa trung tâm nên bên mình đi theo tuyến và hẹn giờ cụ thể; doanh nghiệp nhiều máy nên gộp một buổi kiểm tra toàn bộ. Có hoá đơn VAT và hợp đồng bảo trì định kỳ.",
+      "apDung": "Xã Hiệp Phước hình thành từ các xã Hiệp Phước, Long Thới và một phần Nhơn Đức của huyện Nhà Bè cũ",
+      "published": "2026-10-02",
+      "ctaTitle": "Nhà máy ở Hiệp Phước cần thợ? Đặt lịch là chốt được giờ",
+      "areaServedLd": "[{\"@type\":\"AdministrativeArea\",\"name\":\"Xã Hiệp Phước, TP. Hồ Chí Minh\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Khu công nghiệp Hiệp Phước\"}]",
+      "quickRows": [
+        [
+          "Cách đặt lịch",
+          "Đặt trước nửa buổi hoặc trước một ngày, bên mình chốt khung giờ cụ thể thay vì hẹn chung chung"
+        ],
+        [
+          "Phạm vi",
+          "KCN Hiệp Phước giai đoạn 1 và 2, cảng, kho bãi dọc Nguyễn Văn Tạo, Lê Văn Lương và khu dân cư xã Hiệp Phước"
+        ],
+        [
+          "Loại máy nhận",
+          "Máy laser và đa năng văn phòng nhà máy, máy in mã vạch dán thùng, máy in phiếu cân xe, máy in kim nhiều liên"
+        ],
+        [
+          "Nhiều máy một lần",
+          "Từ 3 máy trở lên nên gộp một buổi kiểm tra toàn bộ — rẻ hơn gọi lẻ và không phải chờ nhiều lần"
+        ],
+        [
+          "Giấy tờ",
+          "Xuất hoá đơn VAT đầy đủ cho cả dịch vụ và vật tư; có hợp đồng bảo trì định kỳ nếu doanh nghiệp cần"
+        ],
+        [
+          "Thủ tục ra vào",
+          "Báo trước tên công ty, cổng vào, người đăng ký với bảo vệ; nơi nào yêu cầu đồ bảo hộ thì kỹ thuật viên mang theo"
+        ]
+      ],
+      "sections": [
+        {
+          "h2": "Máy in trong nhà máy hỏng khác máy văn phòng",
+          "html": "<p>Cùng một model, đặt trong văn phòng công ty thì chạy vài năm không sao, đưa vào nhà xưởng hoặc kho thì nửa năm đã phải gọi thợ. Ba lý do, gặp ở hầu hết nhà máy khu Hiệp Phước:</p><ul><li><strong>Bụi và hơi ẩm từ sông.</strong> Bụi bám vào trống và gương quang làm bản in mờ từng mảng; hơi ẩm làm giấy dính nhau, kẹt liên tục.</li><li><strong>In theo đợt, khối lượng dồn.</strong> Cuối ca in một loạt phiếu, máy nóng liên tục nên cụm sấy và bộ kéo giấy hao nhanh hơn nhiều so với in rải đều trong ngày.</li><li><strong>Máy đặt gần dây chuyền.</strong> Rung và nhiệt làm bánh răng, con lăn mòn sớm.</li></ul><p>Cho nên với nhóm khách này, vệ sinh định kỳ tiết kiệm hơn hẳn sửa khi hỏng — chưa kể hỏng giữa ca là dây chuyền phải dừng chờ giấy tờ.</p>"
+        },
+        {
+          "h2": "Bốn loại máy trong khu công nghiệp và thứ hay phải thay",
+          "html": "<p><strong>Máy laser văn phòng nhà máy</strong> — in hợp đồng, báo cáo, phiếu xuất kho. Hay thay hộp mực, trống, gạt. Máy dòng HP M501/M506 dùng chung <a href=\"../../san-pham/lo-ep-87a-dung-cho-may-in-hp-m501-m-506-m507/\">lô ép 87A</a>, là thứ hao khi in khối lượng lớn.</p><p><strong>Máy photocopy đa năng</strong> — phòng hành chính nhà máy hay dùng máy Ricoh, Canon iR, Bizhub. Vật tư hay phải thay là <a href=\"../../san-pham/gat-muc-ricoh-mp-40005000-mp40025002/\">gạt mực Ricoh MP-4000/5000</a> và <a href=\"../../san-pham/drum-trong-ir2270287035703530-cet/\">drum máy Canon iR2270/2870</a>.</p><p><strong>Máy in mã vạch</strong> — dán tem thùng hàng trước khi xuất. Đầu in là bộ phận mòn theo số mét tem đã in; vệ sinh đúng cách kéo dài tuổi thọ đáng kể.</p><p><strong>Máy in kim in phiếu nhiều liên</strong> — phiếu cân xe, phiếu giao nhận. Hay thay ruy băng, chỉnh đầu kim và căn lại khổ giấy.</p>"
+        },
+        {
+          "h2": "Hợp đồng bảo trì: cách doanh nghiệp ở đây dùng cho gọn",
+          "html": "<p>Gọi thợ khi máy đã chết luôn là phương án đắt nhất với nhà máy: chờ thợ đi từ nội thành xuống, dây chuyền giấy tờ dừng, và thường phải thay linh kiện lớn vì đã để quá hạn.</p><p>Gói bảo trì định kỳ làm những việc sau theo lịch cố định:</p><ol><li>Kiểm tra và vệ sinh toàn bộ máy trong một buổi — bộ kéo giấy, cụm sấy, đầu in mã vạch.</li><li>Thay vật tư đã tới hạn trước khi nó gây sự cố.</li><li>Ghi lại tình trạng từng máy, dự báo cái nào sắp phải thay gì để doanh nghiệp chủ động ngân sách.</li><li>Giữ sẵn vật tư dự phòng cho những model quan trọng, không phải chờ đặt hàng.</li></ol><p>Chi phí báo theo số lượng máy và tần suất, xuất hoá đơn VAT. Doanh nghiệp muốn thử trước thì làm một buổi kiểm tra tổng rồi quyết định sau.</p>"
+        }
+      ],
+      "giaRows": [
+        [
+          "Nạp mực hộp mực laser",
+          "HP, Canon, Brother phổ thông",
+          "80.000 – 150.000 đ"
+        ],
+        [
+          "Vệ sinh máy in tận nơi",
+          "Máy đặt trong xưởng, kho nhiều bụi",
+          "từ 100.000 đ"
+        ],
+        [
+          "Thay trống (drum)",
+          "Bản in có vệt lặp theo chu kỳ",
+          "từ 120.000 đ"
+        ],
+        [
+          "Thay gạt mực, trục từ",
+          "Bản in sọc hoặc mờ dần",
+          "từ 34.000 đ"
+        ],
+        [
+          "Thay lô ép, lô sấy",
+          "Kẹt giấy cuối đường đi, mực không bám",
+          "từ 49.000 đ tuỳ dòng máy"
+        ],
+        [
+          "Thay ruy băng máy in kim",
+          "Máy in phiếu nhiều liên",
+          "Kiểm tra rồi báo giá"
+        ],
+        [
+          "Vệ sinh đầu in máy in mã vạch",
+          "Máy dán tem thùng hàng",
+          "Kiểm tra rồi báo giá"
+        ],
+        [
+          "Bảo trì định kỳ theo hợp đồng",
+          "Nhà máy, kho từ 3 máy trở lên",
+          "Báo giá theo số lượng máy"
+        ]
+      ],
+      "vatTuIntro": "Địa bàn xa nên xe mang dư vật tư, tránh phải quay lại lần hai. Nhóm hàng thường dùng cho máy nhà máy và kho:",
+      "vatTuRows": [
+        [
+          "Hộp mực laser phổ thông",
+          "12A, 85A, 35A, CF226A, TN-2380",
+          "<a href=\"../../muc-in/\">Tra theo mã mực</a> trước khi gọi cho nhanh"
+        ],
+        [
+          "Vật tư máy photocopy",
+          "Ricoh, Canon iR, Bizhub ở phòng hành chính",
+          "<a href=\"../../san-pham/cum-trong-canon-dr-npg-59-cho-may-ir2002-ir2004-ir2004n-ir2006n/\">Cụm trống Canon NPG-59</a> cho dòng iR2002/2004"
+        ],
+        [
+          "Drum, gạt, trục từ, bao lụa",
+          "Máy chạy khối lượng lớn theo đợt",
+          "Thay lẻ, gạt từ 40.000đ, trục từ từ 34.000đ"
+        ],
+        [
+          "Ruy băng máy in kim",
+          "Máy in phiếu cân, phiếu giao nhận",
+          "Đọc mã ruy băng trên hộp cũ khi đặt lịch"
+        ],
+        [
+          "Quả đào, bố thắng, con lăn",
+          "Máy kho hút bụi nhiều, hao nhanh nhất",
+          "Thay theo cặp cho bền"
+        ],
+        [
+          "Bộ vệ sinh chuyên dụng",
+          "Thổi bụi, lau gương quang, vệ sinh đầu in",
+          "Đi kèm gói bảo trì định kỳ"
+        ]
+      ],
+      "loiBai": [
+        [
+          "../../huong-dan/may-in-bi-soc-ngang/",
+          "Máy in bị sọc ngang: bảng chu kỳ lặp",
+          "đo khoảng cách vệt là ra đúng bộ phận"
+        ],
+        [
+          "../../huong-dan/may-in-khong-keo-giay/",
+          "Máy in không kéo giấy",
+          "bụi kho làm quả đào chai mặt"
+        ],
+        [
+          "../../huong-dan/may-in-bi-lem-muc/",
+          "Máy in bị lem mực",
+          "cụm sấy bẩn hoặc bao lụa rách"
+        ],
+        [
+          "../../huong-dan/cach-cai-dat-may-in/",
+          "Cách cài đặt và chia sẻ máy in qua mạng LAN",
+          "nối máy dùng chung trong mạng nội bộ nhà máy"
+        ],
+        [
+          "../../khu-vuc/nha-be/",
+          "Trang dịch vụ chung khu Nhà Bè",
+          "xem phạm vi và cách gom tuyến"
+        ]
+      ],
+      "faqs": [
+        {
+          "q": "Kỹ thuật viên vào được khu công nghiệp không, thủ tục thế nào?",
+          "a": "Được. Khách báo tên công ty, cổng vào và người đăng ký với bảo vệ khi đặt lịch. Nơi yêu cầu đăng ký trước một ngày hoặc cần đồ bảo hộ thì nói trước để chuẩn bị đầy đủ."
+        },
+        {
+          "q": "Đặt trước bao lâu thì có người xuống Hiệp Phước?",
+          "a": "Trước nửa buổi hoặc trước một ngày là chốt được khung giờ. Ca gấp vẫn nhận nhưng phải tách chuyến riêng, chi phí được báo rõ trước khi đi."
+        },
+        {
+          "q": "Có nhận máy in mã vạch và máy in phiếu cân không?",
+          "a": "Có. Bên mình vệ sinh đầu in, thay ruy băng, căn lại khổ tem và xử lý lỗi kết nối tại chỗ. Đầu in mòn hẳn thì báo giá thay trước khi làm."
+        },
+        {
+          "q": "Hợp đồng bảo trì tính tiền thế nào?",
+          "a": "Theo số lượng máy và tần suất kiểm tra, xuất hoá đơn VAT. Doanh nghiệp muốn thử trước thì làm một buổi kiểm tra tổng, có báo cáo tình trạng từng máy rồi quyết định sau."
+        },
+        {
+          "q": "Máy hỏng nặng phải mang về thì nhà máy lấy gì in?",
+          "a": "Báo trước, bên mình cho mượn máy dùng tạm trong thời gian sửa để bộ phận giấy tờ không phải dừng."
+        },
+        {
+          "q": "Có bán vật tư giao tận nơi mà không cần kỹ thuật viên không?",
+          "a": "Có. Đọc mã máy rồi gọi, bên mình giao đúng mã xuống Hiệp Phước theo chuyến trong tuần; đơn gấp thì tách chuyến riêng."
+        }
+      ]
+    }
+  ]
+}

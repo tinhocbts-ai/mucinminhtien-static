@@ -28,7 +28,7 @@ const ROOT = path.join(__dirname, '..');
 const HERO_DIR = path.join(ROOT, 'assets', 'img', 'hero');
 const INFO_DIR = path.join(ROOT, 'assets', 'img', 'info');
 const USED_FILE = path.join(ROOT, 'data', 'anh-da-dung.json');
-const SCAN_DIRS = ['huong-dan', 'model', 'muc-in', 'tu-van'];
+const SCAN_DIRS = ['huong-dan', 'model', 'muc-in', 'tu-van', 'driver', 'khu-vuc'];
 
 const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, 'site.config.json'), 'utf8'));
 /* CỐ Ý không in số điện thoại lên ảnh: đổi số là phải render lại toàn bộ ảnh
@@ -120,8 +120,13 @@ function pickPhoto(slug) {
 
   const folder = MAP[slug];
   if (!folder || !KHO) return null;
-  const dir = path.join(KHO, folder, 'original');
-  if (!fs.existsSync(dir)) return null;
+  /* Kho Cho Tot doi cau truc: anh co the nam trong original/ hoac dot1..dot4.
+     Lay thu muc dau tien thuc su co anh. */
+  const bases = ['original', 'dot1', 'dot2', 'dot3', 'dot4']
+    .map(b => path.join(KHO, folder, b))
+    .filter(d => fs.existsSync(d) && fs.readdirSync(d).some(f => /[.](jpe?g|png|webp)$/i.test(f)));
+  if (!bases.length) return null;
+  const dir = bases[0];
 
   /* Ưu tiên ảnh nét: cùng khung 1280×720 thì file nặng hơn thường nhiều chi tiết hơn,
      ảnh mờ do rung tay khi quay video sẽ nén xuống rất nhẹ. */

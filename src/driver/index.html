@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Driver Máy In: Tải Đúng Bản Và Cài Trên Windows 11, 10</title>
+<meta name="description" content="Tra driver máy in theo model Canon, HP, Brother, Epson: tải ở trang hãng, chọn đúng bản 32/64-bit, cài qua USB, LAN, Wi-Fi. Thợ cài tận nơi TP.HCM: 0986 704 260.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mucinminhtien.com/driver/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Mực in Minh Tiến">
+<meta property="og:title" content="Driver máy in: tải đúng bản và cài trên Windows 11, 10">
+<meta property="og:description" content="Bảng tra driver theo model, cách chọn đúng bản 32/64-bit, cài qua USB – LAN – Wi-Fi và xử lý lỗi khi cài.">
+<meta property="og:url" content="https://mucinminhtien.com/driver/">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
+<div id="site-header"></div>
+
+<main id="main-content">
+  <div class="container">
+    <p class="breadcrumb"><a href="../index.html">Trang chủ</a> / Driver &amp; cài đặt</p>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="prose">
+        <h1>Driver máy in: tải đúng bản và cài trên Windows 11, 10</h1>
+        <p><strong>Ba việc quyết định cài driver có trôi hay không: tải đúng gói của hãng, chọn đúng kiến trúc 32 hay 64-bit, và cắm cáp USB đúng thời điểm trình cài đặt yêu cầu. Sai một trong ba, máy in vẫn hiện trong danh sách nhưng lệnh in nằm chờ mãi không chạy.</strong></p>
+
+        <div class="callout">
+          <p><strong>Trang này không lưu trữ và không phát tán file cài đặt.</strong> Mỗi bài đều dẫn thẳng tới trang hỗ trợ của hãng. File cài driver chạy với quyền quản trị, nên driver tải từ các trang chia sẻ là một trong những đường lây mã độc phổ biến nhất trong môi trường văn phòng.</p>
+        </div>
+
+        <h2>Tra driver theo model máy</h2>
+        <p>Chọn đúng model đang dùng — cùng một hãng nhưng khác dòng thì gói driver hoàn toàn khác nhau.</p>
+      </div>
+
+      <div class="grid grid-3">
+{{driverList}}
+      </div>
+
+      <div class="prose" style="margin-top:36px">
+        <p>Chưa có model của bạn trong danh sách? Gọi <strong>{{hotlineDisplay}}</strong> đọc tên máy in ghi ở mặt trước, kỹ thuật viên chỉ đường tải đúng bản trong 2 phút — hoặc xem bài <a href="../huong-dan/cach-cai-dat-may-in/">cách cài đặt máy in qua USB, Wi-Fi và mạng LAN</a> áp dụng cho mọi hãng.</p>
+
+        <h2>Windows 32-bit hay 64-bit: xem trước khi tải</h2>
+        <p>Bấm <strong>Windows + I</strong> → <em>System</em> → <em>About</em>, đọc dòng <em>System type</em>. Gói 32-bit cài lên Windows 64-bit sẽ chạy tới cuối rồi báo lỗi mà không nói rõ lý do — đây là nguyên nhân số một của những ca "tải mãi không được". Máy văn phòng mua từ 2015 trở lại đây gần như luôn là 64-bit.</p>
+
+        <h2>Ba cách kết nối, ba cách cài khác nhau</h2>
+        <ul>
+          <li><strong>USB</strong> — cách phổ biến nhất với máy in để bàn. Nguyên tắc chung: <em>rút cáp USB ra, cài driver xong mới cắm lại</em> khi trình cài đặt yêu cầu.</li>
+          <li><strong>Mạng LAN</strong> — máy có cổng mạng thì in trang cấu hình để lấy địa chỉ IP, rồi thêm máy in bằng cổng <em>Standard TCP/IP Port</em>. Cách này ổn định nhất cho văn phòng nhiều máy.</li>
+          <li><strong>Wi-Fi</strong> — máy có Wi-Fi thì kết nối máy in vào đúng băng tần 2.4GHz (phần lớn máy in không nhận 5GHz), sau đó cài như máy mạng. Đặt IP tĩnh để tránh mất máy in mỗi lần router cấp IP mới.</li>
+        </ul>
+
+        <h2>Gỡ driver cũ cho sạch trước khi cài lại</h2>
+        <p>Cài chồng lên bản lỗi gần như không bao giờ sửa được vấn đề. Trình tự gỡ sạch:</p>
+        <ol>
+          <li><em>Settings → Printers &amp; scanners</em> → chọn máy in → <em>Remove device</em>.</li>
+          <li>Mở <em>Print server properties</em> (trong cùng trang cài đặt máy in) → thẻ <em>Drivers</em> → chọn driver cũ → <em>Remove</em> → chọn <em>Remove driver and driver package</em>.</li>
+          <li>Khởi động lại <em>Print Spooler</em>, hoặc khởi động lại máy tính rồi mới cài bản mới.</li>
+        </ol>
+
+        <h2>Cài xong mà bản in vẫn xấu thì không còn là chuyện driver</h2>
+        <p>Driver chỉ quyết định máy tính có nói chuyện được với máy in hay không. Khi lệnh in đã chạy mà trang in ra mờ, sọc hay trắng trơn thì nguyên nhân nằm trong máy:</p>
+        <ul>
+          <li><a href="../huong-dan/may-in-ra-giay-trang/">Máy in ra giấy trắng</a> — hộp mực, trục từ hoặc cụm quang.</li>
+          <li><a href="../huong-dan/may-in-bi-soc-den-doc/">Máy in bị sọc đen dọc</a> — gạt mực, trống tới hạn.</li>
+          <li><a href="../huong-dan/may-in-khong-keo-giay/">Máy in không kéo giấy</a> — quả đào, bố thắng mòn.</li>
+          <li><a href="../huong-dan/may-in-bi-lem-muc/">Máy in bị lem mực</a> — cụm sấy, bao lụa.</li>
+        </ul>
+        <p>Chưa rõ máy mình dùng mã mực nào, dùng <a href="../tra-hop-muc/">công cụ tra hộp mực theo model máy in</a> hoặc xem <a href="../bang-gia/">bảng giá vật tư</a>.</p>
+      </div>
+
+      <div class="cta-banner" style="margin-top:40px">
+        <h2 class="no-toc">Cài máy in, chia sẻ máy in qua mạng — tận nơi TP.HCM</h2>
+        <p>Gọi hoặc nhắn Zalo {{hotlineDisplay}}. Kỹ thuật viên có mặt trong 30–60 phút khu vực trung tâm, cài driver cho toàn bộ máy trong phòng và mang sẵn vật tư thay nếu máy đang cần.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="tel:{{hotlineTel}}" class="btn btn-outline">Gọi {{hotlineDisplay}}</a>
+          <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn btn-outline">Nhắn Zalo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="../assets/js/include.js"></script>
+</body>
+</html>

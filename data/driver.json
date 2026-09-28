@@ -1,0 +1,126 @@
+{
+  "_help": "Cum trang driver (/driver/<slug>/). Sua file nay roi 'node build.js'. Cum traffic lon nhat nganh (117.070 luot/thang, canh tranh Thap) — xem CHIEN-LUOC-TRAFFIC-2026-09.md. LUAT: khong host file cai dat, chi dan link trang ho tro cua hang; moi trang phai co khoi 'may nay dung muc gi' de bien traffic thanh don hang.",
+  "printers": [
+    {
+      "slug": "canon-2900",
+      "model": "Canon LBP2900",
+      "brand": "Canon",
+      "tag": "Máy in Canon",
+      "crumb": "Driver Canon 2900",
+      "cardDesc": "Bản CAPT 64-bit R1.50 V3.30, cách cài trên Windows 11 khi Canon chỉ liệt kê tới Windows 10, và 7 lỗi cài hay gặp.",
+      "h1": "Driver Canon 2900: tải bản 64-bit và cài trên Windows 11, 10",
+      "title": "Driver Canon 2900: Tải Bản 64-Bit Và Cài Trên Windows 11, 10",
+      "desc": "Tải driver Canon LBP2900 bản CAPT 64-bit từ trang Canon, cài đúng thứ tự trên Windows 11 và 10, xử lý 7 lỗi hay gặp. Cần thợ cài tận nơi TP.HCM: gọi 0986 704 260.",
+      "ogTitle": "Driver Canon 2900: tải bản 64-bit và cài trên Windows 11, 10",
+      "ogDesc": "Bản CAPT R1.50 V3.30, thứ tự cài đúng (rút USB trước), cách cài tay bằng Have Disk trên Win 11 và bảng lỗi thường gặp.",
+      "answer": "Canon LBP2900 và LBP2900B dùng chung driver CAPT; bản 64-bit mới nhất Canon còn phát hành là R1.50 Ver.3.30, file LBP2900_R150_V330_W64_uk_EN_2.exe, dung lượng khoảng 10,9 MB. Cài đúng thứ tự: rút cáp USB ra, chạy Setup, khi trình cài đặt yêu cầu mới cắm USB vào.",
+      "apDung": "Áp dụng cho Canon LBP2900 và LBP2900B — hai máy dùng chung một bộ driver",
+      "totalTime": "PT15M",
+      "published": "2026-09-18",
+      "ctaTitle": "Cài máy in Canon 2900 tận nơi trong 30–60 phút",
+      "official": [
+        ["Canon Việt Nam — Drivers, phần mềm & firmware", "https://vn.canon/vi/support/download"],
+        ["Trang driver CAPT 64-bit cho LBP2900/2900B", "https://in.canon/en/support/0100278201"]
+      ],
+      "specs": [
+        ["Tên driver", "CAPT Printer Driver (Canon Advanced Printing Technology) — không phải UFR II như các dòng cao hơn"],
+        ["Bản 64-bit", "R1.50 Ver.3.30 — file LBP2900_R150_V330_W64_uk_EN_2.exe, khoảng 10,9 MB"],
+        ["Ngày hãng cập nhật", "14/02/2017 — đây là bản cuối, Canon không ra bản mới cho dòng này nữa"],
+        ["Hệ điều hành hãng liệt kê", "Windows XP, Vista, 7, 8, 8.1, 10 và các bản Windows Server 64-bit"],
+        ["Windows 11", "Không có trong danh sách của Canon, nhưng bản Windows 10 64-bit chạy được — xem mục cài bằng Have Disk bên dưới"],
+        ["Kết nối", "Chỉ USB 2.0. Máy không có cổng LAN, không có Wi-Fi — muốn nhiều máy dùng chung phải chia sẻ qua một máy tính"],
+        ["Hộp mực", "Canon Cartridge 303 — cùng phôi với HP 12A (Q2612A), in khoảng 2.000 trang ở độ phủ 5%"]
+      ],
+      "specNote": "<p>Hai nhầm lẫn khiến nhiều người tải mãi không đúng file: <strong>LBP2900B không có driver riêng</strong> (cùng gói với LBP2900), và <strong>bản 32-bit không cài được lên Windows 64-bit</strong> — trình cài đặt sẽ chạy tới cuối rồi báo lỗi mà không nói rõ lý do.</p>",
+      "steps": [
+        {
+          "h2": "Bước 1 — Xem máy tính đang chạy Windows 32-bit hay 64-bit",
+          "html": "<p>Bấm phím <strong>Windows + I</strong> → <em>System</em> → <em>About</em>, đọc dòng <em>System type</em>. Máy văn phòng mua từ 2015 trở lại đây gần như chắc chắn là 64-bit. Nếu ghi <em>32-bit operating system</em> thì phải tải gói W32, không dùng được gói W64 ở trên.</p><p>Bước này mất 15 giây nhưng bỏ qua thì mất cả buổi: phần lớn ca “cài hoài không được” mà chúng tôi nhận ở văn phòng khách đều là tải nhầm kiến trúc.</p>"
+        },
+        {
+          "h2": "Bước 2 — Tải gói CAPT từ trang hỗ trợ của Canon",
+          "html": "<p>Vào <a href=\"https://vn.canon/vi/support/download\" target=\"_blank\" rel=\"nofollow noopener\">trang tải của Canon Việt Nam</a>, gõ <em>LBP2900</em>, chọn hệ điều hành gần nhất với máy mình (Windows 11 chưa có thì chọn Windows 10 64-bit), tải mục <em>CAPT Printer Driver</em>.</p><ul><li>File tải về là dạng <strong>.exe tự giải nén</strong>, không phải bộ cài. Chạy nó, nó bung ra một thư mục, trong đó mới có <code>Setup.exe</code>.</li><li>Trong thư mục bung ra có hai thư mục con <code>x64</code> và <code>32bit</code> — nhớ đường dẫn thư mục <code>x64</code>, bước cài tay ở dưới sẽ cần.</li><li>Đừng tải driver từ các trang chia sẻ file. File cài driver chạy với quyền quản trị, đây là đường lây mã độc phổ biến nhất trong môi trường văn phòng.</li></ul>"
+        },
+        {
+          "h2": "Bước 3 — Rút cáp USB ra trước khi chạy Setup",
+          "html": "<p>Đây là bước bị làm sai nhiều nhất, và chính Canon ghi rõ trong hướng dẫn: <strong>khi cài qua USB phải rút cáp ra, cài xong driver mới cắm lại</strong>.</p><p>Lý do: nếu cáp đang cắm, Windows tự nhận máy in bằng driver tạm của nó và chiếm luôn cổng USB. Trình cài đặt của Canon sau đó không gán được cổng, kết quả là máy in hiện trong danh sách nhưng lệnh in nằm chờ mãi không chạy.</p><p>Máy in vẫn để nguyên nguồn, chỉ rút <strong>đầu cáp USB</strong>.</p>"
+        },
+        {
+          "h2": "Bước 4 — Chạy Setup và cắm USB đúng lúc được yêu cầu",
+          "html": "<ol><li>Bấm chuột phải <code>Setup.exe</code> → <em>Run as administrator</em>.</li><li>Chọn <em>Install with USB Connection</em>, bấm Next tới khi hiện cửa sổ yêu cầu cắm cáp.</li><li>Lúc này mới cắm cáp USB vào máy tính và bật máy in. Cắm thẳng vào cổng sau máy tính, không qua hub USB và không qua cáp nối dài — LBP2900 kén nguồn USB, qua hub hay bị nhận rồi mất.</li><li>Đợi Windows chạy xong phần cài thiết bị, biểu tượng <em>Canon LBP2900</em> sẽ xuất hiện trong <em>Printers &amp; scanners</em>.</li></ol>"
+        },
+        {
+          "h2": "Bước 5 — In thử và đặt làm máy in mặc định",
+          "html": "<p>Vào <em>Settings → Bluetooth &amp; devices → Printers &amp; scanners → Canon LBP2900 → Printer properties → Print Test Page</em>. Trang test in ra là xong phần máy tính.</p><p>Bật <em>Set as default</em> nếu văn phòng chỉ có một máy in — tránh việc lệnh in bay sang “Microsoft Print to PDF” rồi tưởng máy hỏng.</p><p>Nếu trang test in ra <strong>mờ, sọc hoặc trắng trơn</strong> thì phần mềm đã xong, lỗi nằm ở hộp mực hoặc cơ khí — xem mục cuối bài.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "h2": "Cài trên Windows 11 khi Canon chỉ liệt kê tới Windows 10",
+          "html": "<p>Canon dừng cập nhật driver dòng này từ 2017 nên bảng hệ điều hành không có Windows 11. Bản W64 vẫn chạy, chỉ là đôi khi <code>Setup.exe</code> tự thoát giữa chừng trên Windows 11. Khi đó cài tay bằng <em>Have Disk</em>:</p><ol><li>Cắm USB, bật máy in.</li><li><em>Settings → Printers &amp; scanners → Add device</em>, đợi hết vòng quay rồi bấm <em>Add manually</em>.</li><li>Chọn <em>Add a local printer or network printer with manual settings</em>.</li><li>Ở mục <em>Use an existing port</em>, chọn cổng có dạng <strong>USB001 (Virtual printer port for USB)</strong>. Có nhiều dòng USB00x thì thử lần lượt từ USB001.</li><li>Bấm <em>Have Disk → Browse</em>, trỏ tới thư mục <code>x64</code> đã bung ở bước 2, chọn file <code>CNAB4STK.INF</code>.</li><li>Chọn <em>Canon LBP2900</em> trong danh sách hiện ra, đặt tên, bỏ chọn chia sẻ nếu chưa cần, rồi in thử.</li></ol><p>Cách này bỏ qua toàn bộ trình cài đặt cũ của Canon nên không phụ thuộc việc bộ cài có tương thích Windows 11 hay không.</p>"
+        },
+        {
+          "h2": "Chia sẻ Canon 2900 cho cả văn phòng dùng chung",
+          "html": "<p>LBP2900 không có cổng mạng, muốn nhiều máy in chung thì phải có một máy tính làm máy chủ in — máy đó bật thì cả phòng in được, máy đó tắt là mất.</p><p><strong>Trên máy đang cắm máy in:</strong> <em>Printer properties → Sharing → Share this printer</em>, đặt tên chia sẻ không dấu, không khoảng trắng (ví dụ <code>Canon2900</code>). Vào <em>Advanced sharing settings</em> bật <em>Network discovery</em> và <em>File and printer sharing</em>, đặt mạng đang dùng là <em>Private</em>.</p><p><strong>Trên máy con:</strong> mở <em>Run</em> (Windows + R), gõ <code>\\\\tên-máy-chủ</code> rồi Enter, bấm đúp vào máy in hiện ra. Windows sẽ hỏi driver — trỏ vào thư mục <code>x64</code> như cách Have Disk ở trên.</p><p>Máy con không thấy máy chủ thì gần như luôn là do hai máy khác dải mạng, hoặc mạng đang để chế độ <em>Public</em>. Trường hợp cần chạy ổn định lâu dài, dùng hộp print server USB hoặc đổi sang máy có cổng LAN sẽ đỡ phiền hơn nhiều.</p>"
+        }
+      ],
+      "loiRows": [
+        ["Trình cài đặt chạy tới cuối rồi báo lỗi, không hiện máy in", "Tải nhầm gói 32-bit cho Windows 64-bit", "Gỡ sạch bằng Uninstaller trong thư mục driver, tải lại gói W64 rồi cài lại"],
+        ["Máy in hiện trong danh sách nhưng lệnh in nằm chờ mãi", "Cổng in đang trỏ sai (USB002 trong khi máy nằm ở USB001)", "Printer properties → Ports → tick lại đúng dòng USB00x có tên Canon LBP2900"],
+        ["Cắm USB nhưng Windows không nhận thiết bị", "Cắm qua hub USB, cáp nối dài hoặc cáp đứt ngầm", "Cắm thẳng vào cổng USB sau thùng máy, đổi cáp khác thử"],
+        ["Cài xong, in thì hiện lỗi \"Không thể in\" hoặc cửa sổ trạng thái đứng im", "Dịch vụ Print Spooler treo", "Mở Services, khởi động lại Print Spooler; xoá sạch lệnh in cũ trong hàng đợi"],
+        ["Máy in báo Offline dù đã bật", "Windows đang bật Use Printer Offline, hoặc máy ngủ USB selective suspend", "Bỏ tick Use Printer Offline; tắt USB selective suspend trong Power Options"],
+        ["Bản in ra ký tự lộn xộn, ký hiệu lạ", "Driver sai model (đang dùng driver dòng khác hoặc driver universal)", "Gỡ hết, cài lại đúng gói CAPT của LBP2900"],
+        ["Sau khi cập nhật Windows thì máy in biến mất", "Windows Update thay driver bằng bản của nó", "Cài lại bằng Have Disk, sau đó tắt tự động cập nhật driver trong Device installation settings"]
+      ],
+      "mucNote": "<p>Cài xong driver là lúc nhiều người phát hiện hộp mực đã gần cạn. Canon LBP2900 dùng <strong>Cartridge 303</strong>, cùng phôi với HP 12A nên vật tư rất sẵn và rẻ. Đây là các thứ hay phải thay trên dòng máy này:</p>",
+      "mucRows": [
+        ["Hộp mực Canon 303 (tương đương 12A)", "LBP2900, LBP2900B, LBP3000", "Xem <a href=\"../../muc-in/hop-muc-12a/\">trang mã mực 12A</a> để so chính hãng, tương thích và nạp lại"],
+        ["Trống (drum) 12A", "Khi bản in có vệt lặp đều theo chu kỳ", "Thay riêng trống rẻ hơn thay cả hộp"],
+        ["Trục từ 12A", "Khi in mờ dần dù mực còn", "Mua kèm gạt mực nếu hộp đã nạp nhiều lần"],
+        ["Quả đào (lô kéo giấy) và bố thắng", "Khi máy kéo nhiều tờ hoặc không kéo giấy", "Thay cặp sẽ bền hơn thay lẻ"],
+        ["Cụm sấy (lô sấy, bao lụa, lô ép) 12A", "Khi bản in chạm tay ra mực, hoặc kẹt giấy ở cuối đường đi", "Đọc mã trên cụm cũ trước khi đặt hàng"]
+      ],
+      "loiBai": [
+        ["../../model/canon-2900-keo-nhieu-to-giay/", "Canon 2900 kéo nhiều tờ giấy", "quả đào và bố thắng mòn"],
+        ["../../model/canon-2900-bi-soc-den-doc/", "Canon 2900 bị sọc đen dọc", "gạt mực hoặc trống đã tới hạn"],
+        ["../../model/canon-2900-chay-lien-tuc/", "Canon 2900 chạy liên tục không dừng", "cảm biến hoặc lệnh in kẹt"],
+        ["../../huong-dan/canon-2900-khong-nhan-hop-muc/", "Canon 2900 không nhận hộp mực", "tiếp điểm bẩn hoặc lẫy an toàn"],
+        ["../../huong-dan/may-in-khong-in-duoc/", "Máy in không in được, báo Offline", "lỗi nằm ở phía Windows"]
+      ],
+      "faqs": [
+        {
+          "q": "Driver Canon 2900 có bản cho Windows 11 không?",
+          "a": "Canon không liệt kê Windows 11 vì bản driver cuối cùng phát hành tháng 2/2017. Thực tế bản Windows 10 64-bit vẫn chạy trên Windows 11; nếu trình cài đặt tự thoát thì cài tay bằng Have Disk, trỏ vào file CNAB4STK.INF trong thư mục x64."
+        },
+        {
+          "q": "Canon LBP2900 và LBP2900B có dùng chung driver không?",
+          "a": "Có. Gói driver ghi rõ LBP2900/2900B, cài chung một bộ, chọn đúng tên model trong danh sách khi được hỏi."
+        },
+        {
+          "q": "Vì sao phải rút cáp USB trước khi cài?",
+          "a": "Nếu cáp đang cắm, Windows tự gán một driver tạm và chiếm cổng USB, khiến trình cài đặt của Canon không gán được cổng cho máy in. Kết quả là máy in có tên trong danh sách nhưng lệnh in không chạy."
+        },
+        {
+          "q": "Cài xong driver mà in ra giấy trắng thì lỗi ở đâu?",
+          "a": "Phần mềm đã xong, lỗi nằm trong máy: hộp mực hết, chưa rút băng niêm phong hộp mực mới, trục từ yếu hoặc cụm quang bẩn. Đọc bài máy in ra giấy trắng để tra theo dấu hiệu."
+        },
+        {
+          "q": "Có nên tải driver từ trang chia sẻ file cho nhanh không?",
+          "a": "Không nên. File cài driver chạy với quyền quản trị nên là đường lây mã độc phổ biến trong văn phòng. Gói chính hãng chỉ khoảng 10,9 MB và tải trực tiếp từ Canon cũng nhanh tương đương."
+        },
+        {
+          "q": "Máy in chia sẻ qua mạng LAN bị mất khi tắt máy chủ, khắc phục thế nào?",
+          "a": "Đó là đặc tính của máy chia sẻ qua máy tính: LBP2900 không có cổng mạng nên phải có một máy luôn bật làm máy chủ in. Muốn độc lập thì dùng hộp print server USB hoặc chuyển sang máy có cổng LAN."
+        }
+      ],
+      "related": [
+        ["../../muc-in/hop-muc-12a/", "Hộp mực 12A dùng cho máy nào, giá bao nhiêu"],
+        ["../../huong-dan/cach-cai-dat-may-in/", "Cách cài đặt máy in: USB, Wi-Fi và mạng LAN"],
+        ["../../huong-dan/may-tinh-khong-nhan-may-in/", "Máy tính không nhận máy in: 8 bước kiểm tra"],
+        ["../../huong-dan/may-in-khong-in-duoc/", "Máy in không in được, báo Offline"],
+        ["../../tra-hop-muc/", "Tra hộp mực theo model máy in"]
+      ]
+    }
+  ]
+}

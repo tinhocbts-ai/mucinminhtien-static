@@ -27,7 +27,7 @@
  *        hungthinhservicesacc@n8nhungthinh-492502.iam.gserviceaccount.com
  *     → quyền "Đầy đủ" (cần Đầy đủ mới nộp được sitemap; "Hạn chế" chỉ đọc được)
  *
- *  Làm y hệt cho property tinhocnamphong nếu muốn dùng lệnh trung-lap.
+ *  Muốn dùng lệnh trung-lap: đặt biến môi trường GSC_DOMAIN_2 = property thứ hai.
  */
 'use strict';
 
@@ -42,7 +42,7 @@ const ROOT = path.join(__dirname, '..');
    Gọi API sai kiểu sẽ báo "does not have sufficient permission" y như thiếu quyền,
    rất dễ đi lạc hướng. Nên dò thật từ sites.list thay vì cắm cứng. */
 const DOMAIN = 'mucinminhtien.com';
-const DOMAIN_2 = 'tinhocnamphong.net';
+const DOMAIN_2 = process.env.GSC_DOMAIN_2 || '';   // property thu 2 (neu co) — dat qua bien moi truong, khong hardcode
 let SITE = null;                                  // điền sau khi dò
 const SITEMAP = 'https://mucinminhtien.com/sitemap.xml';
 /* Khoá service account. Tìm theo thứ tự ưu tiên; file nào có trước thì dùng.
@@ -241,7 +241,7 @@ async function trungLap() {
   SITE_2 = await timProperty(api, DOMAIN_2);
   if (!SITE_2) {
     console.log('Service account chưa có quyền trên property ' + DOMAIN_2 + ' — không so được.');
-    console.log('Thêm nó vào GSC của tinhocnamphong rồi chạy lại.');
+    console.log('Thêm nó vào GSC của property thứ hai rồi chạy lại.');
     return;
   }
   const [a, b] = await Promise.all([lay(SITE), lay(SITE_2)]);

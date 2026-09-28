@@ -15,3 +15,15 @@ node_modules/
 gsc-key.json
 credentials*.json
 *.pem
+
+# ---- TÀI LIỆU NỘI BỘ — repo này PUBLIC, không đẩy chiến lược/quan hệ hệ thống lên GitHub ----
+PROJECT.md
+CONTENT-PLAN.md
+SESSION-NOTES.md
+CHIEN-LUOC-TRAFFIC-*.md
+KE-HOACH-*.md
+# Dữ liệu keyword từ Google Ads API (bí mật kinh doanh)
+VIP_*.csv
+VIP_*.json
+master_*.csv
+_loai-bo_*.csv

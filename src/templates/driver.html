@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>{{k.title}}</title>
+<meta name="description" content="{{k.desc}}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mucinminhtien.com/driver/{{k.slug}}/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Mực in Minh Tiến">
+<meta property="og:title" content="{{k.ogTitle}}">
+<meta property="og:description" content="{{k.ogDesc}}">
+<meta property="og:url" content="https://mucinminhtien.com/driver/{{k.slug}}/">
+<meta property="og:image" content="https://mucinminhtien.com/assets/img/hero/{{k.slug}}.webp">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{k.h1}}",
+  "description": "{{k.desc}}",
+  "author": { "@id": "https://mucinminhtien.com/#organization" },
+  "publisher": { "@id": "https://mucinminhtien.com/#organization" },
+  "datePublished": "{{k.published}}",
+  "dateModified": "{{k.published}}",
+  "mainEntityOfPage": "https://mucinminhtien.com/driver/{{k.slug}}/"
+}
+</script>
+{{k.faqSchema}}
+</head>
+<body>
+<a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
+<div id="site-header"></div>
+
+<main id="main-content">
+<!--HOWTO totalTime="{{k.totalTime}}" from="Bước 1" to="Lỗi thường gặp"-->
+  <div class="container">
+    <p class="breadcrumb"><a href="../../index.html">Trang chủ</a> / <a href="../">Driver &amp; cài đặt</a> / {{k.crumb}}</p>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="prose">
+        <span class="post-tag">{{k.tag}}</span>
+        <h1 style="margin:12px 0 6px">{{k.h1}}</h1>
+        <p class="post-meta">Cập nhật: {{k.updatedVN}} · {{k.apDung}}</p>
+
+        <figure>
+          <img src="../../assets/img/hero/{{k.slug}}.webp" alt="{{k.h1}}"
+               width="1200" height="675" fetchpriority="high" style="border-radius:var(--radius-sm)">
+        </figure>
+
+        <p><strong>{{k.answer}}</strong></p>
+
+        <div class="callout">
+          <p><strong>Tải driver ở đâu cho an toàn:</strong> chỉ tải từ trang hỗ trợ của hãng. Trang này không lưu trữ và không phát tán file cài đặt — driver trôi nổi trên các trang chia sẻ là đường lây mã độc phổ biến nhất trong môi trường văn phòng, vì file cài driver chạy với quyền quản trị.</p>
+{{k.officialHtml}}
+        </div>
+
+        <!--TOC-->
+
+        <h2>Bản driver nào đúng cho {{k.model}}</h2>
+        <p>Chọn sai bản là nguồn gốc của phần lớn ca cài mãi không xong. Đối chiếu bảng dưới trước khi bấm tải.</p>
+        {{k.specTable}}
+        {{k.specNote}}
+
+{{k.stepsHtml}}
+
+{{k.sectionsHtml}}
+
+        <h2>Lỗi thường gặp khi cài {{k.model}} và cách xử lý</h2>
+        {{k.loiTable}}
+
+        <h2>{{k.model}} dùng mực gì, giá bao nhiêu</h2>
+        {{k.mucNote}}
+        {{k.mucTable}}
+        <p class="price-note">Toàn bộ vật tư cho {{k.model}} có sẵn tại kho {{addressShort}} — xem <a href="../../bang-gia/">bảng giá {{priceCount}} mã</a>, hoặc gọi {{hotlineDisplay}} đọc đúng tên model để lấy đúng mã.</p>
+
+        <h2>Cài xong rồi mà bản in vẫn lỗi</h2>
+        <p>Driver chỉ quyết định máy tính có nói chuyện được với máy in hay không. Khi lệnh in đã chạy mà trang in ra xấu thì lỗi nằm ở vật tư hoặc cơ khí bên trong máy:</p>
+        <ul>
+{{k.loiBaiHtml}}
+        </ul>
+
+        <figure>
+          <img src="../../assets/img/info/{{k.slug}}.webp" alt="Tóm tắt các bước cài driver {{k.model}}"
+               width="1000" height="600" loading="lazy" decoding="async" style="border-radius:var(--radius-sm)">
+          <figcaption>Tóm tắt các bước trong bài. Lưu ảnh lại để làm theo khi máy chưa vào được mạng.</figcaption>
+        </figure>
+
+        <h2>Câu hỏi thường gặp khi cài {{k.model}}</h2>
+      </div>
+      <div class="faq">
+{{k.faqHtml}}
+      </div>
+
+      <div class="prose" style="margin-top:34px">
+        <h2 class="no-toc">Bài viết liên quan</h2>
+        <ul>
+{{k.relatedHtml}}
+        </ul>
+      </div>
+
+      <div class="cta-banner" style="margin-top:40px">
+        <h2 class="no-toc">{{k.ctaTitle}}</h2>
+        <p>Gọi hoặc nhắn Zalo {{hotlineDisplay}} — kỹ thuật viên có mặt trong 30–60 phút tại khu vực trung tâm TP.HCM, cài driver, chia sẻ máy in qua mạng và mang sẵn vật tư cho dòng {{k.model}}.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a href="tel:{{hotlineTel}}" class="btn btn-outline">Gọi {{hotlineDisplay}}</a>
+          <a href="https://zalo.me/{{hotlineTel}}" target="_blank" rel="noopener" class="btn btn-outline">Nhắn Zalo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="../../assets/js/include.js"></script>
+</body>
+</html>
