@@ -33,6 +33,7 @@ Tool tự chọn tấm chưa dùng ở bài nào khác, ưu tiên ảnh nét —
 | ☐ | `/huong-dan/may-in-nhiet-in-mo/` | `epson-t82` | ✅ | Bản in lỗi đặt cạnh bản in chuẩn |
 | ☐ | `/huong-dan/may-in-nhiet-kho-a5/` | `epson-t82` | ✅ | Kỹ thuật viên đang thao tác trên máy in |
 | ☐ | `/huong-dan/may-in-ra-giay-trang/` | `hp-neverstop-1000w` | ✅ | Bản in lỗi đặt cạnh bản in chuẩn |
+| ☐ | `/huong-dan/may-nao-reset-duoc-bo-dem-muc-thai/` | `epson-l3150` | ✅ | Vị trí chip trên hộp mực, chụp cận |
 | ☐ | `/huong-dan/may-tinh-khong-nhan-may-in/` | `brother-b2100d` | ✅ | Kỹ thuật viên đang thao tác trên máy in |
 | ☐ | `/huong-dan/mua-may-in-bill-o-dau-tphcm/` | _thẻ thiết kế_ | ✅ | Kỹ thuật viên đang thao tác trên máy in |
 | ☐ | `/huong-dan/phan-biet-muc-in-chinh-hang/` | `hp-135w` | ✅ | Hộp mực thật trên bàn làm việc |
@@ -64,11 +65,9 @@ Tool tự chọn tấm chưa dùng ở bài nào khác, ưu tiên ảnh nét —
 | ☐ | `/driver/canon-2900/` | `canon-2900` | ✅ | Kỹ thuật viên đang thao tác trên máy in |
 | ☐ | `/khu-vuc/binh-chanh/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/khu-vuc/chanh-hung/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
-| ☐ | `/khu-vuc/hiep-phuoc/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/khu-vuc/nha-be/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
-| ☐ | `/khu-vuc/phu-my-hung/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/khu-vuc/quan-4/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/khu-vuc/quan-7/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/khu-vuc/quan-8/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 
-**Tổng: 59 bài — 46 bài có ảnh máy thật.**
+**Tổng: 58 bài — 47 bài có ảnh máy thật.**
