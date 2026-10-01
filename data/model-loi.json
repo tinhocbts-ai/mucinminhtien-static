@@ -53,6 +53,10 @@
     {
      "h2": "Bước 3 — Khi nguyên nhân là tràn bộ đếm mực thải",
      "html": "<p>Mỗi lần vệ sinh đầu phun, máy xả một lượng mực vào tấm thấm bên trong. Máy đếm số lần đó; đủ ngưỡng thì khoá lại để mực không tràn ra ngoài. Đây không phải hỏng hóc mà là cơ chế bảo vệ.</p><p>Dấu hiệu nhận biết: máy báo <em>Service Required</em> hoặc <em>Maintenance Box</em>, hai đèn nháy đồng thời và không hết sau khi đã loại trừ kẹt giấy lẫn mực.</p><p><strong>Hai việc phải làm cùng nhau:</strong> đặt lại bộ đếm và <strong>vệ sinh hoặc thay tấm thấm mực thải</strong>. Chỉ đặt lại bộ đếm mà bỏ qua tấm thấm thì vài tuần sau mực tràn ra bàn thật — đây là lỗi hay gặp khi tự làm theo hướng dẫn trên mạng. Chi tiết cơ chế có ở bài <a href=\"../../huong-dan/tran-bo-dem-muc-thai-epson/\">tràn bộ đếm mực thải Epson</a>.</p>"
+    },
+    {
+     "h2": "Reset bộ đếm mực thải L3110: khác bản với L3150 dù vỏ giống nhau",
+     "html": "<p>L3110 và L3150 cùng khung vỏ, cùng mực 003, khác nhau ở chỗ L3150 có Wi-Fi còn L3110 chỉ có USB. Về phần mềm reset thì <strong>hai máy dùng hai bản khác nhau</strong> — nhìn vỏ máy không phân biệt được, phải đọc tên model in ở mặt trước.</p><p>Điểm riêng của dòng đa năng này: khi máy khoá vì tràn bộ đếm, <strong>phần scan và copy cũng ngừng theo</strong>, không chỉ riêng chức năng in. Nhiều khách nghĩ máy hỏng cụm scan nên đem đi sửa oan.</p><p>Thứ tự xử lý: đọc mức bộ đếm bằng phần mềm → mở đáy máy kiểm tra và thay tấm thấm → chạy đúng bản cho L3110 → tắt máy mười giây rồi bật lại → in trang kiểm tra đầu phun. Quy trình đầy đủ ở <a href=\"../../huong-dan/tran-bo-dem-muc-thai-epson/\">bài tràn bộ đếm mực thải</a>; dòng L12xx có hướng dẫn riêng ở <a href=\"../reset-epson-l1250-l1210/\">trang reset L1250 và L1210</a>.</p>"
     }
    ],
    "traRows": [
@@ -149,6 +153,14 @@
     {
      "q": "Máy L3110 để lâu không dùng có sao không?",
      "a": "Có, và đây là nguyên nhân hỏng phổ biến nhất của dòng phun. Mực khô lại trong đầu phun sau vài tuần không in, gây tắc vòi và mất màu. Cách phòng tránh đơn giản nhất là in vài trang mỗi tuần, kể cả trang trắng có một dòng chữ cũng đủ giữ mực lưu thông."
+    },
+    {
+     "q": "Máy L3110 khoá rồi thì còn scan được không?",
+     "a": "Không. Khi bộ đếm mực thải đầy, máy khoá toàn bộ chứ không riêng chức năng in — scan và copy cũng ngừng. Đây không phải hỏng cụm scan."
+    },
+    {
+     "q": "L3110 và L3150 có dùng chung bản reset không?",
+     "a": "Không. Hai máy cùng khung vỏ và cùng mực 003 nhưng là hai model riêng, bản phần mềm reset khác nhau. Đọc tên model in ở mặt trước máy trước khi tải."
     }
    ],
    "ctaTitle": "Epson L3110 vẫn nháy đèn sau khi thử hết cách?",
@@ -168,6 +180,10 @@
     [
      "../reset-epson-l1250-l1210/",
      "Cách reset bộ đếm mực thải cho dòng L12xx"
+    ],
+    [
+     "../reset-epson-l310-l360/",
+     "Dòng cũ L300, L310, L350, L360 xử lý ra sao"
     ]
    ]
   },
@@ -223,6 +239,10 @@
     {
      "h2": "Bước 3 — Tràn bộ đếm mực thải trên máy đơn năng",
      "html": "<p>L1110 in nhiều mà không scan, nên với nhiều người đây là máy chạy tải cao nhất trong nhà. Bộ đếm mực thải vì thế đầy nhanh hơn người ta tưởng.</p><p>Khi máy báo <em>Service Required</em> và hai đèn nháy đồng thời không dứt, đó là bộ đếm đã tới ngưỡng. Máy không hỏng — nó tự khoá để mực không tràn ra ngoài.</p><p>Xử lý đúng gồm hai việc làm cùng nhau: đặt lại bộ đếm, và vệ sinh hoặc thay tấm thấm mực thải. Bỏ qua vế thứ hai thì mực sẽ rỉ ra đáy máy và bàn làm việc. Đây là lý do chúng tôi không khuyến khích tự chạy phần mềm tải trên mạng: phần mềm chỉ làm được vế thứ nhất.</p>"
+    },
+    {
+     "h2": "Reset bộ đếm mực thải L1110: bản riêng, không dùng chung với L1210",
+     "html": "<p>Khi đã xác định máy khoá vì tràn bộ đếm mực thải chứ không phải kẹt giấy, việc tiếp theo là reset. Với L1110 có ba điểm riêng cần nhớ:</p><ul><li><strong>L1110 và L1210 là hai model khác nhau.</strong> L1110 ra trước, L1210 là đời sau cùng khung. Bản phần mềm reset không dùng chung — đây là nhầm lẫn hay gặp nhất vì hai máy nhìn gần như giống hệt.</li><li><strong>Máy một chức năng, không màn hình</strong> nên không có cách nào đọc mức bộ đếm trên máy. Phải cắm USB vào máy tính và dùng phần mềm đọc — thao tác đọc này miễn phí ở hầu hết công cụ.</li><li><strong>Reset không chữa được đầu phun.</strong> Máy mở khoá rồi mà bản in vẫn sọc thì vấn đề nằm ở đầu phun, xử lý riêng.</li></ul><p>Thứ tự bắt buộc: đọc mức bộ đếm → mở đáy máy thay hoặc giặt tấm thấm → chạy đúng bản cho L1110 → tắt bật máy → in trang kiểm tra. Bỏ bước tấm thấm thì vài tháng sau mực chảy ra mặt bàn. Chi tiết từng bước nằm ở <a href=\"../../huong-dan/tran-bo-dem-muc-thai-epson/\">bài tràn bộ đếm mực thải Epson</a>, danh sách model và nguồn tải chính chủ ở <a href=\"../../huong-dan/may-nao-reset-duoc-bo-dem-muc-thai/\">bảng tra model</a>.</p>"
     }
    ],
    "traRows": [
@@ -315,6 +335,14 @@
     {
      "q": "Chi phí sửa L1110 nháy đèn khoảng bao nhiêu?",
      "a": "Kẹt giấy và xác nhận mực thì tự làm được, miễn phí. Gọi kỹ thuật viên kiểm tra và vệ sinh đường giấy từ 100.000đ, vệ sinh đầu phun chuyên sâu từ 150.000đ, xử lý tràn bộ đếm kèm vệ sinh tấm thấm từ 200.000đ. Luôn báo giá trước khi làm."
+    },
+    {
+     "q": "Reset Epson L1110 dùng bản nào?",
+     "a": "Bản riêng cho L1110. Không dùng được bản của L1210 dù hai máy nhìn gần giống nhau và cùng dùng mực 003. Chạy nhầm bản thì phần mềm thường báo không tìm thấy máy."
+    },
+    {
+     "q": "L1110 không có màn hình thì làm sao biết bộ đếm đầy bao nhiêu phần trăm?",
+     "a": "Phải cắm cáp USB vào máy tính và dùng phần mềm đọc mức bộ đếm — thao tác đọc miễn phí. Trên 95% là đúng bệnh tràn mực thải; dưới 90% thì máy khoá vì lý do khác."
     }
    ],
    "ctaTitle": "Epson L1110 nháy đèn không dứt?",
@@ -389,6 +417,10 @@
     {
      "h2": "Bước 3 — Bộ đếm mực thải và cách xử lý đúng",
      "html": "<p>Cơ chế giống hệt các máy dòng L: máy đếm số lần xả mực vệ sinh đầu phun, đủ ngưỡng thì khoá và báo <em>Service Required</em>.</p><p>Xử lý đúng phải làm hai việc cùng lúc — đặt lại bộ đếm và vệ sinh hoặc thay tấm thấm. Làm mỗi vế đầu thì máy chạy tiếp được một thời gian ngắn rồi mực tràn ra ngoài thật.</p><p>Với L3210 còn mới, chúng tôi thường khuyên khách xử lý sớm khi máy vừa báo, thay vì cố in thêm — tấm thấm càng ngậm nhiều thì càng khó vệ sinh và nhiều khả năng phải thay hẳn.</p>"
+    },
+    {
+     "h2": "Reset bộ đếm mực thải L3210 và chỗ hay nhầm với L3250",
+     "html": "<p>L3210 và L3250 là cặp giống nhau nhất trong dòng EcoTank đời mới: cùng kiểu dáng, cùng mực 003, khác nhau ở chỗ L3250 có Wi-Fi. Phần mềm reset <strong>không dùng chung</strong>.</p><p>Cách phân biệt nhanh khi không nhìn rõ nhãn: L3250 có nút Wi-Fi trên bảng điều khiển, L3210 thì không. Nhầm hai máy này là lý do phổ biến khiến phần mềm báo không nhận máy.</p><p>Một điểm nữa của dòng này: máy mới nên nhiều ca khoá máy lại <strong>không phải</strong> do mực thải mà do chưa xác nhận mức mực sau khi châm, hoặc còn mảnh giấy kẹt bên trong. Vì vậy hãy đọc mức bộ đếm trước khi mua khoá kích hoạt — dưới 90% thì tiền khoá là tiền bỏ phí, nên tìm nguyên nhân khác.</p><p>Quy trình chuẩn và cảnh báo về tấm thấm xem ở <a href=\"../../huong-dan/tran-bo-dem-muc-thai-epson/\">bài tràn bộ đếm mực thải Epson</a>.</p>"
     }
    ],
    "traRows": [
@@ -485,6 +517,14 @@
     {
      "q": "Chi phí xử lý Epson L3210 khoảng bao nhiêu?",
      "a": "Kẹt giấy và đặt lại mức mực thì tự làm được, miễn phí. Vệ sinh đường giấy tận nơi từ 100.000đ, vệ sinh đầu phun chuyên sâu từ 150.000đ, xử lý tràn bộ đếm mực thải kèm vệ sinh tấm thấm từ 200.000đ. Báo giá trước khi làm, khách đồng ý mới thực hiện."
+    },
+    {
+     "q": "Làm sao phân biệt L3210 với L3250 khi nhãn đã mờ?",
+     "a": "Nhìn bảng điều khiển: L3250 có nút Wi-Fi, L3210 không có. Hai máy dùng hai bản phần mềm reset khác nhau nên phân biệt sai là phần mềm không nhận máy."
+    },
+    {
+     "q": "Có nên mua khoá reset ngay khi máy nháy đèn không?",
+     "a": "Không nên. Đọc mức bộ đếm trước, thao tác này miễn phí. Dưới 90% nghĩa là máy khoá vì chuyện khác — chưa xác nhận mực sau khi châm, kẹt giấy, hoặc lỗi cảm biến — mua khoá lúc đó là phí tiền."
     }
    ],
    "ctaTitle": "Epson L3210 nháy đèn, cần xử lý ngay?",
@@ -725,6 +765,10 @@
     {
      "h2": "Bước 3 — Tràn bộ đếm mực thải",
      "html": "<p>Giống mọi máy dòng L: máy đếm số lần xả mực vệ sinh đầu phun, đủ ngưỡng thì khoá và báo <em>Service Required</em>, hai đèn nháy đồng thời không dứt.</p><p>Điểm riêng của L3250: vì có Wi-Fi nên máy thường được đặt ở vị trí xa, cả nhà cùng in, tần suất sử dụng cao hơn máy chỉ cắm USB. Bộ đếm vì thế đầy nhanh hơn.</p><p>Xử lý đúng gồm hai việc làm cùng nhau — đặt lại bộ đếm và vệ sinh hoặc thay tấm thấm mực thải. Bỏ vế thứ hai thì vài tuần sau mực rỉ ra đáy máy. Cơ chế chi tiết có ở bài <a href=\"../../huong-dan/tran-bo-dem-muc-thai-epson/\">tràn bộ đếm mực thải Epson</a>.</p>"
+    },
+    {
+     "h2": "Reset L3250: phải cắm cáp USB, không reset qua Wi-Fi được",
+     "html": "<p>L3250 là bản có Wi-Fi của L3210, và chính điều đó gây ra lỗi thao tác hay gặp nhất: <strong>phần mềm reset chỉ làm việc qua cáp USB</strong>. Máy đang nối Wi-Fi và in bình thường không có nghĩa là phần mềm reset nhìn thấy máy.</p><p>Vì vậy trước khi chạy: tìm cáp USB, cắm thẳng vào cổng sau máy tính (không qua hub, không qua cáp nối dài), bật máy in rồi mới mở phần mềm. Nhiều ca \"phần mềm không nhận máy\" chỉ là vì máy đang nối qua Wi-Fi.</p><p>Phần còn lại giống mọi máy EcoTank: đọc mức bộ đếm trước, thay hoặc giặt tấm thấm dưới đáy máy, chạy đúng bản cho L3250 (bản của L3210 không chạy được), tắt bật máy rồi in trang kiểm tra đầu phun.</p><p>Danh sách model được hỗ trợ và nguồn tải chính chủ ở <a href=\"../../huong-dan/may-nao-reset-duoc-bo-dem-muc-thai/\">bảng tra model reset được bộ đếm mực thải</a>.</p>"
     }
    ],
    "traRows": [
@@ -821,6 +865,14 @@
     {
      "q": "Chi phí xử lý Epson L3250 khoảng bao nhiêu?",
      "a": "Nếu chỉ là lỗi Wi-Fi thì tự làm được, miễn phí; gọi kỹ thuật viên cài lại tận nơi từ 100.000đ. Vệ sinh đường giấy từ 100.000đ, vệ sinh đầu phun chuyên sâu từ 150.000đ, xử lý tràn bộ đếm mực thải kèm vệ sinh tấm thấm từ 200.000đ."
+    },
+    {
+     "q": "Máy L3250 đang nối Wi-Fi, có reset qua mạng được không?",
+     "a": "Không. Phần mềm reset chỉ làm việc qua cáp USB. Phải cắm cáp thẳng vào cổng sau máy tính, bật máy in rồi mới mở phần mềm — đây là nguyên nhân phổ biến nhất của lỗi không tìm thấy máy trên dòng có Wi-Fi."
+    },
+    {
+     "q": "Bản reset của L3210 dùng cho L3250 được không?",
+     "a": "Không. Hai model dùng hai bản riêng dù chỉ khác nhau ở chức năng Wi-Fi. Đọc tên model in ở mặt trước máy để tải đúng."
     }
    ],
    "ctaTitle": "Epson L3250 nháy đèn, đã thử hết cách?",
@@ -1605,6 +1657,10 @@
     [
      "../../huong-dan/may-in-epson-bao-loi-2-den-do/",
      "Máy in Epson báo 2 đèn đỏ nhấp nháy"
+    ],
+    [
+     "../reset-epson-l310-l360/",
+     "Epson đời cũ L310, L360 báo mực thải"
     ]
    ]
   },
@@ -1768,6 +1824,336 @@
     [
      "../../muc-in/muc-epson-003/",
      "Mực Epson 003 dùng cho máy nào, giá bao nhiêu"
+    ],
+    [
+     "../reset-canon-g1010-g2010/",
+     "Canon dòng G báo lỗi 5B00 xử lý thế nào"
+    ]
+   ]
+  },
+  {
+   "slug": "reset-epson-l310-l360",
+   "model": "Epson L310",
+   "crumb": "Reset Epson L310, L360",
+   "tag": "Máy in Epson",
+   "totalTime": "PT30M",
+   "published": "2026-10-01",
+   "apDung": "Áp dụng cho Epson L300, L310, L350, L360 — nhóm máy in phun bình mực đời cũ dùng mực 664",
+   "h1": "Reset Epson L310, L360 báo mực thải: máy cũ có đáng sửa không",
+   "title": "Reset Epson L310, L360 Báo Mực Thải – Có Đáng Sửa Không",
+   "desc": "Epson L310, L360, L300, L350 nháy đèn báo tràn bộ đếm mực thải. Cách reset, thay tấm thấm và cách tính xem máy cũ còn đáng sửa. Thợ tận nơi: 0986 704 260.",
+   "ogTitle": "Reset Epson L310, L360 báo mực thải: máy cũ có đáng sửa không",
+   "ogDesc": "Nhóm máy đời cũ dùng mực 664. Hướng dẫn reset đúng bản, thay tấm thấm, và cách tính chi phí sửa so với thay máy mới.",
+   "answer": "Epson L310, L360 và nhóm L300, L350 nháy đèn rồi ngừng in khi bộ đếm mực thải đầy. Cách xử lý giống các dòng sau: đọc mức bộ đếm, thay tấm thấm, rồi reset bằng bản đúng model. Nhưng với nhóm máy đã nhiều tuổi này, nên tính thêm một bước: cộng hết chi phí sửa rồi so với giá một máy mới cùng tầm trước khi quyết định.",
+   "specs": [
+    [
+     "Kiểu máy",
+     "In phun bình mực khổ A4 — L300, L310 chỉ in; L350, L360 có thêm scan và copy"
+    ],
+    [
+     "Mực dùng",
+     "Epson 664 — bốn màu BK/C/M/Y, dạng chai châm vào bình"
+    ],
+    [
+     "Màn hình",
+     "Không có. Mọi thông báo đọc qua đèn báo"
+    ],
+    [
+     "Bộ đếm mực thải",
+     "Có. Đầy thì máy khoá hoàn toàn, kể cả scan trên bản đa năng"
+    ],
+    [
+     "Tuổi máy",
+     "Dòng ra mắt đã lâu — phần lớn máy đang dùng đã qua nhiều năm, cần tính tới chi phí sửa tổng thể"
+    ]
+   ],
+   "sections": [
+    {
+     "h2": "Bốn model trong nhóm, khác nhau ở chỗ nào",
+     "html": "<p>Người dùng hay gọi chung là \"dòng L3xx\" nhưng bốn máy này khác nhau thật:</p><ul><li><strong>L300</strong> và <strong>L310</strong> — chỉ in, không scan. L310 là bản sau, cải tiến tốc độ.</li><li><strong>L350</strong> và <strong>L360</strong> — đa năng, có scan và copy. L360 là bản sau của L350.</li></ul><p>Cả bốn cùng dùng mực 664 nên châm mực thì giống nhau, nhưng <strong>bản phần mềm reset thì riêng từng model</strong>. Đọc tên model in ở mặt trước máy trước khi tải, đừng đoán theo hình dáng vì bốn máy này nhìn khá giống nhau.</p>"
+    },
+    {
+     "h2": "Trước khi sửa, tính xem máy còn đáng giữ không",
+     "html": "<p>Đây là phần khác biệt so với dòng L1210 hay L3210 còn mới. Máy nhóm này đã nhiều năm tuổi, nên trước khi bỏ tiền nên cộng đủ:</p><ul><li>Tiền khoá kích hoạt phần mềm reset.</li><li>Tiền mút thấm mới, nếu mút cũ đã chai.</li><li>Khả năng phải vệ sinh hoặc thay đầu phun — máy càng cũ thì đầu phun càng dễ tắc, và đây mới là khoản đắt.</li><li>Nếu bánh răng kéo giấy đã mòn thì cộng thêm quả đào, bố thắng.</li></ul><p><strong>Nguyên tắc bên mình vẫn tư vấn thẳng:</strong> tổng chi phí sửa vượt quá nửa giá một máy mới cùng tầm thì nên thay máy. Máy chỉ tràn bộ đếm mà mọi thứ khác còn tốt thì sửa rất đáng — chi phí nhỏ, máy chạy tiếp được nhiều năm. Kỹ thuật viên kiểm tra xong sẽ nói rõ máy thuộc nhóm nào trước khi khách quyết.</p>"
+    },
+    {
+     "h2": "Reset đúng thứ tự cho máy đã nhiều tuổi",
+     "html": "<ol><li><strong>Đọc mức bộ đếm bằng phần mềm.</strong> Trên 95% là đúng bệnh. Máy cũ hay khoá vì lý do khác — cảm biến bẩn, kẹt giấy vụn tích tụ nhiều năm — nên bước kiểm này quan trọng hơn với máy mới.</li><li><strong>Mở đáy máy, lấy mút thấm.</strong> Máy chạy nhiều năm thì mút thường đã chai cứng chứ không chỉ no mực, giặt không ăn thua, nên thay mới.</li><li><strong>Vệ sinh luôn khoang đáy.</strong> Mực khô đóng cục trong khoang là chuyện bình thường ở máy cũ, nên cạo sạch trước khi lắp mút mới.</li><li><strong>Chạy đúng bản reset cho model</strong>, tắt máy, bật lại.</li><li><strong>In trang kiểm tra đầu phun.</strong> Máy cũ rất hay lộ thêm bệnh đầu phun ngay sau khi mở khoá — xem <a href=\"../../huong-dan/ve-sinh-dau-phun-epson/\">cách vệ sinh đầu phun</a>.</li></ol>"
+    },
+    {
+     "h2": "Mực 664 và chuyện dùng mực rẻ trên máy cũ",
+     "html": "<p>Máy nhóm này đã khấu hao gần hết nên nhiều người chuyển sang mực rẻ nhất tìm được. Đây là chỗ hay mất tiền oan: mực kém làm tắc đầu phun, tắc thì phải bấm vệ sinh, mỗi lần vệ sinh lại đẩy bộ đếm mực thải lên — vòng lặp dẫn thẳng tới lần reset tiếp theo sớm hơn.</p><p>Chênh lệch giữa mực tốt và mực rẻ nhất chỉ vài chục nghìn mỗi chai, trong khi một lần thay đầu phun đắt hơn nhiều lần. Với máy cũ, dùng mực đúng chuẩn là cách rẻ nhất để kéo dài tuổi thọ.</p>"
+    }
+   ],
+   "traRows": [
+    [
+     "Đèn nháy, máy không in, kể cả scan cũng ngừng",
+     "Bộ đếm mực thải đầy",
+     "Thay mút thấm rồi reset đúng bản model",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Reset xong in ra trắng hoặc sọc nặng",
+     "Đầu phun đã khô lâu ngày trên máy cũ",
+     "Vệ sinh đầu phun, nặng thì ngâm rửa",
+     "từ 100.000 đ"
+    ],
+    [
+     "Máy kéo giấy không đều, nhai giấy",
+     "Quả đào và bố thắng mòn theo tuổi máy",
+     "Thay bộ kéo giấy",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Mực khô đóng cục dưới khoang đáy",
+     "Mút thấm đã chai, mực không thấm được nữa",
+     "Vệ sinh khoang, thay mút mới",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Sửa xong vài tháng lại hỏng chỗ khác",
+     "Máy đã hết tuổi kinh tế",
+     "Cân nhắc thay máy thay vì sửa tiếp",
+     "—"
+    ]
+   ],
+   "goiTho": [
+    "Máy đã nhiều năm và chưa lần nào được vệ sinh khoang mực thải",
+    "Có mực khô đóng cục dưới gầm hoặc vệt mực trên mặt bàn",
+    "Reset xong bản in vẫn trắng hoặc sọc nặng",
+    "Không chắc máy mình là L300, L310, L350 hay L360",
+    "Muốn nghe tư vấn thẳng: nên sửa tiếp hay thay máy mới"
+   ],
+   "giaRows": [
+    [
+     "Vệ sinh khoang đáy, thay mút thấm",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Reset bộ đếm kèm bảo dưỡng",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Vệ sinh đầu phun",
+     "từ 100.000 đ"
+    ],
+    [
+     "Thay bộ kéo giấy (quả đào, bố thắng)",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Mực Epson 664 (mỗi màu)",
+     "Xem bảng giá vật tư"
+    ]
+   ],
+   "phongTranh": [
+    "Dùng mực đúng chuẩn — trên máy cũ, mực rẻ gây tắc nhanh hơn hẳn và kéo theo nhiều lần vệ sinh.",
+    "In vài trang mỗi tuần, máy nằm im lâu là đầu phun khô.",
+    "Mỗi lần reset nên thay mút thấm mới thay vì giặt lại mút đã chai.",
+    "Đặt máy nơi khô ráo, tránh góc ẩm — máy cũ nhạy với ẩm hơn máy mới."
+   ],
+   "faqs": [
+    {
+     "q": "Epson L310 và L360 có dùng chung bản reset không?",
+     "a": "Không. Bốn model L300, L310, L350, L360 cùng dùng mực 664 nhưng mỗi model có bản phần mềm reset riêng. Đọc tên model in ở mặt trước máy trước khi tải."
+    },
+    {
+     "q": "Máy L310 cũ quá, sửa có đáng không?",
+     "a": "Nếu chỉ tràn bộ đếm mực thải và mọi thứ khác còn tốt thì rất đáng — chi phí nhỏ, máy chạy tiếp được nhiều năm. Nhưng nếu kèm theo đầu phun tắc nặng và bộ kéo giấy mòn, tổng chi phí vượt nửa giá máy mới thì nên thay."
+    },
+    {
+     "q": "Máy L360 khoá thì scan còn dùng được không?",
+     "a": "Không. Khi bộ đếm đầy, máy khoá toàn bộ chức năng chứ không riêng phần in, nên scan và copy cũng ngừng."
+    },
+    {
+     "q": "Mút thấm cũ giặt lại dùng được không?",
+     "a": "Với máy mới thì giặt sạch phơi khô hoàn toàn vẫn dùng được. Với nhóm máy đã nhiều năm, mút thường đã chai cứng và không còn thấm tốt — nên thay mới."
+    },
+    {
+     "q": "Reset xong in ra giấy trắng là sao?",
+     "a": "Bộ đếm đã mở khoá nhưng đầu phun khô không phun được mực. Cần vệ sinh đầu phun; trường hợp khô lâu ngày phải ngâm rửa, và nếu đầu phun hỏng hẳn thì chi phí thay thường không còn đáng với máy đời này."
+    }
+   ],
+   "ctaTitle": "Máy Epson đời cũ báo mực thải? Để kiểm tra rồi tư vấn thẳng",
+   "related": [
+    [
+     "../../huong-dan/tran-bo-dem-muc-thai-epson/",
+     "Tràn bộ đếm mực thải Epson: cơ chế và quy trình an toàn"
+    ],
+    [
+     "../../huong-dan/may-nao-reset-duoc-bo-dem-muc-thai/",
+     "Bảng tra model reset được bộ đếm mực thải"
+    ],
+    [
+     "../reset-epson-l805/",
+     "Reset Epson L805 báo hết mực thải"
+    ],
+    [
+     "../../huong-dan/ve-sinh-dau-phun-epson/",
+     "Vệ sinh đầu phun Epson đúng cách"
+    ]
+   ]
+  },
+  {
+   "slug": "reset-canon-g1010-g2010",
+   "model": "Canon G1010",
+   "crumb": "Reset Canon G1010, G2010",
+   "tag": "Máy in Canon",
+   "totalTime": "PT30M",
+   "published": "2026-10-01",
+   "apDung": "Áp dụng cho Canon G1000, G1010, G2000, G2010, G3000, G3010 — dòng bình mực PIXMA G",
+   "h1": "Reset Canon G1010, G2010 báo lỗi mực thải (5B00): xử lý thế nào",
+   "title": "Reset Canon G1010, G2010 Báo Lỗi 5B00 Mực Thải – Cách Xử Lý",
+   "desc": "Canon G1010, G2010, G3010 báo 5B00 hoặc nháy đèn do đầy khay mực thải. Cách xử lý đúng, khác gì Epson, và khi nào phải thay khay. Gọi 0986 704 260.",
+   "ogTitle": "Reset Canon G1010, G2010 báo lỗi mực thải 5B00: xử lý thế nào",
+   "ogDesc": "Dòng PIXMA G báo 5B00 khi khay mực thải đầy. Cách xử lý, khác biệt so với Epson và chi phí thực tế.",
+   "answer": "Canon dòng G báo lỗi 5B00 hoặc nháy đèn xen kẽ khi bộ đếm mực thải đầy — cùng cơ chế với Epson nhưng khác cách gọi và khác công cụ. Xử lý đúng gồm hai phần: dọn mực thải thật trong máy, rồi mới đưa bộ đếm về 0. Chỉ làm phần sau là vài tháng nữa mực tràn ra đế máy.",
+   "specs": [
+    [
+     "Kiểu máy",
+     "In phun bình mực PIXMA G — G1010 chỉ in, G2010 có scan và copy, G3010 thêm Wi-Fi"
+    ],
+    [
+     "Mực dùng",
+     "Canon GI-790 — bốn màu, dạng chai châm vào bình"
+    ],
+    [
+     "Mã lỗi hay gặp",
+     "5B00, đôi khi hiện P07 hoặc nháy đèn vàng xen kẽ đèn nguồn"
+    ],
+    [
+     "Bộ đếm mực thải",
+     "Có, Canon gọi là ink absorber counter — khay thấm đặt trong thân máy"
+    ],
+    [
+     "Công cụ xử lý",
+     "Khác hoàn toàn phần mềm của Epson; Canon có công cụ riêng dành cho kỹ thuật"
+    ]
+   ],
+   "sections": [
+    {
+     "h2": "5B00 nghĩa là gì và vì sao máy khoá",
+     "html": "<p>Mỗi lần máy làm vệ sinh đầu phun, một lượng mực bị xả vào khay thấm trong thân máy. Máy đếm số lần đó. Đầy ngưỡng thì khoá lại và báo <strong>5B00</strong> — trên dòng G không có màn hình thì biểu hiện là đèn vàng nháy xen kẽ đèn nguồn, máy không nhận lệnh in.</p><p>Máy không hỏng. Nó đang báo đã tới hạn bảo dưỡng. Cách đọc mã lỗi Canon và các mã liên quan xem thêm ở bài <a href=\"../../huong-dan/loi-5b00-canon/\">lỗi 5B00 máy in Canon</a>.</p>"
+    },
+    {
+     "h2": "Canon khác Epson ở ba điểm",
+     "html": "<p>Nhiều người quen xử lý Epson rồi áp y nguyên sang Canon nên vướng. Ba khác biệt:</p><ul><li><strong>Công cụ khác.</strong> Phần mềm dùng cho Epson không chạy được với Canon. Canon có công cụ dịch vụ riêng, và máy phải được đưa vào chế độ dịch vụ trước khi công cụ nhận.</li><li><strong>Khay thấm thay vì mút rời.</strong> Ở nhiều model dòng G, phần thấm mực thải nằm sâu trong thân máy chứ không phải tấm mút dễ rút ra như Epson — tháo tới đó cần kinh nghiệm, tháo sai dễ gãy ngàm vỏ.</li><li><strong>Mã lỗi rõ ràng hơn.</strong> Canon cho mã 5B00 cụ thể, trong khi Epson chỉ nháy đèn nên phải đoán nhiều hơn.</li></ul><p>Vì điểm thứ hai, dòng G là nhóm bên mình khuyên nên để kỹ thuật viên làm hơn là tự mở máy — khác với Epson L1210 hay L3210 mà người dùng tự thay mút được.</p>"
+    },
+    {
+     "h2": "Quy trình xử lý đúng",
+     "html": "<ol><li><strong>Xác nhận đúng mã.</strong> 5B00 là mực thải. Các mã khác như kẹt giấy, hết mực, lỗi đầu phun thì xử lý hoàn toàn khác, reset không giải quyết được gì.</li><li><strong>Mở máy, kiểm tra khay thấm.</strong> Khay no mực thì vệ sinh hoặc thay; nhiều ca còn phải hút bớt mực đọng trong khoang.</li><li><strong>Cân nhắc dẫn ống mực thải ra bình ngoài</strong> nếu máy in khối lượng lớn — lần sau chỉ đổ bình.</li><li><strong>Đưa máy vào chế độ dịch vụ rồi reset bộ đếm</strong> bằng công cụ đúng cho dòng G.</li><li><strong>In trang kiểm tra</strong> xác nhận máy hoạt động bình thường và bản in không sọc.</li></ol><p>Thứ tự này không đảo được: dọn mực thật trước, xoá số sau.</p>"
+    },
+    {
+     "h2": "Khi nào nên gọi thợ thay vì tự làm",
+     "html": "<p>Với dòng G, tự làm hợp lý khi máy mới, khay thấm còn dễ tiếp cận và bạn đã từng tháo máy in. Ngược lại, nên gọi thợ nếu:</p><ul><li>Máy đã có vệt mực dưới gầm hoặc trên mặt bàn — nghĩa là mực đã tràn khỏi khay.</li><li>Máy còn hạn bảo hành — can thiệp bằng công cụ ngoài có thể mất bảo hành, nên mang tới trung tâm hãng.</li><li>Bạn không có kinh nghiệm tháo vỏ máy Canon — ngàm nhựa dòng này dễ gãy.</li><li>Sau khi reset, bản in vẫn sọc hoặc mất màu, tức là còn bệnh đầu phun kèm theo.</li></ul>"
+    }
+   ],
+   "traRows": [
+    [
+     "Báo 5B00, đèn vàng nháy xen kẽ, không in được",
+     "Bộ đếm mực thải đầy",
+     "Dọn khay thấm rồi reset bộ đếm",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Có vệt mực dưới gầm máy",
+     "Mực đã tràn khỏi khay thấm",
+     "Vệ sinh khoang, thay khay, kiểm tra bo mạch",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Reset xong bản in vẫn sọc",
+     "Đầu phun tắc, bệnh riêng",
+     "Vệ sinh đầu phun",
+     "từ 100.000 đ"
+    ],
+    [
+     "Máy báo mã khác không phải 5B00",
+     "Kẹt giấy, hết mực, lỗi cảm biến",
+     "Xử lý theo đúng mã, không reset",
+     "—"
+    ],
+    [
+     "Reset xong vài tháng lại báo 5B00",
+     "Chỉ xoá số mà chưa dọn mực thải",
+     "Mở máy dọn khay, cân nhắc dẫn ống ra bình ngoài",
+     "Kiểm tra rồi báo giá"
+    ]
+   ],
+   "goiTho": [
+    "Máy đã có vệt mực dưới gầm hoặc trên mặt bàn",
+    "Chưa từng tháo vỏ máy Canon — ngàm nhựa dòng G dễ gãy",
+    "Máy còn hạn bảo hành, nên mang tới trung tâm hãng",
+    "Reset xong bản in vẫn sọc hoặc mất màu",
+    "Muốn dẫn ống mực thải ra bình ngoài cho lần sau đỡ phải tháo"
+   ],
+   "giaRows": [
+    [
+     "Vệ sinh khoang, xử lý khay mực thải",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Reset bộ đếm mực thải kèm bảo dưỡng",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Dẫn ống mực thải ra bình ngoài",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Vệ sinh đầu phun",
+     "từ 100.000 đ"
+    ],
+    [
+     "Mực Canon GI-790 (mỗi màu)",
+     "Xem bảng giá vật tư"
+    ]
+   ],
+   "phongTranh": [
+    "In đều mỗi tuần để đầu phun không khô — máy nằm im lâu là phải vệ sinh nhiều, bộ đếm đầy nhanh.",
+    "Không bấm vệ sinh đầu phun liên tục khi bản in chỉ hơi nhạt; in trang kiểm tra trước.",
+    "Dùng mực đúng chuẩn cho dòng G, mực kém gây tắc và kéo theo nhiều lần vệ sinh.",
+    "Máy in khối lượng lớn thì dẫn ống mực thải ra bình ngoài ngay từ lần bảo dưỡng đầu."
+   ],
+   "faqs": [
+    {
+     "q": "Lỗi 5B00 trên Canon G1010 có tự hết không?",
+     "a": "Không. Đây là trạng thái khoá do bộ đếm mực thải đầy, chỉ hết khi được dọn mực thải và đưa bộ đếm về 0. Tắt bật máy hay rút điện không giải quyết được."
+    },
+    {
+     "q": "Phần mềm reset Epson dùng cho Canon được không?",
+     "a": "Không. Hai hãng dùng cơ chế và công cụ hoàn toàn khác nhau. Canon còn yêu cầu đưa máy vào chế độ dịch vụ trước khi công cụ nhận máy."
+    },
+    {
+     "q": "G1010, G2010 và G3010 có xử lý giống nhau không?",
+     "a": "Cơ chế giống nhau. Khác ở chỗ G2010 có scan, G3010 thêm Wi-Fi, và vị trí khay thấm giữa các model có thể khác nên thao tác tháo không hoàn toàn giống."
+    },
+    {
+     "q": "Tự mở máy Canon dòng G có khó không?",
+     "a": "Khó hơn Epson. Phần thấm mực thải nằm sâu trong thân máy chứ không phải tấm mút rút ra dễ như Epson, và ngàm nhựa vỏ dòng G dễ gãy nếu bẩy sai chỗ. Chưa quen thì nên để kỹ thuật viên làm."
+    },
+    {
+     "q": "Reset xong bao lâu thì bị lại?",
+     "a": "Tuỳ số lần vệ sinh đầu phun. Máy in đều, mực tốt thì thường một tới hai năm. Máy hay để lâu không in rồi bật lên vệ sinh nhiều lần sẽ đầy sớm hơn."
+    }
+   ],
+   "ctaTitle": "Canon dòng G báo 5B00? Để kỹ thuật viên mở máy cho an toàn",
+   "related": [
+    [
+     "../../huong-dan/loi-5b00-canon/",
+     "Lỗi 5B00 máy in Canon: nguyên nhân và cách xử lý"
+    ],
+    [
+     "../../huong-dan/may-nao-reset-duoc-bo-dem-muc-thai/",
+     "Bảng tra model reset được bộ đếm mực thải"
+    ],
+    [
+     "../../huong-dan/tran-bo-dem-muc-thai-epson/",
+     "Tràn bộ đếm mực thải: cơ chế chung của máy in phun"
+    ],
+    [
+     "../../huong-dan/ve-sinh-dau-phun-epson/",
+     "Vệ sinh đầu phun máy in phun đúng cách"
     ]
    ]
   }

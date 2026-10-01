@@ -50,8 +50,10 @@ Tool tự chọn tấm chưa dùng ở bài nào khác, ưu tiên ảnh nét —
 | ☐ | `/model/epson-l3250-nhay-2-den-do/` | `epson-l3150` | ✅ | Bản Nozzle Check trước và sau khi thông |
 | ☐ | `/model/hp-107a-in-mo-nhat-chu/` | `hp-107a` | ✅ | Bản in lỗi đặt cạnh bản in chuẩn |
 | ☐ | `/model/hp-m402dn-loi-thuong-gap/` | `hp-laser-jetpro-m402dne` | ✅ | Kỹ thuật viên đang thao tác trên máy in |
+| ☐ | `/model/reset-canon-g1010-g2010/` | _thẻ thiết kế_ | ✅ | Vị trí chip trên hộp mực, chụp cận |
 | ☐ | `/model/reset-drum-brother-dcp-b7535dw/` | `brother-2366dw` | ✅ | Bề mặt drum xước dưới ánh sáng nghiêng |
 | ☐ | `/model/reset-epson-l1250-l1210/` | `epson-l3150` | ✅ | Vị trí chip trên hộp mực, chụp cận |
+| ☐ | `/model/reset-epson-l310-l360/` | `epson-l3150` | ✅ | Vị trí chip trên hộp mực, chụp cận |
 | ☐ | `/model/reset-epson-l805/` | `epson-l3150` | ✅ | Vị trí chip trên hộp mực, chụp cận |
 | ☐ | `/muc-in/hop-muc-107a/` | `hp-laser-107w` | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/muc-in/hop-muc-12a/` | `canon-2900` | ✅ | Hộp mực thật trên bàn làm việc |
@@ -72,4 +74,4 @@ Tool tự chọn tấm chưa dùng ở bài nào khác, ưu tiên ảnh nét —
 | ☐ | `/khu-vuc/quan-7/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 | ☐ | `/khu-vuc/quan-8/` | _thẻ thiết kế_ | ✅ | Hộp mực thật trên bàn làm việc |
 
-**Tổng: 60 bài — 49 bài có ảnh máy thật.**
+**Tổng: 62 bài — 50 bài có ảnh máy thật.**
