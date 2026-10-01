@@ -164,6 +164,10 @@
     [
      "../../huong-dan/may-in-ra-giay-trang/",
      "Máy in ra giấy trắng: 7 nguyên nhân và cách khắc phục"
+    ],
+    [
+     "../reset-epson-l1250-l1210/",
+     "Cách reset bộ đếm mực thải cho dòng L12xx"
     ]
    ]
   },
@@ -326,6 +330,10 @@
     [
      "../../huong-dan/ve-sinh-dau-phun-epson/",
      "Cách vệ sinh đầu phun máy in Epson"
+    ],
+    [
+     "../reset-epson-l1250-l1210/",
+     "Cách reset bộ đếm mực thải cho dòng L12xx"
     ]
    ]
   },
@@ -492,6 +500,10 @@
     [
      "../../huong-dan/tran-bo-dem-muc-thai-epson/",
      "Tràn bộ đếm mực thải Epson"
+    ],
+    [
+     "../reset-epson-l1250-l1210/",
+     "Cách reset bộ đếm mực thải cho dòng L12xx"
     ]
    ]
   },
@@ -824,6 +836,10 @@
     [
      "../../huong-dan/cach-cai-dat-may-in/",
      "Cách cài đặt máy in: USB, WiFi và mạng LAN"
+    ],
+    [
+     "../reset-epson-l1250-l1210/",
+     "Cách reset bộ đếm mực thải cho dòng L12xx"
     ]
    ]
   },
@@ -990,6 +1006,10 @@
     [
      "../../huong-dan/tran-bo-dem-muc-thai-epson/",
      "Tràn bộ đếm mực thải Epson"
+    ],
+    [
+     "../reset-epson-l1250-l1210/",
+     "Cách reset bộ đếm mực thải cho dòng L12xx"
     ]
    ]
   },
@@ -1414,6 +1434,340 @@
     [
      "../../huong-dan/may-tinh-khong-nhan-may-in/",
      "Máy tính không nhận máy in: 8 bước kiểm tra"
+    ]
+   ]
+  },
+  {
+   "slug": "reset-epson-l805",
+   "model": "Epson L805",
+   "crumb": "Reset Epson L805",
+   "tag": "Máy in Epson",
+   "totalTime": "PT30M",
+   "published": "2026-10-01",
+   "apDung": "Áp dụng cho Epson L805, L810, L850 — và phần phân biệt với L8050 ở cuối bài",
+   "h1": "Reset Epson L805 báo hết mực thải: làm đúng thứ tự để không tràn mực",
+   "title": "Reset Epson L805 Báo Mực Thải: Làm Đúng Thứ Tự, Không Tràn",
+   "desc": "Epson L805 báo ink pad end of service life. Cách đọc mức bộ đếm, thay tấm thấm rồi mới reset, phân biệt bản L805 với L8050. Thợ tận nơi TP.HCM: 0986 704 260.",
+   "ogTitle": "Reset Epson L805 báo hết mực thải: làm đúng thứ tự để không tràn mực",
+   "ogDesc": "Thay tấm thấm trước, reset sau. Phân biệt bản cho L805, L810, L850 và L8050 — chạy nhầm bản là máy không nhận.",
+   "answer": "Epson L805 khoá máy và báo \"ink pad is at the end of its service life\" khi bộ đếm mực thải đầy. Việc cần làm theo đúng thứ tự: kiểm tra và thay tấm thấm dưới đáy máy trước, sau đó mới reset bộ đếm bằng bản phần mềm đúng cho L805 — bản của L8050 là bản khác, chạy nhầm thì máy không nhận.",
+   "specs": [
+    [
+     "Kiểu máy",
+     "In phun bình mực khổ A4, có in đĩa CD/DVD — không có scan"
+    ],
+    [
+     "Mực dùng",
+     "Epson 673 — sáu màu, dạng chai châm vào bình"
+    ],
+    [
+     "Bộ đếm mực thải",
+     "Có. Đầy thì máy khoá, đèn báo lỗi và không in được"
+    ],
+    [
+     "Tấm thấm mực thải",
+     "Mút đặt dưới đáy máy, phải thay hoặc giặt khi bộ đếm đầy"
+    ],
+    [
+     "Bản phần mềm reset",
+     "Riêng cho L805/L810/L850. L8050 là máy khác, dùng bản khác"
+    ]
+   ],
+   "sections": [
+    {
+     "h2": "Vì sao L805 tự khoá dù mực trong bình vẫn đầy",
+     "html": "<p>Mỗi lần máy làm vệ sinh đầu phun, một lượng mực bị xả bỏ vào tấm mút dưới đáy máy. Máy đếm số lần xả đó. Tới ngưỡng nhà sản xuất đặt ra, máy tự khoá để mực thải không tràn ra ngoài và ngấm vào bo mạch.</p><p>Nghĩa là <strong>máy không hỏng</strong> — nó đang đòi bảo dưỡng. L805 lại là dòng in ảnh, nhiều người để lâu không in rồi mỗi lần in phải clean vài lượt, nên bộ đếm đầy nhanh hơn máy in văn phòng cùng tuổi.</p><p>Triệu chứng đi kèm: đèn báo lỗi sáng hoặc nháy, phần mềm Epson trên máy tính hiện dòng chữ về ink pad, và lệnh in bị chặn ngay từ đầu chứ không in ra trang nào.</p>"
+    },
+    {
+     "h2": "Bước 1 — Đọc mức bộ đếm trước khi quyết định",
+     "html": "<p>Phần mềm reset cho phép <em>đọc</em> mức bộ đếm miễn phí, chưa cần trả tiền. Đọc trước để biết mình đang ở đâu:</p><ul><li><strong>Dưới 90%</strong> — máy khoá vì lý do khác, kiểm tra lại kẹt giấy, cảm biến, đầu phun trước khi nghĩ tới reset.</li><li><strong>Trên 95% hoặc 100%</strong> — đúng bệnh tràn bộ đếm, và tấm thấm bên dưới gần như chắc chắn đã no mực.</li></ul><p>Đây là bước hay bị bỏ, và bỏ nó là lý do nhiều ca reset xong vẫn không in được: vì ngay từ đầu máy khoá vì chuyện khác.</p>"
+    },
+    {
+     "h2": "Bước 2 — Thay hoặc giặt tấm thấm, làm trước khi reset",
+     "html": "<p>Reset chỉ xoá con số trong bộ nhớ. Mực thải thật vẫn nằm nguyên trong máy. Bỏ qua bước này thì vài tháng sau mực chảy ra mặt bàn và ngấm vào bo mạch — ca đó sửa tốn gấp nhiều lần.</p><ol><li>Rút điện, lật nghiêng máy, mở nắp đáy để lộ khoang chứa mút thấm.</li><li>Lấy mút ra. Mút đẫm mực đen là đã no. Thay mút mới, hoặc giặt thật sạch và phơi <strong>khô hoàn toàn</strong> mới lắp lại — mút còn ẩm lắp vào gây ẩm bo.</li><li>Cân nhắc lắp bình mực thải ngoài: dẫn ống xả ra bình đặt bên ngoài máy. Lần sau chỉ đổ bình, không phải tháo máy nữa. Rất đáng với máy in ảnh in nhiều.</li></ol><p>Chuẩn bị găng tay và giấy lót — bước này bẩn, mực dính tay rất khó rửa.</p>"
+    },
+    {
+     "h2": "Bước 3 — Chạy đúng bản phần mềm cho L805",
+     "html": "<p>Thứ tự thao tác: cắm cáp USB thẳng vào máy tính (không qua hub), bật máy in, mở phần mềm, chọn đúng model, vào mục bộ đếm mực thải, đọc mức hiện tại, nhập khoá kích hoạt rồi chạy lệnh reset. Xong thì tắt máy in, chờ khoảng mười giây, bật lại và in trang kiểm tra đầu phun.</p><p>Phần mềm không phải của Epson mà do đơn vị thứ ba bán theo khoá — xem <a href=\"../../huong-dan/may-nao-reset-duoc-bo-dem-muc-thai/\">bảng tra model và nguồn tải chính chủ</a>. Tránh các bản \"full crack\" chia sẻ trên mạng: file chạy quyền quản trị, đây là mồi cài mã độc phổ biến nhất trong môi trường văn phòng.</p>"
+    },
+    {
+     "h2": "L805 và L8050 là hai máy khác nhau — đừng chạy nhầm bản",
+     "html": "<p>Hai tên gần giống nhau nhưng là hai dòng máy khác hẳn, và đây là nhầm lẫn gặp nhiều nhất khi tìm phần mềm:</p><ul><li><strong>L805</strong> — in phun sáu màu khổ A4, mực 673, có in đĩa, không scan.</li><li><strong>L8050</strong> — dòng EcoTank đời mới, sáu màu, mực 008, bố trí bo và firmware khác.</li></ul><p>Bản reset của L805 không chạy cho L8050 và ngược lại. Chạy nhầm thì nhẹ là phần mềm báo không tìm thấy máy, nặng là ghi sai thông số trong máy. Đọc đúng tên model ghi ở mặt trước máy trước khi tải bất cứ thứ gì.</p>"
+    }
+   ],
+   "traRows": [
+    [
+     "Máy báo ink pad end of service life, không in được",
+     "Bộ đếm mực thải đầy",
+     "Thay tấm thấm rồi reset bộ đếm",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Reset xong vẫn báo lỗi cũ",
+     "Chạy nhầm bản (L8050 thay vì L805) hoặc chưa tắt bật máy đúng cách",
+     "Chạy lại đúng bản, tắt máy 10 giây rồi bật",
+     "—"
+    ],
+    [
+     "Reset xong in được nhưng bản in sọc, mất màu",
+     "Đầu phun tắc, không liên quan bộ đếm",
+     "Vệ sinh đầu phun theo quy trình riêng",
+     "từ 100.000 đ"
+    ],
+    [
+     "Mực chảy ra mặt bàn sau vài tháng",
+     "Đã reset mà không thay tấm thấm",
+     "Thay mút thấm, vệ sinh khoang đáy, kiểm tra bo",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Phần mềm không nhận máy",
+     "Cắm qua hub USB, cáp kém, hoặc máy đang kẹt lỗi khác",
+     "Cắm thẳng cổng sau máy tính, xử lý lỗi đang treo trước",
+     "—"
+    ]
+   ],
+   "goiTho": [
+    "Không muốn tháo đáy máy, hoặc tháo ra rồi không biết lắp lại",
+    "Mực đã tràn ra đế máy, có vệt mực dưới gầm hoặc trên mặt bàn",
+    "Reset xong máy vẫn khoá, đã thử đúng bản mà không được",
+    "Máy còn hạn bảo hành — nên mang tới trung tâm hãng thay vì tự can thiệp",
+    "Muốn lắp bình mực thải ngoài để sau này khỏi tháo máy"
+   ],
+   "giaRows": [
+    [
+     "Vệ sinh, thay tấm thấm mực thải",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Reset bộ đếm mực thải (kèm bảo dưỡng)",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Lắp bình mực thải ngoài",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Vệ sinh đầu phun",
+     "từ 100.000 đ"
+    ],
+    [
+     "Mực Epson 673 (6 màu)",
+     "Xem bảng giá vật tư"
+    ]
+   ],
+   "phongTranh": [
+    "In đều mỗi tuần vài trang thay vì để máy nằm im hàng tháng — máy để lâu phải clean nhiều, bộ đếm đầy nhanh.",
+    "Đừng bấm Head Cleaning liên tục khi bản in chỉ hơi nhạt; mỗi lần clean là một lần xả mực vào tấm thấm.",
+    "Dùng mực đúng chuẩn cho máy; mực kém dễ tắc, tắc thì lại phải clean.",
+    "Lắp bình mực thải ngoài ngay từ lần bảo dưỡng đầu tiên nếu máy in khối lượng lớn."
+   ],
+   "faqs": [
+    {
+     "q": "Reset Epson L805 có mất bảo hành không?",
+     "a": "Máy còn hạn bảo hành thì nên mang tới trung tâm của hãng. Phần mềm reset do đơn vị thứ ba viết, không phải công cụ chính thức của Epson, nên can thiệp bằng nó có thể bị từ chối bảo hành."
+    },
+    {
+     "q": "Phần mềm reset L805 có dùng được cho L8050 không?",
+     "a": "Không. L805 và L8050 là hai dòng máy khác nhau, mực khác và firmware khác. Chạy nhầm bản thì nhẹ là không nhận máy, nặng là ghi sai thông số."
+    },
+    {
+     "q": "Reset xong bao lâu thì phải reset lại?",
+     "a": "Tuỳ mức độ dùng và số lần vệ sinh đầu phun. Máy in ảnh in đều thường một đến hai năm; máy để lâu không in rồi clean nhiều lần có thể đầy sớm hơn hẳn."
+    },
+    {
+     "q": "Có cần thay tấm thấm mỗi lần reset không?",
+     "a": "Cần kiểm tra mỗi lần. Mút còn thấm được thì giặt sạch phơi khô dùng lại; mút đã chai hoặc rách thì thay mới. Reset mà bỏ qua bước này là nguyên nhân số một khiến mực tràn ra bo mạch sau đó."
+    },
+    {
+     "q": "Tự làm hết khoảng bao nhiêu tiền?",
+     "a": "Chi phí chính là khoá kích hoạt phần mềm, giá công bố khoảng 9,99 USD mỗi khoá cho một lần reset một máy, cộng thêm mút thấm nếu phải thay. Gọi thợ thì trọn gói gồm cả vệ sinh và kiểm tra đầu phun, báo giá trước khi làm."
+    },
+    {
+     "q": "Máy L805 bị bỏ không dùng mấy tháng, giờ bật lên báo lỗi mực thải thì sao?",
+     "a": "Khả năng cao là máy tự chạy vệ sinh đầu phun nhiều lần khi bật lại, đẩy bộ đếm lên ngưỡng. Nhưng để lâu không in thì đầu phun cũng dễ khô, nên kiểm tra luôn cả hai phần thay vì chỉ reset."
+    }
+   ],
+   "ctaTitle": "Ngại tháo máy? Kỹ thuật viên làm trọn gói tại chỗ",
+   "related": [
+    [
+     "../../huong-dan/tran-bo-dem-muc-thai-epson/",
+     "Tràn bộ đếm mực thải Epson: cơ chế và quy trình an toàn"
+    ],
+    [
+     "../../huong-dan/may-nao-reset-duoc-bo-dem-muc-thai/",
+     "Bảng tra model reset được bộ đếm mực thải"
+    ],
+    [
+     "../../huong-dan/ve-sinh-dau-phun-epson/",
+     "Vệ sinh đầu phun Epson đúng cách"
+    ],
+    [
+     "../../huong-dan/may-in-epson-bao-loi-2-den-do/",
+     "Máy in Epson báo 2 đèn đỏ nhấp nháy"
+    ]
+   ]
+  },
+  {
+   "slug": "reset-epson-l1250-l1210",
+   "model": "Epson L1250",
+   "crumb": "Reset Epson L1250, L1210",
+   "tag": "Máy in Epson",
+   "totalTime": "PT25M",
+   "published": "2026-10-01",
+   "apDung": "Áp dụng cho Epson L1250, L1210, L1230, L1270 — nhóm máy in phun một chức năng dùng mực 003",
+   "h1": "Reset Epson L1250, L1210 báo mực thải: đúng bản, đúng thứ tự",
+   "title": "Reset Epson L1250, L1210 Báo Mực Thải – Đúng Bản, Đúng Thứ Tự",
+   "desc": "Epson L1250, L1210 nháy đèn báo tràn bộ đếm mực thải. Cách đọc mức bộ đếm, thay tấm thấm, chọn đúng bản phần mềm. Thợ tận nơi TP.HCM: 0986 704 260.",
+   "ogTitle": "Reset Epson L1250, L1210 báo mực thải: đúng bản, đúng thứ tự",
+   "ogDesc": "Bốn model gần giống nhau nhưng không dùng chung bản reset. Đọc mức bộ đếm trước, thay tấm thấm, rồi mới reset.",
+   "answer": "Epson L1250 và L1210 nháy đèn rồi ngừng in khi bộ đếm mực thải đầy. Thứ tự đúng là đọc mức bộ đếm, thay hoặc giặt tấm thấm dưới đáy máy, rồi mới reset bằng bản phần mềm đúng model — L1210, L1230, L1250, L1270 nhìn giống nhau nhưng không dùng chung bản.",
+   "specs": [
+    [
+     "Kiểu máy",
+     "In phun bình mực khổ A4, một chức năng — chỉ in, không scan, không copy"
+    ],
+    [
+     "Mực dùng",
+     "Epson 003 — bốn màu BK/C/M/Y, dạng chai châm vào bình"
+    ],
+    [
+     "Màn hình",
+     "Không có. Mọi thông báo đọc qua tổ hợp đèn"
+    ],
+    [
+     "Bộ đếm mực thải",
+     "Có. Đầy thì máy khoá, hai đèn nháy cùng lúc"
+    ],
+    [
+     "Bản phần mềm reset",
+     "Riêng từng model: L1210, L1230, L1250, L1270 không dùng chung"
+    ]
+   ],
+   "sections": [
+    {
+     "h2": "Đọc đèn cho đúng trước khi nghĩ tới reset",
+     "html": "<p>Dòng này không có màn hình nên mọi thứ nằm ở đèn. Hai tổ hợp hay bị nhầm với nhau:</p><ul><li><strong>Đèn giấy và đèn mực nháy xen kẽ</strong> — thường là kẹt giấy hoặc còn mảnh giấy sót bên trong, không phải mực thải.</li><li><strong>Hai đèn nháy đồng thời, đều đặn, máy không nhận lệnh in</strong> — nghiêng về tràn bộ đếm mực thải hoặc lỗi phần cứng.</li></ul><p>Cách chắc chắn nhất là dùng phần mềm đọc mức bộ đếm — thao tác này miễn phí. Trên 95% thì đúng bệnh; dưới 90% thì máy khoá vì chuyện khác, reset không giải quyết được gì. Chi tiết tín hiệu đèn xem bài <a href=\"../epson-l1210-nhay-2-den-do/\">Epson L1210 nháy 2 đèn đỏ</a>.</p>"
+    },
+    {
+     "h2": "Bốn model gần giống nhau, bốn bản phần mềm khác nhau",
+     "html": "<p>L1210, L1230, L1250 và L1270 cùng khung máy, cùng dùng mực 003, nhìn ngoài gần như không phân biệt được. Nhưng mỗi model có bản reset riêng.</p><p>Hậu quả khi chạy nhầm: phần mềm báo không tìm thấy máy (trường hợp nhẹ, hay gặp nhất), hoặc ghi sai thông số khiến máy báo lỗi mới. Nên trước khi tải bất cứ thứ gì, <strong>đọc đúng tên model ghi ở mặt trước máy</strong>, không đoán theo trí nhớ.</p><p>Danh sách model nào reset được và nguồn tải chính chủ nằm ở <a href=\"../../huong-dan/may-nao-reset-duoc-bo-dem-muc-thai/\">bảng tra model</a>.</p>"
+    },
+    {
+     "h2": "Thay tấm thấm trước, reset sau — không đảo thứ tự",
+     "html": "<p>Bộ đếm đầy nghĩa là mút thấm dưới đáy máy đã no mực thật. Reset chỉ xoá con số, mực vẫn nằm đó.</p><ol><li>Rút điện, mở nắp đáy, lấy mút thấm ra kiểm tra.</li><li>Mút đẫm mực đen thì thay mới, hoặc giặt sạch và phơi khô hoàn toàn mới lắp lại.</li><li>Máy in nhiều nên lắp bình mực thải ngoài — lần sau chỉ đổ bình.</li><li>Lắp lại, cắm điện, rồi mới chạy phần mềm reset.</li></ol><p>Bỏ bước này thì vài tháng sau mực chảy ra đế máy. Mực ngấm bo mạch là ca sửa đắt nhất trên dòng máy giá rẻ này — nhiều khi tiền sửa gần bằng tiền máy mới.</p>"
+    },
+    {
+     "h2": "Sau khi reset mà máy vẫn không in đẹp",
+     "html": "<p>Reset chỉ mở khoá máy, không chữa được đầu phun. Dòng L1210 và L1250 hay gặp hai chuyện ngay sau khi reset:</p><ul><li><strong>Bản in sọc ngang, mất màu</strong> — đầu phun khô do máy nằm lâu không in. Xử lý theo bài <a href=\"../../huong-dan/ve-sinh-dau-phun-epson/\">vệ sinh đầu phun Epson</a>, đừng bấm Head Cleaning liên tục vì mỗi lần clean lại đẩy bộ đếm lên.</li><li><strong>Máy kéo giấy không đều</strong> — quả đào bám bụi, không liên quan mực thải.</li></ul><p>Mực 003 cho dòng này xem giá và cách chọn ở <a href=\"../../muc-in/muc-epson-003/\">trang mực Epson 003</a>.</p>"
+    }
+   ],
+   "traRows": [
+    [
+     "Hai đèn nháy đồng thời, không in được",
+     "Bộ đếm mực thải đầy",
+     "Thay tấm thấm rồi reset đúng bản model",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Đèn giấy và đèn mực nháy xen kẽ",
+     "Kẹt giấy hoặc còn mảnh giấy sót",
+     "Mở máy lấy hết giấy vụn, không cần reset",
+     "—"
+    ],
+    [
+     "Phần mềm báo không tìm thấy máy",
+     "Chạy nhầm bản của model khác trong nhóm L12xx",
+     "Đọc đúng tên model ở mặt trước máy, tải lại đúng bản",
+     "—"
+    ],
+    [
+     "Reset xong in ra sọc ngang",
+     "Đầu phun khô, không liên quan bộ đếm",
+     "Vệ sinh đầu phun theo quy trình",
+     "từ 100.000 đ"
+    ],
+    [
+     "Mực rỉ ra dưới gầm máy",
+     "Đã reset mà chưa thay mút thấm",
+     "Thay mút, vệ sinh khoang đáy, kiểm tra bo",
+     "Kiểm tra rồi báo giá"
+    ]
+   ],
+   "goiTho": [
+    "Máy đã reset một hai lần trước đó mà chưa lần nào thay mút thấm",
+    "Có vệt mực dưới gầm máy hoặc trên mặt bàn",
+    "Không chắc máy mình là L1210, L1230, L1250 hay L1270",
+    "Reset xong bản in vẫn sọc, mất màu, clean nhiều lần không hết",
+    "Muốn lắp bình mực thải ngoài cho lần sau đỡ phải tháo"
+   ],
+   "giaRows": [
+    [
+     "Vệ sinh, thay tấm thấm mực thải",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Reset bộ đếm kèm bảo dưỡng",
+     "Kiểm tra rồi báo giá"
+    ],
+    [
+     "Vệ sinh đầu phun",
+     "từ 100.000 đ"
+    ],
+    [
+     "Mực Epson 003 (mỗi màu)",
+     "Xem bảng giá vật tư"
+    ],
+    [
+     "Lắp bình mực thải ngoài",
+     "Kiểm tra rồi báo giá"
+    ]
+   ],
+   "phongTranh": [
+    "In vài trang mỗi tuần để đầu phun không khô — đỡ phải clean, bộ đếm lâu đầy.",
+    "Hạn chế bấm Head Cleaning khi bản in chỉ hơi nhạt; thử in Nozzle Check trước.",
+    "Dùng mực 003 đúng chuẩn, mực kém dễ tắc dẫn tới phải clean nhiều.",
+    "Ghi lại ngày reset gần nhất để biết chu kỳ của máy mình."
+   ],
+   "faqs": [
+    {
+     "q": "L1210 và L1250 có dùng chung bản reset không?",
+     "a": "Không. Hai model này cùng khung máy và cùng dùng mực 003 nhưng mỗi model có bản reset riêng. Chạy nhầm thường bị báo không tìm thấy máy."
+    },
+    {
+     "q": "Làm sao biết máy khoá vì mực thải hay vì lỗi khác?",
+     "a": "Dùng phần mềm đọc mức bộ đếm, thao tác này miễn phí. Trên 95% là đúng bệnh mực thải. Dưới 90% thì máy khoá vì chuyện khác như kẹt giấy hay cảm biến, reset không giải quyết được."
+    },
+    {
+     "q": "Reset bao nhiêu lần thì máy hỏng?",
+     "a": "Bản thân việc reset không làm hỏng máy. Thứ làm hỏng là reset mà không dọn mực thải: mút no mực, mực tràn ra đế rồi ngấm bo mạch. Reset bao nhiêu lần cũng được miễn lần nào cũng kiểm tra mút thấm."
+    },
+    {
+     "q": "Máy mới mua vài tháng đã báo mực thải có bình thường không?",
+     "a": "Không bình thường. Thường là máy bị clean quá nhiều do mực kém hoặc do để lâu không in rồi bật lên clean liên tục. Nên kiểm tra cả chất lượng mực đang dùng chứ không chỉ reset."
+    },
+    {
+     "q": "Tự reset ở nhà được không?",
+     "a": "Được nếu rành máy tính và chấp nhận mua khoá kích hoạt cho đúng model, đồng thời làm đủ bước thay mút thấm. Ngại tháo máy thì gọi thợ làm trọn gói, có kiểm tra đầu phun kèm."
+    }
+   ],
+   "ctaTitle": "Máy L1210, L1250 khoá giữa lúc cần in? Gọi là có người tới",
+   "related": [
+    [
+     "../epson-l1210-nhay-2-den-do/",
+     "Epson L1210 nháy 2 đèn đỏ: nguyên nhân và cách xử lý"
+    ],
+    [
+     "../../huong-dan/tran-bo-dem-muc-thai-epson/",
+     "Tràn bộ đếm mực thải Epson: cơ chế và quy trình an toàn"
+    ],
+    [
+     "../../huong-dan/may-nao-reset-duoc-bo-dem-muc-thai/",
+     "Bảng tra model reset được bộ đếm mực thải"
+    ],
+    [
+     "../../muc-in/muc-epson-003/",
+     "Mực Epson 003 dùng cho máy nào, giá bao nhiêu"
     ]
    ]
   }
